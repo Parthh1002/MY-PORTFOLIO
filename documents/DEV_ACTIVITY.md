@@ -1,3 +1,4 @@
 - 2026-09-23 23:42:00 +0530: feat(components): add tooltip descriptions for engineering architecture tags
 - 2025-10-05 10:49:19 +0530: feat(analytics): add privacy-friendly client-side pageview telemetry
 - 2025-10-05 20:07:52 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
+- 2025-10-05 22:44:29 +0530: feat(analytics): add privacy-friendly client-side pageview telemetry
