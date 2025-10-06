@@ -6,3 +6,4 @@
 - 2025-10-06 16:01:04 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
 - 2025-10-06 19:40:40 +0530: feat(github): display live repository star counts and primary language pills
 - 2025-10-06 20:49:03 +0530: feat(github): display live repository star counts and primary language pills
+- 2025-10-06 21:38:21 +0530: feat(analytics): add privacy-friendly client-side pageview telemetry
