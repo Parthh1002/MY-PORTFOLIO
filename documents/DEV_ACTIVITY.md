@@ -3,3 +3,4 @@
 - 2025-10-05 20:07:52 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
 - 2025-10-05 22:44:29 +0530: feat(analytics): add privacy-friendly client-side pageview telemetry
 - 2025-10-05 22:31:02 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
+- 2025-10-06 16:01:04 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
