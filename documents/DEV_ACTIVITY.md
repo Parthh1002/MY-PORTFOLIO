@@ -8,3 +8,4 @@
 - 2025-10-06 20:49:03 +0530: feat(github): display live repository star counts and primary language pills
 - 2025-10-06 21:38:21 +0530: feat(analytics): add privacy-friendly client-side pageview telemetry
 - 2025-10-07 13:56:53 +0530: feat(contact): integrate client-side form validation and accessible error feedback
+- 2025-10-07 14:35:17 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
