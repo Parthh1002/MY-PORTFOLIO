@@ -12,3 +12,4 @@
 - 2025-10-07 14:04:51 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
 - 2025-10-07 17:55:59 +0530: perf(images): implement responsive picture element with WebP formats
 - 2025-10-07 19:27:07 +0530: feat(skills): add interactive filter tags for full-stack and cloud technologies
+- 2025-10-07 21:14:10 +0530: feat(github): display live repository star counts and primary language pills
