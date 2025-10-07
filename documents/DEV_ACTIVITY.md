@@ -11,3 +11,4 @@
 - 2025-10-07 14:35:17 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
 - 2025-10-07 14:04:51 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
 - 2025-10-07 17:55:59 +0530: perf(images): implement responsive picture element with WebP formats
+- 2025-10-07 19:27:07 +0530: feat(skills): add interactive filter tags for full-stack and cloud technologies
