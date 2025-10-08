@@ -16,3 +16,4 @@
 - 2025-10-08 11:40:47 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
 - 2025-10-08 17:36:49 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
 - 2025-10-08 19:28:23 +0530: style(buttons): refine magnetic button hover physics with framer-motion
+- 2025-10-08 19:29:11 +0530: perf(images): implement responsive picture element with WebP formats
