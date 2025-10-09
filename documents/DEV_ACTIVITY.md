@@ -20,3 +20,4 @@
 - 2025-10-08 21:53:36 +0530: style(theme): enhance dark theme OLED contrast tokens and ambient glow
 - 2025-10-09 10:57:21 +0530: feat(contact): integrate client-side form validation and accessible error feedback
 - 2025-10-09 14:36:06 +0530: feat(analytics): add privacy-friendly client-side pageview telemetry
+- 2025-10-09 15:36:13 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
