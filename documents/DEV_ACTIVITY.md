@@ -18,3 +18,4 @@
 - 2025-10-08 19:28:23 +0530: style(buttons): refine magnetic button hover physics with framer-motion
 - 2025-10-08 19:29:11 +0530: perf(images): implement responsive picture element with WebP formats
 - 2025-10-08 21:53:36 +0530: style(theme): enhance dark theme OLED contrast tokens and ambient glow
+- 2025-10-09 10:57:21 +0530: feat(contact): integrate client-side form validation and accessible error feedback
