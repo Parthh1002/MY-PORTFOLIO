@@ -23,3 +23,4 @@
 - 2025-10-09 15:36:13 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
 - 2025-10-09 20:02:01 +0530: feat(contact): integrate client-side form validation and accessible error feedback
 - 2025-10-10 11:05:03 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
+- 2025-10-10 14:27:00 +0530: docs(readme): update project achievements, live demos, and certification badges
