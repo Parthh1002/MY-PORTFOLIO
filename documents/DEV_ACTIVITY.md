@@ -25,3 +25,4 @@
 - 2025-10-10 11:05:03 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
 - 2025-10-10 14:27:00 +0530: docs(readme): update project achievements, live demos, and certification badges
 - 2025-10-10 21:26:10 +0530: perf(images): implement responsive picture element with WebP formats
+- 2025-10-10 22:46:48 +0530: style(buttons): refine magnetic button hover physics with framer-motion
