@@ -27,3 +27,4 @@
 - 2025-10-10 21:26:10 +0530: perf(images): implement responsive picture element with WebP formats
 - 2025-10-10 22:46:48 +0530: style(buttons): refine magnetic button hover physics with framer-motion
 - 2025-10-11 11:15:45 +0530: style(buttons): refine magnetic button hover physics with framer-motion
+- 2025-10-11 14:47:10 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
