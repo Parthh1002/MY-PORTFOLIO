@@ -30,3 +30,4 @@
 - 2025-10-11 14:47:10 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
 - 2025-10-11 15:21:31 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
 - 2025-10-11 16:04:32 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
+- 2025-10-11 19:51:11 +0530: feat(portfolio): refine responsive grid layout for project showcase cards
