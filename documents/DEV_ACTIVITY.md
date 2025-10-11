@@ -29,3 +29,4 @@
 - 2025-10-11 11:15:45 +0530: style(buttons): refine magnetic button hover physics with framer-motion
 - 2025-10-11 14:47:10 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
 - 2025-10-11 15:21:31 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
+- 2025-10-11 16:04:32 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
