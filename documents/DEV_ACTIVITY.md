@@ -32,3 +32,4 @@
 - 2025-10-11 16:04:32 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
 - 2025-10-11 19:51:11 +0530: feat(portfolio): refine responsive grid layout for project showcase cards
 - 2025-10-11 19:13:19 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
+- 2025-10-12 10:47:04 +0530: style(buttons): refine magnetic button hover physics with framer-motion
