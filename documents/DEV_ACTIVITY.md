@@ -34,3 +34,4 @@
 - 2025-10-11 19:13:19 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
 - 2025-10-12 10:47:04 +0530: style(buttons): refine magnetic button hover physics with framer-motion
 - 2025-10-12 18:08:27 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
+- 2025-10-12 21:57:33 +0530: feat(contact): integrate client-side form validation and accessible error feedback
