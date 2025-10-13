@@ -41,3 +41,4 @@
 - 2025-10-13 15:17:01 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
 - 2025-10-13 16:34:24 +0530: chore(deps): bump tailwindcss and postcss plugins to latest minor release
 - 2025-10-13 16:34:47 +0530: perf(images): implement responsive picture element with WebP formats
+- 2025-10-13 22:33:23 +0530: feat(portfolio): refine responsive grid layout for project showcase cards
