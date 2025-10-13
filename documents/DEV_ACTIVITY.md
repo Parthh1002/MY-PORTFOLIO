@@ -40,3 +40,4 @@
 - 2025-10-13 11:44:53 +0530: feat(contact): integrate client-side form validation and accessible error feedback
 - 2025-10-13 15:17:01 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
 - 2025-10-13 16:34:24 +0530: chore(deps): bump tailwindcss and postcss plugins to latest minor release
+- 2025-10-13 16:34:47 +0530: perf(images): implement responsive picture element with WebP formats
