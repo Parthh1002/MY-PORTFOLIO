@@ -44,3 +44,4 @@
 - 2025-10-13 22:33:23 +0530: feat(portfolio): refine responsive grid layout for project showcase cards
 - 2025-10-14 11:30:15 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
 - 2025-10-14 15:26:44 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
+- 2025-10-14 16:40:35 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
