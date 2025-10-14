@@ -45,3 +45,4 @@
 - 2025-10-14 11:30:15 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
 - 2025-10-14 15:26:44 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
 - 2025-10-14 16:40:35 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
+- 2025-10-14 21:24:14 +0530: feat(github): display live repository star counts and primary language pills
