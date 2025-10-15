@@ -48,3 +48,4 @@
 - 2025-10-14 21:24:14 +0530: feat(github): display live repository star counts and primary language pills
 - 2025-10-15 15:08:40 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
 - 2025-10-15 16:19:16 +0530: perf(images): implement responsive picture element with WebP formats
+- 2025-10-15 17:32:00 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
