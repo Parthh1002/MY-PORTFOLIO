@@ -60,3 +60,4 @@
 - 2025-10-17 16:52:11 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
 - 2025-10-17 18:42:31 +0530: feat(contact): integrate client-side form validation and accessible error feedback
 - 2025-10-17 19:00:54 +0530: feat(contact): integrate client-side form validation and accessible error feedback
+- 2025-10-17 21:06:37 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
