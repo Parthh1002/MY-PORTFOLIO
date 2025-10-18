@@ -63,3 +63,4 @@
 - 2025-10-17 21:06:37 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
 - 2025-10-18 10:51:14 +0530: style(buttons): refine magnetic button hover physics with framer-motion
 - 2025-10-18 15:41:35 +0530: feat(skills): add interactive filter tags for full-stack and cloud technologies
+- 2025-10-18 19:35:08 +0530: feat(contact): integrate client-side form validation and accessible error feedback
