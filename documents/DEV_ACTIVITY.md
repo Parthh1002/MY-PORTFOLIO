@@ -61,3 +61,4 @@
 - 2025-10-17 18:42:31 +0530: feat(contact): integrate client-side form validation and accessible error feedback
 - 2025-10-17 19:00:54 +0530: feat(contact): integrate client-side form validation and accessible error feedback
 - 2025-10-17 21:06:37 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
+- 2025-10-18 10:51:14 +0530: style(buttons): refine magnetic button hover physics with framer-motion
