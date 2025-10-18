@@ -65,3 +65,4 @@
 - 2025-10-18 15:41:35 +0530: feat(skills): add interactive filter tags for full-stack and cloud technologies
 - 2025-10-18 19:35:08 +0530: feat(contact): integrate client-side form validation and accessible error feedback
 - 2025-10-18 19:53:49 +0530: feat(skills): add interactive filter tags for full-stack and cloud technologies
+- 2025-10-18 20:31:53 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
