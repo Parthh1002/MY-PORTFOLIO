@@ -70,3 +70,4 @@
 - 2025-10-19 12:14:47 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
 - 2025-10-19 16:33:36 +0530: feat(analytics): add privacy-friendly client-side pageview telemetry
 - 2025-10-19 18:25:40 +0530: docs(readme): update project achievements, live demos, and certification badges
+- 2025-10-19 22:03:39 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
