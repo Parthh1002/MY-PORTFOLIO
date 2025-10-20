@@ -74,3 +74,4 @@
 - 2025-10-20 10:47:22 +0530: feat(skills): add interactive filter tags for full-stack and cloud technologies
 - 2025-10-20 13:07:00 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
 - 2025-10-20 14:45:24 +0530: feat(skills): add interactive filter tags for full-stack and cloud technologies
+- 2025-10-20 14:12:24 +0530: docs(readme): update project achievements, live demos, and certification badges
