@@ -77,3 +77,4 @@
 - 2025-10-20 14:12:24 +0530: docs(readme): update project achievements, live demos, and certification badges
 - 2025-10-20 20:02:49 +0530: feat(github): display live repository star counts and primary language pills
 - 2025-10-21 11:09:59 +0530: feat(analytics): add privacy-friendly client-side pageview telemetry
+- 2025-10-21 11:21:37 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
