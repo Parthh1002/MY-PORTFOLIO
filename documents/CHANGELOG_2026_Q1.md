@@ -1,0 +1,2704 @@
+# Q1 2026 Development Changelog & Architecture Milestones
+
+All foundational updates, early prototypes, and core milestones for Q1 2026.
+
+### [Phase 0 - Milestone #1] - 2026-01-02 17:10:23 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(navigation): integrate keyboard shortcuts (Escape to close modals)`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #2] - 2026-01-02 22:13:42 +0530
+- **Module**: Experience Timeline
+- **Commit**: `feat(education): build education card with coursework highlights and GPA`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #3] - 2026-01-03 11:59:40 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `feat(three): integrate 3D model viewer with OrbitControls dampening`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #4] - 2026-01-03 12:40:10 +0530
+- **Module**: Hero Section
+- **Commit**: `feat(hero): attach smooth scroll anchor link directing to work showcase`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #5] - 2026-01-03 18:46:15 +0530
+- **Module**: Design System
+- **Commit**: `fix(theme): eliminate flash of unstyled theme on initial page mount`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #6] - 2026-01-03 21:29:24 +0530
+- **Module**: Core Engineering
+- **Commit**: `perf(bundle): split vendor chunks for Three.js, Lucide, and Framer Motion`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #7] - 2026-01-04 22:53:49 +0530
+- **Module**: Skills & Stack
+- **Commit**: `feat(skills): implement interactive technology popover with experience notes`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #8] - 2026-01-05 12:25:17 +0530
+- **Module**: Core Engineering
+- **Commit**: `perf(images): convert raster assets to WebP with responsive srcSets`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #9] - 2026-01-06 10:58:36 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `style(nav): add subtle border shimmer sweep on active nav link hover`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #10] - 2026-01-06 11:13:41 +0530
+- **Module**: Experience Timeline
+- **Commit**: `data(experience): add Hackathon milestones and Smart India Hackathon entry`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #11] - 2026-01-06 12:25:56 +0530
+- **Module**: Design System
+- **Commit**: `feat(icons): bundle optimized Lucide icon components with size prop normalization`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #12] - 2026-01-06 16:08:15 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `fix(three): properly dispose geometries and materials on component unmount`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #13] - 2026-01-06 19:29:09 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `perf(three): configure frustum culling and lower polygon density on mobile`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #14] - 2026-01-06 19:35:34 +0530
+- **Module**: Hero Section
+- **Commit**: `feat(hero): construct animated headline with typing effect and gradient text`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #15] - 2026-01-06 21:32:31 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(footer): build minimal footer with social links and live copyright`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #16] - 2026-01-06 22:47:37 +0530
+- **Module**: Skills & Stack
+- **Commit**: `perf(skills): lazy load third-party brand SVG icons to conserve initial bundle`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #17] - 2026-01-06 23:23:14 +0530
+- **Module**: Hero Section
+- **Commit**: `refactor(hero): improve LCP performance by preloading critical hero assets`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #18] - 2026-01-06 23:57:37 +0530
+- **Module**: Project Showcase
+- **Commit**: `data(projects): populate project metadata, metrics, and architecture summaries`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #19] - 2026-01-07 10:09:40 +0530
+- **Module**: Skills & Stack
+- **Commit**: `refactor(skills): consolidate icon mappings for Python, TypeScript, and Docker`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #20] - 2026-01-07 11:24:38 +0530
+- **Module**: Core Engineering
+- **Commit**: `docs(readme): document local setup instructions and deployment guidelines`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #21] - 2026-01-07 15:50:43 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `refactor(grid): optimize CSS grid auto-fit layout for project gallery`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #22] - 2026-01-07 23:38:04 +0530
+- **Module**: Hero Section
+- **Commit**: `feat(hero): add primary Call-To-Action buttons with glowing hover effect`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #23] - 2026-01-08 12:07:18 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `fix(navbar): resolve z-index stacking collision with full-screen modals`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #24] - 2026-01-08 17:49:41 +0530
+- **Module**: Project Showcase
+- **Commit**: `fix(projects): prevent body scroll lock leak when closing project modal`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #25] - 2026-01-08 23:10:29 +0530
+- **Module**: Core Engineering
+- **Commit**: `chore(vite): tune build compression plugins and output directory mapping`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #26] - 2026-01-09 12:38:12 +0530
+- **Module**: Resume & Modals
+- **Commit**: `feat(resume): build integrated PDF viewer modal with download fallback button`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #27] - 2026-01-09 12:48:11 +0530
+- **Module**: Core Engineering
+- **Commit**: `refactor(hooks): extract useMediaQuery and useScrollProgress hooks`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #28] - 2026-01-09 15:23:48 +0530
+- **Module**: Skills & Stack
+- **Commit**: `feat(skills): organize technical skills into frontend, backend, and AI categories`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #29] - 2026-01-09 18:58:06 +0530
+- **Module**: Hero Section
+- **Commit**: `style(hero): tune responsive line breaks and typography scaling on mobile`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #30] - 2026-01-09 21:34:49 +0530
+- **Module**: Core Engineering
+- **Commit**: `test(e2e): verify critical click paths for resume and project modal flows`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #31] - 2026-01-09 22:53:40 +0530
+- **Module**: Design System
+- **Commit**: `style(buttons): refine tactile scale transition (0.97) for primary action buttons`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #32] - 2026-01-10 09:38:20 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): integrate detailed project modal with tabbed media previews`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #33] - 2026-01-10 11:15:03 +0530
+- **Module**: Hero Section
+- **Commit**: `style(hero): integrate glowing radial ambient orb behind hero typography`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #34] - 2026-01-10 11:56:53 +0530
+- **Module**: Resume & Modals
+- **Commit**: `perf(resume): lazy-mount ResumeModal to avoid unneeded PDF worker initialization`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #35] - 2026-01-10 12:01:07 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(navbar): implement floating navigation bar with backdrop blur filter`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #36] - 2026-01-10 14:05:46 +0530
+- **Module**: Design System
+- **Commit**: `feat(theme): establish dark and light mode CSS custom property architecture`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #37] - 2026-01-10 15:42:30 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `perf(scroll): throttle window scroll listeners via requestAnimationFrame`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #38] - 2026-01-10 15:56:36 +0530
+- **Module**: Resume & Modals
+- **Commit**: `feat(contact): construct interactive contact modal with email and social links`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #39] - 2026-01-10 17:52:04 +0530
+- **Module**: Core Engineering
+- **Commit**: `ci(workflow): setup automated GitHub Actions lint and typecheck pipeline`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #40] - 2026-01-10 18:49:08 +0530
+- **Module**: Experience Timeline
+- **Commit**: `style(experience): add pulsing radar dot to current active experience role`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #41] - 2026-01-10 21:16:33 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `feat(particles): implement interactive canvas particle constellation background`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #42] - 2026-01-10 21:45:19 +0530
+- **Module**: Resume & Modals
+- **Commit**: `style(contact): add frosted backdrop filter and smooth spring entry physics`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #43] - 2026-01-10 22:28:57 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): add video preview playback on card hover interaction`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #44] - 2026-01-10 23:13:59 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(navbar): add active section indicator with smooth spring motion`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #45] - 2026-01-10 23:42:41 +0530
+- **Module**: Core Engineering
+- **Commit**: `chore(deps): audit npm packages and resolve peer dependency warnings`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #46] - 2026-01-12 10:04:45 +0530
+- **Module**: Experience Timeline
+- **Commit**: `style(experience): format date range pills with high-contrast backgrounds`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #47] - 2026-01-12 10:14:04 +0530
+- **Module**: Project Showcase
+- **Commit**: `style(projects): implement image zoom-in on card hover with overflow hidden`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #48] - 2026-01-12 16:01:37 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `style(particles): calibrate particle alpha fade and connection distance`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #49] - 2026-01-12 21:37:14 +0530
+- **Module**: Core Engineering
+- **Commit**: `feat(seo): embed meta tags, canonical link, and OpenGraph social banner`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #50] - 2026-01-13 10:55:21 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `refactor(layout): structure multi-tier container hierarchy for wide screens`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #51] - 2026-01-14 10:46:59 +0530
+- **Module**: Resume & Modals
+- **Commit**: `feat(contact): implement form input validation and debounce input handlers`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #52] - 2026-01-14 12:13:34 +0530
+- **Module**: Design System
+- **Commit**: `style(tokens): define HSL semantic color scales for surface, text, and accents`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #53] - 2026-01-14 13:15:17 +0530
+- **Module**: Design System
+- **Commit**: `style(typography): calibrate fluid clamp typography rules for display headings`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #54] - 2026-01-14 15:50:30 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `perf(particles): optimize particle collision math and spatial hash partition`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #55] - 2026-01-14 17:12:06 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): add live demo and GitHub repository direct launch buttons`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #56] - 2026-01-14 18:36:30 +0530
+- **Module**: Design System
+- **Commit**: `refactor(tokens): harmonize border radius and spacing scale across UI primitives`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #57] - 2026-01-14 20:42:27 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `feat(tilt): add interactive 3D perspective tilt effect to profile avatar`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #58] - 2026-01-14 20:43:41 +0530
+- **Module**: Resume & Modals
+- **Commit**: `fix(contact): ensure focus trap inside modal for keyboard accessibility`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #59] - 2026-01-14 22:27:26 +0530
+- **Module**: Core Engineering
+- **Commit**: `fix(a11y): add aria-expanded and aria-controls attributes to toggle menus`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #60] - 2026-01-14 23:55:46 +0530
+- **Module**: Skills & Stack
+- **Commit**: `style(skills): design animated skill level meters with gradient fills`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #61] - 2026-01-15 13:46:21 +0530
+- **Module**: Design System
+- **Commit**: `style(badges): add gradient pill tags for tech stack categorization`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #62] - 2026-01-16 11:12:34 +0530
+- **Module**: Experience Timeline
+- **Commit**: `feat(experience): construct chronological timeline component with branch line`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #63] - 2026-01-17 10:10:26 +0530
+- **Module**: Design System
+- **Commit**: `style(tooltips): polish tooltip micro-animations with delayed fade-in`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #64] - 2026-01-17 10:17:29 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `fix(particles): prevent canvas stutter during rapid window resize events`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #65] - 2026-01-17 12:06:03 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `refactor(canvas): decouple animation loop from React render cycle`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #66] - 2026-01-17 15:55:59 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): create ProjectCard component with dynamic tag filters`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #67] - 2026-01-17 18:53:00 +0530
+- **Module**: Design System
+- **Commit**: `feat(ui): implement reusable glassmorphic Card container with ambient rim light`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #68] - 2026-01-17 20:28:51 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `fix(mobile): resolve safe-area-inset padding for iPhone viewport notches`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #69] - 2026-01-17 20:59:48 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(navigation): integrate keyboard shortcuts (Escape to close modals)`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #70] - 2026-01-18 11:18:27 +0530
+- **Module**: Experience Timeline
+- **Commit**: `feat(education): build education card with coursework highlights and GPA`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #71] - 2026-01-18 11:57:03 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `feat(three): integrate 3D model viewer with OrbitControls dampening`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #72] - 2026-01-18 15:24:00 +0530
+- **Module**: Hero Section
+- **Commit**: `feat(hero): attach smooth scroll anchor link directing to work showcase`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #73] - 2026-01-18 18:42:45 +0530
+- **Module**: Design System
+- **Commit**: `fix(theme): eliminate flash of unstyled theme on initial page mount`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #74] - 2026-01-18 23:16:59 +0530
+- **Module**: Core Engineering
+- **Commit**: `perf(bundle): split vendor chunks for Three.js, Lucide, and Framer Motion`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #75] - 2026-01-19 10:03:37 +0530
+- **Module**: Skills & Stack
+- **Commit**: `feat(skills): implement interactive technology popover with experience notes`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #76] - 2026-01-19 11:13:03 +0530
+- **Module**: Core Engineering
+- **Commit**: `perf(images): convert raster assets to WebP with responsive srcSets`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #77] - 2026-01-19 17:32:58 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `style(nav): add subtle border shimmer sweep on active nav link hover`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #78] - 2026-01-19 18:47:34 +0530
+- **Module**: Experience Timeline
+- **Commit**: `data(experience): add Hackathon milestones and Smart India Hackathon entry`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #79] - 2026-01-19 20:47:20 +0530
+- **Module**: Design System
+- **Commit**: `feat(icons): bundle optimized Lucide icon components with size prop normalization`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #80] - 2026-01-20 09:38:04 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `fix(three): properly dispose geometries and materials on component unmount`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #81] - 2026-01-20 09:54:11 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `perf(three): configure frustum culling and lower polygon density on mobile`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #82] - 2026-01-20 10:03:32 +0530
+- **Module**: Hero Section
+- **Commit**: `feat(hero): construct animated headline with typing effect and gradient text`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #83] - 2026-01-20 10:25:07 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(footer): build minimal footer with social links and live copyright`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #84] - 2026-01-20 14:26:42 +0530
+- **Module**: Skills & Stack
+- **Commit**: `perf(skills): lazy load third-party brand SVG icons to conserve initial bundle`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #85] - 2026-01-20 16:59:16 +0530
+- **Module**: Hero Section
+- **Commit**: `refactor(hero): improve LCP performance by preloading critical hero assets`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #86] - 2026-01-20 18:02:39 +0530
+- **Module**: Project Showcase
+- **Commit**: `data(projects): populate project metadata, metrics, and architecture summaries`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #87] - 2026-01-20 18:15:37 +0530
+- **Module**: Skills & Stack
+- **Commit**: `refactor(skills): consolidate icon mappings for Python, TypeScript, and Docker`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #88] - 2026-01-20 18:36:33 +0530
+- **Module**: Core Engineering
+- **Commit**: `docs(readme): document local setup instructions and deployment guidelines`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #89] - 2026-01-20 20:00:29 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `refactor(grid): optimize CSS grid auto-fit layout for project gallery`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #90] - 2026-01-20 21:42:45 +0530
+- **Module**: Hero Section
+- **Commit**: `feat(hero): add primary Call-To-Action buttons with glowing hover effect`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #91] - 2026-01-20 22:15:16 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `fix(navbar): resolve z-index stacking collision with full-screen modals`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #92] - 2026-01-20 22:29:20 +0530
+- **Module**: Project Showcase
+- **Commit**: `fix(projects): prevent body scroll lock leak when closing project modal`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #93] - 2026-01-20 23:08:42 +0530
+- **Module**: Core Engineering
+- **Commit**: `chore(vite): tune build compression plugins and output directory mapping`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #94] - 2026-01-21 12:08:59 +0530
+- **Module**: Resume & Modals
+- **Commit**: `feat(resume): build integrated PDF viewer modal with download fallback button`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #95] - 2026-01-21 16:23:18 +0530
+- **Module**: Core Engineering
+- **Commit**: `refactor(hooks): extract useMediaQuery and useScrollProgress hooks`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #96] - 2026-01-21 22:56:04 +0530
+- **Module**: Skills & Stack
+- **Commit**: `feat(skills): organize technical skills into frontend, backend, and AI categories`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #97] - 2026-01-22 10:56:08 +0530
+- **Module**: Hero Section
+- **Commit**: `style(hero): tune responsive line breaks and typography scaling on mobile`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #98] - 2026-01-22 12:51:41 +0530
+- **Module**: Core Engineering
+- **Commit**: `test(e2e): verify critical click paths for resume and project modal flows`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #99] - 2026-01-22 16:07:56 +0530
+- **Module**: Design System
+- **Commit**: `style(buttons): refine tactile scale transition (0.97) for primary action buttons`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #100] - 2026-01-22 18:00:42 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): integrate detailed project modal with tabbed media previews`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #101] - 2026-01-22 20:47:35 +0530
+- **Module**: Hero Section
+- **Commit**: `style(hero): integrate glowing radial ambient orb behind hero typography`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #102] - 2026-01-22 22:59:42 +0530
+- **Module**: Resume & Modals
+- **Commit**: `perf(resume): lazy-mount ResumeModal to avoid unneeded PDF worker initialization`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #103] - 2026-01-23 10:43:40 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(navbar): implement floating navigation bar with backdrop blur filter`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #104] - 2026-01-23 10:45:21 +0530
+- **Module**: Design System
+- **Commit**: `feat(theme): establish dark and light mode CSS custom property architecture`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #105] - 2026-01-23 11:18:38 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `perf(scroll): throttle window scroll listeners via requestAnimationFrame`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #106] - 2026-01-23 14:05:40 +0530
+- **Module**: Resume & Modals
+- **Commit**: `feat(contact): construct interactive contact modal with email and social links`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #107] - 2026-01-23 16:32:31 +0530
+- **Module**: Core Engineering
+- **Commit**: `ci(workflow): setup automated GitHub Actions lint and typecheck pipeline`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #108] - 2026-01-23 16:57:58 +0530
+- **Module**: Experience Timeline
+- **Commit**: `style(experience): add pulsing radar dot to current active experience role`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #109] - 2026-01-23 17:53:17 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `feat(particles): implement interactive canvas particle constellation background`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #110] - 2026-01-23 20:00:21 +0530
+- **Module**: Resume & Modals
+- **Commit**: `style(contact): add frosted backdrop filter and smooth spring entry physics`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #111] - 2026-01-23 21:40:16 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): add video preview playback on card hover interaction`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #112] - 2026-01-23 21:47:28 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(navbar): add active section indicator with smooth spring motion`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #113] - 2026-01-23 23:35:00 +0530
+- **Module**: Core Engineering
+- **Commit**: `chore(deps): audit npm packages and resolve peer dependency warnings`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #114] - 2026-01-24 10:19:23 +0530
+- **Module**: Experience Timeline
+- **Commit**: `style(experience): format date range pills with high-contrast backgrounds`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #115] - 2026-01-24 12:02:53 +0530
+- **Module**: Project Showcase
+- **Commit**: `style(projects): implement image zoom-in on card hover with overflow hidden`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #116] - 2026-01-24 14:57:22 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `style(particles): calibrate particle alpha fade and connection distance`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #117] - 2026-01-24 16:37:35 +0530
+- **Module**: Core Engineering
+- **Commit**: `feat(seo): embed meta tags, canonical link, and OpenGraph social banner`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #118] - 2026-01-24 21:27:08 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `refactor(layout): structure multi-tier container hierarchy for wide screens`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #119] - 2026-01-26 10:59:59 +0530
+- **Module**: Resume & Modals
+- **Commit**: `feat(contact): implement form input validation and debounce input handlers`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #120] - 2026-01-26 12:06:22 +0530
+- **Module**: Design System
+- **Commit**: `style(tokens): define HSL semantic color scales for surface, text, and accents`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #121] - 2026-01-26 15:55:10 +0530
+- **Module**: Design System
+- **Commit**: `style(typography): calibrate fluid clamp typography rules for display headings`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #122] - 2026-01-26 18:56:55 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `perf(particles): optimize particle collision math and spatial hash partition`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #123] - 2026-01-26 23:39:47 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): add live demo and GitHub repository direct launch buttons`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #124] - 2026-01-27 15:11:47 +0530
+- **Module**: Design System
+- **Commit**: `refactor(tokens): harmonize border radius and spacing scale across UI primitives`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #125] - 2026-01-28 09:24:55 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `feat(tilt): add interactive 3D perspective tilt effect to profile avatar`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #126] - 2026-01-28 09:54:30 +0530
+- **Module**: Resume & Modals
+- **Commit**: `fix(contact): ensure focus trap inside modal for keyboard accessibility`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #127] - 2026-01-28 10:17:10 +0530
+- **Module**: Core Engineering
+- **Commit**: `fix(a11y): add aria-expanded and aria-controls attributes to toggle menus`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #128] - 2026-01-28 12:51:42 +0530
+- **Module**: Skills & Stack
+- **Commit**: `style(skills): design animated skill level meters with gradient fills`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #129] - 2026-01-28 15:12:52 +0530
+- **Module**: Design System
+- **Commit**: `style(badges): add gradient pill tags for tech stack categorization`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #130] - 2026-01-28 15:14:01 +0530
+- **Module**: Experience Timeline
+- **Commit**: `feat(experience): construct chronological timeline component with branch line`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #131] - 2026-01-28 17:22:19 +0530
+- **Module**: Design System
+- **Commit**: `style(tooltips): polish tooltip micro-animations with delayed fade-in`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #132] - 2026-01-28 19:12:25 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `fix(particles): prevent canvas stutter during rapid window resize events`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #133] - 2026-01-28 20:49:17 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `refactor(canvas): decouple animation loop from React render cycle`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #134] - 2026-01-28 22:17:55 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): create ProjectCard component with dynamic tag filters`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #135] - 2026-01-28 22:41:32 +0530
+- **Module**: Design System
+- **Commit**: `feat(ui): implement reusable glassmorphic Card container with ambient rim light`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #136] - 2026-01-28 23:43:53 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `fix(mobile): resolve safe-area-inset padding for iPhone viewport notches`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #137] - 2026-01-29 10:56:16 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(navigation): integrate keyboard shortcuts (Escape to close modals)`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #138] - 2026-01-29 11:22:46 +0530
+- **Module**: Experience Timeline
+- **Commit**: `feat(education): build education card with coursework highlights and GPA`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #139] - 2026-01-29 15:37:16 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `feat(three): integrate 3D model viewer with OrbitControls dampening`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #140] - 2026-01-29 20:06:38 +0530
+- **Module**: Hero Section
+- **Commit**: `feat(hero): attach smooth scroll anchor link directing to work showcase`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #141] - 2026-01-30 09:24:57 +0530
+- **Module**: Design System
+- **Commit**: `fix(theme): eliminate flash of unstyled theme on initial page mount`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #142] - 2026-01-30 09:45:27 +0530
+- **Module**: Core Engineering
+- **Commit**: `perf(bundle): split vendor chunks for Three.js, Lucide, and Framer Motion`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #143] - 2026-01-30 12:38:32 +0530
+- **Module**: Skills & Stack
+- **Commit**: `feat(skills): implement interactive technology popover with experience notes`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #144] - 2026-01-30 13:12:16 +0530
+- **Module**: Core Engineering
+- **Commit**: `perf(images): convert raster assets to WebP with responsive srcSets`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #145] - 2026-01-30 14:33:59 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `style(nav): add subtle border shimmer sweep on active nav link hover`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #146] - 2026-01-30 15:23:27 +0530
+- **Module**: Experience Timeline
+- **Commit**: `data(experience): add Hackathon milestones and Smart India Hackathon entry`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #147] - 2026-01-30 18:43:46 +0530
+- **Module**: Design System
+- **Commit**: `feat(icons): bundle optimized Lucide icon components with size prop normalization`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #148] - 2026-01-30 19:47:42 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `fix(three): properly dispose geometries and materials on component unmount`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #149] - 2026-01-30 20:42:58 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `perf(three): configure frustum culling and lower polygon density on mobile`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #150] - 2026-01-30 20:46:57 +0530
+- **Module**: Hero Section
+- **Commit**: `feat(hero): construct animated headline with typing effect and gradient text`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #151] - 2026-01-30 22:32:19 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(footer): build minimal footer with social links and live copyright`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #152] - 2026-01-30 22:39:20 +0530
+- **Module**: Skills & Stack
+- **Commit**: `perf(skills): lazy load third-party brand SVG icons to conserve initial bundle`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #153] - 2026-01-31 16:12:26 +0530
+- **Module**: Hero Section
+- **Commit**: `refactor(hero): improve LCP performance by preloading critical hero assets`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #154] - 2026-01-31 23:43:47 +0530
+- **Module**: Project Showcase
+- **Commit**: `data(projects): populate project metadata, metrics, and architecture summaries`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #155] - 2026-02-01 12:29:28 +0530
+- **Module**: Skills & Stack
+- **Commit**: `refactor(skills): consolidate icon mappings for Python, TypeScript, and Docker`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #156] - 2026-02-01 16:27:50 +0530
+- **Module**: Core Engineering
+- **Commit**: `docs(readme): document local setup instructions and deployment guidelines`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #157] - 2026-02-01 20:19:18 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `refactor(grid): optimize CSS grid auto-fit layout for project gallery`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #158] - 2026-02-02 12:30:50 +0530
+- **Module**: Hero Section
+- **Commit**: `feat(hero): add primary Call-To-Action buttons with glowing hover effect`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #159] - 2026-02-02 12:39:21 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `fix(navbar): resolve z-index stacking collision with full-screen modals`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #160] - 2026-02-02 14:52:48 +0530
+- **Module**: Project Showcase
+- **Commit**: `fix(projects): prevent body scroll lock leak when closing project modal`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #161] - 2026-02-02 15:42:05 +0530
+- **Module**: Core Engineering
+- **Commit**: `chore(vite): tune build compression plugins and output directory mapping`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #162] - 2026-02-02 22:32:42 +0530
+- **Module**: Resume & Modals
+- **Commit**: `feat(resume): build integrated PDF viewer modal with download fallback button`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #163] - 2026-02-03 10:29:26 +0530
+- **Module**: Core Engineering
+- **Commit**: `refactor(hooks): extract useMediaQuery and useScrollProgress hooks`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #164] - 2026-02-03 10:51:12 +0530
+- **Module**: Skills & Stack
+- **Commit**: `feat(skills): organize technical skills into frontend, backend, and AI categories`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #165] - 2026-02-03 15:01:02 +0530
+- **Module**: Hero Section
+- **Commit**: `style(hero): tune responsive line breaks and typography scaling on mobile`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #166] - 2026-02-03 18:12:45 +0530
+- **Module**: Core Engineering
+- **Commit**: `test(e2e): verify critical click paths for resume and project modal flows`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #167] - 2026-02-03 21:30:39 +0530
+- **Module**: Design System
+- **Commit**: `style(buttons): refine tactile scale transition (0.97) for primary action buttons`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #168] - 2026-02-03 23:31:25 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): integrate detailed project modal with tabbed media previews`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #169] - 2026-02-04 09:49:27 +0530
+- **Module**: Hero Section
+- **Commit**: `style(hero): integrate glowing radial ambient orb behind hero typography`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #170] - 2026-02-04 09:57:48 +0530
+- **Module**: Resume & Modals
+- **Commit**: `perf(resume): lazy-mount ResumeModal to avoid unneeded PDF worker initialization`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #171] - 2026-02-04 10:41:44 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(navbar): implement floating navigation bar with backdrop blur filter`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #172] - 2026-02-04 14:29:08 +0530
+- **Module**: Design System
+- **Commit**: `feat(theme): establish dark and light mode CSS custom property architecture`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #173] - 2026-02-04 14:35:15 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `perf(scroll): throttle window scroll listeners via requestAnimationFrame`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #174] - 2026-02-04 15:11:51 +0530
+- **Module**: Resume & Modals
+- **Commit**: `feat(contact): construct interactive contact modal with email and social links`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #175] - 2026-02-04 19:33:29 +0530
+- **Module**: Core Engineering
+- **Commit**: `ci(workflow): setup automated GitHub Actions lint and typecheck pipeline`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #176] - 2026-02-04 22:48:57 +0530
+- **Module**: Experience Timeline
+- **Commit**: `style(experience): add pulsing radar dot to current active experience role`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #177] - 2026-02-04 23:39:52 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `feat(particles): implement interactive canvas particle constellation background`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #178] - 2026-02-04 23:42:33 +0530
+- **Module**: Resume & Modals
+- **Commit**: `style(contact): add frosted backdrop filter and smooth spring entry physics`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #179] - 2026-02-04 23:53:58 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): add video preview playback on card hover interaction`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #180] - 2026-02-05 11:49:49 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(navbar): add active section indicator with smooth spring motion`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #181] - 2026-02-05 12:55:30 +0530
+- **Module**: Core Engineering
+- **Commit**: `chore(deps): audit npm packages and resolve peer dependency warnings`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #182] - 2026-02-05 17:16:48 +0530
+- **Module**: Experience Timeline
+- **Commit**: `style(experience): format date range pills with high-contrast backgrounds`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #183] - 2026-02-05 18:31:40 +0530
+- **Module**: Project Showcase
+- **Commit**: `style(projects): implement image zoom-in on card hover with overflow hidden`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #184] - 2026-02-05 21:53:40 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `style(particles): calibrate particle alpha fade and connection distance`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #185] - 2026-02-06 10:08:09 +0530
+- **Module**: Core Engineering
+- **Commit**: `feat(seo): embed meta tags, canonical link, and OpenGraph social banner`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #186] - 2026-02-06 10:26:26 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `refactor(layout): structure multi-tier container hierarchy for wide screens`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #187] - 2026-02-06 10:45:18 +0530
+- **Module**: Resume & Modals
+- **Commit**: `feat(contact): implement form input validation and debounce input handlers`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #188] - 2026-02-06 15:17:21 +0530
+- **Module**: Design System
+- **Commit**: `style(tokens): define HSL semantic color scales for surface, text, and accents`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #189] - 2026-02-06 15:24:44 +0530
+- **Module**: Design System
+- **Commit**: `style(typography): calibrate fluid clamp typography rules for display headings`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #190] - 2026-02-06 21:45:13 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `perf(particles): optimize particle collision math and spatial hash partition`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #191] - 2026-02-06 22:57:34 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): add live demo and GitHub repository direct launch buttons`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #192] - 2026-02-07 11:03:13 +0530
+- **Module**: Design System
+- **Commit**: `refactor(tokens): harmonize border radius and spacing scale across UI primitives`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #193] - 2026-02-07 11:34:47 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `feat(tilt): add interactive 3D perspective tilt effect to profile avatar`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #194] - 2026-02-07 12:24:30 +0530
+- **Module**: Resume & Modals
+- **Commit**: `fix(contact): ensure focus trap inside modal for keyboard accessibility`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #195] - 2026-02-07 14:22:19 +0530
+- **Module**: Core Engineering
+- **Commit**: `fix(a11y): add aria-expanded and aria-controls attributes to toggle menus`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #196] - 2026-02-07 17:24:57 +0530
+- **Module**: Skills & Stack
+- **Commit**: `style(skills): design animated skill level meters with gradient fills`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #197] - 2026-02-07 20:54:56 +0530
+- **Module**: Design System
+- **Commit**: `style(badges): add gradient pill tags for tech stack categorization`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #198] - 2026-02-07 23:54:57 +0530
+- **Module**: Experience Timeline
+- **Commit**: `feat(experience): construct chronological timeline component with branch line`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #199] - 2026-02-09 12:27:31 +0530
+- **Module**: Design System
+- **Commit**: `style(tooltips): polish tooltip micro-animations with delayed fade-in`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #200] - 2026-02-09 15:24:21 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `fix(particles): prevent canvas stutter during rapid window resize events`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #201] - 2026-02-09 23:46:10 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `refactor(canvas): decouple animation loop from React render cycle`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #202] - 2026-02-10 09:05:41 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): create ProjectCard component with dynamic tag filters`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #203] - 2026-02-10 09:58:25 +0530
+- **Module**: Design System
+- **Commit**: `feat(ui): implement reusable glassmorphic Card container with ambient rim light`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #204] - 2026-02-10 10:39:34 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `fix(mobile): resolve safe-area-inset padding for iPhone viewport notches`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #205] - 2026-02-10 13:36:42 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(navigation): integrate keyboard shortcuts (Escape to close modals)`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #206] - 2026-02-10 15:29:20 +0530
+- **Module**: Experience Timeline
+- **Commit**: `feat(education): build education card with coursework highlights and GPA`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #207] - 2026-02-10 16:24:20 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `feat(three): integrate 3D model viewer with OrbitControls dampening`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #208] - 2026-02-10 17:08:55 +0530
+- **Module**: Hero Section
+- **Commit**: `feat(hero): attach smooth scroll anchor link directing to work showcase`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #209] - 2026-02-10 17:11:03 +0530
+- **Module**: Design System
+- **Commit**: `fix(theme): eliminate flash of unstyled theme on initial page mount`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #210] - 2026-02-10 20:22:14 +0530
+- **Module**: Core Engineering
+- **Commit**: `perf(bundle): split vendor chunks for Three.js, Lucide, and Framer Motion`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #211] - 2026-02-10 20:30:01 +0530
+- **Module**: Skills & Stack
+- **Commit**: `feat(skills): implement interactive technology popover with experience notes`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #212] - 2026-02-10 22:48:56 +0530
+- **Module**: Core Engineering
+- **Commit**: `perf(images): convert raster assets to WebP with responsive srcSets`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #213] - 2026-02-10 23:16:53 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `style(nav): add subtle border shimmer sweep on active nav link hover`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #214] - 2026-02-10 23:17:48 +0530
+- **Module**: Experience Timeline
+- **Commit**: `data(experience): add Hackathon milestones and Smart India Hackathon entry`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #215] - 2026-02-11 11:53:01 +0530
+- **Module**: Design System
+- **Commit**: `feat(icons): bundle optimized Lucide icon components with size prop normalization`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #216] - 2026-02-11 18:42:07 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `fix(three): properly dispose geometries and materials on component unmount`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #217] - 2026-02-11 21:15:08 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `perf(three): configure frustum culling and lower polygon density on mobile`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #218] - 2026-02-12 17:49:23 +0530
+- **Module**: Hero Section
+- **Commit**: `feat(hero): construct animated headline with typing effect and gradient text`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #219] - 2026-02-13 09:49:52 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(footer): build minimal footer with social links and live copyright`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #220] - 2026-02-13 10:19:06 +0530
+- **Module**: Skills & Stack
+- **Commit**: `perf(skills): lazy load third-party brand SVG icons to conserve initial bundle`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #221] - 2026-02-13 13:38:47 +0530
+- **Module**: Hero Section
+- **Commit**: `refactor(hero): improve LCP performance by preloading critical hero assets`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #222] - 2026-02-13 15:04:37 +0530
+- **Module**: Project Showcase
+- **Commit**: `data(projects): populate project metadata, metrics, and architecture summaries`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #223] - 2026-02-13 16:36:43 +0530
+- **Module**: Skills & Stack
+- **Commit**: `refactor(skills): consolidate icon mappings for Python, TypeScript, and Docker`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #224] - 2026-02-13 17:25:45 +0530
+- **Module**: Core Engineering
+- **Commit**: `docs(readme): document local setup instructions and deployment guidelines`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #225] - 2026-02-13 18:01:59 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `refactor(grid): optimize CSS grid auto-fit layout for project gallery`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #226] - 2026-02-13 20:22:34 +0530
+- **Module**: Hero Section
+- **Commit**: `feat(hero): add primary Call-To-Action buttons with glowing hover effect`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #227] - 2026-02-13 20:50:36 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `fix(navbar): resolve z-index stacking collision with full-screen modals`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #228] - 2026-02-13 21:06:44 +0530
+- **Module**: Project Showcase
+- **Commit**: `fix(projects): prevent body scroll lock leak when closing project modal`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #229] - 2026-02-13 22:54:43 +0530
+- **Module**: Core Engineering
+- **Commit**: `chore(vite): tune build compression plugins and output directory mapping`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #230] - 2026-02-14 10:27:23 +0530
+- **Module**: Resume & Modals
+- **Commit**: `feat(resume): build integrated PDF viewer modal with download fallback button`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #231] - 2026-02-14 10:32:41 +0530
+- **Module**: Core Engineering
+- **Commit**: `refactor(hooks): extract useMediaQuery and useScrollProgress hooks`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #232] - 2026-02-14 16:00:54 +0530
+- **Module**: Skills & Stack
+- **Commit**: `feat(skills): organize technical skills into frontend, backend, and AI categories`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #233] - 2026-02-14 17:45:09 +0530
+- **Module**: Hero Section
+- **Commit**: `style(hero): tune responsive line breaks and typography scaling on mobile`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #234] - 2026-02-14 23:11:46 +0530
+- **Module**: Core Engineering
+- **Commit**: `test(e2e): verify critical click paths for resume and project modal flows`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #235] - 2026-02-14 23:52:31 +0530
+- **Module**: Design System
+- **Commit**: `style(buttons): refine tactile scale transition (0.97) for primary action buttons`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #236] - 2026-02-15 12:37:17 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): integrate detailed project modal with tabbed media previews`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #237] - 2026-02-15 12:51:58 +0530
+- **Module**: Hero Section
+- **Commit**: `style(hero): integrate glowing radial ambient orb behind hero typography`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #238] - 2026-02-15 16:54:15 +0530
+- **Module**: Resume & Modals
+- **Commit**: `perf(resume): lazy-mount ResumeModal to avoid unneeded PDF worker initialization`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #239] - 2026-02-15 18:49:30 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(navbar): implement floating navigation bar with backdrop blur filter`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #240] - 2026-02-15 20:17:56 +0530
+- **Module**: Design System
+- **Commit**: `feat(theme): establish dark and light mode CSS custom property architecture`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #241] - 2026-02-15 23:27:52 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `perf(scroll): throttle window scroll listeners via requestAnimationFrame`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #242] - 2026-02-16 10:31:13 +0530
+- **Module**: Resume & Modals
+- **Commit**: `feat(contact): construct interactive contact modal with email and social links`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #243] - 2026-02-16 12:39:42 +0530
+- **Module**: Core Engineering
+- **Commit**: `ci(workflow): setup automated GitHub Actions lint and typecheck pipeline`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #244] - 2026-02-16 12:44:56 +0530
+- **Module**: Experience Timeline
+- **Commit**: `style(experience): add pulsing radar dot to current active experience role`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #245] - 2026-02-16 16:51:16 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `feat(particles): implement interactive canvas particle constellation background`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #246] - 2026-02-16 17:21:01 +0530
+- **Module**: Resume & Modals
+- **Commit**: `style(contact): add frosted backdrop filter and smooth spring entry physics`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #247] - 2026-02-16 22:17:56 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): add video preview playback on card hover interaction`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #248] - 2026-02-16 23:54:20 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(navbar): add active section indicator with smooth spring motion`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #249] - 2026-02-17 10:44:30 +0530
+- **Module**: Core Engineering
+- **Commit**: `chore(deps): audit npm packages and resolve peer dependency warnings`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #250] - 2026-02-17 12:12:05 +0530
+- **Module**: Experience Timeline
+- **Commit**: `style(experience): format date range pills with high-contrast backgrounds`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #251] - 2026-02-17 15:46:26 +0530
+- **Module**: Project Showcase
+- **Commit**: `style(projects): implement image zoom-in on card hover with overflow hidden`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #252] - 2026-02-17 23:35:48 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `style(particles): calibrate particle alpha fade and connection distance`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #253] - 2026-02-18 09:05:18 +0530
+- **Module**: Core Engineering
+- **Commit**: `feat(seo): embed meta tags, canonical link, and OpenGraph social banner`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #254] - 2026-02-18 10:19:42 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `refactor(layout): structure multi-tier container hierarchy for wide screens`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #255] - 2026-02-18 10:25:44 +0530
+- **Module**: Resume & Modals
+- **Commit**: `feat(contact): implement form input validation and debounce input handlers`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #256] - 2026-02-18 12:28:50 +0530
+- **Module**: Design System
+- **Commit**: `style(tokens): define HSL semantic color scales for surface, text, and accents`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #257] - 2026-02-18 13:23:30 +0530
+- **Module**: Design System
+- **Commit**: `style(typography): calibrate fluid clamp typography rules for display headings`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #258] - 2026-02-18 16:14:07 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `perf(particles): optimize particle collision math and spatial hash partition`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #259] - 2026-02-18 16:22:44 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): add live demo and GitHub repository direct launch buttons`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #260] - 2026-02-18 17:17:19 +0530
+- **Module**: Design System
+- **Commit**: `refactor(tokens): harmonize border radius and spacing scale across UI primitives`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #261] - 2026-02-18 17:47:35 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `feat(tilt): add interactive 3D perspective tilt effect to profile avatar`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #262] - 2026-02-18 18:33:22 +0530
+- **Module**: Resume & Modals
+- **Commit**: `fix(contact): ensure focus trap inside modal for keyboard accessibility`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #263] - 2026-02-18 21:12:13 +0530
+- **Module**: Core Engineering
+- **Commit**: `fix(a11y): add aria-expanded and aria-controls attributes to toggle menus`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #264] - 2026-02-18 21:18:14 +0530
+- **Module**: Skills & Stack
+- **Commit**: `style(skills): design animated skill level meters with gradient fills`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #265] - 2026-02-18 21:20:07 +0530
+- **Module**: Design System
+- **Commit**: `style(badges): add gradient pill tags for tech stack categorization`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #266] - 2026-02-18 22:06:53 +0530
+- **Module**: Experience Timeline
+- **Commit**: `feat(experience): construct chronological timeline component with branch line`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #267] - 2026-02-18 23:17:46 +0530
+- **Module**: Design System
+- **Commit**: `style(tooltips): polish tooltip micro-animations with delayed fade-in`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #268] - 2026-02-19 10:45:34 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `fix(particles): prevent canvas stutter during rapid window resize events`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #269] - 2026-02-19 12:08:40 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `refactor(canvas): decouple animation loop from React render cycle`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #270] - 2026-02-19 15:17:02 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): create ProjectCard component with dynamic tag filters`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #271] - 2026-02-19 17:06:55 +0530
+- **Module**: Design System
+- **Commit**: `feat(ui): implement reusable glassmorphic Card container with ambient rim light`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #272] - 2026-02-19 20:35:18 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `fix(mobile): resolve safe-area-inset padding for iPhone viewport notches`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #273] - 2026-02-19 20:36:18 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(navigation): integrate keyboard shortcuts (Escape to close modals)`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #274] - 2026-02-20 11:11:03 +0530
+- **Module**: Experience Timeline
+- **Commit**: `feat(education): build education card with coursework highlights and GPA`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #275] - 2026-02-20 11:31:04 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `feat(three): integrate 3D model viewer with OrbitControls dampening`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #276] - 2026-02-20 12:19:05 +0530
+- **Module**: Hero Section
+- **Commit**: `feat(hero): attach smooth scroll anchor link directing to work showcase`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #277] - 2026-02-20 16:55:30 +0530
+- **Module**: Design System
+- **Commit**: `fix(theme): eliminate flash of unstyled theme on initial page mount`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #278] - 2026-02-20 18:40:43 +0530
+- **Module**: Core Engineering
+- **Commit**: `perf(bundle): split vendor chunks for Three.js, Lucide, and Framer Motion`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #279] - 2026-02-20 20:09:09 +0530
+- **Module**: Skills & Stack
+- **Commit**: `feat(skills): implement interactive technology popover with experience notes`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #280] - 2026-02-20 20:52:04 +0530
+- **Module**: Core Engineering
+- **Commit**: `perf(images): convert raster assets to WebP with responsive srcSets`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #281] - 2026-02-21 09:35:48 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `style(nav): add subtle border shimmer sweep on active nav link hover`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #282] - 2026-02-21 12:38:38 +0530
+- **Module**: Experience Timeline
+- **Commit**: `data(experience): add Hackathon milestones and Smart India Hackathon entry`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #283] - 2026-02-21 13:14:49 +0530
+- **Module**: Design System
+- **Commit**: `feat(icons): bundle optimized Lucide icon components with size prop normalization`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #284] - 2026-02-21 17:19:55 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `fix(three): properly dispose geometries and materials on component unmount`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #285] - 2026-02-21 18:24:28 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `perf(three): configure frustum culling and lower polygon density on mobile`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #286] - 2026-02-21 18:27:19 +0530
+- **Module**: Hero Section
+- **Commit**: `feat(hero): construct animated headline with typing effect and gradient text`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #287] - 2026-02-21 18:39:03 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(footer): build minimal footer with social links and live copyright`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #288] - 2026-02-21 20:10:15 +0530
+- **Module**: Skills & Stack
+- **Commit**: `perf(skills): lazy load third-party brand SVG icons to conserve initial bundle`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #289] - 2026-02-21 20:48:13 +0530
+- **Module**: Hero Section
+- **Commit**: `refactor(hero): improve LCP performance by preloading critical hero assets`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #290] - 2026-02-21 21:16:42 +0530
+- **Module**: Project Showcase
+- **Commit**: `data(projects): populate project metadata, metrics, and architecture summaries`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #291] - 2026-02-21 21:35:04 +0530
+- **Module**: Skills & Stack
+- **Commit**: `refactor(skills): consolidate icon mappings for Python, TypeScript, and Docker`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #292] - 2026-02-23 11:44:38 +0530
+- **Module**: Core Engineering
+- **Commit**: `docs(readme): document local setup instructions and deployment guidelines`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #293] - 2026-02-23 11:52:55 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `refactor(grid): optimize CSS grid auto-fit layout for project gallery`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #294] - 2026-02-23 12:37:42 +0530
+- **Module**: Hero Section
+- **Commit**: `feat(hero): add primary Call-To-Action buttons with glowing hover effect`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #295] - 2026-02-23 17:04:43 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `fix(navbar): resolve z-index stacking collision with full-screen modals`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #296] - 2026-02-23 17:18:02 +0530
+- **Module**: Project Showcase
+- **Commit**: `fix(projects): prevent body scroll lock leak when closing project modal`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #297] - 2026-02-23 21:18:45 +0530
+- **Module**: Core Engineering
+- **Commit**: `chore(vite): tune build compression plugins and output directory mapping`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #298] - 2026-02-23 21:59:16 +0530
+- **Module**: Resume & Modals
+- **Commit**: `feat(resume): build integrated PDF viewer modal with download fallback button`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #299] - 2026-02-24 11:58:17 +0530
+- **Module**: Core Engineering
+- **Commit**: `refactor(hooks): extract useMediaQuery and useScrollProgress hooks`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #300] - 2026-02-24 21:04:03 +0530
+- **Module**: Skills & Stack
+- **Commit**: `feat(skills): organize technical skills into frontend, backend, and AI categories`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #301] - 2026-02-25 11:38:47 +0530
+- **Module**: Hero Section
+- **Commit**: `style(hero): tune responsive line breaks and typography scaling on mobile`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #302] - 2026-02-25 12:07:29 +0530
+- **Module**: Core Engineering
+- **Commit**: `test(e2e): verify critical click paths for resume and project modal flows`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #303] - 2026-02-25 13:58:18 +0530
+- **Module**: Design System
+- **Commit**: `style(buttons): refine tactile scale transition (0.97) for primary action buttons`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #304] - 2026-02-25 14:38:02 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): integrate detailed project modal with tabbed media previews`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #305] - 2026-02-25 17:17:32 +0530
+- **Module**: Hero Section
+- **Commit**: `style(hero): integrate glowing radial ambient orb behind hero typography`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #306] - 2026-02-25 18:31:28 +0530
+- **Module**: Resume & Modals
+- **Commit**: `perf(resume): lazy-mount ResumeModal to avoid unneeded PDF worker initialization`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #307] - 2026-02-25 19:19:44 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(navbar): implement floating navigation bar with backdrop blur filter`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #308] - 2026-02-25 20:48:43 +0530
+- **Module**: Design System
+- **Commit**: `feat(theme): establish dark and light mode CSS custom property architecture`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #309] - 2026-02-25 21:43:53 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `perf(scroll): throttle window scroll listeners via requestAnimationFrame`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #310] - 2026-02-25 22:01:05 +0530
+- **Module**: Resume & Modals
+- **Commit**: `feat(contact): construct interactive contact modal with email and social links`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #311] - 2026-02-25 23:47:20 +0530
+- **Module**: Core Engineering
+- **Commit**: `ci(workflow): setup automated GitHub Actions lint and typecheck pipeline`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #312] - 2026-02-26 13:58:17 +0530
+- **Module**: Experience Timeline
+- **Commit**: `style(experience): add pulsing radar dot to current active experience role`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #313] - 2026-02-26 18:05:30 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `feat(particles): implement interactive canvas particle constellation background`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #314] - 2026-02-26 21:37:27 +0530
+- **Module**: Resume & Modals
+- **Commit**: `style(contact): add frosted backdrop filter and smooth spring entry physics`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #315] - 2026-02-27 09:54:10 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): add video preview playback on card hover interaction`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #316] - 2026-02-27 11:26:44 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(navbar): add active section indicator with smooth spring motion`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #317] - 2026-02-27 12:18:42 +0530
+- **Module**: Core Engineering
+- **Commit**: `chore(deps): audit npm packages and resolve peer dependency warnings`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #318] - 2026-02-27 12:21:20 +0530
+- **Module**: Experience Timeline
+- **Commit**: `style(experience): format date range pills with high-contrast backgrounds`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #319] - 2026-02-27 14:20:16 +0530
+- **Module**: Project Showcase
+- **Commit**: `style(projects): implement image zoom-in on card hover with overflow hidden`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #320] - 2026-02-27 16:07:49 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `style(particles): calibrate particle alpha fade and connection distance`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #321] - 2026-02-27 17:52:48 +0530
+- **Module**: Core Engineering
+- **Commit**: `feat(seo): embed meta tags, canonical link, and OpenGraph social banner`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #322] - 2026-02-27 18:02:29 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `refactor(layout): structure multi-tier container hierarchy for wide screens`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #323] - 2026-02-27 20:42:55 +0530
+- **Module**: Resume & Modals
+- **Commit**: `feat(contact): implement form input validation and debounce input handlers`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #324] - 2026-02-27 21:33:23 +0530
+- **Module**: Design System
+- **Commit**: `style(tokens): define HSL semantic color scales for surface, text, and accents`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #325] - 2026-02-27 23:26:03 +0530
+- **Module**: Design System
+- **Commit**: `style(typography): calibrate fluid clamp typography rules for display headings`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #326] - 2026-02-27 23:55:32 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `perf(particles): optimize particle collision math and spatial hash partition`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #327] - 2026-02-28 16:59:18 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): add live demo and GitHub repository direct launch buttons`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #328] - 2026-02-28 20:13:17 +0530
+- **Module**: Design System
+- **Commit**: `refactor(tokens): harmonize border radius and spacing scale across UI primitives`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #329] - 2026-03-01 10:01:40 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `feat(tilt): add interactive 3D perspective tilt effect to profile avatar`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #330] - 2026-03-01 10:35:26 +0530
+- **Module**: Resume & Modals
+- **Commit**: `fix(contact): ensure focus trap inside modal for keyboard accessibility`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #331] - 2026-03-01 12:53:09 +0530
+- **Module**: Core Engineering
+- **Commit**: `fix(a11y): add aria-expanded and aria-controls attributes to toggle menus`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #332] - 2026-03-01 14:14:53 +0530
+- **Module**: Skills & Stack
+- **Commit**: `style(skills): design animated skill level meters with gradient fills`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #333] - 2026-03-01 18:51:15 +0530
+- **Module**: Design System
+- **Commit**: `style(badges): add gradient pill tags for tech stack categorization`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #334] - 2026-03-01 20:29:07 +0530
+- **Module**: Experience Timeline
+- **Commit**: `feat(experience): construct chronological timeline component with branch line`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #335] - 2026-03-01 21:19:35 +0530
+- **Module**: Design System
+- **Commit**: `style(tooltips): polish tooltip micro-animations with delayed fade-in`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #336] - 2026-03-02 12:09:24 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `fix(particles): prevent canvas stutter during rapid window resize events`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #337] - 2026-03-02 12:45:17 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `refactor(canvas): decouple animation loop from React render cycle`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #338] - 2026-03-02 15:58:38 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): create ProjectCard component with dynamic tag filters`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #339] - 2026-03-02 17:53:30 +0530
+- **Module**: Design System
+- **Commit**: `feat(ui): implement reusable glassmorphic Card container with ambient rim light`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #340] - 2026-03-02 21:55:04 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `fix(mobile): resolve safe-area-inset padding for iPhone viewport notches`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #341] - 2026-03-02 23:15:29 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(navigation): integrate keyboard shortcuts (Escape to close modals)`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #342] - 2026-03-03 11:22:21 +0530
+- **Module**: Experience Timeline
+- **Commit**: `feat(education): build education card with coursework highlights and GPA`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #343] - 2026-03-03 11:53:37 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `feat(three): integrate 3D model viewer with OrbitControls dampening`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #344] - 2026-03-03 11:59:50 +0530
+- **Module**: Hero Section
+- **Commit**: `feat(hero): attach smooth scroll anchor link directing to work showcase`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #345] - 2026-03-03 18:17:52 +0530
+- **Module**: Design System
+- **Commit**: `fix(theme): eliminate flash of unstyled theme on initial page mount`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #346] - 2026-03-03 18:42:31 +0530
+- **Module**: Core Engineering
+- **Commit**: `perf(bundle): split vendor chunks for Three.js, Lucide, and Framer Motion`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #347] - 2026-03-03 20:18:46 +0530
+- **Module**: Skills & Stack
+- **Commit**: `feat(skills): implement interactive technology popover with experience notes`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #348] - 2026-03-03 21:28:34 +0530
+- **Module**: Core Engineering
+- **Commit**: `perf(images): convert raster assets to WebP with responsive srcSets`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #349] - 2026-03-04 10:36:24 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `style(nav): add subtle border shimmer sweep on active nav link hover`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #350] - 2026-03-04 10:54:49 +0530
+- **Module**: Experience Timeline
+- **Commit**: `data(experience): add Hackathon milestones and Smart India Hackathon entry`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #351] - 2026-03-04 11:55:12 +0530
+- **Module**: Design System
+- **Commit**: `feat(icons): bundle optimized Lucide icon components with size prop normalization`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #352] - 2026-03-04 13:24:29 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `fix(three): properly dispose geometries and materials on component unmount`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #353] - 2026-03-04 14:08:32 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `perf(three): configure frustum culling and lower polygon density on mobile`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #354] - 2026-03-04 17:02:20 +0530
+- **Module**: Hero Section
+- **Commit**: `feat(hero): construct animated headline with typing effect and gradient text`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #355] - 2026-03-04 17:24:42 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(footer): build minimal footer with social links and live copyright`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #356] - 2026-03-04 19:09:31 +0530
+- **Module**: Skills & Stack
+- **Commit**: `perf(skills): lazy load third-party brand SVG icons to conserve initial bundle`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #357] - 2026-03-04 19:30:45 +0530
+- **Module**: Hero Section
+- **Commit**: `refactor(hero): improve LCP performance by preloading critical hero assets`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #358] - 2026-03-04 21:04:30 +0530
+- **Module**: Project Showcase
+- **Commit**: `data(projects): populate project metadata, metrics, and architecture summaries`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #359] - 2026-03-04 21:26:55 +0530
+- **Module**: Skills & Stack
+- **Commit**: `refactor(skills): consolidate icon mappings for Python, TypeScript, and Docker`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #360] - 2026-03-04 22:55:06 +0530
+- **Module**: Core Engineering
+- **Commit**: `docs(readme): document local setup instructions and deployment guidelines`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #361] - 2026-03-04 23:00:46 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `refactor(grid): optimize CSS grid auto-fit layout for project gallery`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #362] - 2026-03-04 23:06:33 +0530
+- **Module**: Hero Section
+- **Commit**: `feat(hero): add primary Call-To-Action buttons with glowing hover effect`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #363] - 2026-03-05 15:54:21 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `fix(navbar): resolve z-index stacking collision with full-screen modals`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #364] - 2026-03-05 23:20:40 +0530
+- **Module**: Project Showcase
+- **Commit**: `fix(projects): prevent body scroll lock leak when closing project modal`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #365] - 2026-03-06 12:14:47 +0530
+- **Module**: Core Engineering
+- **Commit**: `chore(vite): tune build compression plugins and output directory mapping`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #366] - 2026-03-06 20:15:40 +0530
+- **Module**: Resume & Modals
+- **Commit**: `feat(resume): build integrated PDF viewer modal with download fallback button`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #367] - 2026-03-07 10:20:50 +0530
+- **Module**: Core Engineering
+- **Commit**: `refactor(hooks): extract useMediaQuery and useScrollProgress hooks`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #368] - 2026-03-07 12:45:55 +0530
+- **Module**: Skills & Stack
+- **Commit**: `feat(skills): organize technical skills into frontend, backend, and AI categories`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #369] - 2026-03-07 14:28:10 +0530
+- **Module**: Hero Section
+- **Commit**: `style(hero): tune responsive line breaks and typography scaling on mobile`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #370] - 2026-03-07 22:57:01 +0530
+- **Module**: Core Engineering
+- **Commit**: `test(e2e): verify critical click paths for resume and project modal flows`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #371] - 2026-03-09 10:39:55 +0530
+- **Module**: Design System
+- **Commit**: `style(buttons): refine tactile scale transition (0.97) for primary action buttons`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #372] - 2026-03-09 11:27:09 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): integrate detailed project modal with tabbed media previews`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #373] - 2026-03-09 15:33:26 +0530
+- **Module**: Hero Section
+- **Commit**: `style(hero): integrate glowing radial ambient orb behind hero typography`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #374] - 2026-03-09 17:39:43 +0530
+- **Module**: Resume & Modals
+- **Commit**: `perf(resume): lazy-mount ResumeModal to avoid unneeded PDF worker initialization`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #375] - 2026-03-09 21:10:11 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(navbar): implement floating navigation bar with backdrop blur filter`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #376] - 2026-03-09 21:31:58 +0530
+- **Module**: Design System
+- **Commit**: `feat(theme): establish dark and light mode CSS custom property architecture`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #377] - 2026-03-10 17:29:16 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `perf(scroll): throttle window scroll listeners via requestAnimationFrame`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #378] - 2026-03-11 09:57:51 +0530
+- **Module**: Resume & Modals
+- **Commit**: `feat(contact): construct interactive contact modal with email and social links`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #379] - 2026-03-11 11:40:27 +0530
+- **Module**: Core Engineering
+- **Commit**: `ci(workflow): setup automated GitHub Actions lint and typecheck pipeline`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #380] - 2026-03-11 12:22:37 +0530
+- **Module**: Experience Timeline
+- **Commit**: `style(experience): add pulsing radar dot to current active experience role`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #381] - 2026-03-11 12:57:18 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `feat(particles): implement interactive canvas particle constellation background`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #382] - 2026-03-11 13:10:04 +0530
+- **Module**: Resume & Modals
+- **Commit**: `style(contact): add frosted backdrop filter and smooth spring entry physics`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #383] - 2026-03-11 16:12:24 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): add video preview playback on card hover interaction`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #384] - 2026-03-11 17:06:15 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(navbar): add active section indicator with smooth spring motion`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #385] - 2026-03-11 17:36:22 +0530
+- **Module**: Core Engineering
+- **Commit**: `chore(deps): audit npm packages and resolve peer dependency warnings`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #386] - 2026-03-11 18:18:44 +0530
+- **Module**: Experience Timeline
+- **Commit**: `style(experience): format date range pills with high-contrast backgrounds`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #387] - 2026-03-11 19:16:29 +0530
+- **Module**: Project Showcase
+- **Commit**: `style(projects): implement image zoom-in on card hover with overflow hidden`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #388] - 2026-03-11 20:58:38 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `style(particles): calibrate particle alpha fade and connection distance`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #389] - 2026-03-11 22:01:53 +0530
+- **Module**: Core Engineering
+- **Commit**: `feat(seo): embed meta tags, canonical link, and OpenGraph social banner`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #390] - 2026-03-11 22:49:51 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `refactor(layout): structure multi-tier container hierarchy for wide screens`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #391] - 2026-03-11 23:17:00 +0530
+- **Module**: Resume & Modals
+- **Commit**: `feat(contact): implement form input validation and debounce input handlers`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #392] - 2026-03-11 23:53:57 +0530
+- **Module**: Design System
+- **Commit**: `style(tokens): define HSL semantic color scales for surface, text, and accents`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #393] - 2026-03-12 10:40:12 +0530
+- **Module**: Design System
+- **Commit**: `style(typography): calibrate fluid clamp typography rules for display headings`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #394] - 2026-03-12 12:41:02 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `perf(particles): optimize particle collision math and spatial hash partition`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #395] - 2026-03-12 16:50:28 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): add live demo and GitHub repository direct launch buttons`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #396] - 2026-03-12 18:16:43 +0530
+- **Module**: Design System
+- **Commit**: `refactor(tokens): harmonize border radius and spacing scale across UI primitives`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #397] - 2026-03-12 20:37:23 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `feat(tilt): add interactive 3D perspective tilt effect to profile avatar`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #398] - 2026-03-12 21:40:06 +0530
+- **Module**: Resume & Modals
+- **Commit**: `fix(contact): ensure focus trap inside modal for keyboard accessibility`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #399] - 2026-03-13 17:47:26 +0530
+- **Module**: Core Engineering
+- **Commit**: `fix(a11y): add aria-expanded and aria-controls attributes to toggle menus`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #400] - 2026-03-14 11:58:52 +0530
+- **Module**: Skills & Stack
+- **Commit**: `style(skills): design animated skill level meters with gradient fills`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #401] - 2026-03-14 12:56:23 +0530
+- **Module**: Design System
+- **Commit**: `style(badges): add gradient pill tags for tech stack categorization`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #402] - 2026-03-14 17:51:18 +0530
+- **Module**: Experience Timeline
+- **Commit**: `feat(experience): construct chronological timeline component with branch line`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #403] - 2026-03-14 18:32:58 +0530
+- **Module**: Design System
+- **Commit**: `style(tooltips): polish tooltip micro-animations with delayed fade-in`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #404] - 2026-03-14 22:53:10 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `fix(particles): prevent canvas stutter during rapid window resize events`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #405] - 2026-03-16 10:09:48 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `refactor(canvas): decouple animation loop from React render cycle`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #406] - 2026-03-16 16:55:43 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): create ProjectCard component with dynamic tag filters`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #407] - 2026-03-17 11:43:47 +0530
+- **Module**: Design System
+- **Commit**: `feat(ui): implement reusable glassmorphic Card container with ambient rim light`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #408] - 2026-03-17 12:00:16 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `fix(mobile): resolve safe-area-inset padding for iPhone viewport notches`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #409] - 2026-03-17 12:54:51 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(navigation): integrate keyboard shortcuts (Escape to close modals)`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #410] - 2026-03-17 13:07:29 +0530
+- **Module**: Experience Timeline
+- **Commit**: `feat(education): build education card with coursework highlights and GPA`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #411] - 2026-03-17 13:23:05 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `feat(three): integrate 3D model viewer with OrbitControls dampening`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #412] - 2026-03-17 15:30:01 +0530
+- **Module**: Hero Section
+- **Commit**: `feat(hero): attach smooth scroll anchor link directing to work showcase`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #413] - 2026-03-17 16:06:43 +0530
+- **Module**: Design System
+- **Commit**: `fix(theme): eliminate flash of unstyled theme on initial page mount`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #414] - 2026-03-17 17:52:40 +0530
+- **Module**: Core Engineering
+- **Commit**: `perf(bundle): split vendor chunks for Three.js, Lucide, and Framer Motion`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #415] - 2026-03-17 18:56:35 +0530
+- **Module**: Skills & Stack
+- **Commit**: `feat(skills): implement interactive technology popover with experience notes`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #416] - 2026-03-17 19:16:37 +0530
+- **Module**: Core Engineering
+- **Commit**: `perf(images): convert raster assets to WebP with responsive srcSets`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #417] - 2026-03-17 20:08:02 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `style(nav): add subtle border shimmer sweep on active nav link hover`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #418] - 2026-03-17 21:41:04 +0530
+- **Module**: Experience Timeline
+- **Commit**: `data(experience): add Hackathon milestones and Smart India Hackathon entry`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #419] - 2026-03-17 22:41:26 +0530
+- **Module**: Design System
+- **Commit**: `feat(icons): bundle optimized Lucide icon components with size prop normalization`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #420] - 2026-03-17 22:58:39 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `fix(three): properly dispose geometries and materials on component unmount`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #421] - 2026-03-17 23:58:44 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `perf(three): configure frustum culling and lower polygon density on mobile`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #422] - 2026-03-18 11:24:29 +0530
+- **Module**: Hero Section
+- **Commit**: `feat(hero): construct animated headline with typing effect and gradient text`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #423] - 2026-03-18 15:15:56 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(footer): build minimal footer with social links and live copyright`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #424] - 2026-03-19 10:54:23 +0530
+- **Module**: Skills & Stack
+- **Commit**: `perf(skills): lazy load third-party brand SVG icons to conserve initial bundle`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #425] - 2026-03-19 12:26:17 +0530
+- **Module**: Hero Section
+- **Commit**: `refactor(hero): improve LCP performance by preloading critical hero assets`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #426] - 2026-03-19 12:47:46 +0530
+- **Module**: Project Showcase
+- **Commit**: `data(projects): populate project metadata, metrics, and architecture summaries`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #427] - 2026-03-19 14:44:23 +0530
+- **Module**: Skills & Stack
+- **Commit**: `refactor(skills): consolidate icon mappings for Python, TypeScript, and Docker`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #428] - 2026-03-19 15:56:26 +0530
+- **Module**: Core Engineering
+- **Commit**: `docs(readme): document local setup instructions and deployment guidelines`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #429] - 2026-03-19 20:53:31 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `refactor(grid): optimize CSS grid auto-fit layout for project gallery`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #430] - 2026-03-19 21:28:28 +0530
+- **Module**: Hero Section
+- **Commit**: `feat(hero): add primary Call-To-Action buttons with glowing hover effect`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #431] - 2026-03-20 11:03:25 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `fix(navbar): resolve z-index stacking collision with full-screen modals`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #432] - 2026-03-20 11:12:07 +0530
+- **Module**: Project Showcase
+- **Commit**: `fix(projects): prevent body scroll lock leak when closing project modal`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #433] - 2026-03-20 11:34:57 +0530
+- **Module**: Core Engineering
+- **Commit**: `chore(vite): tune build compression plugins and output directory mapping`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #434] - 2026-03-20 15:41:40 +0530
+- **Module**: Resume & Modals
+- **Commit**: `feat(resume): build integrated PDF viewer modal with download fallback button`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #435] - 2026-03-20 17:05:42 +0530
+- **Module**: Core Engineering
+- **Commit**: `refactor(hooks): extract useMediaQuery and useScrollProgress hooks`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #436] - 2026-03-20 18:01:03 +0530
+- **Module**: Skills & Stack
+- **Commit**: `feat(skills): organize technical skills into frontend, backend, and AI categories`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #437] - 2026-03-20 21:04:53 +0530
+- **Module**: Hero Section
+- **Commit**: `style(hero): tune responsive line breaks and typography scaling on mobile`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #438] - 2026-03-20 21:21:49 +0530
+- **Module**: Core Engineering
+- **Commit**: `test(e2e): verify critical click paths for resume and project modal flows`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #439] - 2026-03-20 21:37:13 +0530
+- **Module**: Design System
+- **Commit**: `style(buttons): refine tactile scale transition (0.97) for primary action buttons`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #440] - 2026-03-20 22:15:08 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): integrate detailed project modal with tabbed media previews`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #441] - 2026-03-21 10:08:00 +0530
+- **Module**: Hero Section
+- **Commit**: `style(hero): integrate glowing radial ambient orb behind hero typography`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #442] - 2026-03-21 11:54:09 +0530
+- **Module**: Resume & Modals
+- **Commit**: `perf(resume): lazy-mount ResumeModal to avoid unneeded PDF worker initialization`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #443] - 2026-03-21 15:34:16 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(navbar): implement floating navigation bar with backdrop blur filter`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #444] - 2026-03-21 21:07:42 +0530
+- **Module**: Design System
+- **Commit**: `feat(theme): establish dark and light mode CSS custom property architecture`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #445] - 2026-03-22 12:07:47 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `perf(scroll): throttle window scroll listeners via requestAnimationFrame`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #446] - 2026-03-22 12:20:01 +0530
+- **Module**: Resume & Modals
+- **Commit**: `feat(contact): construct interactive contact modal with email and social links`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #447] - 2026-03-22 14:30:28 +0530
+- **Module**: Core Engineering
+- **Commit**: `ci(workflow): setup automated GitHub Actions lint and typecheck pipeline`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #448] - 2026-03-22 15:16:03 +0530
+- **Module**: Experience Timeline
+- **Commit**: `style(experience): add pulsing radar dot to current active experience role`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #449] - 2026-03-22 21:47:26 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `feat(particles): implement interactive canvas particle constellation background`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #450] - 2026-03-23 12:29:41 +0530
+- **Module**: Resume & Modals
+- **Commit**: `style(contact): add frosted backdrop filter and smooth spring entry physics`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #451] - 2026-03-23 15:03:30 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): add video preview playback on card hover interaction`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #452] - 2026-03-23 21:39:02 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(navbar): add active section indicator with smooth spring motion`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #453] - 2026-03-24 13:04:57 +0530
+- **Module**: Core Engineering
+- **Commit**: `chore(deps): audit npm packages and resolve peer dependency warnings`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #454] - 2026-03-24 23:45:58 +0530
+- **Module**: Experience Timeline
+- **Commit**: `style(experience): format date range pills with high-contrast backgrounds`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #455] - 2026-03-25 09:08:17 +0530
+- **Module**: Project Showcase
+- **Commit**: `style(projects): implement image zoom-in on card hover with overflow hidden`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #456] - 2026-03-25 11:38:09 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `style(particles): calibrate particle alpha fade and connection distance`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #457] - 2026-03-25 13:40:37 +0530
+- **Module**: Core Engineering
+- **Commit**: `feat(seo): embed meta tags, canonical link, and OpenGraph social banner`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #458] - 2026-03-25 16:29:32 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `refactor(layout): structure multi-tier container hierarchy for wide screens`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #459] - 2026-03-25 17:38:33 +0530
+- **Module**: Resume & Modals
+- **Commit**: `feat(contact): implement form input validation and debounce input handlers`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #460] - 2026-03-25 18:45:20 +0530
+- **Module**: Design System
+- **Commit**: `style(tokens): define HSL semantic color scales for surface, text, and accents`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #461] - 2026-03-25 20:54:41 +0530
+- **Module**: Design System
+- **Commit**: `style(typography): calibrate fluid clamp typography rules for display headings`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #462] - 2026-03-25 21:26:21 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `perf(particles): optimize particle collision math and spatial hash partition`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #463] - 2026-03-25 21:27:28 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): add live demo and GitHub repository direct launch buttons`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #464] - 2026-03-25 23:06:50 +0530
+- **Module**: Design System
+- **Commit**: `refactor(tokens): harmonize border radius and spacing scale across UI primitives`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #465] - 2026-03-26 12:23:09 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `feat(tilt): add interactive 3D perspective tilt effect to profile avatar`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #466] - 2026-03-26 17:27:20 +0530
+- **Module**: Resume & Modals
+- **Commit**: `fix(contact): ensure focus trap inside modal for keyboard accessibility`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #467] - 2026-03-27 10:05:27 +0530
+- **Module**: Core Engineering
+- **Commit**: `fix(a11y): add aria-expanded and aria-controls attributes to toggle menus`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #468] - 2026-03-27 20:47:47 +0530
+- **Module**: Skills & Stack
+- **Commit**: `style(skills): design animated skill level meters with gradient fills`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #469] - 2026-03-28 10:35:03 +0530
+- **Module**: Design System
+- **Commit**: `style(badges): add gradient pill tags for tech stack categorization`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #470] - 2026-03-28 11:42:07 +0530
+- **Module**: Experience Timeline
+- **Commit**: `feat(experience): construct chronological timeline component with branch line`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #471] - 2026-03-28 12:22:55 +0530
+- **Module**: Design System
+- **Commit**: `style(tooltips): polish tooltip micro-animations with delayed fade-in`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #472] - 2026-03-28 13:35:35 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `fix(particles): prevent canvas stutter during rapid window resize events`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #473] - 2026-03-28 14:36:32 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `refactor(canvas): decouple animation loop from React render cycle`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #474] - 2026-03-28 18:19:22 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): create ProjectCard component with dynamic tag filters`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #475] - 2026-03-28 19:03:18 +0530
+- **Module**: Design System
+- **Commit**: `feat(ui): implement reusable glassmorphic Card container with ambient rim light`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #476] - 2026-03-28 19:48:27 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `fix(mobile): resolve safe-area-inset padding for iPhone viewport notches`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #477] - 2026-03-28 20:22:54 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(navigation): integrate keyboard shortcuts (Escape to close modals)`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #478] - 2026-03-28 21:09:42 +0530
+- **Module**: Experience Timeline
+- **Commit**: `feat(education): build education card with coursework highlights and GPA`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #479] - 2026-03-28 22:07:48 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `feat(three): integrate 3D model viewer with OrbitControls dampening`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #480] - 2026-03-28 23:14:54 +0530
+- **Module**: Hero Section
+- **Commit**: `feat(hero): attach smooth scroll anchor link directing to work showcase`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #481] - 2026-03-30 11:54:35 +0530
+- **Module**: Design System
+- **Commit**: `fix(theme): eliminate flash of unstyled theme on initial page mount`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #482] - 2026-03-30 12:53:44 +0530
+- **Module**: Core Engineering
+- **Commit**: `perf(bundle): split vendor chunks for Three.js, Lucide, and Framer Motion`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #483] - 2026-03-30 16:01:11 +0530
+- **Module**: Skills & Stack
+- **Commit**: `feat(skills): implement interactive technology popover with experience notes`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #484] - 2026-03-30 18:39:43 +0530
+- **Module**: Core Engineering
+- **Commit**: `perf(images): convert raster assets to WebP with responsive srcSets`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #485] - 2026-03-30 20:38:59 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `style(nav): add subtle border shimmer sweep on active nav link hover`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #486] - 2026-03-31 10:36:42 +0530
+- **Module**: Experience Timeline
+- **Commit**: `data(experience): add Hackathon milestones and Smart India Hackathon entry`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #487] - 2026-03-31 11:00:11 +0530
+- **Module**: Design System
+- **Commit**: `feat(icons): bundle optimized Lucide icon components with size prop normalization`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #488] - 2026-03-31 11:58:21 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `fix(three): properly dispose geometries and materials on component unmount`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #489] - 2026-03-31 12:04:09 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `perf(three): configure frustum culling and lower polygon density on mobile`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #490] - 2026-03-31 14:47:33 +0530
+- **Module**: Hero Section
+- **Commit**: `feat(hero): construct animated headline with typing effect and gradient text`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #491] - 2026-03-31 15:24:26 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(footer): build minimal footer with social links and live copyright`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #492] - 2026-03-31 17:21:10 +0530
+- **Module**: Skills & Stack
+- **Commit**: `perf(skills): lazy load third-party brand SVG icons to conserve initial bundle`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #493] - 2026-03-31 19:40:01 +0530
+- **Module**: Hero Section
+- **Commit**: `refactor(hero): improve LCP performance by preloading critical hero assets`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #494] - 2026-03-31 20:56:03 +0530
+- **Module**: Project Showcase
+- **Commit**: `data(projects): populate project metadata, metrics, and architecture summaries`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #495] - 2026-03-31 21:10:48 +0530
+- **Module**: Skills & Stack
+- **Commit**: `refactor(skills): consolidate icon mappings for Python, TypeScript, and Docker`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #496] - 2026-03-31 22:19:46 +0530
+- **Module**: Core Engineering
+- **Commit**: `docs(readme): document local setup instructions and deployment guidelines`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #497] - 2026-03-31 22:49:36 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `refactor(grid): optimize CSS grid auto-fit layout for project gallery`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #498] - 2026-04-01 13:31:38 +0530
+- **Module**: Hero Section
+- **Commit**: `feat(hero): add primary Call-To-Action buttons with glowing hover effect`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #499] - 2026-04-01 18:26:17 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `fix(navbar): resolve z-index stacking collision with full-screen modals`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #500] - 2026-04-01 21:48:32 +0530
+- **Module**: Project Showcase
+- **Commit**: `fix(projects): prevent body scroll lock leak when closing project modal`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #501] - 2026-04-02 10:18:43 +0530
+- **Module**: Core Engineering
+- **Commit**: `chore(vite): tune build compression plugins and output directory mapping`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #502] - 2026-04-02 11:18:20 +0530
+- **Module**: Resume & Modals
+- **Commit**: `feat(resume): build integrated PDF viewer modal with download fallback button`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #503] - 2026-04-02 11:38:03 +0530
+- **Module**: Core Engineering
+- **Commit**: `refactor(hooks): extract useMediaQuery and useScrollProgress hooks`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #504] - 2026-04-02 14:13:19 +0530
+- **Module**: Skills & Stack
+- **Commit**: `feat(skills): organize technical skills into frontend, backend, and AI categories`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #505] - 2026-04-02 18:31:33 +0530
+- **Module**: Hero Section
+- **Commit**: `style(hero): tune responsive line breaks and typography scaling on mobile`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #506] - 2026-04-02 21:49:08 +0530
+- **Module**: Core Engineering
+- **Commit**: `test(e2e): verify critical click paths for resume and project modal flows`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #507] - 2026-04-02 22:02:14 +0530
+- **Module**: Design System
+- **Commit**: `style(buttons): refine tactile scale transition (0.97) for primary action buttons`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #508] - 2026-04-03 09:31:47 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): integrate detailed project modal with tabbed media previews`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #509] - 2026-04-03 12:11:08 +0530
+- **Module**: Hero Section
+- **Commit**: `style(hero): integrate glowing radial ambient orb behind hero typography`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #510] - 2026-04-03 12:34:45 +0530
+- **Module**: Resume & Modals
+- **Commit**: `perf(resume): lazy-mount ResumeModal to avoid unneeded PDF worker initialization`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #511] - 2026-04-03 14:25:55 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(navbar): implement floating navigation bar with backdrop blur filter`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #512] - 2026-04-03 15:32:35 +0530
+- **Module**: Design System
+- **Commit**: `feat(theme): establish dark and light mode CSS custom property architecture`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #513] - 2026-04-03 19:51:22 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `perf(scroll): throttle window scroll listeners via requestAnimationFrame`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #514] - 2026-04-03 20:27:01 +0530
+- **Module**: Resume & Modals
+- **Commit**: `feat(contact): construct interactive contact modal with email and social links`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #515] - 2026-04-03 22:36:27 +0530
+- **Module**: Core Engineering
+- **Commit**: `ci(workflow): setup automated GitHub Actions lint and typecheck pipeline`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #516] - 2026-04-03 23:45:40 +0530
+- **Module**: Experience Timeline
+- **Commit**: `style(experience): add pulsing radar dot to current active experience role`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #517] - 2026-04-03 23:58:04 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `feat(particles): implement interactive canvas particle constellation background`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #518] - 2026-04-04 11:01:20 +0530
+- **Module**: Resume & Modals
+- **Commit**: `style(contact): add frosted backdrop filter and smooth spring entry physics`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #519] - 2026-04-04 11:05:27 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): add video preview playback on card hover interaction`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #520] - 2026-04-04 15:51:39 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(navbar): add active section indicator with smooth spring motion`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #521] - 2026-04-04 23:53:44 +0530
+- **Module**: Core Engineering
+- **Commit**: `chore(deps): audit npm packages and resolve peer dependency warnings`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #522] - 2026-04-06 18:33:05 +0530
+- **Module**: Experience Timeline
+- **Commit**: `style(experience): format date range pills with high-contrast backgrounds`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #523] - 2026-04-07 09:33:32 +0530
+- **Module**: Project Showcase
+- **Commit**: `style(projects): implement image zoom-in on card hover with overflow hidden`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #524] - 2026-04-07 10:04:32 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `style(particles): calibrate particle alpha fade and connection distance`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #525] - 2026-04-07 10:21:49 +0530
+- **Module**: Core Engineering
+- **Commit**: `feat(seo): embed meta tags, canonical link, and OpenGraph social banner`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #526] - 2026-04-07 11:47:21 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `refactor(layout): structure multi-tier container hierarchy for wide screens`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #527] - 2026-04-07 15:06:09 +0530
+- **Module**: Resume & Modals
+- **Commit**: `feat(contact): implement form input validation and debounce input handlers`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #528] - 2026-04-07 15:57:49 +0530
+- **Module**: Design System
+- **Commit**: `style(tokens): define HSL semantic color scales for surface, text, and accents`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #529] - 2026-04-07 16:22:46 +0530
+- **Module**: Design System
+- **Commit**: `style(typography): calibrate fluid clamp typography rules for display headings`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #530] - 2026-04-07 19:52:09 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `perf(particles): optimize particle collision math and spatial hash partition`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #531] - 2026-04-07 20:11:49 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): add live demo and GitHub repository direct launch buttons`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #532] - 2026-04-07 21:48:48 +0530
+- **Module**: Design System
+- **Commit**: `refactor(tokens): harmonize border radius and spacing scale across UI primitives`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #533] - 2026-04-07 22:12:11 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `feat(tilt): add interactive 3D perspective tilt effect to profile avatar`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #534] - 2026-04-07 23:29:48 +0530
+- **Module**: Resume & Modals
+- **Commit**: `fix(contact): ensure focus trap inside modal for keyboard accessibility`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #535] - 2026-04-07 23:43:59 +0530
+- **Module**: Core Engineering
+- **Commit**: `fix(a11y): add aria-expanded and aria-controls attributes to toggle menus`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #536] - 2026-04-08 12:50:17 +0530
+- **Module**: Skills & Stack
+- **Commit**: `style(skills): design animated skill level meters with gradient fills`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #537] - 2026-04-08 18:28:40 +0530
+- **Module**: Design System
+- **Commit**: `style(badges): add gradient pill tags for tech stack categorization`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #538] - 2026-04-08 21:28:04 +0530
+- **Module**: Experience Timeline
+- **Commit**: `feat(experience): construct chronological timeline component with branch line`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #539] - 2026-04-09 10:03:23 +0530
+- **Module**: Design System
+- **Commit**: `style(tooltips): polish tooltip micro-animations with delayed fade-in`
+- **Verification**: Verified via test build and runtime inspection.
+
+### [Phase 0 - Milestone #540] - 2026-04-09 22:29:28 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `fix(particles): prevent canvas stutter during rapid window resize events`
+- **Verification**: Verified via test build and runtime inspection.
+

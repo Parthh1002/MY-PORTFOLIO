@@ -1,0 +1,120 @@
+/* ── Profile Glassmorphism & 3D Tilt ──────────────────────── */
+.profile-frame-container {
+  width: 100%;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.premium-glass-card {
+  position: relative;
+  width: 100%;
+  max-width: 220px;
+  aspect-ratio: 1 / 1.1;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform-style: preserve-3d;
+}
+
+.profile-img-wrap {
+  width: 86%;
+  height: 86%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.5);
+}
+
+.profile-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.profile-glow {
+  position: absolute;
+  inset: -15px;
+  border-radius: 30px;
+  background: radial-gradient(circle at center, var(--accent-primary), transparent 60%);
+  opacity: 0.15;
+  pointer-events: none;
+  filter: blur(15px);
+}
+
+.profile-glare {
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  pointer-events: none;
+  mix-blend-mode: soft-light;
+}
+
+/* ── Compact sidebar (tablet / large mobile) ─────────────── */
+@media (max-width: 960px) {
+  .profile-frame-container {
+    grid-column: 1;
+    grid-row: 1 / 5;
+    margin-bottom: 0;
+    /* width is driven by the grid column: clamp(96px,22vw,116px) */
+    width: 100% !important;
+    max-width: 100% !important;
+    align-self: center;
+    justify-content: flex-start;
+  }
+
+  .premium-glass-card {
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+  }
+
+  .profile-img-wrap {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+  }
+
+  .profile-glare {
+    border-radius: 50%;
+  }
+}
+
+/* ── Small phone  (≤ 480px) ────────────────────────────────── */
+@media (max-width: 480px) {
+  .profile-frame-container {
+    /* Column is clamp(72px,22vw,92px) — card fills it */
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .premium-glass-card {
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  }
+
+  .profile-img-wrap {
+    width: 88%;
+    height: 88%;
+    border-radius: 50%;
+  }
+
+  .profile-glare {
+    border-radius: 50%;
+  }
+
+  .profile-glow {
+    inset: -8px;
+    filter: blur(10px);
+  }
+}
