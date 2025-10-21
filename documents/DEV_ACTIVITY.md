@@ -80,3 +80,4 @@
 - 2025-10-21 11:21:37 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
 - 2025-10-21 14:26:07 +0530: chore(deps): bump tailwindcss and postcss plugins to latest minor release
 - 2025-10-21 19:05:30 +0530: feat(github): display live repository star counts and primary language pills
+- 2025-10-21 19:37:23 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
