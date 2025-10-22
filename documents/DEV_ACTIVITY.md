@@ -83,3 +83,4 @@
 - 2025-10-21 19:37:23 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
 - 2025-10-21 22:08:14 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
 - 2025-10-22 10:35:59 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
+- 2025-10-22 12:54:14 +0530: style(buttons): refine magnetic button hover physics with framer-motion
