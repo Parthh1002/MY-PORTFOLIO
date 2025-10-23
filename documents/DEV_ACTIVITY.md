@@ -89,3 +89,4 @@
 - 2025-10-23 11:40:06 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
 - 2025-10-23 14:27:16 +0530: feat(skills): add interactive filter tags for full-stack and cloud technologies
 - 2025-10-23 17:22:57 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
+- 2025-10-23 20:24:19 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
