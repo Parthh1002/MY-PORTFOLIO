@@ -90,3 +90,4 @@
 - 2025-10-23 14:27:16 +0530: feat(skills): add interactive filter tags for full-stack and cloud technologies
 - 2025-10-23 17:22:57 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
 - 2025-10-23 20:24:19 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
+- 2025-10-23 20:39:29 +0530: style(theme): enhance dark theme OLED contrast tokens and ambient glow
