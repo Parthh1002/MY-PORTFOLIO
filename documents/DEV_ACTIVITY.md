@@ -91,3 +91,4 @@
 - 2025-10-23 17:22:57 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
 - 2025-10-23 20:24:19 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
 - 2025-10-23 20:39:29 +0530: style(theme): enhance dark theme OLED contrast tokens and ambient glow
+- 2025-10-24 11:11:54 +0530: chore(deps): bump tailwindcss and postcss plugins to latest minor release
