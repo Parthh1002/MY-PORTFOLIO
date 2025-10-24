@@ -93,3 +93,4 @@
 - 2025-10-23 20:39:29 +0530: style(theme): enhance dark theme OLED contrast tokens and ambient glow
 - 2025-10-24 11:11:54 +0530: chore(deps): bump tailwindcss and postcss plugins to latest minor release
 - 2025-10-24 12:58:30 +0530: docs(readme): update project achievements, live demos, and certification badges
+- 2025-10-24 12:41:30 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
