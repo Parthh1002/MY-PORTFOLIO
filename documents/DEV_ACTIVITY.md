@@ -96,3 +96,4 @@
 - 2025-10-24 12:41:30 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
 - 2025-10-24 15:01:58 +0530: style(theme): enhance dark theme OLED contrast tokens and ambient glow
 - 2025-10-25 11:44:35 +0530: style(theme): enhance dark theme OLED contrast tokens and ambient glow
+- 2025-10-25 17:21:53 +0530: perf(images): implement responsive picture element with WebP formats
