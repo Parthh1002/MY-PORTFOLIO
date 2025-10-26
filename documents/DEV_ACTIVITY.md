@@ -99,3 +99,4 @@
 - 2025-10-25 17:21:53 +0530: perf(images): implement responsive picture element with WebP formats
 - 2025-10-25 18:31:02 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
 - 2025-10-25 22:17:29 +0530: chore(deps): bump tailwindcss and postcss plugins to latest minor release
+- 2025-10-26 16:00:35 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
