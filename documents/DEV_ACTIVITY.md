@@ -100,3 +100,4 @@
 - 2025-10-25 18:31:02 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
 - 2025-10-25 22:17:29 +0530: chore(deps): bump tailwindcss and postcss plugins to latest minor release
 - 2025-10-26 16:00:35 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
+- 2025-10-26 17:02:05 +0530: style(theme): enhance dark theme OLED contrast tokens and ambient glow
