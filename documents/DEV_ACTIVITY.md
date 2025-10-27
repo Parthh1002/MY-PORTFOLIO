@@ -104,3 +104,4 @@
 - 2025-10-26 18:46:34 +0530: feat(skills): add interactive filter tags for full-stack and cloud technologies
 - 2025-10-26 20:08:34 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
 - 2025-10-26 22:02:02 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
+- 2025-10-27 10:37:17 +0530: perf(images): implement responsive picture element with WebP formats
