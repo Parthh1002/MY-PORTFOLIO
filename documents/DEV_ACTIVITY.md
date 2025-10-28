@@ -115,3 +115,4 @@
 - 2025-10-28 14:43:09 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
 - 2025-10-28 15:43:26 +0530: feat(contact): integrate client-side form validation and accessible error feedback
 - 2025-10-28 16:36:33 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
+- 2025-10-28 21:57:16 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
