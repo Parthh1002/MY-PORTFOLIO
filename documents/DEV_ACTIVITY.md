@@ -117,3 +117,4 @@
 - 2025-10-28 16:36:33 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
 - 2025-10-28 21:57:16 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
 - 2025-10-29 10:39:31 +0530: perf(images): implement responsive picture element with WebP formats
+- 2025-10-29 11:43:39 +0530: chore(deps): bump tailwindcss and postcss plugins to latest minor release
