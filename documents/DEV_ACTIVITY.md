@@ -119,3 +119,4 @@
 - 2025-10-29 10:39:31 +0530: perf(images): implement responsive picture element with WebP formats
 - 2025-10-29 11:43:39 +0530: chore(deps): bump tailwindcss and postcss plugins to latest minor release
 - 2025-10-29 13:52:22 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
+- 2025-10-29 14:07:01 +0530: feat(skills): add interactive filter tags for full-stack and cloud technologies
