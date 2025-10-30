@@ -121,3 +121,4 @@
 - 2025-10-29 13:52:22 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
 - 2025-10-29 14:07:01 +0530: feat(skills): add interactive filter tags for full-stack and cloud technologies
 - 2025-10-29 15:55:30 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
+- 2025-10-30 11:23:53 +0530: perf(render): memoize project card component to eliminate redundant re-renders
