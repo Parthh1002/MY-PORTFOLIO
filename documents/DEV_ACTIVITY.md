@@ -125,3 +125,4 @@
 - 2025-10-30 15:06:31 +0530: chore(deps): bump tailwindcss and postcss plugins to latest minor release
 - 2025-10-30 18:46:18 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
 - 2025-10-30 19:08:57 +0530: feat(contact): integrate client-side form validation and accessible error feedback
+- 2025-10-30 19:09:54 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
