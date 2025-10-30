@@ -123,3 +123,4 @@
 - 2025-10-29 15:55:30 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
 - 2025-10-30 11:23:53 +0530: perf(render): memoize project card component to eliminate redundant re-renders
 - 2025-10-30 15:06:31 +0530: chore(deps): bump tailwindcss and postcss plugins to latest minor release
+- 2025-10-30 18:46:18 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
