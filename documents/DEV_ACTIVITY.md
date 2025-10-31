@@ -129,3 +129,4 @@
 - 2025-10-31 11:54:26 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
 - 2025-10-31 14:15:05 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
 - 2025-10-31 14:46:46 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
+- 2025-10-31 19:51:55 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
