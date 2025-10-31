@@ -131,3 +131,4 @@
 - 2025-10-31 14:46:46 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
 - 2025-10-31 19:51:55 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
 - 2025-10-31 22:23:32 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
+- 2025-10-31 22:47:05 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
