@@ -128,3 +128,4 @@
 - 2025-10-30 19:09:54 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
 - 2025-10-31 11:54:26 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
 - 2025-10-31 14:15:05 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
+- 2025-10-31 14:46:46 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
