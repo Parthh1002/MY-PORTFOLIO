@@ -135,3 +135,4 @@
 - 2025-11-01 12:35:27 +0530: perf(images): implement responsive picture element with WebP formats
 - 2025-11-01 13:21:54 +0530: feat(contact): integrate client-side form validation and accessible error feedback
 - 2025-11-01 14:41:36 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
+- 2025-11-01 14:35:13 +0530: style(theme): enhance dark theme OLED contrast tokens and ambient glow
