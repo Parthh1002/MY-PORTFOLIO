@@ -134,3 +134,4 @@
 - 2025-10-31 22:47:05 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
 - 2025-11-01 12:35:27 +0530: perf(images): implement responsive picture element with WebP formats
 - 2025-11-01 13:21:54 +0530: feat(contact): integrate client-side form validation and accessible error feedback
+- 2025-11-01 14:41:36 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
