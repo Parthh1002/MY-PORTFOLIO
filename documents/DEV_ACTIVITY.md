@@ -137,3 +137,4 @@
 - 2025-11-01 14:41:36 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
 - 2025-11-01 14:35:13 +0530: style(theme): enhance dark theme OLED contrast tokens and ambient glow
 - 2025-11-02 14:53:09 +0530: feat(contact): integrate client-side form validation and accessible error feedback
+- 2025-11-02 16:44:11 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
