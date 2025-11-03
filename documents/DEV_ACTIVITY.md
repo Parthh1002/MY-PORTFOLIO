@@ -145,3 +145,4 @@
 - 2025-11-03 14:01:01 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
 - 2025-11-03 16:46:28 +0530: feat(contact): integrate client-side form validation and accessible error feedback
 - 2025-11-03 17:24:17 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
+- 2025-11-03 17:50:03 +0530: style(buttons): refine magnetic button hover physics with framer-motion
