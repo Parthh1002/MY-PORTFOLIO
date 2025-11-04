@@ -150,3 +150,4 @@
 - 2025-11-04 12:02:51 +0530: docs(readme): update project achievements, live demos, and certification badges
 - 2025-11-04 14:21:26 +0530: feat(portfolio): refine responsive grid layout for project showcase cards
 - 2025-11-04 15:35:20 +0530: style(theme): enhance dark theme OLED contrast tokens and ambient glow
+- 2025-11-04 20:54:59 +0530: docs(readme): update project achievements, live demos, and certification badges
