@@ -147,3 +147,4 @@
 - 2025-11-03 17:24:17 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
 - 2025-11-03 17:50:03 +0530: style(buttons): refine magnetic button hover physics with framer-motion
 - 2025-11-04 11:46:49 +0530: style(theme): enhance dark theme OLED contrast tokens and ambient glow
+- 2025-11-04 12:02:51 +0530: docs(readme): update project achievements, live demos, and certification badges
