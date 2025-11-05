@@ -152,3 +152,4 @@
 - 2025-11-04 15:35:20 +0530: style(theme): enhance dark theme OLED contrast tokens and ambient glow
 - 2025-11-04 20:54:59 +0530: docs(readme): update project achievements, live demos, and certification badges
 - 2025-11-04 21:22:04 +0530: feat(skills): add interactive filter tags for full-stack and cloud technologies
+- 2025-11-05 10:34:13 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
