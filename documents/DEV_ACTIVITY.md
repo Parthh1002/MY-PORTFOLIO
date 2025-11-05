@@ -156,3 +156,4 @@
 - 2025-11-05 14:06:42 +0530: feat(skills): add interactive filter tags for full-stack and cloud technologies
 - 2025-11-05 16:15:47 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
 - 2025-11-05 17:39:00 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
+- 2025-11-05 22:06:52 +0530: docs(readme): update project achievements, live demos, and certification badges
