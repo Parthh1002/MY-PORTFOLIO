@@ -163,3 +163,4 @@
 - 2025-11-06 18:06:27 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
 - 2025-11-07 10:07:46 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
 - 2025-11-07 11:07:52 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
+- 2025-11-07 19:51:18 +0530: docs(readme): update project achievements, live demos, and certification badges
