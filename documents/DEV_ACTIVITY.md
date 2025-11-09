@@ -174,3 +174,4 @@
 - 2025-11-09 17:08:17 +0530: feat(skills): add interactive filter tags for full-stack and cloud technologies
 - 2025-11-09 20:16:43 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
 - 2025-11-09 21:40:05 +0530: chore(deps): bump tailwindcss and postcss plugins to latest minor release
+- 2025-11-09 22:39:04 +0530: docs(readme): update project achievements, live demos, and certification badges
