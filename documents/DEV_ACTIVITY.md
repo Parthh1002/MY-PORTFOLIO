@@ -169,3 +169,4 @@
 - 2025-11-08 14:23:39 +0530: feat(contact): integrate client-side form validation and accessible error feedback
 - 2025-11-08 15:31:41 +0530: feat(portfolio): refine responsive grid layout for project showcase cards
 - 2025-11-08 16:50:39 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
+- 2025-11-09 14:05:14 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
