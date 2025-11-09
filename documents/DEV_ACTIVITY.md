@@ -171,3 +171,4 @@
 - 2025-11-08 16:50:39 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
 - 2025-11-09 14:05:14 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
 - 2025-11-09 17:50:15 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
+- 2025-11-09 17:08:17 +0530: feat(skills): add interactive filter tags for full-stack and cloud technologies
