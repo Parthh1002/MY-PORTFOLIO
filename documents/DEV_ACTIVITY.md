@@ -183,3 +183,4 @@
 - 2025-11-11 15:32:07 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
 - 2025-11-11 16:50:17 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
 - 2025-11-11 22:29:18 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
+- 2025-11-11 22:24:04 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
