@@ -179,3 +179,4 @@
 - 2025-11-10 15:52:06 +0530: feat(github): display live repository star counts and primary language pills
 - 2025-11-10 17:56:47 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
 - 2025-11-10 21:20:02 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
+- 2025-11-11 13:33:30 +0530: chore(deps): bump tailwindcss and postcss plugins to latest minor release
