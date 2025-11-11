@@ -182,3 +182,4 @@
 - 2025-11-11 13:33:30 +0530: chore(deps): bump tailwindcss and postcss plugins to latest minor release
 - 2025-11-11 15:32:07 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
 - 2025-11-11 16:50:17 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
+- 2025-11-11 22:29:18 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
