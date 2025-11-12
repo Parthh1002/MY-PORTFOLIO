@@ -185,3 +185,4 @@
 - 2025-11-11 22:29:18 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
 - 2025-11-11 22:24:04 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
 - 2025-11-11 22:14:24 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
+- 2025-11-12 10:16:28 +0530: feat(analytics): add privacy-friendly client-side pageview telemetry
