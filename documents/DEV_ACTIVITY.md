@@ -189,3 +189,4 @@
 - 2025-11-12 17:11:21 +0530: feat(github): display live repository star counts and primary language pills
 - 2025-11-12 18:50:01 +0530: perf(render): memoize project card component to eliminate redundant re-renders
 - 2025-11-12 19:23:10 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
+- 2025-11-12 20:15:01 +0530: docs(readme): update project achievements, live demos, and certification badges
