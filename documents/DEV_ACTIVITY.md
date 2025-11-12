@@ -187,3 +187,4 @@
 - 2025-11-11 22:14:24 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
 - 2025-11-12 10:16:28 +0530: feat(analytics): add privacy-friendly client-side pageview telemetry
 - 2025-11-12 17:11:21 +0530: feat(github): display live repository star counts and primary language pills
+- 2025-11-12 18:50:01 +0530: perf(render): memoize project card component to eliminate redundant re-renders
