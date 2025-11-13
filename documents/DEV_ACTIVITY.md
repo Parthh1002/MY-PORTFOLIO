@@ -191,3 +191,4 @@
 - 2025-11-12 19:23:10 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
 - 2025-11-12 20:15:01 +0530: docs(readme): update project achievements, live demos, and certification badges
 - 2025-11-12 20:05:39 +0530: docs(readme): update project achievements, live demos, and certification badges
+- 2025-11-13 11:41:38 +0530: perf(images): implement responsive picture element with WebP formats
