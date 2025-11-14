@@ -196,3 +196,4 @@
 - 2025-11-13 20:38:24 +0530: feat(contact): integrate client-side form validation and accessible error feedback
 - 2025-11-13 21:52:14 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
 - 2025-11-13 22:24:44 +0530: feat(portfolio): refine responsive grid layout for project showcase cards
+- 2025-11-14 11:15:18 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
