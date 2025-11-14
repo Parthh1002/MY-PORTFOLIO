@@ -197,3 +197,4 @@
 - 2025-11-13 21:52:14 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
 - 2025-11-13 22:24:44 +0530: feat(portfolio): refine responsive grid layout for project showcase cards
 - 2025-11-14 11:15:18 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
+- 2025-11-14 13:33:25 +0530: docs(readme): update project achievements, live demos, and certification badges
