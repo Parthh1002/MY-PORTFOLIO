@@ -202,3 +202,4 @@
 - 2025-11-14 16:44:00 +0530: docs(readme): update project achievements, live demos, and certification badges
 - 2025-11-15 10:45:29 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
 - 2025-11-15 10:47:37 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
+- 2025-11-15 16:26:50 +0530: feat(github): display live repository star counts and primary language pills
