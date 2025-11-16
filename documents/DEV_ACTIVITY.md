@@ -204,3 +204,4 @@
 - 2025-11-15 10:47:37 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
 - 2025-11-15 16:26:50 +0530: feat(github): display live repository star counts and primary language pills
 - 2025-11-15 20:59:06 +0530: feat(github): display live repository star counts and primary language pills
+- 2025-11-16 13:57:39 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
