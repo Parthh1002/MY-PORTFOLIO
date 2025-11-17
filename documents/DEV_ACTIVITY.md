@@ -213,3 +213,4 @@
 - 2025-11-17 12:59:07 +0530: feat(contact): integrate client-side form validation and accessible error feedback
 - 2025-11-17 13:48:47 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
 - 2025-11-17 14:50:13 +0530: docs(readme): update project achievements, live demos, and certification badges
+- 2025-11-17 18:38:23 +0530: docs(readme): update project achievements, live demos, and certification badges
