@@ -210,3 +210,4 @@
 - 2025-11-16 19:11:14 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
 - 2025-11-16 19:43:33 +0530: feat(analytics): add privacy-friendly client-side pageview telemetry
 - 2025-11-17 10:55:44 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
+- 2025-11-17 12:59:07 +0530: feat(contact): integrate client-side form validation and accessible error feedback
