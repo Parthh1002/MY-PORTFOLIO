@@ -215,3 +215,4 @@
 - 2025-11-17 14:50:13 +0530: docs(readme): update project achievements, live demos, and certification badges
 - 2025-11-17 18:38:23 +0530: docs(readme): update project achievements, live demos, and certification badges
 - 2025-11-17 19:26:12 +0530: feat(skills): add interactive filter tags for full-stack and cloud technologies
+- 2025-11-18 10:37:43 +0530: feat(portfolio): refine responsive grid layout for project showcase cards
