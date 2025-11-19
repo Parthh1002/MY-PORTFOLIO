@@ -221,3 +221,4 @@
 - 2025-11-18 13:40:17 +0530: chore(deps): bump tailwindcss and postcss plugins to latest minor release
 - 2025-11-18 20:29:44 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
 - 2025-11-19 11:05:17 +0530: chore(deps): bump tailwindcss and postcss plugins to latest minor release
+- 2025-11-19 14:55:56 +0530: feat(portfolio): refine responsive grid layout for project showcase cards
