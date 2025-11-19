@@ -223,3 +223,4 @@
 - 2025-11-19 11:05:17 +0530: chore(deps): bump tailwindcss and postcss plugins to latest minor release
 - 2025-11-19 14:55:56 +0530: feat(portfolio): refine responsive grid layout for project showcase cards
 - 2025-11-19 15:35:43 +0530: docs(readme): update project achievements, live demos, and certification badges
+- 2025-11-19 19:19:30 +0530: feat(github): display live repository star counts and primary language pills
