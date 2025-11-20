@@ -229,3 +229,4 @@
 - 2025-11-20 14:17:41 +0530: chore(deps): bump tailwindcss and postcss plugins to latest minor release
 - 2025-11-20 14:30:42 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
 - 2025-11-20 18:49:51 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
+- 2025-11-20 18:32:29 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
