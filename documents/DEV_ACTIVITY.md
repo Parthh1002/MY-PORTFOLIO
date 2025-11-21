@@ -230,3 +230,4 @@
 - 2025-11-20 14:30:42 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
 - 2025-11-20 18:49:51 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
 - 2025-11-20 18:32:29 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
+- 2025-11-21 10:47:02 +0530: docs(readme): update project achievements, live demos, and certification badges
