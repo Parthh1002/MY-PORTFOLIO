@@ -236,3 +236,4 @@
 - 2025-11-21 13:31:19 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
 - 2025-11-21 22:51:36 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
 - 2025-11-22 10:00:50 +0530: docs(readme): update project achievements, live demos, and certification badges
+- 2025-11-22 14:31:37 +0530: perf(images): implement responsive picture element with WebP formats
