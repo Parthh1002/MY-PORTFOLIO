@@ -242,3 +242,4 @@
 - 2025-11-23 10:19:17 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
 - 2025-11-23 11:08:33 +0530: feat(analytics): add privacy-friendly client-side pageview telemetry
 - 2025-11-23 12:46:39 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
+- 2025-11-23 14:45:08 +0530: feat(skills): add interactive filter tags for full-stack and cloud technologies
