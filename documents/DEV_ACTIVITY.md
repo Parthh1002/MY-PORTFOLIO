@@ -252,3 +252,4 @@
 - 2025-11-25 12:45:56 +0530: style(buttons): refine magnetic button hover physics with framer-motion
 - 2025-11-25 20:04:11 +0530: chore(deps): bump tailwindcss and postcss plugins to latest minor release
 - 2025-11-25 20:11:28 +0530: feat(skills): add interactive filter tags for full-stack and cloud technologies
+- 2025-11-25 21:48:40 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
