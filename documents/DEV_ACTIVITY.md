@@ -250,3 +250,4 @@
 - 2025-11-24 19:48:57 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
 - 2025-11-24 20:05:27 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
 - 2025-11-25 12:45:56 +0530: style(buttons): refine magnetic button hover physics with framer-motion
+- 2025-11-25 20:04:11 +0530: chore(deps): bump tailwindcss and postcss plugins to latest minor release
