@@ -255,3 +255,4 @@
 - 2025-11-25 21:48:40 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
 - 2025-11-26 10:57:57 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
 - 2025-11-26 15:04:23 +0530: feat(github): display live repository star counts and primary language pills
+- 2025-11-26 16:18:52 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
