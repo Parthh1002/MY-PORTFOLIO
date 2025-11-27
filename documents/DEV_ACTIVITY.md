@@ -259,3 +259,4 @@
 - 2025-11-26 19:00:33 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
 - 2025-11-26 21:27:38 +0530: feat(github): display live repository star counts and primary language pills
 - 2025-11-27 10:57:22 +0530: feat(analytics): add privacy-friendly client-side pageview telemetry
+- 2025-11-27 11:19:43 +0530: style(buttons): refine magnetic button hover physics with framer-motion
