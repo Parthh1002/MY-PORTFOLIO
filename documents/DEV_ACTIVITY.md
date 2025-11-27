@@ -262,3 +262,4 @@
 - 2025-11-27 11:19:43 +0530: style(buttons): refine magnetic button hover physics with framer-motion
 - 2025-11-27 14:45:58 +0530: style(buttons): refine magnetic button hover physics with framer-motion
 - 2025-11-27 16:42:20 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
+- 2025-11-27 17:33:40 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
