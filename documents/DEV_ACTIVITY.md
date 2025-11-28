@@ -267,3 +267,4 @@
 - 2025-11-28 13:20:38 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
 - 2025-11-28 15:03:03 +0530: perf(images): implement responsive picture element with WebP formats
 - 2025-11-28 17:36:39 +0530: perf(render): memoize project card component to eliminate redundant re-renders
+- 2025-11-28 22:50:03 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
