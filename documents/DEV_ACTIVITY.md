@@ -271,3 +271,4 @@
 - 2025-11-29 12:50:53 +0530: style(buttons): refine magnetic button hover physics with framer-motion
 - 2025-11-29 14:37:06 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
 - 2025-11-29 14:51:50 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
+- 2025-11-29 16:44:55 +0530: feat(portfolio): refine responsive grid layout for project showcase cards
