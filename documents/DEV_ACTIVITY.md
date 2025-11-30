@@ -275,3 +275,4 @@
 - 2025-11-29 18:49:33 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
 - 2025-11-29 20:24:22 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
 - 2025-11-30 11:42:11 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
+- 2025-11-30 14:30:01 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
