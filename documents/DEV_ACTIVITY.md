@@ -277,3 +277,4 @@
 - 2025-11-30 11:42:11 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
 - 2025-11-30 14:30:01 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
 - 2025-11-30 14:29:10 +0530: feat(analytics): add privacy-friendly client-side pageview telemetry
+- 2025-11-30 15:28:53 +0530: feat(contact): integrate client-side form validation and accessible error feedback
