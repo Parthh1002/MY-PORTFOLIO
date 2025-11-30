@@ -279,3 +279,4 @@
 - 2025-11-30 14:29:10 +0530: feat(analytics): add privacy-friendly client-side pageview telemetry
 - 2025-11-30 15:28:53 +0530: feat(contact): integrate client-side form validation and accessible error feedback
 - 2025-11-30 16:25:39 +0530: feat(analytics): add privacy-friendly client-side pageview telemetry
+- 2025-11-30 17:26:04 +0530: style(theme): enhance dark theme OLED contrast tokens and ambient glow
