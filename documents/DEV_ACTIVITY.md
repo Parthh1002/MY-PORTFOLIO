@@ -281,3 +281,4 @@
 - 2025-11-30 16:25:39 +0530: feat(analytics): add privacy-friendly client-side pageview telemetry
 - 2025-11-30 17:26:04 +0530: style(theme): enhance dark theme OLED contrast tokens and ambient glow
 - 2025-12-01 15:54:55 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
+- 2025-12-01 17:51:54 +0530: feat(portfolio): refine responsive grid layout for project showcase cards
