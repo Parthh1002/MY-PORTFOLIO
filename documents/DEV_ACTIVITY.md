@@ -283,3 +283,4 @@
 - 2025-12-01 15:54:55 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
 - 2025-12-01 17:51:54 +0530: feat(portfolio): refine responsive grid layout for project showcase cards
 - 2025-12-01 20:58:50 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
+- 2025-12-01 21:14:06 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
