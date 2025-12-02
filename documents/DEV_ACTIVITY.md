@@ -286,3 +286,4 @@
 - 2025-12-01 21:14:06 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
 - 2025-12-02 10:15:55 +0530: style(theme): enhance dark theme OLED contrast tokens and ambient glow
 - 2025-12-02 11:05:16 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
+- 2025-12-02 13:58:33 +0530: docs(readme): update project achievements, live demos, and certification badges
