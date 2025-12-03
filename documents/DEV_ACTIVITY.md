@@ -290,3 +290,4 @@
 - 2025-12-02 17:53:00 +0530: feat(skills): add interactive filter tags for full-stack and cloud technologies
 - 2025-12-02 19:25:19 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
 - 2025-12-02 21:55:40 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
+- 2025-12-03 14:32:26 +0530: perf(render): memoize project card component to eliminate redundant re-renders
