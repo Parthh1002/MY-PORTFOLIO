@@ -291,3 +291,4 @@
 - 2025-12-02 19:25:19 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
 - 2025-12-02 21:55:40 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
 - 2025-12-03 14:32:26 +0530: perf(render): memoize project card component to eliminate redundant re-renders
+- 2025-12-03 17:05:30 +0530: docs(readme): update project achievements, live demos, and certification badges
