@@ -298,3 +298,4 @@
 - 2025-12-04 10:49:27 +0530: perf(images): implement responsive picture element with WebP formats
 - 2025-12-04 12:38:30 +0530: feat(skills): add interactive filter tags for full-stack and cloud technologies
 - 2025-12-04 12:41:32 +0530: feat(portfolio): refine responsive grid layout for project showcase cards
+- 2025-12-04 17:33:43 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
