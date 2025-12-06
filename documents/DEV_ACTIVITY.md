@@ -306,3 +306,4 @@
 - 2025-12-06 14:50:51 +0530: feat(contact): integrate client-side form validation and accessible error feedback
 - 2025-12-06 15:53:19 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
 - 2025-12-06 16:56:05 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
+- 2025-12-06 17:15:12 +0530: docs(readme): update project achievements, live demos, and certification badges
