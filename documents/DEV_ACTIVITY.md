@@ -305,3 +305,4 @@
 - 2025-12-05 20:13:08 +0530: perf(render): memoize project card component to eliminate redundant re-renders
 - 2025-12-06 14:50:51 +0530: feat(contact): integrate client-side form validation and accessible error feedback
 - 2025-12-06 15:53:19 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
+- 2025-12-06 16:56:05 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
