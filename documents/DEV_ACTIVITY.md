@@ -312,3 +312,4 @@
 - 2025-12-07 15:25:41 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
 - 2025-12-07 17:55:13 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
 - 2025-12-07 17:06:26 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
+- 2025-12-07 17:01:07 +0530: feat(contact): integrate client-side form validation and accessible error feedback
