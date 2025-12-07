@@ -311,3 +311,4 @@
 - 2025-12-06 22:34:54 +0530: feat(github): display live repository star counts and primary language pills
 - 2025-12-07 15:25:41 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
 - 2025-12-07 17:55:13 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
+- 2025-12-07 17:06:26 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
