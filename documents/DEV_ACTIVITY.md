@@ -315,3 +315,4 @@
 - 2025-12-07 17:01:07 +0530: feat(contact): integrate client-side form validation and accessible error feedback
 - 2025-12-08 11:22:11 +0530: feat(portfolio): refine responsive grid layout for project showcase cards
 - 2025-12-08 11:34:35 +0530: feat(github): display live repository star counts and primary language pills
+- 2025-12-08 12:28:22 +0530: feat(analytics): add privacy-friendly client-side pageview telemetry
