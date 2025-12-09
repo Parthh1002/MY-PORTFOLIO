@@ -323,3 +323,4 @@
 - 2025-12-09 17:56:01 +0530: style(theme): enhance dark theme OLED contrast tokens and ambient glow
 - 2025-12-09 20:52:21 +0530: feat(skills): add interactive filter tags for full-stack and cloud technologies
 - 2025-12-09 22:43:29 +0530: style(buttons): refine magnetic button hover physics with framer-motion
+- 2025-12-09 22:02:29 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
