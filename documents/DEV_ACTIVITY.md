@@ -320,3 +320,4 @@
 - 2025-12-08 14:03:20 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
 - 2025-12-08 14:19:50 +0530: feat(github): display live repository star counts and primary language pills
 - 2025-12-09 13:13:15 +0530: chore(deps): bump tailwindcss and postcss plugins to latest minor release
+- 2025-12-09 17:56:01 +0530: style(theme): enhance dark theme OLED contrast tokens and ambient glow
