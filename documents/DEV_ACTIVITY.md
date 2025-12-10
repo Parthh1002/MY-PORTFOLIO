@@ -325,3 +325,4 @@
 - 2025-12-09 22:43:29 +0530: style(buttons): refine magnetic button hover physics with framer-motion
 - 2025-12-09 22:02:29 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
 - 2025-12-10 10:11:43 +0530: feat(github): display live repository star counts and primary language pills
+- 2025-12-10 11:08:50 +0530: perf(render): memoize project card component to eliminate redundant re-renders
