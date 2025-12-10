@@ -326,3 +326,4 @@
 - 2025-12-09 22:02:29 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
 - 2025-12-10 10:11:43 +0530: feat(github): display live repository star counts and primary language pills
 - 2025-12-10 11:08:50 +0530: perf(render): memoize project card component to eliminate redundant re-renders
+- 2025-12-10 15:50:44 +0530: docs(readme): update project achievements, live demos, and certification badges
