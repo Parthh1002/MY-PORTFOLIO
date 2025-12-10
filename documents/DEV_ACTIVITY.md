@@ -327,3 +327,4 @@
 - 2025-12-10 10:11:43 +0530: feat(github): display live repository star counts and primary language pills
 - 2025-12-10 11:08:50 +0530: perf(render): memoize project card component to eliminate redundant re-renders
 - 2025-12-10 15:50:44 +0530: docs(readme): update project achievements, live demos, and certification badges
+- 2025-12-10 16:00:23 +0530: style(buttons): refine magnetic button hover physics with framer-motion
