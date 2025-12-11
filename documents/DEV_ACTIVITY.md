@@ -333,3 +333,4 @@
 - 2025-12-11 13:27:27 +0530: feat(contact): integrate client-side form validation and accessible error feedback
 - 2025-12-11 15:30:49 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
 - 2025-12-11 15:02:36 +0530: perf(render): memoize project card component to eliminate redundant re-renders
+- 2025-12-11 19:49:04 +0530: style(buttons): refine magnetic button hover physics with framer-motion
