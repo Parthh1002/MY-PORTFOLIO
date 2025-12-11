@@ -330,3 +330,4 @@
 - 2025-12-10 16:00:23 +0530: style(buttons): refine magnetic button hover physics with framer-motion
 - 2025-12-10 17:34:37 +0530: style(theme): enhance dark theme OLED contrast tokens and ambient glow
 - 2025-12-11 10:45:24 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
+- 2025-12-11 13:27:27 +0530: feat(contact): integrate client-side form validation and accessible error feedback
