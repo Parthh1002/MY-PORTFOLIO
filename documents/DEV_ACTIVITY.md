@@ -336,3 +336,4 @@
 - 2025-12-11 19:49:04 +0530: style(buttons): refine magnetic button hover physics with framer-motion
 - 2025-12-11 20:47:29 +0530: perf(render): memoize project card component to eliminate redundant re-renders
 - 2025-12-12 12:20:55 +0530: style(buttons): refine magnetic button hover physics with framer-motion
+- 2025-12-12 15:13:53 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
