@@ -342,3 +342,4 @@
 - 2025-12-13 11:29:08 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
 - 2025-12-13 12:43:51 +0530: chore(deps): bump tailwindcss and postcss plugins to latest minor release
 - 2025-12-13 18:53:16 +0530: perf(images): implement responsive picture element with WebP formats
+- 2025-12-13 19:55:47 +0530: feat(contact): integrate client-side form validation and accessible error feedback
