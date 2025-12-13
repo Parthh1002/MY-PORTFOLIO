@@ -339,3 +339,4 @@
 - 2025-12-12 15:13:53 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
 - 2025-12-12 19:44:37 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
 - 2025-12-12 19:52:01 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
+- 2025-12-13 11:29:08 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
