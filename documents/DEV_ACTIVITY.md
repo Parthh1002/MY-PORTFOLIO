@@ -353,3 +353,4 @@
 - 2025-12-15 16:27:11 +0530: perf(render): memoize project card component to eliminate redundant re-renders
 - 2025-12-15 18:22:57 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
 - 2025-12-15 20:14:02 +0530: feat(github): display live repository star counts and primary language pills
+- 2025-12-15 20:01:31 +0530: style(theme): enhance dark theme OLED contrast tokens and ambient glow
