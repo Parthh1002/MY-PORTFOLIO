@@ -356,3 +356,4 @@
 - 2025-12-15 20:01:31 +0530: style(theme): enhance dark theme OLED contrast tokens and ambient glow
 - 2025-12-16 10:32:51 +0530: perf(render): memoize project card component to eliminate redundant re-renders
 - 2025-12-16 12:09:44 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
+- 2025-12-16 19:55:20 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
