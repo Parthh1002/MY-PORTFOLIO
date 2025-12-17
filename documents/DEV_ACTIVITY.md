@@ -360,3 +360,4 @@
 - 2025-12-16 19:14:40 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
 - 2025-12-16 22:49:59 +0530: feat(skills): add interactive filter tags for full-stack and cloud technologies
 - 2025-12-17 17:17:51 +0530: perf(render): memoize project card component to eliminate redundant re-renders
+- 2025-12-17 19:46:01 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
