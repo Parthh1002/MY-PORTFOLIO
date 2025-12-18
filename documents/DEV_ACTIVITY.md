@@ -365,3 +365,4 @@
 - 2025-12-17 20:41:42 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
 - 2025-12-17 22:05:24 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
 - 2025-12-18 12:17:58 +0530: feat(skills): add interactive filter tags for full-stack and cloud technologies
+- 2025-12-18 16:21:28 +0530: perf(images): implement responsive picture element with WebP formats
