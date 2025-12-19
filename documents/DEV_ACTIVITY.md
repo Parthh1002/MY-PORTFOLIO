@@ -369,3 +369,4 @@
 - 2025-12-18 18:16:58 +0530: feat(analytics): add privacy-friendly client-side pageview telemetry
 - 2025-12-18 18:56:45 +0530: style(buttons): refine magnetic button hover physics with framer-motion
 - 2025-12-18 19:42:41 +0530: feat(contact): integrate client-side form validation and accessible error feedback
+- 2025-12-19 16:29:01 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
