@@ -377,3 +377,4 @@
 - 2025-12-20 15:38:32 +0530: style(theme): enhance dark theme OLED contrast tokens and ambient glow
 - 2025-12-20 19:35:57 +0530: style(theme): enhance dark theme OLED contrast tokens and ambient glow
 - 2025-12-20 20:54:26 +0530: feat(github): display live repository star counts and primary language pills
+- 2025-12-20 20:17:52 +0530: feat(analytics): add privacy-friendly client-side pageview telemetry
