@@ -374,3 +374,4 @@
 - 2025-12-19 17:25:21 +0530: feat(contact): integrate client-side form validation and accessible error feedback
 - 2025-12-19 18:14:04 +0530: feat(github): display live repository star counts and primary language pills
 - 2025-12-20 13:38:40 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
+- 2025-12-20 15:38:32 +0530: style(theme): enhance dark theme OLED contrast tokens and ambient glow
