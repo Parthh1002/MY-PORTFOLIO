@@ -375,3 +375,4 @@
 - 2025-12-19 18:14:04 +0530: feat(github): display live repository star counts and primary language pills
 - 2025-12-20 13:38:40 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
 - 2025-12-20 15:38:32 +0530: style(theme): enhance dark theme OLED contrast tokens and ambient glow
+- 2025-12-20 19:35:57 +0530: style(theme): enhance dark theme OLED contrast tokens and ambient glow
