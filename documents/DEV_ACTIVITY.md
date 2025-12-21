@@ -382,3 +382,4 @@
 - 2025-12-21 12:20:37 +0530: chore(deps): bump tailwindcss and postcss plugins to latest minor release
 - 2025-12-21 13:21:57 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
 - 2025-12-21 16:46:25 +0530: docs(readme): update project achievements, live demos, and certification badges
+- 2025-12-21 18:34:59 +0530: docs(readme): update project achievements, live demos, and certification badges
