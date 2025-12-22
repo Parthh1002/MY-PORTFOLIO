@@ -388,3 +388,4 @@
 - 2025-12-22 12:45:02 +0530: feat(portfolio): refine responsive grid layout for project showcase cards
 - 2025-12-22 14:03:35 +0530: feat(contact): integrate client-side form validation and accessible error feedback
 - 2025-12-22 16:43:24 +0530: chore(deps): bump tailwindcss and postcss plugins to latest minor release
+- 2025-12-22 16:28:08 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
