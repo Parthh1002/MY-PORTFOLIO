@@ -385,3 +385,4 @@
 - 2025-12-21 18:34:59 +0530: docs(readme): update project achievements, live demos, and certification badges
 - 2025-12-21 19:01:21 +0530: feat(analytics): add privacy-friendly client-side pageview telemetry
 - 2025-12-21 22:40:37 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
+- 2025-12-22 12:45:02 +0530: feat(portfolio): refine responsive grid layout for project showcase cards
