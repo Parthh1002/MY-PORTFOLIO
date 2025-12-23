@@ -394,3 +394,4 @@
 - 2025-12-23 18:01:03 +0530: feat(contact): integrate client-side form validation and accessible error feedback
 - 2025-12-23 19:52:35 +0530: feat(contact): integrate client-side form validation and accessible error feedback
 - 2025-12-23 21:29:27 +0530: feat(analytics): add privacy-friendly client-side pageview telemetry
+- 2025-12-23 22:06:26 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
