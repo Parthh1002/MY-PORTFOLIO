@@ -401,3 +401,4 @@
 - 2025-12-24 14:33:59 +0530: feat(analytics): add privacy-friendly client-side pageview telemetry
 - 2025-12-24 14:21:21 +0530: chore(deps): bump tailwindcss and postcss plugins to latest minor release
 - 2025-12-24 16:43:47 +0530: feat(skills): add interactive filter tags for full-stack and cloud technologies
+- 2025-12-24 17:27:17 +0530: perf(render): memoize project card component to eliminate redundant re-renders
