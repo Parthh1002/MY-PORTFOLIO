@@ -397,3 +397,4 @@
 - 2025-12-23 22:06:26 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
 - 2025-12-23 22:13:16 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
 - 2025-12-24 10:00:23 +0530: feat(contact): integrate client-side form validation and accessible error feedback
+- 2025-12-24 13:58:20 +0530: perf(render): memoize project card component to eliminate redundant re-renders
