@@ -411,3 +411,4 @@
 - 2025-12-26 16:49:39 +0530: feat(github): display live repository star counts and primary language pills
 - 2025-12-26 19:26:11 +0530: feat(skills): add interactive filter tags for full-stack and cloud technologies
 - 2025-12-26 22:21:54 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
+- 2025-12-26 22:15:39 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
