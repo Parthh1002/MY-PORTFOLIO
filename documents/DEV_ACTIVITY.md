@@ -410,3 +410,4 @@
 - 2025-12-26 15:11:50 +0530: style(buttons): refine magnetic button hover physics with framer-motion
 - 2025-12-26 16:49:39 +0530: feat(github): display live repository star counts and primary language pills
 - 2025-12-26 19:26:11 +0530: feat(skills): add interactive filter tags for full-stack and cloud technologies
+- 2025-12-26 22:21:54 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
