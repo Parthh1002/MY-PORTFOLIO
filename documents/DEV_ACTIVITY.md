@@ -406,3 +406,4 @@
 - 2025-12-25 13:58:45 +0530: perf(images): implement responsive picture element with WebP formats
 - 2025-12-25 18:44:12 +0530: perf(render): memoize project card component to eliminate redundant re-renders
 - 2025-12-25 20:52:38 +0530: feat(analytics): add privacy-friendly client-side pageview telemetry
+- 2025-12-26 12:27:45 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
