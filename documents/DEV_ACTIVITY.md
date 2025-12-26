@@ -408,3 +408,4 @@
 - 2025-12-25 20:52:38 +0530: feat(analytics): add privacy-friendly client-side pageview telemetry
 - 2025-12-26 12:27:45 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
 - 2025-12-26 15:11:50 +0530: style(buttons): refine magnetic button hover physics with framer-motion
+- 2025-12-26 16:49:39 +0530: feat(github): display live repository star counts and primary language pills
