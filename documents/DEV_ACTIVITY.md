@@ -414,3 +414,4 @@
 - 2025-12-26 22:15:39 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
 - 2025-12-27 10:19:41 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
 - 2025-12-27 11:28:20 +0530: perf(images): implement responsive picture element with WebP formats
+- 2025-12-27 12:26:50 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
