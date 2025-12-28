@@ -420,3 +420,4 @@
 - 2025-12-27 18:46:43 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
 - 2025-12-28 10:04:28 +0530: style(theme): enhance dark theme OLED contrast tokens and ambient glow
 - 2025-12-28 10:55:48 +0530: style(theme): enhance dark theme OLED contrast tokens and ambient glow
+- 2025-12-28 16:08:58 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
