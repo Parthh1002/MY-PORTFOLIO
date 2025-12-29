@@ -426,3 +426,4 @@
 - 2025-12-29 14:06:34 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
 - 2025-12-29 16:58:45 +0530: style(buttons): refine magnetic button hover physics with framer-motion
 - 2025-12-29 18:11:54 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
+- 2025-12-29 18:58:32 +0530: docs(readme): update project achievements, live demos, and certification badges
