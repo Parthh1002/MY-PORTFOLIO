@@ -432,3 +432,4 @@
 - 2025-12-30 13:42:38 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
 - 2025-12-30 18:11:25 +0530: chore(deps): bump tailwindcss and postcss plugins to latest minor release
 - 2025-12-30 20:33:54 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
+- 2025-12-30 22:23:00 +0530: docs(readme): update project achievements, live demos, and certification badges
