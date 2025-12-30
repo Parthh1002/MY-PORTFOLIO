@@ -428,3 +428,4 @@
 - 2025-12-29 18:11:54 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
 - 2025-12-29 18:58:32 +0530: docs(readme): update project achievements, live demos, and certification badges
 - 2025-12-30 11:20:42 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
+- 2025-12-30 11:20:22 +0530: docs(readme): update project achievements, live demos, and certification badges
