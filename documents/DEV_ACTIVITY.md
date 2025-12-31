@@ -433,3 +433,4 @@
 - 2025-12-30 18:11:25 +0530: chore(deps): bump tailwindcss and postcss plugins to latest minor release
 - 2025-12-30 20:33:54 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
 - 2025-12-30 22:23:00 +0530: docs(readme): update project achievements, live demos, and certification badges
+- 2025-12-31 10:04:26 +0530: feat(contact): integrate client-side form validation and accessible error feedback
