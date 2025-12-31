@@ -435,3 +435,4 @@
 - 2025-12-30 22:23:00 +0530: docs(readme): update project achievements, live demos, and certification badges
 - 2025-12-31 10:04:26 +0530: feat(contact): integrate client-side form validation and accessible error feedback
 - 2025-12-31 10:04:07 +0530: docs(readme): update project achievements, live demos, and certification badges
+- 2025-12-31 17:55:30 +0530: feat(github): display live repository star counts and primary language pills
