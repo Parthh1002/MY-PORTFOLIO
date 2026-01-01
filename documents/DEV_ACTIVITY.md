@@ -440,3 +440,4 @@
 - 2026-01-01 10:03:00 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
 - 2026-01-01 14:31:29 +0530: perf(bundle): optimize Lucide icon tree-shaking and dynamic imports
 - 2026-01-01 17:52:12 +0530: style(theme): enhance dark theme OLED contrast tokens and ambient glow
+- 2026-01-01 17:47:18 +0530: feat(portfolio): refine responsive grid layout for project showcase cards
