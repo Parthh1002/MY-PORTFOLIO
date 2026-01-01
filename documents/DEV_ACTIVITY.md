@@ -1,1 +1,1 @@
-- 2026-01-01 13:27:09 +0530: perf(render): optimize will-change CSS hints for GPU compositing
+- 2026-01-01 13:28:26 +0530: feat(ui): polish border radius tokens and card padding hierarchy
