@@ -1,1 +1,1 @@
-- 2026-01-01 15:34:49 +0530: perf(render): debounce window resize and orientation change handlers
+- 2026-01-01 15:37:54 +0530: feat(ui): enhance responsive layout container for ultra-wide viewports
