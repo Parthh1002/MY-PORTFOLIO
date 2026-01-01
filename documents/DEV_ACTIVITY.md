@@ -1,1 +1,1 @@
-- 2026-01-01 16:46:49 +0530: fix(layout): correct flexbox wrap alignment on tablet devices
+- 2026-01-01 16:48:15 +0530: feat(animation): add smooth inertia damping to interactive 3D elements
