@@ -1,1 +1,1 @@
-- 2026-01-01 14:19:28 +0530: feat(components): structure expandable tech stack pill filters
+- 2026-01-01 14:19:46 +0530: feat(components): implement interactive modal close on escape key press
