@@ -1,1 +1,1 @@
-- 2026-01-02 12:15:51 +0530: perf(render): lazy load below-the-fold project screenshots
+- 2026-01-02 12:23:55 +0530: perf(render): optimize will-change CSS hints for GPU compositing
