@@ -1,1 +1,1 @@
-- 2026-01-03 19:11:53 +0530: feat(animation): add smooth inertia damping to interactive 3D elements
+- 2026-01-03 19:19:09 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
