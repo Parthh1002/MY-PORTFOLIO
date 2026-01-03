@@ -1,1 +1,1 @@
-- 2026-01-03 18:57:33 +0530: style(theme): tune high-contrast dark theme foreground tokens
+- 2026-01-03 19:00:18 +0530: perf(render): optimize will-change CSS hints for GPU compositing
