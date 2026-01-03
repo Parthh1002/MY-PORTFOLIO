@@ -1,1 +1,1 @@
-- 2026-01-03 19:26:38 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
+- 2026-01-03 19:44:06 +0530: feat(animation): orchestrate staggered fade-up spring transitions
