@@ -1,1 +1,1 @@
-- 2026-01-03 19:57:31 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
+- 2026-01-03 20:04:18 +0530: feat(animation): orchestrate staggered fade-up spring transitions
