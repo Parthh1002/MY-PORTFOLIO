@@ -1,1 +1,1 @@
-- 2026-01-06 12:13:29 +0530: feat(animation): add smooth inertia damping to interactive 3D elements
+- 2026-01-06 12:21:38 +0530: feat(components): integrate seamless external link icon with aria-label
