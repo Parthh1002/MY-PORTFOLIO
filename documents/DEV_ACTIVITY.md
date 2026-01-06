@@ -1,1 +1,1 @@
-- 2026-01-06 12:01:42 +0530: feat(components): structure expandable tech stack pill filters
+- 2026-01-06 12:03:33 +0530: feat(ui): polish border radius tokens and card padding hierarchy
