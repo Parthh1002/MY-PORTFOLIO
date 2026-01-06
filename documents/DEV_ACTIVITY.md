@@ -1,1 +1,1 @@
-- 2026-01-06 21:46:51 +0530: feat(ui): refine frosted glass morphism with backdrop filter blur
+- 2026-01-06 21:49:07 +0530: perf(render): optimize will-change CSS hints for GPU compositing
