@@ -1,1 +1,1 @@
-- 2026-01-06 21:09:26 +0530: feat(animation): orchestrate staggered fade-up spring transitions
+- 2026-01-06 21:10:18 +0530: chore(deps): streamline TypeScript path alias configurations
