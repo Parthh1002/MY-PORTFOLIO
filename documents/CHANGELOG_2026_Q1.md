@@ -107,3 +107,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `refactor(grid): optimize CSS grid auto-fit layout for project gallery`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #22] - 2026-01-07 23:38:04 +0530
+- **Module**: Hero Section
+- **Commit**: `feat(hero): add primary Call-To-Action buttons with glowing hover effect`
+- **Verification**: Verified via test build and runtime inspection.
+
