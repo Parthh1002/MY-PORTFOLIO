@@ -1,1 +1,1 @@
-- 2026-01-08 19:15:01 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
+- 2026-01-08 19:16:32 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
