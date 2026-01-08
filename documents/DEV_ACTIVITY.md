@@ -1,1 +1,1 @@
-- 2026-01-08 13:12:30 +0530: feat(components): add tooltip descriptions for engineering architecture tags
+- 2026-01-08 13:16:13 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
