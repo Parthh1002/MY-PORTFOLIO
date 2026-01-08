@@ -1,1 +1,1 @@
-- 2026-01-08 11:34:03 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
+- 2026-01-08 11:36:06 +0530: feat(animation): add smooth inertia damping to interactive 3D elements
