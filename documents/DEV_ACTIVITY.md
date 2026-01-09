@@ -1,1 +1,1 @@
-- 2026-01-09 14:36:26 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
+- 2026-01-09 14:36:59 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
