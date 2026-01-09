@@ -127,3 +127,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `chore(vite): tune build compression plugins and output directory mapping`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #26] - 2026-01-09 12:38:12 +0530
+- **Module**: Resume & Modals
+- **Commit**: `feat(resume): build integrated PDF viewer modal with download fallback button`
+- **Verification**: Verified via test build and runtime inspection.
+
