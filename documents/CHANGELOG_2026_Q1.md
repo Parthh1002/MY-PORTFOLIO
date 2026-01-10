@@ -172,3 +172,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `perf(resume): lazy-mount ResumeModal to avoid unneeded PDF worker initialization`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #35] - 2026-01-10 12:01:07 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(navbar): implement floating navigation bar with backdrop blur filter`
+- **Verification**: Verified via test build and runtime inspection.
+
