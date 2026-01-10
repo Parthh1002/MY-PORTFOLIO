@@ -182,3 +182,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `feat(theme): establish dark and light mode CSS custom property architecture`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #37] - 2026-01-10 15:42:30 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `perf(scroll): throttle window scroll listeners via requestAnimationFrame`
+- **Verification**: Verified via test build and runtime inspection.
+
