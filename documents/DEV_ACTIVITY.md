@@ -443,3 +443,4 @@
 - 2026-01-01 17:47:18 +0530: feat(portfolio): refine responsive grid layout for project showcase cards
 - 2026-01-01 18:54:39 +0530: fix(modal): ensure escape key handler removes modal and restores body scroll
 - 2026-01-01 19:43:19 +0530: chore(deps): bump tailwindcss and postcss plugins to latest minor release
+- 2026-01-11 10:49:13 +0530: feat(contact): integrate client-side form validation and accessible error feedback
