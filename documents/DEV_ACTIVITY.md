@@ -445,3 +445,4 @@
 - 2026-01-01 19:43:19 +0530: chore(deps): bump tailwindcss and postcss plugins to latest minor release
 - 2026-01-11 10:49:13 +0530: feat(contact): integrate client-side form validation and accessible error feedback
 - 2026-01-11 11:32:00 +0530: perf(render): memoize project card component to eliminate redundant re-renders
+- 2026-01-11 12:52:45 +0530: feat(github): display live repository star counts and primary language pills
