@@ -257,3 +257,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `feat(contact): implement form input validation and debounce input handlers`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #52] - 2026-01-14 12:13:34 +0530
+- **Module**: Design System
+- **Commit**: `style(tokens): define HSL semantic color scales for surface, text, and accents`
+- **Verification**: Verified via test build and runtime inspection.
+
