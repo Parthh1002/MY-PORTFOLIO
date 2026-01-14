@@ -1,1 +1,1 @@
-- 2026-01-14 21:26:06 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
+- 2026-01-14 21:28:12 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
