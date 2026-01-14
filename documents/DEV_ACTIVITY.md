@@ -1,1 +1,1 @@
-- 2026-01-14 20:32:29 +0530: style(theme): harmonize primary brand color saturation for OLED screens
+- 2026-01-14 20:51:45 +0530: feat(animation): add smooth inertia damping to interactive 3D elements
