@@ -1,1 +1,1 @@
-- 2026-01-15 21:05:11 +0530: feat(components): add tooltip descriptions for engineering architecture tags
+- 2026-01-15 21:05:55 +0530: feat(components): integrate seamless external link icon with aria-label
