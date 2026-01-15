@@ -1,1 +1,1 @@
-- 2026-01-15 18:48:18 +0530: feat(ui): integrate tactile scale down feedback on click interactions
+- 2026-01-15 18:50:56 +0530: chore(deps): clean up unused styles and consolidate utility classes
