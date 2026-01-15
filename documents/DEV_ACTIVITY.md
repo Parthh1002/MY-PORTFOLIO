@@ -1,1 +1,1 @@
-- 2026-01-15 20:20:04 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
+- 2026-01-15 20:22:05 +0530: feat(components): integrate seamless external link icon with aria-label
