@@ -1,1 +1,1 @@
-- 2026-01-15 16:42:19 +0530: style(theme): synchronize theme transitions across border colors
+- 2026-01-15 16:43:54 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
