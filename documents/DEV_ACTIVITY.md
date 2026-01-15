@@ -1,1 +1,1 @@
-- 2026-01-15 13:10:36 +0530: style(theme): tune high-contrast dark theme foreground tokens
+- 2026-01-15 13:11:40 +0530: chore(deps): streamline TypeScript path alias configurations
