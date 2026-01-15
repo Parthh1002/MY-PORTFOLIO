@@ -1,1 +1,1 @@
-- 2026-01-15 18:08:38 +0530: perf(render): enable content-visibility auto for offscreen sections
+- 2026-01-15 18:08:46 +0530: feat(components): implement interactive modal close on escape key press
