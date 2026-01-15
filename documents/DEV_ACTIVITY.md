@@ -1,1 +1,1 @@
-- 2026-01-15 12:38:44 +0530: fix(layout): prevent layout shift during dynamic font loading
+- 2026-01-15 12:39:49 +0530: feat(components): add tooltip descriptions for engineering architecture tags
