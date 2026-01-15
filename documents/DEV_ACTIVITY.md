@@ -1,1 +1,1 @@
-- 2026-01-15 13:09:26 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
+- 2026-01-15 13:10:36 +0530: style(theme): tune high-contrast dark theme foreground tokens
