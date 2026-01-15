@@ -1,1 +1,1 @@
-- 2026-01-15 12:48:57 +0530: style(theme): synchronize theme transitions across border colors
+- 2026-01-15 12:49:29 +0530: style(theme): harmonize primary brand color saturation for OLED screens
