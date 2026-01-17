@@ -1,1 +1,1 @@
-- 2026-01-17 20:39:09 +0530: style(theme): calibrate subtle focus outline rings for accessible navigation
+- 2026-01-17 20:45:48 +0530: perf(render): optimize will-change CSS hints for GPU compositing
