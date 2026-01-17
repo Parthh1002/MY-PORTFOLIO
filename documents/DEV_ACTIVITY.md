@@ -1,1 +1,1 @@
-- 2026-01-17 11:32:53 +0530: fix(layout): prevent layout shift during dynamic font loading
+- 2026-01-17 11:37:47 +0530: perf(render): optimize will-change CSS hints for GPU compositing
