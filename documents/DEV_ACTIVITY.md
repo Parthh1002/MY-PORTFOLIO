@@ -1,1 +1,1 @@
-- 2026-01-17 23:38:45 +0530: fix(layout): correct flexbox wrap alignment on tablet devices
+- 2026-01-17 23:38:58 +0530: style(theme): harmonize primary brand color saturation for OLED screens
