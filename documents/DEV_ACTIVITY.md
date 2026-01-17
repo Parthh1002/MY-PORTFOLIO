@@ -1,1 +1,1 @@
-- 2026-01-17 10:22:16 +0530: feat(ui): enhance responsive layout container for ultra-wide viewports
+- 2026-01-17 10:24:21 +0530: feat(components): integrate seamless external link icon with aria-label
