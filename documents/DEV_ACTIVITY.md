@@ -1,1 +1,1 @@
-- 2026-01-17 20:08:28 +0530: feat(animation): implement floating card hover elevation with drop shadow
+- 2026-01-17 20:10:27 +0530: feat(components): integrate seamless external link icon with aria-label
