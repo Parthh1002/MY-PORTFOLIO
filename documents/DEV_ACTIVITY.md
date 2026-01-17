@@ -1,1 +1,1 @@
-- 2026-01-17 16:04:42 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
+- 2026-01-17 16:09:07 +0530: feat(ui): enhance responsive layout container for ultra-wide viewports
