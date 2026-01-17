@@ -1,1 +1,1 @@
-- 2026-01-17 12:19:30 +0530: fix(layout): normalize margin collapse across nested article sections
+- 2026-01-17 12:21:22 +0530: style(theme): balance light theme text legibility and muted borders
