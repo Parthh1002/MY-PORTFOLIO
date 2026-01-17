@@ -1,1 +1,1 @@
-- 2026-01-17 14:27:00 +0530: chore(deps): tune Vite production chunk splitting strategy
+- 2026-01-17 14:27:41 +0530: style(theme): synchronize theme transitions across border colors
