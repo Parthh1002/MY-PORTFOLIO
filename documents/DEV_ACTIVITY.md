@@ -1,1 +1,1 @@
-- 2026-01-19 16:02:40 +0530: feat(animation): implement floating card hover elevation with drop shadow
+- 2026-01-19 16:04:19 +0530: style(theme): balance light theme text legibility and muted borders
