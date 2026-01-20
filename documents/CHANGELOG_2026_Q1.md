@@ -462,3 +462,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `fix(projects): prevent body scroll lock leak when closing project modal`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #93] - 2026-01-20 23:08:42 +0530
+- **Module**: Core Engineering
+- **Commit**: `chore(vite): tune build compression plugins and output directory mapping`
+- **Verification**: Verified via test build and runtime inspection.
+
