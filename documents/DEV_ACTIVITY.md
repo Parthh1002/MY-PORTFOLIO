@@ -1,1 +1,1 @@
-- 2026-01-21 09:50:40 +0530: feat(animation): implement floating card hover elevation with drop shadow
+- 2026-01-21 09:51:24 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
