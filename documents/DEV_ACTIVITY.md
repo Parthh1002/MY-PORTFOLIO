@@ -1,1 +1,1 @@
-- 2026-01-21 14:59:07 +0530: feat(components): add tooltip descriptions for engineering architecture tags
+- 2026-01-21 15:00:25 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
