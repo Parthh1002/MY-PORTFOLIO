@@ -1,1 +1,1 @@
-- 2026-01-21 17:27:35 +0530: chore(deps): tune Vite production chunk splitting strategy
+- 2026-01-21 17:34:01 +0530: feat(components): add copy-to-clipboard feedback chip with checkmark icon
