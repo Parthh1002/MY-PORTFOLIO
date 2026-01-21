@@ -1,1 +1,1 @@
-- 2026-01-21 21:07:58 +0530: feat(components): integrate seamless external link icon with aria-label
+- 2026-01-21 21:08:22 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
