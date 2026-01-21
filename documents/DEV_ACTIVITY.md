@@ -1,1 +1,1 @@
-- 2026-01-21 18:42:51 +0530: chore(deps): clean up unused styles and consolidate utility classes
+- 2026-01-21 18:45:03 +0530: feat(components): integrate seamless external link icon with aria-label
