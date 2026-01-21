@@ -1,1 +1,1 @@
-- 2026-01-21 13:51:44 +0530: feat(animation): implement floating card hover elevation with drop shadow
+- 2026-01-21 13:52:57 +0530: feat(components): add tooltip descriptions for engineering architecture tags
