@@ -1,1 +1,1 @@
-- 2026-01-21 20:09:36 +0530: perf(render): debounce window resize and orientation change handlers
+- 2026-01-21 20:11:59 +0530: style(theme): synchronize theme transitions across border colors
