@@ -1,1 +1,1 @@
-- 2026-01-21 19:03:56 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
+- 2026-01-21 19:04:26 +0530: style(theme): harmonize primary brand color saturation for OLED screens
