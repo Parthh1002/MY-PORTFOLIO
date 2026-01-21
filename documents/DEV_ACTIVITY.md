@@ -1,1 +1,1 @@
-- 2026-01-21 11:45:10 +0530: feat(components): structure expandable tech stack pill filters
+- 2026-01-21 11:46:18 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
