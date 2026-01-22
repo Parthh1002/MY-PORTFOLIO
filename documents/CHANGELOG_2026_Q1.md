@@ -502,3 +502,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `feat(projects): integrate detailed project modal with tabbed media previews`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #101] - 2026-01-22 20:47:35 +0530
+- **Module**: Hero Section
+- **Commit**: `style(hero): integrate glowing radial ambient orb behind hero typography`
+- **Verification**: Verified via test build and runtime inspection.
+
