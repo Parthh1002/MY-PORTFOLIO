@@ -1,1 +1,1 @@
-- 2026-01-23 12:44:02 +0530: fix(layout): normalize margin collapse across nested article sections
+- 2026-01-23 12:48:02 +0530: chore(deps): streamline TypeScript path alias configurations
