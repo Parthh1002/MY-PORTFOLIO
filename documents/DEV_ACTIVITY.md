@@ -1,1 +1,1 @@
-- 2026-01-23 10:01:53 +0530: style(theme): tune high-contrast dark theme foreground tokens
+- 2026-01-23 10:08:46 +0530: feat(ui): polish border radius tokens and card padding hierarchy
