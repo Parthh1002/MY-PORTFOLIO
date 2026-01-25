@@ -448,3 +448,4 @@
 - 2026-01-11 12:52:45 +0530: feat(github): display live repository star counts and primary language pills
 - 2026-01-11 15:57:16 +0530: perf(images): implement responsive picture element with WebP formats
 - 2026-01-25 12:56:19 +0530: feat(contact): integrate client-side form validation and accessible error feedback
+- 2026-01-25 14:01:36 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
