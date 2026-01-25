@@ -450,3 +450,4 @@
 - 2026-01-25 12:56:19 +0530: feat(contact): integrate client-side form validation and accessible error feedback
 - 2026-01-25 14:01:36 +0530: feat(hero): fine-tune animated headline typewriter effect and gradient text
 - 2026-01-25 17:30:30 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
+- 2026-01-25 19:04:53 +0530: perf(images): implement responsive picture element with WebP formats
