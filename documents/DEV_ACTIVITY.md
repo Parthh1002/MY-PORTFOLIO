@@ -1,1 +1,1 @@
-- 2026-01-26 21:01:31 +0530: feat(ui): enhance responsive layout container for ultra-wide viewports
+- 2026-01-26 21:05:59 +0530: feat(components): implement interactive modal close on escape key press
