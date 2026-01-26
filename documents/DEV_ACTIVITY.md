@@ -1,1 +1,1 @@
-- 2026-01-26 21:18:40 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
+- 2026-01-26 21:20:08 +0530: perf(render): optimize will-change CSS hints for GPU compositing
