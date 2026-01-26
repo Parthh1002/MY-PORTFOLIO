@@ -1,1 +1,1 @@
-- 2026-01-26 15:41:16 +0530: feat(ui): enhance responsive layout container for ultra-wide viewports
+- 2026-01-26 15:41:25 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
