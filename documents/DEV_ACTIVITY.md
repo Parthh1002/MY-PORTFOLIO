@@ -1,1 +1,1 @@
-- 2026-01-26 19:50:18 +0530: fix(layout): normalize margin collapse across nested article sections
+- 2026-01-26 19:53:41 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
