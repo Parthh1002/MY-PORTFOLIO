@@ -1,1 +1,1 @@
-- 2026-01-26 17:57:28 +0530: chore(deps): streamline TypeScript path alias configurations
+- 2026-01-26 18:04:51 +0530: perf(render): lazy load below-the-fold project screenshots
