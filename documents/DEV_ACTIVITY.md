@@ -1,1 +1,1 @@
-- 2026-01-28 10:12:11 +0530: fix(layout): correct flexbox wrap alignment on tablet devices
+- 2026-01-28 10:23:43 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
