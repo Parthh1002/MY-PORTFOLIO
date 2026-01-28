@@ -632,3 +632,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `fix(contact): ensure focus trap inside modal for keyboard accessibility`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #127] - 2026-01-28 10:17:10 +0530
+- **Module**: Core Engineering
+- **Commit**: `fix(a11y): add aria-expanded and aria-controls attributes to toggle menus`
+- **Verification**: Verified via test build and runtime inspection.
+
