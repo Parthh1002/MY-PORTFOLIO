@@ -1,1 +1,1 @@
-- 2026-01-29 23:30:07 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
+- 2026-01-29 23:33:58 +0530: style(theme): tune high-contrast dark theme foreground tokens
