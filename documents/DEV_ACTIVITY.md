@@ -1,1 +1,1 @@
-- 2026-01-29 16:07:30 +0530: feat(animation): add smooth inertia damping to interactive 3D elements
+- 2026-01-29 16:17:44 +0530: fix(layout): normalize margin collapse across nested article sections
