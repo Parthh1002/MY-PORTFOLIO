@@ -1,1 +1,1 @@
-- 2026-01-29 10:12:50 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
+- 2026-01-29 10:12:57 +0530: perf(render): optimize will-change CSS hints for GPU compositing
