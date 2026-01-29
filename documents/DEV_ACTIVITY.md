@@ -1,1 +1,1 @@
-- 2026-01-29 17:16:27 +0530: style(theme): harmonize primary brand color saturation for OLED screens
+- 2026-01-29 17:16:42 +0530: feat(ui): add subtle ambient gradient glow behind active cards
