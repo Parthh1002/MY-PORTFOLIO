@@ -687,3 +687,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `feat(navigation): integrate keyboard shortcuts (Escape to close modals)`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #138] - 2026-01-29 11:22:46 +0530
+- **Module**: Experience Timeline
+- **Commit**: `feat(education): build education card with coursework highlights and GPA`
+- **Verification**: Verified via test build and runtime inspection.
+
