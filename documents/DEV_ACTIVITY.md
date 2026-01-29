@@ -1,1 +1,1 @@
-- 2026-01-29 22:04:54 +0530: feat(ui): refine frosted glass morphism with backdrop filter blur
+- 2026-01-29 22:07:20 +0530: chore(deps): clean up unused styles and consolidate utility classes
