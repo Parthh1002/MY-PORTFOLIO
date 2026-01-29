@@ -1,1 +1,1 @@
-- 2026-01-29 23:35:27 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
+- 2026-01-29 23:36:37 +0530: fix(layout): normalize margin collapse across nested article sections
