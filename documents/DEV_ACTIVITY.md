@@ -1,1 +1,1 @@
-- 2026-01-29 19:13:02 +0530: feat(ui): refine frosted glass morphism with backdrop filter blur
+- 2026-01-29 19:13:07 +0530: feat(components): structure expandable tech stack pill filters
