@@ -1,1 +1,1 @@
-- 2026-01-31 22:14:51 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
+- 2026-01-31 22:15:31 +0530: feat(components): add tooltip descriptions for engineering architecture tags
