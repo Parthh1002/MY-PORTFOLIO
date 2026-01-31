@@ -1,1 +1,1 @@
-- 2026-01-31 22:11:15 +0530: chore(deps): streamline TypeScript path alias configurations
+- 2026-01-31 22:14:51 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
