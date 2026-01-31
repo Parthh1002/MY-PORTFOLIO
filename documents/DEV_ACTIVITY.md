@@ -1,1 +1,1 @@
-- 2026-01-31 19:26:59 +0530: perf(render): enable content-visibility auto for offscreen sections
+- 2026-01-31 19:34:06 +0530: feat(ui): polish border radius tokens and card padding hierarchy
