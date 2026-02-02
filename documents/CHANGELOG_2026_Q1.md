@@ -792,3 +792,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `feat(hero): add primary Call-To-Action buttons with glowing hover effect`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #159] - 2026-02-02 12:39:21 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `fix(navbar): resolve z-index stacking collision with full-screen modals`
+- **Verification**: Verified via test build and runtime inspection.
+
