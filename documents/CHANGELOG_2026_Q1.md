@@ -827,3 +827,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `style(hero): tune responsive line breaks and typography scaling on mobile`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #166] - 2026-02-03 18:12:45 +0530
+- **Module**: Core Engineering
+- **Commit**: `test(e2e): verify critical click paths for resume and project modal flows`
+- **Verification**: Verified via test build and runtime inspection.
+
