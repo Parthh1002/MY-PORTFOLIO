@@ -817,3 +817,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `refactor(hooks): extract useMediaQuery and useScrollProgress hooks`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #164] - 2026-02-03 10:51:12 +0530
+- **Module**: Skills & Stack
+- **Commit**: `feat(skills): organize technical skills into frontend, backend, and AI categories`
+- **Verification**: Verified via test build and runtime inspection.
+
