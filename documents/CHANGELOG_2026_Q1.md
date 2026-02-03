@@ -812,3 +812,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `feat(resume): build integrated PDF viewer modal with download fallback button`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #163] - 2026-02-03 10:29:26 +0530
+- **Module**: Core Engineering
+- **Commit**: `refactor(hooks): extract useMediaQuery and useScrollProgress hooks`
+- **Verification**: Verified via test build and runtime inspection.
+
