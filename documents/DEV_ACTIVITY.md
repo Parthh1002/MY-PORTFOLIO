@@ -1,1 +1,1 @@
-- 2026-02-04 18:06:32 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
+- 2026-02-04 18:10:49 +0530: style(theme): tune high-contrast dark theme foreground tokens
