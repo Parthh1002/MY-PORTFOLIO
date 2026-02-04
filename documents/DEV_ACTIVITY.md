@@ -1,1 +1,1 @@
-- 2026-02-04 23:16:51 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
+- 2026-02-04 23:26:10 +0530: style(theme): synchronize theme transitions across border colors
