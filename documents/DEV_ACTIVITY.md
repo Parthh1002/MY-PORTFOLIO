@@ -1,1 +1,1 @@
-- 2026-02-04 19:10:12 +0530: feat(ui): polish border radius tokens and card padding hierarchy
+- 2026-02-04 19:10:39 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
