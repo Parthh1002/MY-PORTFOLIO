@@ -1,1 +1,1 @@
-- 2026-02-04 09:54:39 +0530: perf(render): debounce window resize and orientation change handlers
+- 2026-02-04 10:10:18 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
