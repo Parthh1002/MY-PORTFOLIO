@@ -1,1 +1,1 @@
-- 2026-02-04 19:41:34 +0530: perf(render): debounce window resize and orientation change handlers
+- 2026-02-04 19:43:39 +0530: feat(components): add tooltip descriptions for engineering architecture tags
