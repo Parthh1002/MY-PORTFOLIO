@@ -857,3 +857,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `feat(navbar): implement floating navigation bar with backdrop blur filter`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #172] - 2026-02-04 14:29:08 +0530
+- **Module**: Design System
+- **Commit**: `feat(theme): establish dark and light mode CSS custom property architecture`
+- **Verification**: Verified via test build and runtime inspection.
+
