@@ -847,3 +847,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `style(hero): integrate glowing radial ambient orb behind hero typography`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #170] - 2026-02-04 09:57:48 +0530
+- **Module**: Resume & Modals
+- **Commit**: `perf(resume): lazy-mount ResumeModal to avoid unneeded PDF worker initialization`
+- **Verification**: Verified via test build and runtime inspection.
+
