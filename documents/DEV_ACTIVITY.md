@@ -1,1 +1,1 @@
-- 2026-02-04 13:01:39 +0530: perf(render): optimize will-change CSS hints for GPU compositing
+- 2026-02-04 13:04:08 +0530: feat(components): add tooltip descriptions for engineering architecture tags
