@@ -907,3 +907,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `chore(deps): audit npm packages and resolve peer dependency warnings`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #182] - 2026-02-05 17:16:48 +0530
+- **Module**: Experience Timeline
+- **Commit**: `style(experience): format date range pills with high-contrast backgrounds`
+- **Verification**: Verified via test build and runtime inspection.
+
