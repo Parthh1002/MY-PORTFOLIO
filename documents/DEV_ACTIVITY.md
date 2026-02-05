@@ -1,1 +1,1 @@
-- 2026-02-05 16:26:44 +0530: chore(deps): tune Vite production chunk splitting strategy
+- 2026-02-05 16:33:57 +0530: fix(layout): correct flexbox wrap alignment on tablet devices
