@@ -1,1 +1,1 @@
-- 2026-02-05 20:39:39 +0530: feat(ui): refine frosted glass morphism with backdrop filter blur
+- 2026-02-05 20:49:14 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
