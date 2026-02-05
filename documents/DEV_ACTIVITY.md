@@ -1,1 +1,1 @@
-- 2026-02-05 13:26:46 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
+- 2026-02-05 13:29:07 +0530: fix(layout): normalize margin collapse across nested article sections
