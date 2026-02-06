@@ -1,1 +1,1 @@
-- 2026-02-06 23:24:04 +0530: perf(render): debounce window resize and orientation change handlers
+- 2026-02-06 23:26:22 +0530: style(theme): balance light theme text legibility and muted borders
