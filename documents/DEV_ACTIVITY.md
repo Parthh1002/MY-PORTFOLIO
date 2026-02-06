@@ -1,1 +1,1 @@
-- 2026-02-06 12:26:05 +0530: chore(deps): streamline TypeScript path alias configurations
+- 2026-02-06 12:37:41 +0530: feat(components): add tooltip descriptions for engineering architecture tags
