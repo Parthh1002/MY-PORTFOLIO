@@ -982,3 +982,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `style(skills): design animated skill level meters with gradient fills`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #197] - 2026-02-07 20:54:56 +0530
+- **Module**: Design System
+- **Commit**: `style(badges): add gradient pill tags for tech stack categorization`
+- **Verification**: Verified via test build and runtime inspection.
+
