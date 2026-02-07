@@ -1,1 +1,1 @@
-- 2026-02-07 18:02:16 +0530: feat(ui): polish border radius tokens and card padding hierarchy
+- 2026-02-07 18:03:54 +0530: chore(deps): streamline TypeScript path alias configurations
