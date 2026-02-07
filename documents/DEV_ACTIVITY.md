@@ -1,1 +1,1 @@
-- 2026-02-07 22:35:53 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
+- 2026-02-07 22:40:01 +0530: feat(components): integrate seamless external link icon with aria-label
