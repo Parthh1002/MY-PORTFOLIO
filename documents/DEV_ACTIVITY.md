@@ -1,1 +1,1 @@
-- 2026-02-07 16:36:59 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
+- 2026-02-07 16:37:42 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
