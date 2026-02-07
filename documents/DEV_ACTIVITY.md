@@ -1,1 +1,1 @@
-- 2026-02-07 19:49:50 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
+- 2026-02-07 19:50:35 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
