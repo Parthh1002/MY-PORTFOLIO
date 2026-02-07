@@ -1,1 +1,1 @@
-- 2026-02-07 21:58:18 +0530: style(theme): harmonize primary brand color saturation for OLED screens
+- 2026-02-07 22:00:14 +0530: chore(deps): tune Vite production chunk splitting strategy
