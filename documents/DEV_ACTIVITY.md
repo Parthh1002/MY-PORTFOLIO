@@ -1,1 +1,1 @@
-- 2026-02-07 13:09:03 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
+- 2026-02-07 13:09:43 +0530: feat(components): implement interactive modal close on escape key press
