@@ -1,1 +1,1 @@
-- 2026-02-07 13:33:03 +0530: feat(animation): orchestrate staggered fade-up spring transitions
+- 2026-02-07 13:34:01 +0530: style(theme): balance light theme text legibility and muted borders
