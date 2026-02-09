@@ -1,1 +1,1 @@
-- 2026-02-09 10:11:45 +0530: style(theme): calibrate subtle focus outline rings for accessible navigation
+- 2026-02-09 10:16:42 +0530: feat(ui): add subtle ambient gradient glow behind active cards
