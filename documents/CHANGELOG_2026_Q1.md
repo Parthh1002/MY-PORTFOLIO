@@ -997,3 +997,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `style(tooltips): polish tooltip micro-animations with delayed fade-in`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #200] - 2026-02-09 15:24:21 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `fix(particles): prevent canvas stutter during rapid window resize events`
+- **Verification**: Verified via test build and runtime inspection.
+
