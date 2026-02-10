@@ -1007,3 +1007,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `refactor(canvas): decouple animation loop from React render cycle`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #202] - 2026-02-10 09:05:41 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): create ProjectCard component with dynamic tag filters`
+- **Verification**: Verified via test build and runtime inspection.
+
