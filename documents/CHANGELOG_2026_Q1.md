@@ -1062,3 +1062,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `perf(images): convert raster assets to WebP with responsive srcSets`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #213] - 2026-02-10 23:16:53 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `style(nav): add subtle border shimmer sweep on active nav link hover`
+- **Verification**: Verified via test build and runtime inspection.
+
