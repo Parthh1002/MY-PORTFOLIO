@@ -1082,3 +1082,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `fix(three): properly dispose geometries and materials on component unmount`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #217] - 2026-02-11 21:15:08 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `perf(three): configure frustum culling and lower polygon density on mobile`
+- **Verification**: Verified via test build and runtime inspection.
+
