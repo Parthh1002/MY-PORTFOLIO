@@ -1,1 +1,1 @@
-- 2026-02-13 20:15:17 +0530: feat(ui): integrate tactile scale down feedback on click interactions
+- 2026-02-13 20:18:41 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
