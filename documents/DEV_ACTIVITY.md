@@ -1,1 +1,1 @@
-- 2026-02-13 10:14:16 +0530: perf(render): enable content-visibility auto for offscreen sections
+- 2026-02-13 10:14:51 +0530: style(theme): calibrate subtle focus outline rings for accessible navigation
