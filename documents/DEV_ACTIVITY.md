@@ -1,1 +1,1 @@
-- 2026-02-13 10:03:34 +0530: perf(render): lazy load below-the-fold project screenshots
+- 2026-02-13 10:05:13 +0530: style(theme): balance light theme text legibility and muted borders
