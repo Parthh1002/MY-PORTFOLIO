@@ -1117,3 +1117,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `refactor(skills): consolidate icon mappings for Python, TypeScript, and Docker`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #224] - 2026-02-13 17:25:45 +0530
+- **Module**: Core Engineering
+- **Commit**: `docs(readme): document local setup instructions and deployment guidelines`
+- **Verification**: Verified via test build and runtime inspection.
+
