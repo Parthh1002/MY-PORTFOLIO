@@ -1,1 +1,1 @@
-- 2026-02-13 09:34:07 +0530: fix(layout): correct flexbox wrap alignment on tablet devices
+- 2026-02-13 09:35:20 +0530: fix(layout): normalize margin collapse across nested article sections
