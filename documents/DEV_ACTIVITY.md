@@ -1,1 +1,1 @@
-- 2026-02-13 21:45:19 +0530: style(theme): tune high-contrast dark theme foreground tokens
+- 2026-02-13 21:48:44 +0530: feat(animation): add smooth inertia damping to interactive 3D elements
