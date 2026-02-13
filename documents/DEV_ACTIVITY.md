@@ -1,1 +1,1 @@
-- 2026-02-13 16:00:18 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
+- 2026-02-13 16:00:31 +0530: perf(render): optimize will-change CSS hints for GPU compositing
