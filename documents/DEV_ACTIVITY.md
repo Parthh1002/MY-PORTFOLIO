@@ -1,1 +1,1 @@
-- 2026-02-13 18:14:03 +0530: chore(deps): streamline TypeScript path alias configurations
+- 2026-02-13 18:17:26 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
