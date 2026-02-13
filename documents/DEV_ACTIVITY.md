@@ -1,1 +1,1 @@
-- 2026-02-13 19:11:15 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
+- 2026-02-13 19:13:14 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
