@@ -1,1 +1,1 @@
-- 2026-02-14 15:57:37 +0530: feat(ui): add subtle ambient gradient glow behind active cards
+- 2026-02-14 16:21:43 +0530: style(theme): tune high-contrast dark theme foreground tokens
