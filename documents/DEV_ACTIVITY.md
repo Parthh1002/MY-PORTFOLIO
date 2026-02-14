@@ -1,1 +1,1 @@
-- 2026-02-14 21:27:04 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
+- 2026-02-14 21:31:40 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
