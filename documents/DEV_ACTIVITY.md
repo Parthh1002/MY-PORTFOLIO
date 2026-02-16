@@ -1,1 +1,1 @@
-- 2026-02-16 18:03:09 +0530: feat(ui): refine frosted glass morphism with backdrop filter blur
+- 2026-02-16 18:03:23 +0530: chore(deps): tune Vite production chunk splitting strategy
