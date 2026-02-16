@@ -1,1 +1,1 @@
-- 2026-02-16 21:51:05 +0530: feat(animation): orchestrate staggered fade-up spring transitions
+- 2026-02-16 21:55:26 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
