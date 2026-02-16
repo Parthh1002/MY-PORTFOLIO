@@ -1,1 +1,1 @@
-- 2026-02-16 23:19:26 +0530: feat(components): implement interactive modal close on escape key press
+- 2026-02-16 23:21:35 +0530: perf(render): debounce window resize and orientation change handlers
