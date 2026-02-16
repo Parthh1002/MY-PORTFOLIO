@@ -1,1 +1,1 @@
-- 2026-02-16 22:09:05 +0530: feat(ui): enhance responsive layout container for ultra-wide viewports
+- 2026-02-16 22:17:30 +0530: perf(render): lazy load below-the-fold project screenshots
