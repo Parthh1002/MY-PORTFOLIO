@@ -1,1 +1,1 @@
-- 2026-02-16 12:37:17 +0530: feat(ui): refine frosted glass morphism with backdrop filter blur
+- 2026-02-16 12:38:08 +0530: style(theme): synchronize theme transitions across border colors
