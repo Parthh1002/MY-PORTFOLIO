@@ -1222,3 +1222,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `style(experience): add pulsing radar dot to current active experience role`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #245] - 2026-02-16 16:51:16 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `feat(particles): implement interactive canvas particle constellation background`
+- **Verification**: Verified via test build and runtime inspection.
+
