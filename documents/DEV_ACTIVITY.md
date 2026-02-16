@@ -1,1 +1,1 @@
-- 2026-02-16 16:34:42 +0530: style(theme): tune high-contrast dark theme foreground tokens
+- 2026-02-16 16:35:32 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
