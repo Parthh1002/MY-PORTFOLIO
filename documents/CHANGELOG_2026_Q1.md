@@ -1242,3 +1242,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `feat(navbar): add active section indicator with smooth spring motion`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #249] - 2026-02-17 10:44:30 +0530
+- **Module**: Core Engineering
+- **Commit**: `chore(deps): audit npm packages and resolve peer dependency warnings`
+- **Verification**: Verified via test build and runtime inspection.
+
