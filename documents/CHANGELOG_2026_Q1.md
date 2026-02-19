@@ -1342,3 +1342,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `fix(particles): prevent canvas stutter during rapid window resize events`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #269] - 2026-02-19 12:08:40 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `refactor(canvas): decouple animation loop from React render cycle`
+- **Verification**: Verified via test build and runtime inspection.
+
