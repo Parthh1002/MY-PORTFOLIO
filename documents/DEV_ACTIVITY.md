@@ -1,1 +1,1 @@
-- 2026-02-19 22:36:17 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
+- 2026-02-19 22:40:52 +0530: feat(components): integrate seamless external link icon with aria-label
