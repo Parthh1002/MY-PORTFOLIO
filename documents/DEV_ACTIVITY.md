@@ -1,1 +1,1 @@
-- 2026-02-19 17:01:48 +0530: feat(animation): implement floating card hover elevation with drop shadow
+- 2026-02-19 17:03:27 +0530: feat(components): implement interactive modal close on escape key press
