@@ -1,1 +1,1 @@
-- 2026-02-20 10:00:09 +0530: perf(render): debounce window resize and orientation change handlers
+- 2026-02-20 10:09:34 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
