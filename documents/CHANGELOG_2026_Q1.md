@@ -1382,3 +1382,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `feat(hero): attach smooth scroll anchor link directing to work showcase`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #277] - 2026-02-20 16:55:30 +0530
+- **Module**: Design System
+- **Commit**: `fix(theme): eliminate flash of unstyled theme on initial page mount`
+- **Verification**: Verified via test build and runtime inspection.
+
