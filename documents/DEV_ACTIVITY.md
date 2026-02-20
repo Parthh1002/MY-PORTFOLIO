@@ -1,1 +1,1 @@
-- 2026-02-20 20:46:35 +0530: feat(ui): enhance responsive layout container for ultra-wide viewports
+- 2026-02-20 20:47:00 +0530: feat(ui): add subtle ambient gradient glow behind active cards
