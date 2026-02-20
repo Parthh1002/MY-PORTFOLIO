@@ -1392,3 +1392,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `perf(bundle): split vendor chunks for Three.js, Lucide, and Framer Motion`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #279] - 2026-02-20 20:09:09 +0530
+- **Module**: Skills & Stack
+- **Commit**: `feat(skills): implement interactive technology popover with experience notes`
+- **Verification**: Verified via test build and runtime inspection.
+
