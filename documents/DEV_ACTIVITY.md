@@ -458,3 +458,4 @@
 - 2026-02-08 17:11:46 +0530: style(buttons): refine magnetic button hover physics with framer-motion
 - 2026-02-22 12:19:42 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
 - 2026-02-22 13:42:00 +0530: docs(readme): update project achievements, live demos, and certification badges
+- 2026-02-22 14:16:44 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
