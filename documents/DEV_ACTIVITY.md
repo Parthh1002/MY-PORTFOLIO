@@ -1,1 +1,1 @@
-- 2026-02-25 15:20:05 +0530: fix(layout): normalize margin collapse across nested article sections
+- 2026-02-25 15:21:30 +0530: feat(components): implement interactive modal close on escape key press
