@@ -1,1 +1,1 @@
-- 2026-02-25 16:54:51 +0530: feat(components): integrate seamless external link icon with aria-label
+- 2026-02-25 16:56:22 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
