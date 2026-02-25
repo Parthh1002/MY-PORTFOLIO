@@ -1,1 +1,1 @@
-- 2026-02-25 11:11:33 +0530: feat(components): add copy-to-clipboard feedback chip with checkmark icon
+- 2026-02-25 11:17:48 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
