@@ -1,1 +1,1 @@
-- 2026-02-25 16:49:06 +0530: perf(render): debounce window resize and orientation change handlers
+- 2026-02-25 16:53:09 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
