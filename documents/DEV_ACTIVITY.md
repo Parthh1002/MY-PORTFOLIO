@@ -1,1 +1,1 @@
-- 2026-02-25 19:50:34 +0530: perf(render): enable content-visibility auto for offscreen sections
+- 2026-02-25 19:50:58 +0530: perf(render): debounce window resize and orientation change handlers
