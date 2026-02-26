@@ -1,1 +1,1 @@
-- 2026-02-26 12:41:24 +0530: feat(components): structure expandable tech stack pill filters
+- 2026-02-26 12:44:44 +0530: chore(deps): clean up unused styles and consolidate utility classes
