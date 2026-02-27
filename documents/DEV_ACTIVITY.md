@@ -1,1 +1,1 @@
-- 2026-02-27 17:08:05 +0530: chore(deps): clean up unused styles and consolidate utility classes
+- 2026-02-27 17:23:06 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
