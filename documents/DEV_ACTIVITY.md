@@ -1,1 +1,1 @@
-- 2026-02-27 12:32:06 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
+- 2026-02-27 12:34:41 +0530: perf(render): optimize will-change CSS hints for GPU compositing
