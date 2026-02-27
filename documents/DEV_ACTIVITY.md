@@ -1,1 +1,1 @@
-- 2026-02-27 13:15:08 +0530: chore(deps): streamline TypeScript path alias configurations
+- 2026-02-27 13:15:16 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
