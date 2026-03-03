@@ -1,1 +1,1 @@
-- 2026-03-03 12:06:32 +0530: chore(deps): streamline TypeScript path alias configurations
+- 2026-03-03 12:07:48 +0530: fix(layout): prevent layout shift during dynamic font loading
