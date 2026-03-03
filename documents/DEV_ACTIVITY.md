@@ -1,1 +1,1 @@
-- 2026-03-03 12:53:56 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
+- 2026-03-03 12:54:13 +0530: feat(components): structure expandable tech stack pill filters
