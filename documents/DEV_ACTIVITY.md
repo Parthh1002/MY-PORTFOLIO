@@ -1,1 +1,1 @@
-- 2026-03-03 13:40:01 +0530: fix(layout): prevent layout shift during dynamic font loading
+- 2026-03-03 13:43:32 +0530: style(theme): balance light theme text legibility and muted borders
