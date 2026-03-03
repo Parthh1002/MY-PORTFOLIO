@@ -1,1 +1,1 @@
-- 2026-03-03 11:37:59 +0530: perf(render): enable content-visibility auto for offscreen sections
+- 2026-03-03 11:38:48 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
