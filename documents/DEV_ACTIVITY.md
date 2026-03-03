@@ -1,1 +1,1 @@
-- 2026-03-03 16:21:49 +0530: feat(animation): orchestrate staggered fade-up spring transitions
+- 2026-03-03 16:25:24 +0530: feat(animation): add smooth inertia damping to interactive 3D elements
