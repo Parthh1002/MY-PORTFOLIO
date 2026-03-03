@@ -1,1 +1,1 @@
-- 2026-03-03 13:04:41 +0530: style(theme): synchronize theme transitions across border colors
+- 2026-03-03 13:06:22 +0530: style(theme): balance light theme text legibility and muted borders
