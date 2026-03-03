@@ -1,1 +1,1 @@
-- 2026-03-03 09:47:42 +0530: style(theme): balance light theme text legibility and muted borders
+- 2026-03-03 09:48:18 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
