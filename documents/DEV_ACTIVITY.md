@@ -1,1 +1,1 @@
-- 2026-03-03 20:02:41 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
+- 2026-03-03 20:02:54 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
