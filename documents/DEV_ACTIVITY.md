@@ -1,1 +1,1 @@
-- 2026-03-03 14:54:45 +0530: feat(ui): polish border radius tokens and card padding hierarchy
+- 2026-03-03 14:55:11 +0530: feat(components): add copy-to-clipboard feedback chip with checkmark icon
