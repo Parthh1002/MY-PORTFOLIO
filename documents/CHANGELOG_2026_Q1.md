@@ -1727,3 +1727,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `fix(theme): eliminate flash of unstyled theme on initial page mount`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #346] - 2026-03-03 18:42:31 +0530
+- **Module**: Core Engineering
+- **Commit**: `perf(bundle): split vendor chunks for Three.js, Lucide, and Framer Motion`
+- **Verification**: Verified via test build and runtime inspection.
+
