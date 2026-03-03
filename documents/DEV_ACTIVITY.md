@@ -1,1 +1,1 @@
-- 2026-03-03 12:14:49 +0530: perf(render): debounce window resize and orientation change handlers
+- 2026-03-03 12:16:34 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
