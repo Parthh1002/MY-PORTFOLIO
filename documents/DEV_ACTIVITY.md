@@ -1,1 +1,1 @@
-- 2026-03-03 17:43:58 +0530: feat(ui): polish border radius tokens and card padding hierarchy
+- 2026-03-03 17:43:59 +0530: feat(components): add tooltip descriptions for engineering architecture tags
