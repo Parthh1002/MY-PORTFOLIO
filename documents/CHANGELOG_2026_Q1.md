@@ -1777,3 +1777,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `feat(footer): build minimal footer with social links and live copyright`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #356] - 2026-03-04 19:09:31 +0530
+- **Module**: Skills & Stack
+- **Commit**: `perf(skills): lazy load third-party brand SVG icons to conserve initial bundle`
+- **Verification**: Verified via test build and runtime inspection.
+
