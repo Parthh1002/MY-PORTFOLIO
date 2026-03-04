@@ -1,1 +1,1 @@
-- 2026-03-04 13:59:02 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
+- 2026-03-04 14:01:18 +0530: feat(animation): orchestrate staggered fade-up spring transitions
