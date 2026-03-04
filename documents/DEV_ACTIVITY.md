@@ -1,1 +1,1 @@
-- 2026-03-04 14:01:18 +0530: feat(animation): orchestrate staggered fade-up spring transitions
+- 2026-03-04 14:03:42 +0530: chore(deps): tune Vite production chunk splitting strategy
