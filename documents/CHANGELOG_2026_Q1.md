@@ -1757,3 +1757,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `feat(icons): bundle optimized Lucide icon components with size prop normalization`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #352] - 2026-03-04 13:24:29 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `fix(three): properly dispose geometries and materials on component unmount`
+- **Verification**: Verified via test build and runtime inspection.
+
