@@ -1772,3 +1772,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `feat(hero): construct animated headline with typing effect and gradient text`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #355] - 2026-03-04 17:24:42 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(footer): build minimal footer with social links and live copyright`
+- **Verification**: Verified via test build and runtime inspection.
+
