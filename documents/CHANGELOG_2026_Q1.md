@@ -1817,3 +1817,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `fix(navbar): resolve z-index stacking collision with full-screen modals`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #364] - 2026-03-05 23:20:40 +0530
+- **Module**: Project Showcase
+- **Commit**: `fix(projects): prevent body scroll lock leak when closing project modal`
+- **Verification**: Verified via test build and runtime inspection.
+
