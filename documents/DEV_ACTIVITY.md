@@ -1,1 +1,1 @@
-- 2026-03-05 13:39:27 +0530: chore(deps): tune Vite production chunk splitting strategy
+- 2026-03-05 13:49:12 +0530: fix(layout): normalize margin collapse across nested article sections
