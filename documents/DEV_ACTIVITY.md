@@ -1,1 +1,1 @@
-- 2026-03-05 16:14:59 +0530: fix(layout): prevent layout shift during dynamic font loading
+- 2026-03-05 16:17:39 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
