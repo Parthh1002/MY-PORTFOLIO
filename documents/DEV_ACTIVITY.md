@@ -1,1 +1,1 @@
-- 2026-03-05 11:15:49 +0530: style(theme): tune high-contrast dark theme foreground tokens
+- 2026-03-05 11:29:19 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
