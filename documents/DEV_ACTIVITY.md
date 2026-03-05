@@ -1,1 +1,1 @@
-- 2026-03-05 12:39:34 +0530: perf(render): lazy load below-the-fold project screenshots
+- 2026-03-05 12:48:17 +0530: feat(components): add tooltip descriptions for engineering architecture tags
