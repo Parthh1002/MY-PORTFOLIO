@@ -1,1 +1,1 @@
-- 2026-03-05 11:38:43 +0530: style(theme): calibrate subtle focus outline rings for accessible navigation
+- 2026-03-05 11:39:07 +0530: chore(deps): clean up unused styles and consolidate utility classes
