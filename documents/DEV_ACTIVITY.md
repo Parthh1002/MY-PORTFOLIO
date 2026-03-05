@@ -1,1 +1,1 @@
-- 2026-03-05 13:37:51 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
+- 2026-03-05 13:39:27 +0530: chore(deps): tune Vite production chunk splitting strategy
