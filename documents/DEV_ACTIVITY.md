@@ -1,1 +1,1 @@
-- 2026-03-06 18:25:01 +0530: feat(ui): integrate tactile scale down feedback on click interactions
+- 2026-03-06 18:27:18 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
