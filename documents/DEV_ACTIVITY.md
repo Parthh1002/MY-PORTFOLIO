@@ -1,1 +1,1 @@
-- 2026-03-06 19:17:35 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
+- 2026-03-06 19:19:42 +0530: chore(deps): streamline TypeScript path alias configurations
