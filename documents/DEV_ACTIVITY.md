@@ -1,1 +1,1 @@
-- 2026-03-06 22:19:46 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
+- 2026-03-06 22:21:30 +0530: chore(deps): tune Vite production chunk splitting strategy
