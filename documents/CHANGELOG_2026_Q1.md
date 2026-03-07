@@ -1842,3 +1842,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `feat(skills): organize technical skills into frontend, backend, and AI categories`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #369] - 2026-03-07 14:28:10 +0530
+- **Module**: Hero Section
+- **Commit**: `style(hero): tune responsive line breaks and typography scaling on mobile`
+- **Verification**: Verified via test build and runtime inspection.
+
