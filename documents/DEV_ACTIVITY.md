@@ -460,3 +460,4 @@
 - 2026-02-22 13:42:00 +0530: docs(readme): update project achievements, live demos, and certification badges
 - 2026-02-22 14:16:44 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
 - 2026-02-22 21:35:27 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
+- 2026-03-08 11:13:38 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
