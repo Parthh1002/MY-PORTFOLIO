@@ -462,3 +462,4 @@
 - 2026-02-22 21:35:27 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
 - 2026-03-08 11:13:38 +0530: fix(navbar): resolve sticky navigation offset on high refresh rate screens
 - 2026-03-08 12:52:58 +0530: test(accessibility): audit ARIA labels, tab indices, and focus ring contrast
+- 2026-03-08 13:36:42 +0530: feat(github): display live repository star counts and primary language pills
