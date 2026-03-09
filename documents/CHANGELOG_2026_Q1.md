@@ -1857,3 +1857,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `style(buttons): refine tactile scale transition (0.97) for primary action buttons`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #372] - 2026-03-09 11:27:09 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): integrate detailed project modal with tabbed media previews`
+- **Verification**: Verified via test build and runtime inspection.
+
