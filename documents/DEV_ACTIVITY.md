@@ -1,1 +1,1 @@
-- 2026-03-09 13:07:05 +0530: fix(layout): normalize margin collapse across nested article sections
+- 2026-03-09 13:08:49 +0530: style(theme): calibrate subtle focus outline rings for accessible navigation
