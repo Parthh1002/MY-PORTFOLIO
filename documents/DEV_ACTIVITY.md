@@ -1,1 +1,1 @@
-- 2026-03-09 16:30:30 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
+- 2026-03-09 16:40:29 +0530: style(theme): synchronize theme transitions across border colors
