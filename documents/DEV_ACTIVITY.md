@@ -1,1 +1,1 @@
-- 2026-03-09 10:45:41 +0530: feat(components): implement interactive modal close on escape key press
+- 2026-03-09 10:46:03 +0530: feat(components): add tooltip descriptions for engineering architecture tags
