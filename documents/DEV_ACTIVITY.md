@@ -1,1 +1,1 @@
-- 2026-03-09 16:23:04 +0530: chore(deps): streamline TypeScript path alias configurations
+- 2026-03-09 16:23:47 +0530: perf(render): enable content-visibility auto for offscreen sections
