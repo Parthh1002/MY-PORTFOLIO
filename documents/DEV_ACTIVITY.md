@@ -1,1 +1,1 @@
-- 2026-03-09 18:03:21 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
+- 2026-03-09 18:05:14 +0530: feat(components): implement interactive modal close on escape key press
