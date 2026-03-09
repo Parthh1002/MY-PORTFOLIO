@@ -1,1 +1,1 @@
-- 2026-03-09 16:59:38 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
+- 2026-03-09 17:04:11 +0530: style(theme): balance light theme text legibility and muted borders
