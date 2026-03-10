@@ -1,1 +1,1 @@
-- 2026-03-10 19:04:31 +0530: fix(layout): normalize margin collapse across nested article sections
+- 2026-03-10 19:04:54 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
