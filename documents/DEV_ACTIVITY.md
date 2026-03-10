@@ -1,1 +1,1 @@
-- 2026-03-10 22:22:19 +0530: chore(deps): streamline TypeScript path alias configurations
+- 2026-03-10 22:25:15 +0530: feat(components): integrate seamless external link icon with aria-label
