@@ -1,1 +1,1 @@
-- 2026-03-10 20:01:14 +0530: chore(deps): tune Vite production chunk splitting strategy
+- 2026-03-10 20:05:41 +0530: feat(components): structure expandable tech stack pill filters
