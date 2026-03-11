@@ -1897,3 +1897,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `ci(workflow): setup automated GitHub Actions lint and typecheck pipeline`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #380] - 2026-03-11 12:22:37 +0530
+- **Module**: Experience Timeline
+- **Commit**: `style(experience): add pulsing radar dot to current active experience role`
+- **Verification**: Verified via test build and runtime inspection.
+
