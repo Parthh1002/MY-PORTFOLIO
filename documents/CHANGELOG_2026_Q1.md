@@ -1887,3 +1887,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `perf(scroll): throttle window scroll listeners via requestAnimationFrame`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #378] - 2026-03-11 09:57:51 +0530
+- **Module**: Resume & Modals
+- **Commit**: `feat(contact): construct interactive contact modal with email and social links`
+- **Verification**: Verified via test build and runtime inspection.
+
