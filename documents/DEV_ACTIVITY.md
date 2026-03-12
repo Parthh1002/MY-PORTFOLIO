@@ -1,1 +1,1 @@
-- 2026-03-12 19:20:25 +0530: feat(components): add tooltip descriptions for engineering architecture tags
+- 2026-03-12 19:21:21 +0530: style(theme): synchronize theme transitions across border colors
