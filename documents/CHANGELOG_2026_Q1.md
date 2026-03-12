@@ -1962,3 +1962,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `style(tokens): define HSL semantic color scales for surface, text, and accents`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #393] - 2026-03-12 10:40:12 +0530
+- **Module**: Design System
+- **Commit**: `style(typography): calibrate fluid clamp typography rules for display headings`
+- **Verification**: Verified via test build and runtime inspection.
+
