@@ -1,1 +1,1 @@
-- 2026-03-12 10:59:18 +0530: style(theme): balance light theme text legibility and muted borders
+- 2026-03-12 11:04:46 +0530: style(theme): tune high-contrast dark theme foreground tokens
