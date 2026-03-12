@@ -1,1 +1,1 @@
-- 2026-03-12 21:44:37 +0530: perf(render): lazy load below-the-fold project screenshots
+- 2026-03-12 21:51:40 +0530: feat(components): implement interactive modal close on escape key press
