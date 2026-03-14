@@ -1,1 +1,1 @@
-- 2026-03-14 21:38:59 +0530: fix(layout): correct flexbox wrap alignment on tablet devices
+- 2026-03-14 21:41:56 +0530: style(theme): balance light theme text legibility and muted borders
