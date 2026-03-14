@@ -1,1 +1,1 @@
-- 2026-03-14 09:44:22 +0530: feat(ui): integrate tactile scale down feedback on click interactions
+- 2026-03-14 09:56:50 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
