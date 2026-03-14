@@ -1,1 +1,1 @@
-- 2026-03-14 12:41:03 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
+- 2026-03-14 12:46:32 +0530: chore(deps): tune Vite production chunk splitting strategy
