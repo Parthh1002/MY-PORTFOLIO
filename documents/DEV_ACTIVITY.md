@@ -1,1 +1,1 @@
-- 2026-03-14 14:02:49 +0530: feat(ui): refine frosted glass morphism with backdrop filter blur
+- 2026-03-14 14:03:04 +0530: fix(layout): prevent layout shift during dynamic font loading
