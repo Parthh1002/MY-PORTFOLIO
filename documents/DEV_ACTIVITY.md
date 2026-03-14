@@ -1,1 +1,1 @@
-- 2026-03-14 12:08:18 +0530: feat(animation): implement floating card hover elevation with drop shadow
+- 2026-03-14 12:11:46 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
