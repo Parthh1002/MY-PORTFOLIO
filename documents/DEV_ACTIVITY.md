@@ -1,1 +1,1 @@
-- 2026-03-14 10:31:30 +0530: feat(ui): enhance responsive layout container for ultra-wide viewports
+- 2026-03-14 10:46:47 +0530: fix(layout): normalize margin collapse across nested article sections
