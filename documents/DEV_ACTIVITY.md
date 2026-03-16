@@ -1,1 +1,1 @@
-- 2026-03-16 15:40:20 +0530: feat(ui): enhance responsive layout container for ultra-wide viewports
+- 2026-03-16 15:40:56 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
