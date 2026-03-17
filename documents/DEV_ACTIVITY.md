@@ -1,1 +1,1 @@
-- 2026-03-17 10:36:10 +0530: feat(components): add tooltip descriptions for engineering architecture tags
+- 2026-03-17 10:41:35 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
