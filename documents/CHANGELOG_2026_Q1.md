@@ -2037,3 +2037,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `feat(ui): implement reusable glassmorphic Card container with ambient rim light`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #408] - 2026-03-17 12:00:16 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `fix(mobile): resolve safe-area-inset padding for iPhone viewport notches`
+- **Verification**: Verified via test build and runtime inspection.
+
