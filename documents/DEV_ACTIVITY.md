@@ -1,1 +1,1 @@
-- 2026-03-17 15:09:15 +0530: feat(components): implement interactive modal close on escape key press
+- 2026-03-17 15:12:59 +0530: feat(components): implement interactive modal close on escape key press
