@@ -2032,3 +2032,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `feat(projects): create ProjectCard component with dynamic tag filters`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #407] - 2026-03-17 11:43:47 +0530
+- **Module**: Design System
+- **Commit**: `feat(ui): implement reusable glassmorphic Card container with ambient rim light`
+- **Verification**: Verified via test build and runtime inspection.
+
