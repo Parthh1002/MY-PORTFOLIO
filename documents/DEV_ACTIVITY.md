@@ -1,1 +1,1 @@
-- 2026-03-17 10:23:12 +0530: perf(render): debounce window resize and orientation change handlers
+- 2026-03-17 10:25:33 +0530: style(theme): calibrate subtle focus outline rings for accessible navigation
