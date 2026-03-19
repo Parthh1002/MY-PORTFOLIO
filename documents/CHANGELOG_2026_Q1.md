@@ -2122,3 +2122,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `perf(skills): lazy load third-party brand SVG icons to conserve initial bundle`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #425] - 2026-03-19 12:26:17 +0530
+- **Module**: Hero Section
+- **Commit**: `refactor(hero): improve LCP performance by preloading critical hero assets`
+- **Verification**: Verified via test build and runtime inspection.
+
