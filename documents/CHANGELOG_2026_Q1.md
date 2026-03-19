@@ -2127,3 +2127,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `refactor(hero): improve LCP performance by preloading critical hero assets`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #426] - 2026-03-19 12:47:46 +0530
+- **Module**: Project Showcase
+- **Commit**: `data(projects): populate project metadata, metrics, and architecture summaries`
+- **Verification**: Verified via test build and runtime inspection.
+
