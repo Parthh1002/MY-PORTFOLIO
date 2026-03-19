@@ -1,1 +1,1 @@
-- 2026-03-19 18:21:26 +0530: feat(animation): implement floating card hover elevation with drop shadow
+- 2026-03-19 18:24:07 +0530: perf(render): enable content-visibility auto for offscreen sections
