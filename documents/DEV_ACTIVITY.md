@@ -1,1 +1,1 @@
-- 2026-03-20 14:09:16 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
+- 2026-03-20 14:13:45 +0530: fix(layout): correct flexbox wrap alignment on tablet devices
