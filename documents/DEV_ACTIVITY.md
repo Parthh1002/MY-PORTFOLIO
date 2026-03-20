@@ -1,1 +1,1 @@
-- 2026-03-20 11:10:24 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
+- 2026-03-20 11:11:45 +0530: perf(render): lazy load below-the-fold project screenshots
