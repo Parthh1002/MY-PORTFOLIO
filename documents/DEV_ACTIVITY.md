@@ -1,1 +1,1 @@
-- 2026-03-20 15:15:26 +0530: perf(render): lazy load below-the-fold project screenshots
+- 2026-03-20 15:16:48 +0530: feat(components): integrate seamless external link icon with aria-label
