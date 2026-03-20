@@ -1,1 +1,1 @@
-- 2026-03-20 10:14:48 +0530: feat(ui): integrate tactile scale down feedback on click interactions
+- 2026-03-20 10:15:46 +0530: perf(render): optimize will-change CSS hints for GPU compositing
