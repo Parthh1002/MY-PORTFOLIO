@@ -1,1 +1,1 @@
-- 2026-03-20 20:02:01 +0530: feat(components): add copy-to-clipboard feedback chip with checkmark icon
+- 2026-03-20 20:02:19 +0530: perf(render): enable content-visibility auto for offscreen sections
