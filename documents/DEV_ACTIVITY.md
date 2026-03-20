@@ -1,1 +1,1 @@
-- 2026-03-20 14:19:35 +0530: feat(components): structure expandable tech stack pill filters
+- 2026-03-20 14:21:51 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
