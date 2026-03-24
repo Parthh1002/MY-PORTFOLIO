@@ -1,1 +1,1 @@
-- 2026-03-24 12:28:56 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
+- 2026-03-24 12:39:42 +0530: feat(ui): polish border radius tokens and card padding hierarchy
