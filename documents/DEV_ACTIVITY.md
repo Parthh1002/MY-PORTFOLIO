@@ -1,1 +1,1 @@
-- 2026-03-24 21:24:45 +0530: feat(ui): enhance responsive layout container for ultra-wide viewports
+- 2026-03-24 21:26:00 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
