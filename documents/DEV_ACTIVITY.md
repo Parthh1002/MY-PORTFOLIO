@@ -1,1 +1,1 @@
-- 2026-03-24 15:36:37 +0530: feat(ui): refine frosted glass morphism with backdrop filter blur
+- 2026-03-24 15:41:18 +0530: feat(components): implement interactive modal close on escape key press
