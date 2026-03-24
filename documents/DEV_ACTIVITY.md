@@ -1,1 +1,1 @@
-- 2026-03-24 17:27:37 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
+- 2026-03-24 17:33:45 +0530: fix(layout): prevent layout shift during dynamic font loading
