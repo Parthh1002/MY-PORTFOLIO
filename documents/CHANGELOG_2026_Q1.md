@@ -2307,3 +2307,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `style(typography): calibrate fluid clamp typography rules for display headings`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #462] - 2026-03-25 21:26:21 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `perf(particles): optimize particle collision math and spatial hash partition`
+- **Verification**: Verified via test build and runtime inspection.
+
