@@ -2317,3 +2317,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `feat(projects): add live demo and GitHub repository direct launch buttons`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #464] - 2026-03-25 23:06:50 +0530
+- **Module**: Design System
+- **Commit**: `refactor(tokens): harmonize border radius and spacing scale across UI primitives`
+- **Verification**: Verified via test build and runtime inspection.
+
