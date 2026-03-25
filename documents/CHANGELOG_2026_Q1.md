@@ -2277,3 +2277,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `style(projects): implement image zoom-in on card hover with overflow hidden`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #456] - 2026-03-25 11:38:09 +0530
+- **Module**: Graphics & Canvas
+- **Commit**: `style(particles): calibrate particle alpha fade and connection distance`
+- **Verification**: Verified via test build and runtime inspection.
+
