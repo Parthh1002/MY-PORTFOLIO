@@ -1,1 +1,1 @@
-- 2026-03-26 17:35:24 +0530: fix(layout): correct flexbox wrap alignment on tablet devices
+- 2026-03-26 17:39:00 +0530: feat(components): implement interactive modal close on escape key press
