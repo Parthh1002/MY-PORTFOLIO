@@ -1,1 +1,1 @@
-- 2026-03-26 09:58:34 +0530: feat(components): add tooltip descriptions for engineering architecture tags
+- 2026-03-26 10:05:52 +0530: feat(animation): add smooth inertia damping to interactive 3D elements
