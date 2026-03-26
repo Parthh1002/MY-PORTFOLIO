@@ -1,1 +1,1 @@
-- 2026-03-26 20:42:07 +0530: perf(render): enable content-visibility auto for offscreen sections
+- 2026-03-26 20:44:37 +0530: feat(animation): orchestrate staggered fade-up spring transitions
