@@ -1,1 +1,1 @@
-- 2026-03-26 17:47:52 +0530: style(theme): tune high-contrast dark theme foreground tokens
+- 2026-03-26 17:50:44 +0530: chore(deps): clean up unused styles and consolidate utility classes
