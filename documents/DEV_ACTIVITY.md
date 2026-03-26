@@ -1,1 +1,1 @@
-- 2026-03-26 15:32:18 +0530: feat(ui): add subtle ambient gradient glow behind active cards
+- 2026-03-26 15:32:46 +0530: fix(layout): normalize margin collapse across nested article sections
