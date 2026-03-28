@@ -1,1 +1,1 @@
-- 2026-03-28 21:54:18 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
+- 2026-03-28 21:55:13 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
