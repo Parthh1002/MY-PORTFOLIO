@@ -2397,3 +2397,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `feat(three): integrate 3D model viewer with OrbitControls dampening`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #480] - 2026-03-28 23:14:54 +0530
+- **Module**: Hero Section
+- **Commit**: `feat(hero): attach smooth scroll anchor link directing to work showcase`
+- **Verification**: Verified via test build and runtime inspection.
+
