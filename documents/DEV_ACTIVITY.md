@@ -1,1 +1,1 @@
-- 2026-03-28 23:20:01 +0530: chore(deps): clean up unused styles and consolidate utility classes
+- 2026-03-28 23:29:43 +0530: fix(layout): prevent layout shift during dynamic font loading
