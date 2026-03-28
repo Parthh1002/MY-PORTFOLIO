@@ -1,1 +1,1 @@
-- 2026-03-28 21:09:57 +0530: fix(layout): prevent layout shift during dynamic font loading
+- 2026-03-28 21:13:01 +0530: feat(animation): add smooth inertia damping to interactive 3D elements
