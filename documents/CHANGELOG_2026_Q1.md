@@ -2382,3 +2382,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `fix(mobile): resolve safe-area-inset padding for iPhone viewport notches`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #477] - 2026-03-28 20:22:54 +0530
+- **Module**: Navigation & Layout
+- **Commit**: `feat(navigation): integrate keyboard shortcuts (Escape to close modals)`
+- **Verification**: Verified via test build and runtime inspection.
+
