@@ -475,3 +475,4 @@
 - 2026-03-29 13:53:05 +0530: chore(deps): bump tailwindcss and postcss plugins to latest minor release
 - 2026-03-29 14:11:24 +0530: fix(footer): correct social link attributes with rel=noopener noreferrer
 - 2026-03-29 22:02:26 +0530: feat(analytics): add privacy-friendly client-side pageview telemetry
+- 2026-03-29 22:35:21 +0530: refactor(experience): streamline timeline layout with accessible semantic milestones
