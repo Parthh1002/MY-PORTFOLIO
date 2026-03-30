@@ -1,1 +1,1 @@
-- 2026-03-30 15:56:39 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
+- 2026-03-30 15:59:34 +0530: chore(deps): clean up unused styles and consolidate utility classes
