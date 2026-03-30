@@ -1,1 +1,1 @@
-- 2026-03-30 11:44:53 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
+- 2026-03-30 11:45:57 +0530: fix(layout): prevent layout shift during dynamic font loading
