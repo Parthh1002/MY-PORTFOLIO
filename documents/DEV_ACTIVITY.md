@@ -1,1 +1,1 @@
-- 2026-03-30 16:45:53 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
+- 2026-03-30 16:46:10 +0530: feat(animation): implement floating card hover elevation with drop shadow
