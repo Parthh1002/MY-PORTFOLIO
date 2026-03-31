@@ -2427,3 +2427,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `style(nav): add subtle border shimmer sweep on active nav link hover`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #486] - 2026-03-31 10:36:42 +0530
+- **Module**: Experience Timeline
+- **Commit**: `data(experience): add Hackathon milestones and Smart India Hackathon entry`
+- **Verification**: Verified via test build and runtime inspection.
+
