@@ -1,1 +1,1 @@
-- 2026-04-01 11:32:46 +0530: feat(ui): refine frosted glass morphism with backdrop filter blur
+- 2026-04-01 11:34:18 +0530: fix(layout): normalize margin collapse across nested article sections
