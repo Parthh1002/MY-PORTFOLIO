@@ -1,1 +1,1 @@
-- 2026-04-01 16:59:38 +0530: style(theme): balance light theme text legibility and muted borders
+- 2026-04-01 17:01:11 +0530: style(theme): calibrate subtle focus outline rings for accessible navigation
