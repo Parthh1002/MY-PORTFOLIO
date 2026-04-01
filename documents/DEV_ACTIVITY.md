@@ -1,1 +1,1 @@
-- 2026-04-01 20:22:20 +0530: perf(render): optimize will-change CSS hints for GPU compositing
+- 2026-04-01 20:26:00 +0530: feat(components): integrate seamless external link icon with aria-label
