@@ -1,1 +1,1 @@
-- 2026-04-01 12:02:59 +0530: feat(components): integrate seamless external link icon with aria-label
+- 2026-04-01 12:04:52 +0530: style(theme): balance light theme text legibility and muted borders
