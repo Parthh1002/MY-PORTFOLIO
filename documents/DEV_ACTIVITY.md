@@ -1,1 +1,1 @@
-- 2026-04-01 18:55:14 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
+- 2026-04-01 18:58:00 +0530: feat(components): structure expandable tech stack pill filters
