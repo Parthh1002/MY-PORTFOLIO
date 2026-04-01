@@ -1,1 +1,1 @@
-- 2026-04-01 17:56:26 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
+- 2026-04-01 17:59:39 +0530: feat(components): implement interactive modal close on escape key press
