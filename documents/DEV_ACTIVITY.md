@@ -1,1 +1,1 @@
-- 2026-04-02 13:33:28 +0530: feat(ui): integrate tactile scale down feedback on click interactions
+- 2026-04-02 13:33:54 +0530: feat(components): integrate seamless external link icon with aria-label
