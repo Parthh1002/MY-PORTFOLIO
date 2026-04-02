@@ -1,1 +1,1 @@
-- 2026-04-02 23:32:37 +0530: feat(components): structure expandable tech stack pill filters
+- 2026-04-02 23:33:02 +0530: feat(animation): orchestrate staggered fade-up spring transitions
