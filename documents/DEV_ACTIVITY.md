@@ -1,1 +1,1 @@
-- 2026-04-02 12:10:00 +0530: feat(components): structure expandable tech stack pill filters
+- 2026-04-02 12:10:02 +0530: feat(components): add copy-to-clipboard feedback chip with checkmark icon
