@@ -1,1 +1,1 @@
-- 2026-04-02 18:22:08 +0530: feat(ui): enhance responsive layout container for ultra-wide viewports
+- 2026-04-02 18:25:01 +0530: perf(render): enable content-visibility auto for offscreen sections
