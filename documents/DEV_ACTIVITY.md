@@ -1,1 +1,1 @@
-- 2026-04-02 12:10:59 +0530: style(theme): calibrate subtle focus outline rings for accessible navigation
+- 2026-04-02 12:12:23 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
