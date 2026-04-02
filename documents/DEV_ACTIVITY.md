@@ -1,1 +1,1 @@
-- 2026-04-02 12:59:28 +0530: feat(ui): polish border radius tokens and card padding hierarchy
+- 2026-04-02 12:59:53 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
