@@ -2532,3 +2532,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `test(e2e): verify critical click paths for resume and project modal flows`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #507] - 2026-04-02 22:02:14 +0530
+- **Module**: Design System
+- **Commit**: `style(buttons): refine tactile scale transition (0.97) for primary action buttons`
+- **Verification**: Verified via test build and runtime inspection.
+
