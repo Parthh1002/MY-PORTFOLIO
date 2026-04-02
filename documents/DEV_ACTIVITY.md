@@ -1,1 +1,1 @@
-- 2026-04-02 18:08:10 +0530: perf(render): lazy load below-the-fold project screenshots
+- 2026-04-02 18:09:00 +0530: perf(render): enable content-visibility auto for offscreen sections
