@@ -1,1 +1,1 @@
-- 2026-04-03 19:49:13 +0530: feat(components): add tooltip descriptions for engineering architecture tags
+- 2026-04-03 19:51:45 +0530: style(theme): balance light theme text legibility and muted borders
