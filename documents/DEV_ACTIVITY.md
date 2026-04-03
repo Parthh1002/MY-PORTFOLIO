@@ -1,1 +1,1 @@
-- 2026-04-03 17:06:53 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
+- 2026-04-03 17:08:58 +0530: perf(render): optimize will-change CSS hints for GPU compositing
