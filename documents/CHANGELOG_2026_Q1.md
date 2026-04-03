@@ -2572,3 +2572,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `feat(contact): construct interactive contact modal with email and social links`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #515] - 2026-04-03 22:36:27 +0530
+- **Module**: Core Engineering
+- **Commit**: `ci(workflow): setup automated GitHub Actions lint and typecheck pipeline`
+- **Verification**: Verified via test build and runtime inspection.
+
