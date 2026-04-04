@@ -2592,3 +2592,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `style(contact): add frosted backdrop filter and smooth spring entry physics`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #519] - 2026-04-04 11:05:27 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): add video preview playback on card hover interaction`
+- **Verification**: Verified via test build and runtime inspection.
+
