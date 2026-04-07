@@ -2652,3 +2652,8 @@ All foundational updates, early prototypes, and core milestones for Q1 2026.
 - **Commit**: `perf(particles): optimize particle collision math and spatial hash partition`
 - **Verification**: Verified via test build and runtime inspection.
 
+### [Phase 0 - Milestone #531] - 2026-04-07 20:11:49 +0530
+- **Module**: Project Showcase
+- **Commit**: `feat(projects): add live demo and GitHub repository direct launch buttons`
+- **Verification**: Verified via test build and runtime inspection.
+
