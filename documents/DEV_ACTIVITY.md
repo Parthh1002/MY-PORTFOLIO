@@ -1,1 +1,1 @@
-- 2026-04-10 09:45:43 +0530: perf(render): enable content-visibility auto for offscreen sections
+- 2026-04-10 09:58:53 +0530: fix(layout): prevent layout shift during dynamic font loading
