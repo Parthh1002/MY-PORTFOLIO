@@ -1,1 +1,1 @@
-- 2026-04-10 17:47:04 +0530: style(theme): tune high-contrast dark theme foreground tokens
+- 2026-04-10 17:49:28 +0530: feat(components): add tooltip descriptions for engineering architecture tags
