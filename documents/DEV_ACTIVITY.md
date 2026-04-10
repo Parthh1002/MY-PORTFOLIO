@@ -1,1 +1,1 @@
-- 2026-04-10 11:06:06 +0530: chore(deps): clean up unused styles and consolidate utility classes
+- 2026-04-10 11:09:55 +0530: feat(animation): orchestrate staggered fade-up spring transitions
