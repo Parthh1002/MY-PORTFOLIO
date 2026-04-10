@@ -1,1 +1,1 @@
-- 2026-04-10 18:00:37 +0530: perf(render): enable content-visibility auto for offscreen sections
+- 2026-04-10 18:02:33 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
