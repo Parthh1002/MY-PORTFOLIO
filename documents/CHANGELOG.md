@@ -7,3 +7,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `chore(init): implement Vite React TypeScript boilerplate with strict compiler options`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #2] - 2026-04-10 16:07:47 +0530
+- **Phase**: Phase 1: Project Architecture & Foundations
+- **Commit**: `perf(layout): optimize framer-motion and lucide-react dependencies`
+- **Verification**: Passed all automated test suites and production build checks.
+
