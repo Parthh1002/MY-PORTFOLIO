@@ -1,1 +1,1 @@
-- 2026-04-10 20:00:08 +0530: style(theme): calibrate subtle focus outline rings for accessible navigation
+- 2026-04-10 20:00:12 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
