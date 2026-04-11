@@ -1,1 +1,1 @@
-- 2026-04-11 15:52:08 +0530: feat(components): add copy-to-clipboard feedback chip with checkmark icon
+- 2026-04-11 15:54:07 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
