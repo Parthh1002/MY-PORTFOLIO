@@ -1,1 +1,1 @@
-- 2026-04-11 14:46:08 +0530: feat(ui): integrate tactile scale down feedback on click interactions
+- 2026-04-11 14:46:41 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
