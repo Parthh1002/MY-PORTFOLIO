@@ -1,1 +1,1 @@
-- 2026-04-11 13:21:53 +0530: style(theme): calibrate subtle focus outline rings for accessible navigation
+- 2026-04-11 13:22:13 +0530: fix(layout): correct flexbox wrap alignment on tablet devices
