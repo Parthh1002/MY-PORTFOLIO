@@ -1,1 +1,1 @@
-- 2026-04-11 20:36:57 +0530: feat(ui): add subtle ambient gradient glow behind active cards
+- 2026-04-11 20:38:14 +0530: perf(render): enable content-visibility auto for offscreen sections
