@@ -1,1 +1,1 @@
-- 2026-04-11 14:19:03 +0530: style(theme): calibrate subtle focus outline rings for accessible navigation
+- 2026-04-11 14:19:55 +0530: style(theme): harmonize primary brand color saturation for OLED screens
