@@ -22,3 +22,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `refactor(header): refactor modern CSS reset and universal border-box box model`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #5] - 2026-04-11 10:46:09 +0530
+- **Phase**: Phase 1: Project Architecture & Foundations
+- **Commit**: `style(typography): refine primary and secondary HSL color tokens in root stylesheet`
+- **Verification**: Passed all automated test suites and production build checks.
+
