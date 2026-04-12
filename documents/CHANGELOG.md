@@ -37,3 +37,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `fix(reset): resolve Inter and Fira Code fonts via Google Fonts integration`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #8] - 2026-04-12 10:24:31 +0530
+- **Phase**: Phase 1: Project Architecture & Foundations
+- **Commit**: `perf(vite): streamline ESLint rules for React hooks and unused imports cleanup`
+- **Verification**: Passed all automated test suites and production build checks.
+
