@@ -52,3 +52,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(social): add hero banner layout with headline, subtitle, and CTA buttons`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #11] - 2026-04-12 21:02:53 +0530
+- **Phase**: Phase 1: Project Architecture & Foundations
+- **Commit**: `feat(cta): integrate radial gradient ambient glow in background hero layer`
+- **Verification**: Passed all automated test suites and production build checks.
+
