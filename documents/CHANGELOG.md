@@ -72,3 +72,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(init): elevate profile photo container with circular mask and subtle ring`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #15] - 2026-04-13 20:34:02 +0530
+- **Phase**: Phase 1: Project Architecture & Foundations
+- **Commit**: `fix(layout): audit dual-ring animated gradient border around profile picture`
+- **Verification**: Passed all automated test suites and production build checks.
+
