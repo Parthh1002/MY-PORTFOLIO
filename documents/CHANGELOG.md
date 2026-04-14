@@ -87,3 +87,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(header): synchronize hover scale and subtle glow shadow on social icon buttons`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #18] - 2026-04-14 14:12:24 +0530
+- **Phase**: Phase 1: Project Architecture & Foundations
+- **Commit**: `feat(typography): perfect primary Contact Me and secondary View Projects buttons`
+- **Verification**: Passed all automated test suites and production build checks.
+
