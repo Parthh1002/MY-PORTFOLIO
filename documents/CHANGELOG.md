@@ -77,3 +77,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `fix(layout): audit dual-ring animated gradient border around profile picture`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #16] - 2026-04-14 12:26:49 +0530
+- **Phase**: Phase 1: Project Architecture & Foundations
+- **Commit**: `refactor(hero): harmonize icon link buttons for GitHub, LinkedIn, and Twitter/X`
+- **Verification**: Passed all automated test suites and production build checks.
+
