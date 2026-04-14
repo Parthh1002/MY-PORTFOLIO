@@ -1,1 +1,1 @@
-- 2026-04-14 10:23:40 +0530: style(theme): tune high-contrast dark theme foreground tokens
+- 2026-04-14 10:32:14 +0530: perf(render): enable content-visibility auto for offscreen sections
