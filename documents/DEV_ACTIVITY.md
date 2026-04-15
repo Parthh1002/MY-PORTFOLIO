@@ -1,1 +1,1 @@
-- 2026-04-15 17:17:07 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
+- 2026-04-15 17:19:14 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
