@@ -1,1 +1,1 @@
-- 2026-04-15 10:07:28 +0530: feat(components): implement interactive modal close on escape key press
+- 2026-04-15 10:08:15 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
