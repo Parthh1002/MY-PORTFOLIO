@@ -1,1 +1,1 @@
-- 2026-04-15 19:14:47 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
+- 2026-04-15 19:17:34 +0530: feat(components): add copy-to-clipboard feedback chip with checkmark icon
