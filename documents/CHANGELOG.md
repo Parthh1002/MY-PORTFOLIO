@@ -132,3 +132,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(footer): polish eliminate horizontal page overflow on screens < 360px`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #27] - 2026-04-16 19:07:30 +0530
+- **Phase**: Phase 1: Project Architecture & Foundations
+- **Commit**: `fix(init): resolve font-display: swap to improve first contentful paint`
+- **Verification**: Passed all automated test suites and production build checks.
+
