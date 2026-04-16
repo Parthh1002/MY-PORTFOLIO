@@ -127,3 +127,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(avatar): refine muted text styling and subtle top border separator`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #26] - 2026-04-16 13:14:42 +0530
+- **Phase**: Phase 1: Project Architecture & Foundations
+- **Commit**: `style(footer): polish eliminate horizontal page overflow on screens < 360px`
+- **Verification**: Passed all automated test suites and production build checks.
+
