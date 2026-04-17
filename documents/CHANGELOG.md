@@ -142,3 +142,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `perf(layout): streamline project description, feature summary, and setup commands in README`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #29] - 2026-04-17 10:53:04 +0530
+- **Phase**: Phase 1: Project Architecture & Foundations
+- **Commit**: `feat(hero): fine-tune path aliases for components and styles in vite.config`
+- **Verification**: Passed all automated test suites and production build checks.
+
