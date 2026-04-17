@@ -147,3 +147,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(hero): fine-tune path aliases for components and styles in vite.config`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #30] - 2026-04-17 12:45:51 +0530
+- **Phase**: Phase 1: Project Architecture & Foundations
+- **Commit**: `feat(header): add normalized line height and letter spacing for headings`
+- **Verification**: Passed all automated test suites and production build checks.
+
