@@ -1,1 +1,1 @@
-- 2026-04-17 17:05:04 +0530: feat(components): structure expandable tech stack pill filters
+- 2026-04-17 17:09:17 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
