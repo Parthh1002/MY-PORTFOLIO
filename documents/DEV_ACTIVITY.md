@@ -1,1 +1,1 @@
-- 2026-04-17 15:39:04 +0530: style(theme): balance light theme text legibility and muted borders
+- 2026-04-17 15:41:54 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
