@@ -1,1 +1,1 @@
-- 2026-04-17 22:17:12 +0530: chore(deps): tune Vite production chunk splitting strategy
+- 2026-04-17 22:22:40 +0530: style(theme): tune high-contrast dark theme foreground tokens
