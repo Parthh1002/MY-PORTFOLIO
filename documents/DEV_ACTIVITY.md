@@ -1,1 +1,1 @@
-- 2026-04-17 17:20:02 +0530: perf(render): enable content-visibility auto for offscreen sections
+- 2026-04-17 17:21:40 +0530: chore(deps): tune Vite production chunk splitting strategy
