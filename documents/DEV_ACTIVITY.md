@@ -1,1 +1,1 @@
-- 2026-04-17 12:13:55 +0530: style(theme): balance light theme text legibility and muted borders
+- 2026-04-17 12:13:57 +0530: chore(deps): clean up unused styles and consolidate utility classes
