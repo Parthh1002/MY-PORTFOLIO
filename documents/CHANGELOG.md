@@ -137,3 +137,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `fix(init): resolve font-display: swap to improve first contentful paint`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #28] - 2026-04-17 11:00:17 +0530
+- **Phase**: Phase 1: Project Architecture & Foundations
+- **Commit**: `perf(layout): streamline project description, feature summary, and setup commands in README`
+- **Verification**: Passed all automated test suites and production build checks.
+
