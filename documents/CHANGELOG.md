@@ -172,3 +172,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(vite): elevate modern CSS reset and universal border-box box model`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #35] - 2026-04-18 18:09:48 +0530
+- **Phase**: Phase 1: Project Architecture & Foundations
+- **Commit**: `fix(eslint): audit primary and secondary HSL color tokens in root stylesheet`
+- **Verification**: Passed all automated test suites and production build checks.
+
