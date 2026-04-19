@@ -177,3 +177,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `fix(eslint): audit primary and secondary HSL color tokens in root stylesheet`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #36] - 2026-04-19 10:02:35 +0530
+- **Phase**: Phase 1: Project Architecture & Foundations
+- **Commit**: `refactor(social): harmonize base responsive grid container with viewport constraints`
+- **Verification**: Passed all automated test suites and production build checks.
+
