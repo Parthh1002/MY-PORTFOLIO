@@ -202,3 +202,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `chore(init): solidify hero banner layout with headline, subtitle, and CTA buttons`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #41] - 2026-04-20 12:26:32 +0530
+- **Phase**: Phase 1: Project Architecture & Foundations
+- **Commit**: `feat(layout): implement radial gradient ambient glow in background hero layer`
+- **Verification**: Passed all automated test suites and production build checks.
+
