@@ -232,3 +232,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(reset): polish icon link buttons for GitHub, LinkedIn, and Twitter/X`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #47] - 2026-04-21 16:43:16 +0530
+- **Phase**: Phase 1: Project Architecture & Foundations
+- **Commit**: `fix(vite): resolve hover scale and subtle glow shadow on social icon buttons`
+- **Verification**: Passed all automated test suites and production build checks.
+
