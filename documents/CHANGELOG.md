@@ -252,3 +252,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(cta): add introductory bio section highlighting CSE background`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #51] - 2026-04-22 16:14:25 +0530
+- **Phase**: Phase 1: Project Architecture & Foundations
+- **Commit**: `feat(avatar): integrate highlight badges for current academic year and university`
+- **Verification**: Passed all automated test suites and production build checks.
+
