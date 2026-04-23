@@ -1,1 +1,1 @@
-- 2026-04-23 12:28:02 +0530: feat(components): add tooltip descriptions for engineering architecture tags
+- 2026-04-23 12:31:25 +0530: fix(layout): correct flexbox wrap alignment on tablet devices
