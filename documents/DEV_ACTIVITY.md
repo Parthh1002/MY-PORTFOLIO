@@ -1,1 +1,1 @@
-- 2026-04-23 20:52:43 +0530: chore(deps): clean up unused styles and consolidate utility classes
+- 2026-04-23 20:56:08 +0530: style(theme): synchronize theme transitions across border colors
