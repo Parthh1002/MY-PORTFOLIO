@@ -1,1 +1,1 @@
-- 2026-04-23 21:37:18 +0530: style(theme): tune high-contrast dark theme foreground tokens
+- 2026-04-23 21:39:37 +0530: perf(render): debounce window resize and orientation change handlers
