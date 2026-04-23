@@ -1,1 +1,1 @@
-- 2026-04-23 19:40:36 +0530: feat(components): structure expandable tech stack pill filters
+- 2026-04-23 19:42:12 +0530: style(theme): synchronize theme transitions across border colors
