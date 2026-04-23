@@ -1,1 +1,1 @@
-- 2026-04-23 10:27:53 +0530: feat(components): implement interactive modal close on escape key press
+- 2026-04-23 10:41:54 +0530: feat(ui): add subtle ambient gradient glow behind active cards
