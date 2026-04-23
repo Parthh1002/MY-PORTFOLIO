@@ -1,1 +1,1 @@
-- 2026-04-23 19:50:38 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
+- 2026-04-23 19:55:09 +0530: feat(ui): add subtle ambient gradient glow behind active cards
