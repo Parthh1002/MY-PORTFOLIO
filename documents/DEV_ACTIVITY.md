@@ -1,1 +1,1 @@
-- 2026-04-24 16:48:40 +0530: chore(deps): streamline TypeScript path alias configurations
+- 2026-04-24 16:54:55 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
