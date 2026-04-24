@@ -1,1 +1,1 @@
-- 2026-04-24 16:17:18 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
+- 2026-04-24 16:24:26 +0530: style(theme): harmonize primary brand color saturation for OLED screens
