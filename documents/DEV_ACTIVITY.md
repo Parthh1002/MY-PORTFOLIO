@@ -1,1 +1,1 @@
-- 2026-04-24 21:55:47 +0530: feat(components): add copy-to-clipboard feedback chip with checkmark icon
+- 2026-04-24 22:01:08 +0530: fix(layout): prevent layout shift during dynamic font loading
