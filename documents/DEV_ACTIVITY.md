@@ -1,1 +1,1 @@
-- 2026-04-24 16:59:40 +0530: feat(animation): orchestrate staggered fade-up spring transitions
+- 2026-04-24 17:00:43 +0530: perf(render): optimize will-change CSS hints for GPU compositing
