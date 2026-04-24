@@ -1,1 +1,1 @@
-- 2026-04-24 12:47:05 +0530: style(theme): harmonize primary brand color saturation for OLED screens
+- 2026-04-24 12:54:48 +0530: style(theme): balance light theme text legibility and muted borders
