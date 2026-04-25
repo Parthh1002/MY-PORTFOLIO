@@ -1,1 +1,1 @@
-- 2026-04-25 21:45:35 +0530: feat(ui): refine frosted glass morphism with backdrop filter blur
+- 2026-04-25 21:47:44 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
