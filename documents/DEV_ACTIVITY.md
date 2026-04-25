@@ -1,1 +1,1 @@
-- 2026-04-25 09:45:12 +0530: perf(render): lazy load below-the-fold project screenshots
+- 2026-04-25 09:45:13 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
