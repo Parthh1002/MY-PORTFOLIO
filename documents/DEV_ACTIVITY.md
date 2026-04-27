@@ -1,1 +1,1 @@
-- 2026-04-27 18:18:36 +0530: feat(ui): enhance responsive layout container for ultra-wide viewports
+- 2026-04-27 18:29:52 +0530: chore(deps): tune Vite production chunk splitting strategy
