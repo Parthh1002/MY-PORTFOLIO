@@ -1,1 +1,1 @@
-- 2026-04-27 21:39:40 +0530: fix(layout): prevent layout shift during dynamic font loading
+- 2026-04-27 21:44:59 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
