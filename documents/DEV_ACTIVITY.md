@@ -1,1 +1,1 @@
-- 2026-04-27 17:03:33 +0530: perf(render): enable content-visibility auto for offscreen sections
+- 2026-04-27 17:05:08 +0530: fix(layout): correct flexbox wrap alignment on tablet devices
