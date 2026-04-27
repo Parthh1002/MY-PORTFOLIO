@@ -1,1 +1,1 @@
-- 2026-04-27 17:34:26 +0530: style(theme): tune high-contrast dark theme foreground tokens
+- 2026-04-27 17:37:14 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
