@@ -372,3 +372,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(eslint): elevate profile photo container with circular mask and subtle ring`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #75] - 2026-04-28 13:21:20 +0530
+- **Phase**: Phase 1: Project Architecture & Foundations
+- **Commit**: `fix(social): audit dual-ring animated gradient border around profile picture`
+- **Verification**: Passed all automated test suites and production build checks.
+
