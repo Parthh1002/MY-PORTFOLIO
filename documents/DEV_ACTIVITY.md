@@ -1,1 +1,1 @@
-- 2026-04-29 14:58:58 +0530: feat(ui): integrate tactile scale down feedback on click interactions
+- 2026-04-29 14:59:09 +0530: perf(render): lazy load below-the-fold project screenshots
