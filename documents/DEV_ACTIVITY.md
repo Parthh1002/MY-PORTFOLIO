@@ -1,1 +1,1 @@
-- 2026-04-29 16:43:19 +0530: fix(layout): correct flexbox wrap alignment on tablet devices
+- 2026-04-29 16:48:08 +0530: perf(render): lazy load below-the-fold project screenshots
