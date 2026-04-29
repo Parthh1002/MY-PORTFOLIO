@@ -1,1 +1,1 @@
-- 2026-04-29 19:31:39 +0530: style(theme): synchronize theme transitions across border colors
+- 2026-04-29 19:32:01 +0530: chore(deps): streamline TypeScript path alias configurations
