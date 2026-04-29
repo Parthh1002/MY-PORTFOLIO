@@ -382,3 +382,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `refactor(cta): harmonize icon link buttons for GitHub, LinkedIn, and Twitter/X`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #77] - 2026-04-29 11:06:55 +0530
+- **Phase**: Phase 1: Project Architecture & Foundations
+- **Commit**: `feat(avatar): synchronize hover scale and subtle glow shadow on social icon buttons`
+- **Verification**: Passed all automated test suites and production build checks.
+
