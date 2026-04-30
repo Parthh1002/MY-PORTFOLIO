@@ -1,1 +1,1 @@
-- 2026-04-30 20:33:32 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
+- 2026-04-30 20:46:55 +0530: chore(deps): clean up unused styles and consolidate utility classes
