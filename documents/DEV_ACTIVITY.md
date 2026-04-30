@@ -1,1 +1,1 @@
-- 2026-04-30 17:23:24 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
+- 2026-04-30 17:27:46 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
