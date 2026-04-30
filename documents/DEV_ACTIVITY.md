@@ -1,1 +1,1 @@
-- 2026-04-30 17:50:35 +0530: feat(ui): polish border radius tokens and card padding hierarchy
+- 2026-04-30 17:57:54 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
