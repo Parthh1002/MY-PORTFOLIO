@@ -422,3 +422,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `refactor(tokens): refactor minimal footer with copyright and personal branding`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #85] - 2026-05-01 10:09:13 +0530
+- **Phase**: Phase 1: Project Architecture & Foundations
+- **Commit**: `style(reset): refine muted text styling and subtle top border separator`
+- **Verification**: Passed all automated test suites and production build checks.
+
