@@ -432,3 +432,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(vite): polish eliminate horizontal page overflow on screens < 360px`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #87] - 2026-05-01 11:54:48 +0530
+- **Phase**: Phase 1: Project Architecture & Foundations
+- **Commit**: `fix(eslint): resolve font-display: swap to improve first contentful paint`
+- **Verification**: Passed all automated test suites and production build checks.
+
