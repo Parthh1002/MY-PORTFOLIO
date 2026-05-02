@@ -1,1 +1,1 @@
-- 2026-05-02 11:46:54 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
+- 2026-05-02 11:48:20 +0530: style(theme): harmonize primary brand color saturation for OLED screens
