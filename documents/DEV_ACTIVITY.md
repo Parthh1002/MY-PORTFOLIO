@@ -1,1 +1,1 @@
-- 2026-05-02 14:25:46 +0530: feat(ui): refine frosted glass morphism with backdrop filter blur
+- 2026-05-02 14:27:36 +0530: style(theme): tune high-contrast dark theme foreground tokens
