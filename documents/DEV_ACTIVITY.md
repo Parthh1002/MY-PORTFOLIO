@@ -1,1 +1,1 @@
-- 2026-05-02 23:21:25 +0530: fix(layout): prevent layout shift during dynamic font loading
+- 2026-05-02 23:21:29 +0530: fix(layout): normalize margin collapse across nested article sections
