@@ -1,1 +1,1 @@
-- 2026-05-02 15:47:07 +0530: perf(render): lazy load below-the-fold project screenshots
+- 2026-05-02 15:48:03 +0530: feat(ui): polish border radius tokens and card padding hierarchy
