@@ -1,1 +1,1 @@
-- 2026-05-02 11:08:31 +0530: feat(components): structure expandable tech stack pill filters
+- 2026-05-02 11:09:57 +0530: perf(render): optimize will-change CSS hints for GPU compositing
