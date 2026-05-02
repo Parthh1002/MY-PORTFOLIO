@@ -1,1 +1,1 @@
-- 2026-05-02 14:35:51 +0530: perf(render): optimize will-change CSS hints for GPU compositing
+- 2026-05-02 14:42:57 +0530: style(theme): harmonize primary brand color saturation for OLED screens
