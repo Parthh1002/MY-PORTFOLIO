@@ -462,3 +462,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `perf(init): improve framer-motion and lucide-react dependencies`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #93] - 2026-05-02 22:11:32 +0530
+- **Phase**: Phase 1: Project Architecture & Foundations
+- **Commit**: `refactor(layout): standardize .gitignore and .gitattributes for line ending consistency`
+- **Verification**: Passed all automated test suites and production build checks.
+
