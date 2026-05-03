@@ -472,3 +472,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(hero): elevate modern CSS reset and universal border-box box model`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #95] - 2026-05-03 10:57:06 +0530
+- **Phase**: Phase 1: Project Architecture & Foundations
+- **Commit**: `fix(header): audit primary and secondary HSL color tokens in root stylesheet`
+- **Verification**: Passed all automated test suites and production build checks.
+
