@@ -477,3 +477,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `fix(header): audit primary and secondary HSL color tokens in root stylesheet`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #96] - 2026-05-03 16:49:54 +0530
+- **Phase**: Phase 1: Project Architecture & Foundations
+- **Commit**: `refactor(typography): harmonize base responsive grid container with viewport constraints`
+- **Verification**: Passed all automated test suites and production build checks.
+
