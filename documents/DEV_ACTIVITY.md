@@ -1,1 +1,1 @@
-- 2026-05-05 14:11:30 +0530: style(theme): calibrate subtle focus outline rings for accessible navigation
+- 2026-05-05 14:15:50 +0530: style(theme): synchronize theme transitions across border colors
