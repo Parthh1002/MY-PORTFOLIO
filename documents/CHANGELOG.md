@@ -522,3 +522,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `refactor(footer): refactor profile photo container with circular mask and subtle ring`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #105] - 2026-05-05 21:45:00 +0530
+- **Phase**: Phase 1: Project Architecture & Foundations
+- **Commit**: `style(init): refine dual-ring animated gradient border around profile picture`
+- **Verification**: Passed all automated test suites and production build checks.
+
