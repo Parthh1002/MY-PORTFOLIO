@@ -1,1 +1,1 @@
-- 2026-05-05 14:33:14 +0530: chore(deps): clean up unused styles and consolidate utility classes
+- 2026-05-05 14:49:40 +0530: chore(deps): streamline TypeScript path alias configurations
