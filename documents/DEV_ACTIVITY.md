@@ -1,1 +1,1 @@
-- 2026-05-05 10:30:53 +0530: style(theme): balance light theme text legibility and muted borders
+- 2026-05-05 10:38:58 +0530: chore(deps): streamline TypeScript path alias configurations
