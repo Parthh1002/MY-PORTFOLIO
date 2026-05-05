@@ -1,1 +1,1 @@
-- 2026-05-05 17:06:40 +0530: perf(render): enable content-visibility auto for offscreen sections
+- 2026-05-05 17:07:19 +0530: perf(render): optimize will-change CSS hints for GPU compositing
