@@ -1,1 +1,1 @@
-- 2026-05-05 14:24:42 +0530: chore(deps): streamline TypeScript path alias configurations
+- 2026-05-05 14:25:55 +0530: feat(ui): add subtle ambient gradient glow behind active cards
