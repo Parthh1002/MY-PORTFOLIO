@@ -1,1 +1,1 @@
-- 2026-05-06 17:37:05 +0530: feat(components): add copy-to-clipboard feedback chip with checkmark icon
+- 2026-05-06 17:43:06 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
