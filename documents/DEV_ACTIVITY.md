@@ -1,1 +1,1 @@
-- 2026-05-06 12:36:49 +0530: fix(layout): correct flexbox wrap alignment on tablet devices
+- 2026-05-06 12:40:30 +0530: style(theme): synchronize theme transitions across border colors
