@@ -1,1 +1,1 @@
-- 2026-05-06 17:05:03 +0530: style(theme): harmonize primary brand color saturation for OLED screens
+- 2026-05-06 17:06:33 +0530: feat(ui): refine frosted glass morphism with backdrop filter blur
