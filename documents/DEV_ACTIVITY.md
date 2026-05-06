@@ -1,1 +1,1 @@
-- 2026-05-06 10:41:11 +0530: feat(components): integrate seamless external link icon with aria-label
+- 2026-05-06 10:44:52 +0530: chore(deps): tune Vite production chunk splitting strategy
