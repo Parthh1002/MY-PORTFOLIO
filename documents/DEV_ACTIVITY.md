@@ -1,1 +1,1 @@
-- 2026-05-06 22:20:36 +0530: style(theme): tune high-contrast dark theme foreground tokens
+- 2026-05-06 22:24:32 +0530: style(theme): synchronize theme transitions across border colors
