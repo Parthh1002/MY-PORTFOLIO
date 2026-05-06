@@ -1,1 +1,1 @@
-- 2026-05-06 19:42:36 +0530: style(theme): harmonize primary brand color saturation for OLED screens
+- 2026-05-06 19:48:45 +0530: feat(components): implement interactive modal close on escape key press
