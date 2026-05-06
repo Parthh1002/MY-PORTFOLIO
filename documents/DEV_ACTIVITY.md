@@ -1,1 +1,1 @@
-- 2026-05-06 10:53:49 +0530: feat(animation): add smooth inertia damping to interactive 3D elements
+- 2026-05-06 10:54:26 +0530: style(theme): balance light theme text legibility and muted borders
