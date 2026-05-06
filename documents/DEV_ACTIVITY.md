@@ -1,1 +1,1 @@
-- 2026-05-06 12:08:56 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
+- 2026-05-06 12:14:18 +0530: chore(deps): clean up unused styles and consolidate utility classes
