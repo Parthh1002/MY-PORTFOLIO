@@ -1,1 +1,1 @@
-- 2026-05-07 19:22:08 +0530: style(theme): synchronize theme transitions across border colors
+- 2026-05-07 19:24:07 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
