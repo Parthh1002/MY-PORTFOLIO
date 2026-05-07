@@ -1,1 +1,1 @@
-- 2026-05-07 15:55:53 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
+- 2026-05-07 16:07:49 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
