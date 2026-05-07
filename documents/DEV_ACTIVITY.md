@@ -1,1 +1,1 @@
-- 2026-05-07 18:59:09 +0530: chore(deps): tune Vite production chunk splitting strategy
+- 2026-05-07 19:00:13 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
