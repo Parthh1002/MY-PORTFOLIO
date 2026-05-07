@@ -1,1 +1,1 @@
-- 2026-05-07 18:00:19 +0530: fix(layout): correct flexbox wrap alignment on tablet devices
+- 2026-05-07 18:08:06 +0530: perf(render): optimize will-change CSS hints for GPU compositing
