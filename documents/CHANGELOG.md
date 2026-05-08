@@ -562,3 +562,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `fix(filters): resolve glassmorphic card styling with border highlight and drop shadow`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #113] - 2026-05-08 12:37:50 +0530
+- **Phase**: Phase 2: Projects Showcase & Interactive Tech Stack
+- **Commit**: `perf(modal): streamline 3D tilt perspective transform on card mouse hover`
+- **Verification**: Passed all automated test suites and production build checks.
+
