@@ -1,1 +1,1 @@
-- 2026-05-09 21:41:18 +0530: style(theme): synchronize theme transitions across border colors
+- 2026-05-09 21:45:19 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
