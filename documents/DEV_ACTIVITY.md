@@ -1,1 +1,1 @@
-- 2026-05-09 15:46:35 +0530: fix(layout): correct flexbox wrap alignment on tablet devices
+- 2026-05-09 15:51:39 +0530: style(theme): tune high-contrast dark theme foreground tokens
