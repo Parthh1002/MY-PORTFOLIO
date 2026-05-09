@@ -1,1 +1,1 @@
-- 2026-05-09 18:41:48 +0530: chore(deps): clean up unused styles and consolidate utility classes
+- 2026-05-09 18:42:05 +0530: style(theme): balance light theme text legibility and muted borders
