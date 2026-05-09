@@ -1,1 +1,1 @@
-- 2026-05-09 17:40:02 +0530: perf(render): enable content-visibility auto for offscreen sections
+- 2026-05-09 17:42:41 +0530: style(theme): balance light theme text legibility and muted borders
