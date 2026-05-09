@@ -1,1 +1,1 @@
-- 2026-05-09 14:26:39 +0530: feat(components): implement interactive modal close on escape key press
+- 2026-05-09 14:28:16 +0530: feat(animation): orchestrate staggered fade-up spring transitions
