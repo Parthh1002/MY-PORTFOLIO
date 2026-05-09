@@ -1,1 +1,1 @@
-- 2026-05-09 10:01:54 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
+- 2026-05-09 10:02:36 +0530: style(theme): balance light theme text legibility and muted borders
