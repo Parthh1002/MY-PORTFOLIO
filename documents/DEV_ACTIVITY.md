@@ -1,1 +1,1 @@
-- 2026-05-09 23:35:15 +0530: style(theme): balance light theme text legibility and muted borders
+- 2026-05-09 23:35:17 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
