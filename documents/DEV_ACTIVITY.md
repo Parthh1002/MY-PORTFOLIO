@@ -1,1 +1,1 @@
-- 2026-05-09 12:47:42 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
+- 2026-05-09 12:47:57 +0530: style(theme): balance light theme text legibility and muted borders
