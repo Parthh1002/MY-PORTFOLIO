@@ -1,1 +1,1 @@
-- 2026-05-09 15:35:16 +0530: feat(animation): add smooth inertia damping to interactive 3D elements
+- 2026-05-09 15:35:30 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
