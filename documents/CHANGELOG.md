@@ -582,3 +582,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(badges): integrate live demo and GitHub source code quick link buttons`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #117] - 2026-05-09 10:59:27 +0530
+- **Phase**: Phase 2: Projects Showcase & Interactive Tech Stack
+- **Commit**: `perf(grid): improve rel='noopener noreferrer' attribute on external project links`
+- **Verification**: Passed all automated test suites and production build checks.
+
