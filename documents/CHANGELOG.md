@@ -597,3 +597,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(svg): elevate filter tab transition animation using Framer Motion layoutId`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #120] - 2026-05-10 10:45:40 +0530
+- **Phase**: Phase 2: Projects Showcase & Interactive Tech Stack
+- **Commit**: `fix(filters): audit convert project preview screenshots to lightweight WebP format`
+- **Verification**: Passed all automated test suites and production build checks.
+
