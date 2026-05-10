@@ -602,3 +602,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `fix(filters): audit convert project preview screenshots to lightweight WebP format`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #121] - 2026-05-10 13:21:04 +0530
+- **Phase**: Phase 2: Projects Showcase & Interactive Tech Stack
+- **Commit**: `refactor(modal): harmonize featured star badge on hackathon-winning projects`
+- **Verification**: Passed all automated test suites and production build checks.
+
