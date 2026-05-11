@@ -1,1 +1,1 @@
-- 2026-05-11 22:54:17 +0530: feat(components): integrate seamless external link icon with aria-label
+- 2026-05-11 23:05:53 +0530: fix(layout): normalize margin collapse across nested article sections
