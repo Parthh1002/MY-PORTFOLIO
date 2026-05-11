@@ -1,1 +1,1 @@
-- 2026-05-11 14:07:42 +0530: feat(components): structure expandable tech stack pill filters
+- 2026-05-11 14:20:46 +0530: fix(layout): prevent layout shift during dynamic font loading
