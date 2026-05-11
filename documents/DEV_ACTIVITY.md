@@ -1,1 +1,1 @@
-- 2026-05-11 14:30:06 +0530: feat(components): integrate seamless external link icon with aria-label
+- 2026-05-11 14:35:39 +0530: perf(render): debounce window resize and orientation change handlers
