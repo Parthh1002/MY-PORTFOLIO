@@ -1,1 +1,1 @@
-- 2026-05-13 10:56:53 +0530: feat(ui): integrate tactile scale down feedback on click interactions
+- 2026-05-13 11:01:44 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
