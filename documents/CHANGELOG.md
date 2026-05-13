@@ -647,3 +647,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `refactor(modal): refactor prevent tooltips from overflowing beyond mobile screen boundaries`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #130] - 2026-05-13 10:39:43 +0530
+- **Phase**: Phase 2: Projects Showcase & Interactive Tech Stack
+- **Commit**: `style(projects): refine categorize skills into Frontend, Backend, Database, and Tools`
+- **Verification**: Passed all automated test suites and production build checks.
+
