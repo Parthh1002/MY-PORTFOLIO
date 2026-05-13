@@ -1,1 +1,1 @@
-- 2026-05-13 23:13:00 +0530: style(theme): calibrate subtle focus outline rings for accessible navigation
+- 2026-05-13 23:13:37 +0530: fix(layout): prevent layout shift during dynamic font loading
