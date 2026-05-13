@@ -1,1 +1,1 @@
-- 2026-05-13 12:50:04 +0530: perf(render): enable content-visibility auto for offscreen sections
+- 2026-05-13 12:50:25 +0530: feat(components): structure expandable tech stack pill filters
