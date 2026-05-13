@@ -1,1 +1,1 @@
-- 2026-05-13 19:42:41 +0530: fix(layout): normalize margin collapse across nested article sections
+- 2026-05-13 19:50:23 +0530: perf(render): lazy load below-the-fold project screenshots
