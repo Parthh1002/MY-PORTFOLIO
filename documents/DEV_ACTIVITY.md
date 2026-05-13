@@ -1,1 +1,1 @@
-- 2026-05-13 21:35:06 +0530: perf(render): lazy load below-the-fold project screenshots
+- 2026-05-13 21:49:47 +0530: style(theme): calibrate subtle focus outline rings for accessible navigation
