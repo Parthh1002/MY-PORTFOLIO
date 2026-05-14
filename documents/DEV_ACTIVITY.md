@@ -1,1 +1,1 @@
-- 2026-05-14 19:49:05 +0530: fix(layout): normalize margin collapse across nested article sections
+- 2026-05-14 19:53:44 +0530: perf(render): optimize will-change CSS hints for GPU compositing
