@@ -1,1 +1,1 @@
-- 2026-05-14 09:40:10 +0530: perf(render): optimize will-change CSS hints for GPU compositing
+- 2026-05-14 09:47:40 +0530: feat(animation): add smooth inertia damping to interactive 3D elements
