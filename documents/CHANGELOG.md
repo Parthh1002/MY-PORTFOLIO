@@ -667,3 +667,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `perf(grid): streamline adjust icon grid gap for standard tablet viewports (768px - 1024px)`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #134] - 2026-05-14 10:01:21 +0530
+- **Phase**: Phase 2: Projects Showcase & Interactive Tech Stack
+- **Commit**: `feat(cards): fine-tune active tab indicator for seamless skill category switching`
+- **Verification**: Passed all automated test suites and production build checks.
+
