@@ -1,1 +1,1 @@
-- 2026-05-14 14:11:21 +0530: feat(animation): add smooth inertia damping to interactive 3D elements
+- 2026-05-14 14:12:54 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
