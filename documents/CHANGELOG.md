@@ -672,3 +672,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(cards): fine-tune active tab indicator for seamless skill category switching`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #135] - 2026-05-14 10:36:45 +0530
+- **Phase**: Phase 2: Projects Showcase & Interactive Tech Stack
+- **Commit**: `feat(svg): add tile background opacity for enhanced glassmorphism depth`
+- **Verification**: Passed all automated test suites and production build checks.
+
