@@ -1,1 +1,1 @@
-- 2026-05-15 13:27:23 +0530: feat(ui): polish border radius tokens and card padding hierarchy
+- 2026-05-15 13:36:07 +0530: style(theme): balance light theme text legibility and muted borders
