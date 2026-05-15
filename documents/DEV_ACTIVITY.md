@@ -1,1 +1,1 @@
-- 2026-05-15 19:00:54 +0530: fix(layout): prevent layout shift during dynamic font loading
+- 2026-05-15 19:04:12 +0530: feat(animation): implement floating card hover elevation with drop shadow
