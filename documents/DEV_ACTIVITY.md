@@ -1,1 +1,1 @@
-- 2026-05-15 11:28:05 +0530: feat(animation): orchestrate staggered fade-up spring transitions
+- 2026-05-15 11:29:33 +0530: feat(components): add copy-to-clipboard feedback chip with checkmark icon
