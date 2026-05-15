@@ -1,1 +1,1 @@
-- 2026-05-15 14:25:04 +0530: feat(components): add tooltip descriptions for engineering architecture tags
+- 2026-05-15 14:25:40 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
