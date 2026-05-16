@@ -707,3 +707,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `refactor(grid): harmonize project card for Web3 Decentralized Voting Platform`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #142] - 2026-05-16 11:44:35 +0530
+- **Phase**: Phase 2: Projects Showcase & Interactive Tech Stack
+- **Commit**: `feat(cards): synchronize glassmorphic card styling with border highlight and drop shadow`
+- **Verification**: Passed all automated test suites and production build checks.
+
