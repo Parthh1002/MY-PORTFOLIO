@@ -717,3 +717,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(svg): perfect 3D tilt perspective transform on card mouse hover`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #144] - 2026-05-16 20:55:24 +0530
+- **Phase**: Phase 2: Projects Showcase & Interactive Tech Stack
+- **Commit**: `feat(filters): upgrade technology badge pills for React, Node, Python, and SQL`
+- **Verification**: Passed all automated test suites and production build checks.
+
