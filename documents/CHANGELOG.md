@@ -727,3 +727,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(modal): solidify color-coded technology badge pills according to stack category`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #146] - 2026-05-17 10:06:12 +0530
+- **Phase**: Phase 2: Projects Showcase & Interactive Tech Stack
+- **Commit**: `feat(projects): implement live demo and GitHub source code quick link buttons`
+- **Verification**: Passed all automated test suites and production build checks.
+
