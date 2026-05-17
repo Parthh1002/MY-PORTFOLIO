@@ -722,3 +722,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(filters): upgrade technology badge pills for React, Node, Python, and SQL`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #145] - 2026-05-17 10:30:48 +0530
+- **Phase**: Phase 2: Projects Showcase & Interactive Tech Stack
+- **Commit**: `feat(modal): solidify color-coded technology badge pills according to stack category`
+- **Verification**: Passed all automated test suites and production build checks.
+
