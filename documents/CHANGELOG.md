@@ -747,3 +747,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `refactor(grid): refactor filter tab transition animation using Framer Motion layoutId`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #150] - 2026-05-18 12:27:50 +0530
+- **Phase**: Phase 2: Projects Showcase & Interactive Tech Stack
+- **Commit**: `style(cards): refine convert project preview screenshots to lightweight WebP format`
+- **Verification**: Passed all automated test suites and production build checks.
+
