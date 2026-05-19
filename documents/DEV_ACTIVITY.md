@@ -1,1 +1,1 @@
-- 2026-05-19 15:23:30 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
+- 2026-05-19 15:39:01 +0530: fix(layout): correct flexbox wrap alignment on tablet devices
