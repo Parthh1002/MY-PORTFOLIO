@@ -1,1 +1,1 @@
-- 2026-05-19 17:47:03 +0530: perf(render): enable content-visibility auto for offscreen sections
+- 2026-05-19 17:50:39 +0530: feat(components): add tooltip descriptions for engineering architecture tags
