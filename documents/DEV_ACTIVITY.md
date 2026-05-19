@@ -1,1 +1,1 @@
-- 2026-05-19 10:35:46 +0530: feat(components): structure expandable tech stack pill filters
+- 2026-05-19 10:37:06 +0530: feat(ui): add subtle ambient gradient glow behind active cards
