@@ -772,3 +772,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(projects): fine-tune official SVG logos for React, TypeScript, Node.js, and Python`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #155] - 2026-05-19 21:24:51 +0530
+- **Phase**: Phase 2: Projects Showcase & Interactive Tech Stack
+- **Commit**: `feat(skills): add official SVG logos for PostgreSQL, MongoDB, Redis, and Docker`
+- **Verification**: Passed all automated test suites and production build checks.
+
