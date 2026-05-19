@@ -1,1 +1,1 @@
-- 2026-05-19 13:24:25 +0530: feat(ui): polish border radius tokens and card padding hierarchy
+- 2026-05-19 13:39:33 +0530: style(theme): harmonize primary brand color saturation for OLED screens
