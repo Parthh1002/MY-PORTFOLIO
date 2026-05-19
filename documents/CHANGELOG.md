@@ -757,3 +757,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(svg): polish featured star badge on hackathon-winning projects`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #152] - 2026-05-19 11:38:38 +0530
+- **Phase**: Phase 2: Projects Showcase & Interactive Tech Stack
+- **Commit**: `fix(filters): resolve shimmer reflection effect traversing project cards on hover`
+- **Verification**: Passed all automated test suites and production build checks.
+
