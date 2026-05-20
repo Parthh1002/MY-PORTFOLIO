@@ -792,3 +792,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `refactor(cards): standardize skill level tooltips displaying proficiency details`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #159] - 2026-05-20 22:46:29 +0530
+- **Phase**: Phase 2: Projects Showcase & Interactive Tech Stack
+- **Commit**: `style(svg): elevate prevent tooltips from overflowing beyond mobile screen boundaries`
+- **Verification**: Passed all automated test suites and production build checks.
+
