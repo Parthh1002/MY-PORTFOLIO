@@ -787,3 +787,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `perf(grid): improve tile levitation effect with spring-damped hover scale`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #158] - 2026-05-20 17:11:04 +0530
+- **Phase**: Phase 2: Projects Showcase & Interactive Tech Stack
+- **Commit**: `refactor(cards): standardize skill level tooltips displaying proficiency details`
+- **Verification**: Passed all automated test suites and production build checks.
+
