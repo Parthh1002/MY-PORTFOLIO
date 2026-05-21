@@ -797,3 +797,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(svg): elevate prevent tooltips from overflowing beyond mobile screen boundaries`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #160] - 2026-05-21 10:21:53 +0530
+- **Phase**: Phase 2: Projects Showcase & Interactive Tech Stack
+- **Commit**: `fix(filters): audit categorize skills into Frontend, Backend, Database, and Tools`
+- **Verification**: Passed all automated test suites and production build checks.
+
