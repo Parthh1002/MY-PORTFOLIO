@@ -1,1 +1,1 @@
-- 2026-05-22 10:58:12 +0530: style(theme): harmonize primary brand color saturation for OLED screens
+- 2026-05-22 11:00:07 +0530: perf(render): debounce window resize and orientation change handlers
