@@ -1,1 +1,1 @@
-- 2026-05-22 19:23:47 +0530: fix(layout): prevent layout shift during dynamic font loading
+- 2026-05-22 19:27:10 +0530: style(theme): synchronize theme transitions across border colors
