@@ -1,1 +1,1 @@
-- 2026-05-22 23:08:58 +0530: perf(render): debounce window resize and orientation change handlers
+- 2026-05-22 23:09:46 +0530: feat(components): add copy-to-clipboard feedback chip with checkmark icon
