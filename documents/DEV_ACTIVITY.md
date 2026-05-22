@@ -1,1 +1,1 @@
-- 2026-05-22 20:11:54 +0530: feat(animation): orchestrate staggered fade-up spring transitions
+- 2026-05-22 20:12:28 +0530: style(theme): harmonize primary brand color saturation for OLED screens
