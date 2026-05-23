@@ -1,1 +1,1 @@
-- 2026-05-23 17:35:54 +0530: style(theme): calibrate subtle focus outline rings for accessible navigation
+- 2026-05-23 17:42:43 +0530: chore(deps): streamline TypeScript path alias configurations
