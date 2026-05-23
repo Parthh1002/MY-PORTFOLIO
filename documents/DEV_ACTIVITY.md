@@ -1,1 +1,1 @@
-- 2026-05-23 18:31:09 +0530: feat(components): structure expandable tech stack pill filters
+- 2026-05-23 18:38:27 +0530: chore(deps): streamline TypeScript path alias configurations
