@@ -1,1 +1,1 @@
-- 2026-05-23 13:36:15 +0530: feat(components): structure expandable tech stack pill filters
+- 2026-05-23 13:38:45 +0530: feat(animation): implement floating card hover elevation with drop shadow
