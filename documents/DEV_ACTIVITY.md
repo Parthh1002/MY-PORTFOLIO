@@ -1,1 +1,1 @@
-- 2026-05-23 16:30:35 +0530: perf(render): debounce window resize and orientation change handlers
+- 2026-05-23 16:31:52 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
