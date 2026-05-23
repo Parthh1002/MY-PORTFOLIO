@@ -1,1 +1,1 @@
-- 2026-05-23 11:53:03 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
+- 2026-05-23 11:54:34 +0530: feat(ui): add subtle ambient gradient glow behind active cards
