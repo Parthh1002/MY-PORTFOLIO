@@ -1,1 +1,1 @@
-- 2026-05-23 22:04:28 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
+- 2026-05-23 22:07:40 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
