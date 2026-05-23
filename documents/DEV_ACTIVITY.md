@@ -1,1 +1,1 @@
-- 2026-05-23 14:18:18 +0530: feat(animation): implement floating card hover elevation with drop shadow
+- 2026-05-23 14:18:52 +0530: chore(deps): streamline TypeScript path alias configurations
