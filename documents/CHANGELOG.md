@@ -852,3 +852,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(projects): refine project card for AI-powered Automated Resume Screener`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #171] - 2026-05-24 10:51:21 +0530
+- **Phase**: Phase 2: Projects Showcase & Interactive Tech Stack
+- **Commit**: `style(skills): polish project card for Web3 Decentralized Voting Platform`
+- **Verification**: Passed all automated test suites and production build checks.
+
