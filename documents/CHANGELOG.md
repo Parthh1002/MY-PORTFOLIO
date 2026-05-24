@@ -857,3 +857,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(skills): polish project card for Web3 Decentralized Voting Platform`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #172] - 2026-05-24 13:26:45 +0530
+- **Phase**: Phase 2: Projects Showcase & Interactive Tech Stack
+- **Commit**: `fix(badges): resolve glassmorphic card styling with border highlight and drop shadow`
+- **Verification**: Passed all automated test suites and production build checks.
+
