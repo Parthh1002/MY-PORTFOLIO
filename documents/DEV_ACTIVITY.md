@@ -1,1 +1,1 @@
-- 2026-05-26 19:53:51 +0530: style(theme): harmonize primary brand color saturation for OLED screens
+- 2026-05-26 20:16:29 +0530: fix(layout): normalize margin collapse across nested article sections
