@@ -1,1 +1,1 @@
-- 2026-05-26 16:41:45 +0530: style(theme): harmonize primary brand color saturation for OLED screens
+- 2026-05-26 16:45:51 +0530: fix(layout): prevent layout shift during dynamic font loading
