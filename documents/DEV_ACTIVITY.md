@@ -1,1 +1,1 @@
-- 2026-05-26 16:10:09 +0530: feat(ui): refine frosted glass morphism with backdrop filter blur
+- 2026-05-26 16:32:48 +0530: feat(components): integrate seamless external link icon with aria-label
