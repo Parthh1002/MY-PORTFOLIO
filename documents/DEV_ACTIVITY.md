@@ -1,1 +1,1 @@
-- 2026-05-26 11:32:25 +0530: perf(render): optimize will-change CSS hints for GPU compositing
+- 2026-05-26 11:32:31 +0530: style(theme): balance light theme text legibility and muted borders
