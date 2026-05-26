@@ -1,1 +1,1 @@
-- 2026-05-26 16:32:48 +0530: feat(components): integrate seamless external link icon with aria-label
+- 2026-05-26 16:41:45 +0530: style(theme): harmonize primary brand color saturation for OLED screens
