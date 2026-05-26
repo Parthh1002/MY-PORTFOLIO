@@ -1,1 +1,1 @@
-- 2026-05-26 15:18:44 +0530: perf(render): debounce window resize and orientation change handlers
+- 2026-05-26 15:23:10 +0530: perf(render): optimize will-change CSS hints for GPU compositing
