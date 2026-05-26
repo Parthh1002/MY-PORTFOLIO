@@ -1,1 +1,1 @@
-- 2026-05-26 22:56:20 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
+- 2026-05-26 22:58:56 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
