@@ -1,1 +1,1 @@
-- 2026-05-27 20:32:09 +0530: perf(render): enable content-visibility auto for offscreen sections
+- 2026-05-27 20:48:44 +0530: feat(animation): add smooth inertia damping to interactive 3D elements
