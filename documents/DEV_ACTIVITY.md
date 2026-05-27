@@ -1,1 +1,1 @@
-- 2026-05-27 18:29:24 +0530: feat(ui): integrate tactile scale down feedback on click interactions
+- 2026-05-27 18:34:03 +0530: style(theme): balance light theme text legibility and muted borders
