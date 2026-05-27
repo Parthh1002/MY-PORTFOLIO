@@ -1,1 +1,1 @@
-- 2026-05-27 14:25:14 +0530: feat(ui): add subtle ambient gradient glow behind active cards
+- 2026-05-27 14:34:23 +0530: fix(layout): prevent layout shift during dynamic font loading
