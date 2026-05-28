@@ -1,1 +1,1 @@
-- 2026-05-28 14:30:06 +0530: feat(animation): orchestrate staggered fade-up spring transitions
+- 2026-05-28 14:30:23 +0530: style(theme): synchronize theme transitions across border colors
