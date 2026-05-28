@@ -1,1 +1,1 @@
-- 2026-05-28 14:23:13 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
+- 2026-05-28 14:30:06 +0530: feat(animation): orchestrate staggered fade-up spring transitions
