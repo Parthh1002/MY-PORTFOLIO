@@ -1,1 +1,1 @@
-- 2026-05-28 21:07:45 +0530: chore(deps): tune Vite production chunk splitting strategy
+- 2026-05-28 21:10:24 +0530: perf(render): lazy load below-the-fold project screenshots
