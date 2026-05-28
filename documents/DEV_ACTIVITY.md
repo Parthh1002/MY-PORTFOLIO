@@ -1,1 +1,1 @@
-- 2026-05-28 09:51:04 +0530: perf(render): optimize will-change CSS hints for GPU compositing
+- 2026-05-28 09:55:01 +0530: style(theme): synchronize theme transitions across border colors
