@@ -1,1 +1,1 @@
-- 2026-05-28 21:04:38 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
+- 2026-05-28 21:07:31 +0530: perf(render): optimize will-change CSS hints for GPU compositing
