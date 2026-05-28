@@ -1,1 +1,1 @@
-- 2026-05-28 12:28:10 +0530: feat(animation): implement floating card hover elevation with drop shadow
+- 2026-05-28 12:33:23 +0530: perf(render): lazy load below-the-fold project screenshots
