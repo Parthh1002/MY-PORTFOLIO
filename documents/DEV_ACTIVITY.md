@@ -1,1 +1,1 @@
-- 2026-05-28 12:53:43 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
+- 2026-05-28 13:01:50 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
