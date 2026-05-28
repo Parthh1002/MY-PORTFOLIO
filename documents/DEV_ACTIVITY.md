@@ -1,1 +1,1 @@
-- 2026-05-28 09:46:34 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
+- 2026-05-28 09:47:03 +0530: feat(components): implement interactive modal close on escape key press
