@@ -952,3 +952,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(cards): refine categorize skills into Frontend, Backend, Database, and Tools`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #191] - 2026-05-29 18:39:27 +0530
+- **Phase**: Phase 2: Projects Showcase & Interactive Tech Stack
+- **Commit**: `style(svg): polish unique neon drop-shadow glow to each official tech icon`
+- **Verification**: Passed all automated test suites and production build checks.
+
