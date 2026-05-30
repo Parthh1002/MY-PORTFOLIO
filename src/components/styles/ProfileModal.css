@@ -218,8 +218,8 @@
     align-items: center;
   }
   .profile-socials {
-    flex-direction: column;
     width: 100%;
+    /* Keep flex-direction as row (default) so buttons are side-by-side */
   }
   .profile-resume-btn {
     width: 100%;
