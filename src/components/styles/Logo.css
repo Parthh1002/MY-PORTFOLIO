@@ -61,3 +61,13 @@
 .logo-pulser:hover {
   animation: none; /* Stops the pulse animation on hover so the bright JS box-shadow takes over smoothly */
 }
+
+@media only screen and (max-width: 768px) {
+  .logo-circle {
+    width: 40px;
+    height: 40px;
+  }
+  .logo-text {
+    font-size: 12px;
+  }
+}

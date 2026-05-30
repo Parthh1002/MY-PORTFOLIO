@@ -213,3 +213,26 @@
 @media only screen and (min-width: 768px) {
   /* old resume button media query styles removed */
 }
+@media only screen and (max-width: 768px) {
+  .left-panel {
+    gap: 8px;
+    padding: 8px 10px;
+    width: 95%;
+    justify-content: space-between;
+  }
+  .resume-btn, .hire-me-btn {
+    padding: 8px 10px;
+    font-size: 10px;
+    gap: 4px;
+  }
+  .social-icons {
+    gap: 6px;
+  }
+  .social-icons span {
+    width: 35px;
+    height: 35px;
+  }
+  .social-icons a {
+    font-size: 16px;
+  }
+}

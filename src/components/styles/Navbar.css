@@ -13,15 +13,14 @@
   z-index: 9999;
 }
 .header ul {
-  font-size: 12px;
+  font-size: 11px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin: 0;
-  padding: 10px 25px;
+  padding: 8px 15px;
   list-style: none;
-  column-gap: 40px;
-  row-gap: 8px;
-  align-items: end;
+  column-gap: 15px;
+  align-items: center;
   background: rgba(15, 10, 25, 0.4);
   backdrop-filter: blur(30px);
   -webkit-backdrop-filter: blur(30px);
@@ -76,6 +75,8 @@
     flex-direction: row;
     align-items: center;
     font-size: 14px;
+    column-gap: 25px;
+    padding: 10px 25px;
   }
   .header ul li {
     color: #eae5ec;

@@ -109,15 +109,24 @@
     grid-template-columns: 1fr;
   }
   .whatIDO-header h2 {
-    font-size: 36px;
+    font-size: 30px;
+  }
+  .whatIDO-header p {
+    font-size: 12px;
   }
   .whatIDO-card {
     padding: 20px;
+  }
+  .whatIDO-icon {
+    font-size: 28px;
+    width: 50px;
+    height: 50px;
   }
   .whatIDO-card h3 {
     font-size: 20px;
   }
   .whatIDO-card p {
-    font-size: 14px;
+    font-size: 13px;
+    line-height: 1.5;
   }
 }
