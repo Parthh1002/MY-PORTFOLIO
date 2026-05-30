@@ -35,7 +35,7 @@ export function setCharTimeline(
       id: "tl2",
     },
   });
-  const tl3 = gsap.timeline({
+  gsap.timeline({
     scrollTrigger: {
       trigger: ".whatIDO-section",
       start: "top top",
