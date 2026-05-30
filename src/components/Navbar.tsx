@@ -19,6 +19,7 @@ const Navbar = () => {
       effects: true,
       autoResize: true,
       ignoreMobileResize: true,
+      smoothTouch: 0.1,
     });
 
     smoother.scrollTop(0);
