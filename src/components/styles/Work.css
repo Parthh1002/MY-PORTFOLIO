@@ -230,6 +230,7 @@
     flex-direction: column;
     align-items: center;
     gap: 40px;
+    padding-bottom: 120px;
   }
   .work-box {
     width: 100%;
@@ -245,23 +246,40 @@
   }
   .work-image img {
     max-height: 250px;
+    object-fit: cover;
+  }
+  .work-image-in {
+    padding: 10px;
   }
   .work-section h2 {
     font-size: 40px;
     margin-bottom: 20px;
     text-align: center;
   }
+  .work-title {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+  .work-title > div {
+    text-align: left;
+  }
   .work-title h3 {
     font-size: 30px;
   }
   .work-info h4 {
-    font-size: 16px;
+    font-size: 15px;
   }
   .work-info p {
-    font-size: 14px;
+    font-size: 13px;
+  }
+  .work-links {
+    gap: 10px;
+    margin-top: 15px;
   }
   .glass-btn {
-    font-size: 12px;
+    font-size: 11px;
     padding: 6px 10px;
   }
   .work-view-more {
