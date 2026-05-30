@@ -196,10 +196,14 @@
 @media (max-width: 768px) {
   .profile-modal-container {
     max-height: 85vh;
+    display: flex;
+    flex-direction: column;
   }
   .profile-content {
     flex-direction: column;
     overflow-y: auto;
+    flex: 1;
+    min-height: 0;
   }
   .profile-image-wrapper {
     max-width: 100%;

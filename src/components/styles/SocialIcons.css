@@ -2,6 +2,7 @@
   position: fixed;
   width: 100%;
   height: 100vh;
+  height: 100dvh;
   top: 0;
   left: 0;
   pointer-events: none;
@@ -11,7 +12,7 @@
 .left-panel {
   position: absolute;
   left: 50%;
-  bottom: 15px;
+  bottom: max(25px, env(safe-area-inset-bottom));
   top: auto;
   transform: translateX(-50%);
   display: flex;
