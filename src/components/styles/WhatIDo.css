@@ -102,13 +102,22 @@
 }
 
 @media (max-width: 768px) {
+  .whatIDO-section {
+    padding: 40px 15px;
+  }
   .whatIDO-grid {
     grid-template-columns: 1fr;
   }
   .whatIDO-header h2 {
-    font-size: 48px;
+    font-size: 36px;
   }
   .whatIDO-card {
-    padding: 30px;
+    padding: 20px;
+  }
+  .whatIDO-card h3 {
+    font-size: 20px;
+  }
+  .whatIDO-card p {
+    font-size: 14px;
   }
 }

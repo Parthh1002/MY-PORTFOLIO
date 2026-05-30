@@ -30,6 +30,16 @@
   letter-spacing: 1px;
 }
 
+@media screen and (max-width: 767px) {
+  .about-me p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .about-me h3 {
+    font-size: 20px;
+  }
+}
+
 @media only screen and (min-width: 600px) {
   .about-section {
     justify-content: center;

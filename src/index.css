@@ -75,6 +75,12 @@ body {
   margin: auto;
   position: relative;
 }
+
+@media screen and (max-width: 900px) {
+  .container-main {
+    padding-bottom: 100px; /* Space for the floating bottom bar */
+  }
+}
 .container1 {
   width: var(--cWidth);
   height: var(--vh);

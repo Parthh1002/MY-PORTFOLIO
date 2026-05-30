@@ -244,6 +244,20 @@ h2.landing-info-h2 {
   top: 0;
   left: 0;
 }
+@media screen and (max-width: 767px) {
+  .character-model {
+    height: 60vh;
+    bottom: 50px;
+  }
+  .landing-intro {
+    top: 18%;
+    z-index: 10;
+  }
+  .landing-info {
+    bottom: 120px;
+    z-index: 10;
+  }
+}
 @media screen and (min-width: 500px) {
   .landing-circle2 {
     display: block;
