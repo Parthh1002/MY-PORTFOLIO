@@ -1,0 +1,114 @@
+.whatIDO-section {
+  padding: 120px 80px 120px 50vw; /* Exact 50vw padding to push it to the right half */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.whatIDO-header {
+  text-align: center;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.whatIDO-header h2 {
+  font-size: 60px;
+  font-weight: 500;
+  margin: 0;
+  color: #fff;
+}
+
+.whatIDO-header h2 span {
+  font-weight: 700;
+}
+
+.core-capabilities-badge {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 6px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #9ca3af;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.whatIDO-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 700px;
+  width: 100%;
+}
+
+.whatIDO-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.whatIDO-card:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.whatIDO-grid.active .whatIDO-card {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.whatIDO-icon-box {
+  width: 50px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  background: rgba(255, 255, 255, 0.03);
+  margin-bottom: 10px;
+}
+
+.whatIDO-card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  margin: 0;
+}
+
+.whatIDO-card p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #9ca3af;
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .whatIDO-section {
+    padding: 80px 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .whatIDO-grid {
+    grid-template-columns: 1fr;
+  }
+  .whatIDO-header h2 {
+    font-size: 48px;
+  }
+  .whatIDO-card {
+    padding: 30px;
+  }
+}

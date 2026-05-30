@@ -1,0 +1,101 @@
+.techstack-section {
+  padding: 100px 0; /* Full width for marquee */
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.techstack-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.tech-subtitle {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #9ca3af;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.techstack-header h2 {
+  font-size: 60px;
+  font-weight: 500;
+  margin: 0;
+  color: #fff;
+}
+
+.techstack-header h2 span {
+  font-weight: 700;
+  color: #fff; /* White as requested in screenshot */
+}
+
+.tech-marquee-container {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 1s ease;
+  width: 100%;
+}
+
+.tech-marquee-container.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.tech-marquee-content {
+  display: flex;
+  gap: 30px;
+  padding: 20px 0;
+  margin-right: 30px; /* Space between loops */
+}
+
+.tech-pill {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 15px 30px;
+  border-radius: 50px; /* Pill shape */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tech-pill:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.tech-icon {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tech-name {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .techstack-header h2 {
+    font-size: 40px;
+  }
+  .tech-pill {
+    padding: 12px 24px;
+  }
+  .tech-icon {
+    font-size: 20px;
+  }
+  .tech-name {
+    font-size: 14px;
+  }
+}

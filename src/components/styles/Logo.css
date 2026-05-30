@@ -1,0 +1,63 @@
+.premium-logo-wrapper {
+  text-decoration: none;
+  display: inline-block;
+  z-index: 100;
+  margin-top: -5px; /* Adjust alignment to match navbar */
+}
+
+.logo-floater {
+  animation: floatAnim 4s ease-in-out infinite;
+}
+
+@keyframes floatAnim {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+.logo-pulser {
+  border-radius: 50%;
+  animation: pulseAnim 3s ease-in-out infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: perspective(400px) rotateX(0deg) rotateY(0deg) scale(1);
+  transition: transform 0.4s ease;
+  cursor: pointer;
+}
+
+@keyframes pulseAnim {
+  0%, 100% { box-shadow: 0 0 10px rgba(170, 66, 255, 0.3); }
+  50% { box-shadow: 0 0 25px rgba(170, 66, 255, 0.6); }
+}
+
+.logo-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(20, 10, 30, 0.6);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1.5px solid rgba(170, 66, 255, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s ease;
+}
+
+.logo-text {
+  font-family: 'Geist', 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #f4ebff; /* White with slight purple tint */
+  letter-spacing: -0.5px;
+  user-select: none;
+}
+
+/* Hover effects for inner circle */
+.logo-pulser:hover .logo-circle {
+  border-color: rgba(170, 66, 255, 0.9);
+  background: rgba(30, 15, 45, 0.8);
+}
+.logo-pulser:hover {
+  animation: none; /* Stops the pulse animation on hover so the bright JS box-shadow takes over smoothly */
+}

@@ -1,0 +1,222 @@
+.profile-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+}
+
+.profile-modal-container {
+  width: 90%;
+  max-width: 850px;
+  background: rgba(20, 15, 30, 0.85);
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+  border: 1px solid rgba(170, 66, 255, 0.3);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.8), 0 0 40px rgba(170, 66, 255, 0.15);
+  border-radius: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.profile-close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+
+.profile-close-btn:hover {
+  background: rgba(255, 50, 50, 0.8);
+  transform: rotate(90deg) scale(1.1);
+}
+
+.profile-content {
+  display: flex;
+  height: 100%;
+}
+
+.profile-image-wrapper {
+  flex: 1;
+  position: relative;
+  max-width: 400px;
+}
+
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.profile-image-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, transparent, rgba(20, 15, 30, 0.85));
+}
+
+.profile-details {
+  flex: 1.2;
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-name {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+  background: linear-gradient(90deg, #fff, #c481ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.profile-role {
+  font-size: 20px;
+  font-weight: 400;
+  color: #a57cff;
+  margin: 5px 0 25px 0;
+  letter-spacing: 1px;
+}
+
+.profile-divider {
+  width: 50px;
+  height: 3px;
+  background: #a57cff;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.profile-contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 35px;
+}
+
+.profile-info-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.info-icon {
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #a57cff;
+  font-size: 16px;
+}
+
+.profile-info-item a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.profile-info-item a:hover {
+  color: #fff;
+}
+
+.profile-socials {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.social-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px;
+  border-radius: 12px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.github-btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+.linkedin-btn:hover {
+  background: #0a66c2;
+  border-color: #0a66c2;
+}
+
+.profile-resume-btn {
+  display: block;
+  text-align: center;
+  padding: 15px;
+  background: linear-gradient(45deg, #7c3aed, #c026d3);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.profile-resume-btn:hover {
+  box-shadow: 0 10px 20px rgba(170, 66, 255, 0.4);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .profile-content {
+    flex-direction: column;
+  }
+  .profile-image-wrapper {
+    max-width: 100%;
+    height: 350px;
+  }
+  .profile-image-overlay {
+    background: linear-gradient(to top, rgba(20, 15, 30, 0.95), transparent);
+  }
+  .profile-details {
+    padding: 30px 20px;
+    align-items: center;
+    text-align: center;
+  }
+  .profile-contact-info {
+    align-items: center;
+  }
+  .profile-socials {
+    flex-direction: column;
+    width: 100%;
+  }
+  .profile-resume-btn {
+    width: 100%;
+  }
+}
