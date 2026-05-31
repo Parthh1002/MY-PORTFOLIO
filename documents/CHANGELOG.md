@@ -987,3 +987,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `perf(grid): improve responsive projects grid with CSS auto-fit and auto-fill columns`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #198] - 2026-05-31 16:47:17 +0530
+- **Phase**: Phase 2: Projects Showcase & Interactive Tech Stack
+- **Commit**: `refactor(cards): standardize flagship project card for Smart Route Optimization engine`
+- **Verification**: Passed all automated test suites and production build checks.
+
