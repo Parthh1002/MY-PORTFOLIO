@@ -1002,3 +1002,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `fix(filters): audit project card for AI-powered Automated Resume Screener`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #201] - 2026-06-01 12:33:30 +0530
+- **Phase**: Phase 2: Projects Showcase & Interactive Tech Stack
+- **Commit**: `refactor(modal): harmonize project card for Web3 Decentralized Voting Platform`
+- **Verification**: Passed all automated test suites and production build checks.
+
