@@ -1,1 +1,1 @@
-- 2026-06-02 15:34:43 +0530: feat(ui): refine frosted glass morphism with backdrop filter blur
+- 2026-06-02 15:40:38 +0530: feat(ui): add subtle ambient gradient glow behind active cards
