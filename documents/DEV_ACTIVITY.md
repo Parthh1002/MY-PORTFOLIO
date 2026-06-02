@@ -1,1 +1,1 @@
-- 2026-06-02 22:46:22 +0530: perf(render): enable content-visibility auto for offscreen sections
+- 2026-06-02 22:47:24 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
