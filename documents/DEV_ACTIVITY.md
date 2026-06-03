@@ -1,1 +1,1 @@
-- 2026-06-03 10:02:04 +0530: feat(animation): orchestrate staggered fade-up spring transitions
+- 2026-06-03 10:05:52 +0530: fix(layout): prevent layout shift during dynamic font loading
