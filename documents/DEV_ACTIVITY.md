@@ -1,1 +1,1 @@
-- 2026-06-03 15:37:21 +0530: feat(ui): polish border radius tokens and card padding hierarchy
+- 2026-06-03 15:38:48 +0530: feat(components): implement interactive modal close on escape key press
