@@ -1,1 +1,1 @@
-- 2026-06-03 13:39:54 +0530: style(theme): tune high-contrast dark theme foreground tokens
+- 2026-06-03 13:43:26 +0530: style(theme): harmonize primary brand color saturation for OLED screens
