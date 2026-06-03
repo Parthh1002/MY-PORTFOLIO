@@ -1042,3 +1042,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(filters): enhance category filter tabs for All, Fullstack, AI, and DBMS`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #209] - 2026-06-03 17:16:45 +0530
+- **Phase**: Phase 2: Projects Showcase & Interactive Tech Stack
+- **Commit**: `refactor(modal): refactor filter tab transition animation using Framer Motion layoutId`
+- **Verification**: Passed all automated test suites and production build checks.
+
