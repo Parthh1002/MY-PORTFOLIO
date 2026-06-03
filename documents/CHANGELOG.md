@@ -1037,3 +1037,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `perf(svg): optimize rel='noopener noreferrer' attribute on external project links`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #208] - 2026-06-03 10:41:21 +0530
+- **Phase**: Phase 2: Projects Showcase & Interactive Tech Stack
+- **Commit**: `feat(filters): enhance category filter tabs for All, Fullstack, AI, and DBMS`
+- **Verification**: Passed all automated test suites and production build checks.
+
