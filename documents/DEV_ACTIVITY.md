@@ -1,1 +1,1 @@
-- 2026-06-03 13:43:26 +0530: style(theme): harmonize primary brand color saturation for OLED screens
+- 2026-06-03 13:43:57 +0530: feat(components): add tooltip descriptions for engineering architecture tags
