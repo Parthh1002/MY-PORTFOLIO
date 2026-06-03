@@ -1,1 +1,1 @@
-- 2026-06-03 13:33:30 +0530: style(theme): balance light theme text legibility and muted borders
+- 2026-06-03 13:33:48 +0530: chore(deps): tune Vite production chunk splitting strategy
