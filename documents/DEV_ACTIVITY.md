@@ -1,1 +1,1 @@
-- 2026-06-03 23:35:34 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
+- 2026-06-03 23:36:00 +0530: feat(components): integrate seamless external link icon with aria-label
