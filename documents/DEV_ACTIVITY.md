@@ -1,1 +1,1 @@
-- 2026-06-03 13:23:38 +0530: feat(animation): add smooth inertia damping to interactive 3D elements
+- 2026-06-03 13:24:37 +0530: feat(ui): add subtle ambient gradient glow behind active cards
