@@ -1,1 +1,1 @@
-- 2026-06-03 11:42:41 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
+- 2026-06-03 11:50:47 +0530: feat(animation): add smooth inertia damping to interactive 3D elements
