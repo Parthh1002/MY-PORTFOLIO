@@ -1,1 +1,1 @@
-- 2026-06-04 23:32:29 +0530: feat(components): integrate seamless external link icon with aria-label
+- 2026-06-04 23:35:01 +0530: style(theme): calibrate subtle focus outline rings for accessible navigation
