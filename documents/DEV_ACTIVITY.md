@@ -1,1 +1,1 @@
-- 2026-06-04 15:27:38 +0530: fix(layout): correct flexbox wrap alignment on tablet devices
+- 2026-06-04 15:28:08 +0530: feat(animation): orchestrate staggered fade-up spring transitions
