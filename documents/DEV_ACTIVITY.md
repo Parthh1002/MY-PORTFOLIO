@@ -1,1 +1,1 @@
-- 2026-06-04 20:42:13 +0530: feat(animation): orchestrate staggered fade-up spring transitions
+- 2026-06-04 20:46:38 +0530: feat(ui): polish border radius tokens and card padding hierarchy
