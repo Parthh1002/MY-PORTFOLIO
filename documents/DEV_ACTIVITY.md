@@ -1,1 +1,1 @@
-- 2026-06-04 09:30:07 +0530: feat(ui): integrate tactile scale down feedback on click interactions
+- 2026-06-04 09:33:59 +0530: fix(layout): normalize margin collapse across nested article sections
