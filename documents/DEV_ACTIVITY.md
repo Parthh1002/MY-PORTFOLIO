@@ -1,1 +1,1 @@
-- 2026-06-04 10:57:33 +0530: chore(deps): streamline TypeScript path alias configurations
+- 2026-06-04 10:57:56 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
