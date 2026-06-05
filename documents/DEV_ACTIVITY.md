@@ -1,1 +1,1 @@
-- 2026-06-05 10:14:45 +0530: perf(render): optimize will-change CSS hints for GPU compositing
+- 2026-06-05 10:20:29 +0530: chore(deps): clean up unused styles and consolidate utility classes
