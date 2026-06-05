@@ -1,1 +1,1 @@
-- 2026-06-05 15:33:40 +0530: style(theme): harmonize primary brand color saturation for OLED screens
+- 2026-06-05 15:39:40 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
