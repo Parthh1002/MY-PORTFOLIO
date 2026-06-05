@@ -1,1 +1,1 @@
-- 2026-06-05 15:09:03 +0530: style(theme): synchronize theme transitions across border colors
+- 2026-06-05 15:10:08 +0530: perf(render): enable content-visibility auto for offscreen sections
