@@ -1082,3 +1082,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(filters): integrate official SVG logos for Git, TailwindCSS, Next.js, and Express`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #217] - 2026-06-05 22:00:00 +0530
+- **Phase**: Phase 2: Projects Showcase & Interactive Tech Stack
+- **Commit**: `perf(modal): improve tile levitation effect with spring-damped hover scale`
+- **Verification**: Passed all automated test suites and production build checks.
+
