@@ -1087,3 +1087,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `perf(modal): improve tile levitation effect with spring-damped hover scale`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #218] - 2026-06-06 11:00:00 +0530
+- **Phase**: Phase 3: Experience Timeline, Education & Achievements
+- **Commit**: `feat(experience): implement vertical timeline component for career milestones and internships`
+- **Verification**: Passed all automated test suites and production build checks.
+
