@@ -1,1 +1,1 @@
-- 2026-06-08 12:21:36 +0530: perf(render): enable content-visibility auto for offscreen sections
+- 2026-06-08 12:22:53 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
