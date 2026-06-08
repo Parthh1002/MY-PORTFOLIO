@@ -1,1 +1,1 @@
-- 2026-06-08 19:43:09 +0530: feat(components): integrate seamless external link icon with aria-label
+- 2026-06-08 19:45:12 +0530: feat(animation): orchestrate staggered fade-up spring transitions
