@@ -1,1 +1,1 @@
-- 2026-06-08 14:46:44 +0530: feat(components): add tooltip descriptions for engineering architecture tags
+- 2026-06-08 14:50:55 +0530: feat(components): structure expandable tech stack pill filters
