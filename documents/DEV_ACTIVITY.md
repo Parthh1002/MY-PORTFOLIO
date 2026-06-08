@@ -1,1 +1,1 @@
-- 2026-06-08 21:57:52 +0530: feat(ui): polish border radius tokens and card padding hierarchy
+- 2026-06-08 21:58:58 +0530: feat(animation): implement floating card hover elevation with drop shadow
