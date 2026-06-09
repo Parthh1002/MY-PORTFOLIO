@@ -1,1 +1,1 @@
-- 2026-06-09 11:10:59 +0530: feat(ui): add subtle ambient gradient glow behind active cards
+- 2026-06-09 11:12:23 +0530: feat(ui): add subtle ambient gradient glow behind active cards
