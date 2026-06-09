@@ -1,1 +1,1 @@
-- 2026-06-09 16:54:35 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
+- 2026-06-09 16:55:40 +0530: feat(animation): add smooth inertia damping to interactive 3D elements
