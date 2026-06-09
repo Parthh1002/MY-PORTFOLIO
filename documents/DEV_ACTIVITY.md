@@ -1,1 +1,1 @@
-- 2026-06-09 22:09:05 +0530: feat(components): integrate seamless external link icon with aria-label
+- 2026-06-09 22:10:15 +0530: feat(ui): add subtle ambient gradient glow behind active cards
