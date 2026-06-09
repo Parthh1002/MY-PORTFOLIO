@@ -1,1 +1,1 @@
-- 2026-06-09 15:07:26 +0530: feat(animation): add smooth inertia damping to interactive 3D elements
+- 2026-06-09 15:11:36 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
