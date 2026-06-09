@@ -1,1 +1,1 @@
-- 2026-06-09 20:41:02 +0530: style(theme): balance light theme text legibility and muted borders
+- 2026-06-09 20:44:00 +0530: feat(ui): add subtle ambient gradient glow behind active cards
