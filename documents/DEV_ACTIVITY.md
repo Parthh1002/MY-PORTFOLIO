@@ -1,1 +1,1 @@
-- 2026-06-10 11:58:48 +0530: fix(layout): normalize margin collapse across nested article sections
+- 2026-06-10 12:00:21 +0530: feat(components): add copy-to-clipboard feedback chip with checkmark icon
