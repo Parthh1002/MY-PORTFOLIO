@@ -1,1 +1,1 @@
-- 2026-06-10 22:37:02 +0530: perf(render): debounce window resize and orientation change handlers
+- 2026-06-10 22:37:24 +0530: feat(animation): add smooth inertia damping to interactive 3D elements
