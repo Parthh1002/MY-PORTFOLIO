@@ -1,1 +1,1 @@
-- 2026-06-10 21:49:54 +0530: feat(components): add copy-to-clipboard feedback chip with checkmark icon
+- 2026-06-10 21:58:49 +0530: feat(ui): add subtle ambient gradient glow behind active cards
