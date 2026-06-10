@@ -1,1 +1,1 @@
-- 2026-06-10 18:31:02 +0530: chore(deps): tune Vite production chunk splitting strategy
+- 2026-06-10 18:32:49 +0530: perf(render): optimize will-change CSS hints for GPU compositing
