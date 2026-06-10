@@ -1,1 +1,1 @@
-- 2026-06-10 11:26:32 +0530: feat(components): add tooltip descriptions for engineering architecture tags
+- 2026-06-10 11:28:06 +0530: feat(animation): orchestrate staggered fade-up spring transitions
