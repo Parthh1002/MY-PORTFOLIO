@@ -1,1 +1,1 @@
-- 2026-06-10 13:51:06 +0530: perf(render): lazy load below-the-fold project screenshots
+- 2026-06-10 13:54:35 +0530: feat(animation): add smooth inertia damping to interactive 3D elements
