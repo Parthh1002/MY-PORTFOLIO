@@ -1,1 +1,1 @@
-- 2026-06-10 14:43:09 +0530: feat(ui): refine frosted glass morphism with backdrop filter blur
+- 2026-06-10 14:45:55 +0530: feat(animation): orchestrate staggered fade-up spring transitions
