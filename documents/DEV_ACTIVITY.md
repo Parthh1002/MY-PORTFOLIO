@@ -1,1 +1,1 @@
-- 2026-06-10 14:53:46 +0530: fix(layout): correct flexbox wrap alignment on tablet devices
+- 2026-06-10 14:55:15 +0530: feat(ui): polish border radius tokens and card padding hierarchy
