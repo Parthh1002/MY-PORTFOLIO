@@ -1,1 +1,1 @@
-- 2026-06-11 13:38:55 +0530: perf(render): enable content-visibility auto for offscreen sections
+- 2026-06-11 13:53:22 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
