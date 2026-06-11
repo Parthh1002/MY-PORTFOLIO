@@ -1,1 +1,1 @@
-- 2026-06-11 20:29:32 +0530: style(theme): calibrate subtle focus outline rings for accessible navigation
+- 2026-06-11 20:38:02 +0530: feat(ui): polish border radius tokens and card padding hierarchy
