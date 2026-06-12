@@ -1192,3 +1192,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(achievements): implement resolve z-index clipping issue when hovering timeline cards`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #239] - 2026-06-12 22:51:00 +0530
+- **Phase**: Phase 3: Experience Timeline, Education & Achievements
+- **Commit**: `perf(certifications): optimize polish typography hierarchy and institution logo alignment`
+- **Verification**: Passed all automated test suites and production build checks.
+
