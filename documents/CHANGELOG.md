@@ -1202,3 +1202,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(timeline): enhance intersection observer triggers to avoid frame drops on scroll`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #241] - 2026-06-13 13:41:34 +0530
+- **Phase**: Phase 3: Experience Timeline, Education & Achievements
+- **Commit**: `refactor(resume): refactor normalize achievement dataset into structured config object`
+- **Verification**: Passed all automated test suites and production build checks.
+
