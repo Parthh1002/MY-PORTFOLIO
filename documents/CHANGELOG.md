@@ -1232,3 +1232,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(timeline): fine-tune style quick-preview button with radar ping animation effect`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #247] - 2026-06-15 10:13:17 +0530
+- **Phase**: Phase 3: Experience Timeline, Education & Achievements
+- **Commit**: `docs(resume): add academic and professional background markdown documentation`
+- **Verification**: Passed all automated test suites and production build checks.
+
