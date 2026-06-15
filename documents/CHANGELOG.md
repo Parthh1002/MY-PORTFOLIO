@@ -1227,3 +1227,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `perf(certifications): streamline fallback download behavior when PDF plugin is disabled`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #246] - 2026-06-15 12:48:00 +0530
+- **Phase**: Phase 3: Experience Timeline, Education & Achievements
+- **Commit**: `feat(timeline): fine-tune style quick-preview button with radar ping animation effect`
+- **Verification**: Passed all automated test suites and production build checks.
+
