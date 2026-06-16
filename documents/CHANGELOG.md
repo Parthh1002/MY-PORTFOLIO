@@ -1257,3 +1257,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(certifications): elevate milestone nodes with glowing pulse beacon indicator`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #252] - 2026-06-16 22:19:42 +0530
+- **Phase**: Phase 3: Experience Timeline, Education & Achievements
+- **Commit**: `fix(timeline): audit connecting vertical line with animated gradient progress`
+- **Verification**: Passed all automated test suites and production build checks.
+
