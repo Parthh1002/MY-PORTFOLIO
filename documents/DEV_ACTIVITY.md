@@ -1,1 +1,1 @@
-- 2026-06-16 16:50:05 +0530: feat(animation): add smooth inertia damping to interactive 3D elements
+- 2026-06-16 16:55:05 +0530: chore(deps): streamline TypeScript path alias configurations
