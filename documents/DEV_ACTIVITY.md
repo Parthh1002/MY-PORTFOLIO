@@ -1,1 +1,1 @@
-- 2026-06-17 18:10:50 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
+- 2026-06-17 18:16:14 +0530: style(theme): synchronize theme transitions across border colors
