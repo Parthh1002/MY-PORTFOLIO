@@ -1262,3 +1262,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `fix(timeline): audit connecting vertical line with animated gradient progress`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #253] - 2026-06-17 10:45:00 +0530
+- **Phase**: Phase 3: Experience Timeline, Education & Achievements
+- **Commit**: `refactor(resume): harmonize collapsible task detail accordion for internship responsibilities`
+- **Verification**: Passed all automated test suites and production build checks.
+
