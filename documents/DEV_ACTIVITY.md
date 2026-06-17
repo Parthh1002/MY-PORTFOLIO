@@ -1,1 +1,1 @@
-- 2026-06-17 19:37:00 +0530: chore(deps): clean up unused styles and consolidate utility classes
+- 2026-06-17 19:37:04 +0530: feat(components): implement interactive modal close on escape key press
