@@ -1,1 +1,1 @@
-- 2026-06-17 13:09:39 +0530: feat(ui): add subtle ambient gradient glow behind active cards
+- 2026-06-17 13:09:54 +0530: feat(animation): orchestrate staggered fade-up spring transitions
