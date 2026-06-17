@@ -1,1 +1,1 @@
-- 2026-06-17 10:34:51 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
+- 2026-06-17 10:43:17 +0530: fix(layout): normalize margin collapse across nested article sections
