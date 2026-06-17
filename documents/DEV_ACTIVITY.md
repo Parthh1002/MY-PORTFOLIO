@@ -1,1 +1,1 @@
-- 2026-06-17 19:54:54 +0530: style(theme): harmonize primary brand color saturation for OLED screens
+- 2026-06-17 19:58:48 +0530: chore(deps): clean up unused styles and consolidate utility classes
