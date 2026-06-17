@@ -1,1 +1,1 @@
-- 2026-06-17 22:02:53 +0530: perf(render): optimize will-change CSS hints for GPU compositing
+- 2026-06-17 22:04:22 +0530: feat(components): implement interactive modal close on escape key press
