@@ -1,1 +1,1 @@
-- 2026-06-17 22:30:01 +0530: perf(render): lazy load below-the-fold project screenshots
+- 2026-06-17 22:31:30 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
