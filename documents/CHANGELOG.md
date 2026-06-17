@@ -1267,3 +1267,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `refactor(resume): harmonize collapsible task detail accordion for internship responsibilities`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #254] - 2026-06-17 14:10:17 +0530
+- **Phase**: Phase 3: Experience Timeline, Education & Achievements
+- **Commit**: `feat(experience): synchronize format start and end dates with dynamic duration helper`
+- **Verification**: Passed all automated test suites and production build checks.
+
