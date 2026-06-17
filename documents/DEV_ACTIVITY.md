@@ -1,1 +1,1 @@
-- 2026-06-17 12:38:50 +0530: feat(animation): orchestrate staggered fade-up spring transitions
+- 2026-06-17 12:44:01 +0530: perf(render): lazy load below-the-fold project screenshots
