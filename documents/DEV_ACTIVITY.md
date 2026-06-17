@@ -1,1 +1,1 @@
-- 2026-06-17 13:10:08 +0530: feat(ui): add subtle ambient gradient glow behind active cards
+- 2026-06-17 13:11:41 +0530: fix(layout): correct flexbox wrap alignment on tablet devices
