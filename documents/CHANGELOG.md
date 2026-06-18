@@ -1287,3 +1287,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(certifications): solidify details for LDRP Institute of Technology and Research`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #258] - 2026-06-18 19:51:25 +0530
+- **Phase**: Phase 3: Experience Timeline, Education & Achievements
+- **Commit**: `feat(timeline): implement highlight cumulative CGPA with golden metallic pill badge`
+- **Verification**: Passed all automated test suites and production build checks.
+
