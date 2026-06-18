@@ -1282,3 +1282,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(achievements): upgrade academic milestones card showcasing B.Tech CSE degree`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #257] - 2026-06-18 12:26:08 +0530
+- **Phase**: Phase 3: Experience Timeline, Education & Achievements
+- **Commit**: `feat(certifications): solidify details for LDRP Institute of Technology and Research`
+- **Verification**: Passed all automated test suites and production build checks.
+
