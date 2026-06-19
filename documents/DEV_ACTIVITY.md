@@ -1,1 +1,1 @@
-- 2026-06-19 16:22:33 +0530: feat(components): implement interactive modal close on escape key press
+- 2026-06-19 16:30:01 +0530: style(theme): tune high-contrast dark theme foreground tokens
