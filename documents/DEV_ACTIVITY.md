@@ -1,1 +1,1 @@
-- 2026-06-19 13:15:55 +0530: fix(layout): correct flexbox wrap alignment on tablet devices
+- 2026-06-19 13:21:46 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
