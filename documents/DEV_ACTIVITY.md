@@ -1,1 +1,1 @@
-- 2026-06-19 15:54:51 +0530: feat(animation): add smooth inertia damping to interactive 3D elements
+- 2026-06-19 15:59:39 +0530: chore(deps): tune Vite production chunk splitting strategy
