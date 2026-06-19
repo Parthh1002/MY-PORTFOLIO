@@ -1292,3 +1292,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(timeline): implement highlight cumulative CGPA with golden metallic pill badge`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #259] - 2026-06-19 10:16:42 +0530
+- **Phase**: Phase 3: Experience Timeline, Education & Achievements
+- **Commit**: `perf(resume): optimize core coursework badges (DSA, DBMS, OS, Computer Networks)`
+- **Verification**: Passed all automated test suites and production build checks.
+
