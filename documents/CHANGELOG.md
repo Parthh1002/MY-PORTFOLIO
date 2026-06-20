@@ -1322,3 +1322,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `fix(timeline): resolve certifications showcase section with modal preview`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #265] - 2026-06-20 22:48:25 +0530
+- **Phase**: Phase 3: Experience Timeline, Education & Achievements
+- **Commit**: `perf(resume): streamline AWS Certified Cloud Practitioner badge and verify link`
+- **Verification**: Passed all automated test suites and production build checks.
+
