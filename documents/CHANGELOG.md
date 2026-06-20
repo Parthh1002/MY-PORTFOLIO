@@ -1317,3 +1317,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(certifications): polish ribbon banner and glowing medal icon accents`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #264] - 2026-06-20 16:23:08 +0530
+- **Phase**: Phase 3: Experience Timeline, Education & Achievements
+- **Commit**: `fix(timeline): resolve certifications showcase section with modal preview`
+- **Verification**: Passed all automated test suites and production build checks.
+
