@@ -1332,3 +1332,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(experience): fine-tune Database Design and SQL Mastery certification card`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #267] - 2026-06-21 14:39:00 +0530
+- **Phase**: Phase 3: Experience Timeline, Education & Achievements
+- **Commit**: `feat(education): add subtle hover zoom and verification credential link`
+- **Verification**: Passed all automated test suites and production build checks.
+
