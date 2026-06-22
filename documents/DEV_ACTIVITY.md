@@ -1,1 +1,1 @@
-- 2026-06-22 17:17:48 +0530: style(theme): harmonize primary brand color saturation for OLED screens
+- 2026-06-22 17:20:03 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
