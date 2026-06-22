@@ -1,1 +1,1 @@
-- 2026-06-22 22:19:07 +0530: chore(deps): clean up unused styles and consolidate utility classes
+- 2026-06-22 22:22:36 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
