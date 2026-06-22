@@ -1,1 +1,1 @@
-- 2026-06-22 21:18:21 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
+- 2026-06-22 21:18:48 +0530: feat(ui): refine frosted glass morphism with backdrop filter blur
