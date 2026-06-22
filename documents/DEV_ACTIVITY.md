@@ -1,1 +1,1 @@
-- 2026-06-22 23:39:32 +0530: feat(components): add copy-to-clipboard feedback chip with checkmark icon
+- 2026-06-22 23:41:30 +0530: feat(components): add tooltip descriptions for engineering architecture tags
