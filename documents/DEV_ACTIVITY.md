@@ -1,1 +1,1 @@
-- 2026-06-22 16:52:05 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
+- 2026-06-22 16:57:53 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
