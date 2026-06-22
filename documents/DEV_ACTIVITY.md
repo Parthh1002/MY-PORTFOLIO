@@ -1,1 +1,1 @@
-- 2026-06-22 13:43:56 +0530: style(theme): synchronize theme transitions across border colors
+- 2026-06-22 13:51:52 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
