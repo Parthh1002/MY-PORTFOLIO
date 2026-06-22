@@ -1,1 +1,1 @@
-- 2026-06-22 13:58:13 +0530: perf(render): lazy load below-the-fold project screenshots
+- 2026-06-22 13:59:45 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
