@@ -1,1 +1,1 @@
-- 2026-06-23 14:05:36 +0530: feat(ui): integrate tactile scale down feedback on click interactions
+- 2026-06-23 14:06:52 +0530: feat(ui): add subtle ambient gradient glow behind active cards
