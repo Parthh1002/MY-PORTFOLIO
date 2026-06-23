@@ -1,1 +1,1 @@
-- 2026-06-23 14:40:53 +0530: style(theme): tune high-contrast dark theme foreground tokens
+- 2026-06-23 14:44:08 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
