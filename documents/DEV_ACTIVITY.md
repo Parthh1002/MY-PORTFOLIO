@@ -1,1 +1,1 @@
-- 2026-06-23 18:37:15 +0530: feat(ui): refine frosted glass morphism with backdrop filter blur
+- 2026-06-23 18:46:22 +0530: perf(render): enable content-visibility auto for offscreen sections
