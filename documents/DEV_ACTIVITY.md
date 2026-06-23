@@ -1,1 +1,1 @@
-- 2026-06-23 14:40:51 +0530: feat(components): structure expandable tech stack pill filters
+- 2026-06-23 14:40:53 +0530: style(theme): tune high-contrast dark theme foreground tokens
