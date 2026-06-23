@@ -1,1 +1,1 @@
-- 2026-06-23 09:50:01 +0530: perf(render): lazy load below-the-fold project screenshots
+- 2026-06-23 09:54:46 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
