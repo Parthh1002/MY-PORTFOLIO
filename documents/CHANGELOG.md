@@ -1367,3 +1367,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `refactor(education): harmonize unify padding and border-radius across all status pill elements`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #274] - 2026-06-23 18:36:00 +0530
+- **Phase**: Phase 3: Experience Timeline, Education & Achievements
+- **Commit**: `feat(achievements): synchronize one-click resume PDF viewer modal with download link`
+- **Verification**: Passed all automated test suites and production build checks.
+
