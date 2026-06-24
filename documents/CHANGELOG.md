@@ -1372,3 +1372,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(achievements): synchronize one-click resume PDF viewer modal with download link`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #275] - 2026-06-24 12:01:17 +0530
+- **Phase**: Phase 3: Experience Timeline, Education & Achievements
+- **Commit**: `feat(certifications): perfect fallback download behavior when PDF plugin is disabled`
+- **Verification**: Passed all automated test suites and production build checks.
+
