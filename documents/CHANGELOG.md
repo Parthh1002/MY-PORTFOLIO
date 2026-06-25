@@ -1402,3 +1402,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(achievements): enhance research intern entry for DBMS query performance optimization`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #281] - 2026-06-25 22:33:00 +0530
+- **Phase**: Phase 3: Experience Timeline, Education & Achievements
+- **Commit**: `refactor(certifications): refactor milestone nodes with glowing pulse beacon indicator`
+- **Verification**: Passed all automated test suites and production build checks.
+
