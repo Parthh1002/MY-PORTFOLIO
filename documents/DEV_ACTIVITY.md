@@ -1,1 +1,1 @@
-- 2026-06-26 20:31:47 +0530: chore(deps): clean up unused styles and consolidate utility classes
+- 2026-06-26 20:31:56 +0530: perf(render): lazy load below-the-fold project screenshots
