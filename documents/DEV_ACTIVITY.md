@@ -1,1 +1,1 @@
-- 2026-06-27 14:36:45 +0530: perf(render): lazy load below-the-fold project screenshots
+- 2026-06-27 14:39:39 +0530: style(theme): tune high-contrast dark theme foreground tokens
