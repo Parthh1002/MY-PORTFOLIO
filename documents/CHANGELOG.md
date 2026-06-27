@@ -1422,3 +1422,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `fix(experience): resolve format start and end dates with dynamic duration helper`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #285] - 2026-06-27 11:14:08 +0530
+- **Phase**: Phase 3: Experience Timeline, Education & Achievements
+- **Commit**: `perf(education): streamline align milestone dots with header text on mobile devices`
+- **Verification**: Passed all automated test suites and production build checks.
+
