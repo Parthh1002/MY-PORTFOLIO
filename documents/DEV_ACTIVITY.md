@@ -1,1 +1,1 @@
-- 2026-06-27 11:53:33 +0530: fix(layout): correct flexbox wrap alignment on tablet devices
+- 2026-06-27 12:06:25 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
