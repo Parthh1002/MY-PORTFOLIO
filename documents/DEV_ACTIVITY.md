@@ -1,1 +1,1 @@
-- 2026-06-27 19:49:25 +0530: feat(components): add copy-to-clipboard feedback chip with checkmark icon
+- 2026-06-27 19:58:05 +0530: feat(components): implement interactive modal close on escape key press
