@@ -1,1 +1,1 @@
-- 2026-06-27 09:44:45 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
+- 2026-06-27 09:49:41 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
