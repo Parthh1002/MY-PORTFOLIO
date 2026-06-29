@@ -1,1 +1,1 @@
-- 2026-06-29 21:03:25 +0530: feat(ui): add subtle ambient gradient glow behind active cards
+- 2026-06-29 21:03:44 +0530: feat(animation): implement floating card hover elevation with drop shadow
