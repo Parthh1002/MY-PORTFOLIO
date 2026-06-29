@@ -1,1 +1,1 @@
-- 2026-06-29 10:40:52 +0530: feat(components): structure expandable tech stack pill filters
+- 2026-06-29 10:43:46 +0530: style(theme): calibrate subtle focus outline rings for accessible navigation
