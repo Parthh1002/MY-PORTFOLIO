@@ -1,1 +1,1 @@
-- 2026-06-29 16:07:26 +0530: feat(ui): refine frosted glass morphism with backdrop filter blur
+- 2026-06-29 16:08:18 +0530: feat(ui): polish border radius tokens and card padding hierarchy
