@@ -1,1 +1,1 @@
-- 2026-06-29 22:03:38 +0530: perf(render): debounce window resize and orientation change handlers
+- 2026-06-29 22:07:04 +0530: feat(animation): implement floating card hover elevation with drop shadow
