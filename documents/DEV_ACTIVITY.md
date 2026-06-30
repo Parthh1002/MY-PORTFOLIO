@@ -1,1 +1,1 @@
-- 2026-06-30 18:15:18 +0530: feat(ui): polish border radius tokens and card padding hierarchy
+- 2026-06-30 18:17:27 +0530: perf(render): debounce window resize and orientation change handlers
