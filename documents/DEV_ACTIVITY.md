@@ -1,1 +1,1 @@
-- 2026-06-30 22:40:56 +0530: chore(deps): clean up unused styles and consolidate utility classes
+- 2026-06-30 22:48:00 +0530: feat(components): add tooltip descriptions for engineering architecture tags
