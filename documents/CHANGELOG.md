@@ -1477,3 +1477,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(resume): perfect AWS Certified Cloud Practitioner badge and verify link`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #296] - 2026-06-30 13:52:17 +0530
+- **Phase**: Phase 3: Experience Timeline, Education & Achievements
+- **Commit**: `feat(experience): upgrade Database Design and SQL Mastery certification card`
+- **Verification**: Passed all automated test suites and production build checks.
+
