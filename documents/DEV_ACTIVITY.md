@@ -1,1 +1,1 @@
-- 2026-06-30 17:29:07 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
+- 2026-06-30 17:35:50 +0530: feat(components): add copy-to-clipboard feedback chip with checkmark icon
