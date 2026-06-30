@@ -1,1 +1,1 @@
-- 2026-06-30 13:32:10 +0530: chore(deps): tune Vite production chunk splitting strategy
+- 2026-06-30 13:38:19 +0530: feat(ui): polish border radius tokens and card padding hierarchy
