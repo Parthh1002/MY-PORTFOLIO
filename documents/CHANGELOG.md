@@ -1497,3 +1497,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `perf(certifications): optimize polish typography hierarchy and institution logo alignment`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #300] - 2026-07-01 19:33:25 +0530
+- **Phase**: Phase 3: Experience Timeline, Education & Achievements
+- **Commit**: `feat(timeline): enhance intersection observer triggers to avoid frame drops on scroll`
+- **Verification**: Passed all automated test suites and production build checks.
+
