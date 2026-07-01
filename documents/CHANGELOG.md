@@ -1487,3 +1487,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(education): solidify subtle hover zoom and verification credential link`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #298] - 2026-07-01 11:42:51 +0530
+- **Phase**: Phase 3: Experience Timeline, Education & Achievements
+- **Commit**: `feat(achievements): implement resolve z-index clipping issue when hovering timeline cards`
+- **Verification**: Passed all automated test suites and production build checks.
+
