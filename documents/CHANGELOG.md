@@ -1507,3 +1507,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `refactor(resume): refactor normalize achievement dataset into structured config object`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #302] - 2026-07-02 10:24:00 +0530
+- **Phase**: Phase 3: Experience Timeline, Education & Achievements
+- **Commit**: `style(experience): refine stack education and experience gracefully on mobile layouts`
+- **Verification**: Passed all automated test suites and production build checks.
+
