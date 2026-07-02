@@ -1512,3 +1512,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(experience): refine stack education and experience gracefully on mobile layouts`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #303] - 2026-07-02 17:49:17 +0530
+- **Phase**: Phase 3: Experience Timeline, Education & Achievements
+- **Commit**: `style(education): polish unify padding and border-radius across all status pill elements`
+- **Verification**: Passed all automated test suites and production build checks.
+
