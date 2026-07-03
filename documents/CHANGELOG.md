@@ -1517,3 +1517,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(education): polish unify padding and border-radius across all status pill elements`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #304] - 2026-07-03 11:14:34 +0530
+- **Phase**: Phase 3: Experience Timeline, Education & Achievements
+- **Commit**: `fix(achievements): resolve one-click resume PDF viewer modal with download link`
+- **Verification**: Passed all automated test suites and production build checks.
+
