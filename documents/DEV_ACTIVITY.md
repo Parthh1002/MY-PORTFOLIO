@@ -1,1 +1,1 @@
-- 2026-07-04 23:01:29 +0530: feat(ui): refine frosted glass morphism with backdrop filter blur
+- 2026-07-04 23:09:35 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
