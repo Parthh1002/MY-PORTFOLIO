@@ -1,1 +1,1 @@
-- 2026-07-04 19:04:56 +0530: feat(ui): enhance responsive layout container for ultra-wide viewports
+- 2026-07-04 19:05:59 +0530: style(theme): balance light theme text legibility and muted borders
