@@ -1,1 +1,1 @@
-- 2026-07-04 18:24:37 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
+- 2026-07-04 18:29:25 +0530: feat(components): add tooltip descriptions for engineering architecture tags
