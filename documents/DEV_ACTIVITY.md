@@ -1,1 +1,1 @@
-- 2026-07-04 17:49:32 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
+- 2026-07-04 17:57:41 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
