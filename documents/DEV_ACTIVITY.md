@@ -1,1 +1,1 @@
-- 2026-07-04 10:32:35 +0530: perf(render): enable content-visibility auto for offscreen sections
+- 2026-07-04 10:34:05 +0530: feat(components): integrate seamless external link icon with aria-label
