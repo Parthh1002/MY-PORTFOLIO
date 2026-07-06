@@ -1577,3 +1577,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(education): perfect align milestone dots with header text on mobile devices`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #316] - 2026-07-06 18:18:00 +0530
+- **Phase**: Phase 3: Experience Timeline, Education & Achievements
+- **Commit**: `feat(achievements): upgrade academic milestones card showcasing B.Tech CSE degree`
+- **Verification**: Passed all automated test suites and production build checks.
+
