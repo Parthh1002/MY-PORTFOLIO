@@ -1,1 +1,1 @@
-- 2026-07-06 14:21:52 +0530: fix(layout): normalize margin collapse across nested article sections
+- 2026-07-06 14:28:46 +0530: feat(animation): orchestrate staggered fade-up spring transitions
