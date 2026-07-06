@@ -1,1 +1,1 @@
-- 2026-07-06 16:30:04 +0530: chore(deps): tune Vite production chunk splitting strategy
+- 2026-07-06 16:31:32 +0530: feat(components): add tooltip descriptions for engineering architecture tags
