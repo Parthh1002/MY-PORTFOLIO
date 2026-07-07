@@ -1,1 +1,1 @@
-- 2026-07-07 10:08:52 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
+- 2026-07-07 10:09:51 +0530: fix(layout): correct flexbox wrap alignment on tablet devices
