@@ -1,1 +1,1 @@
-- 2026-07-07 13:27:27 +0530: feat(components): structure expandable tech stack pill filters
+- 2026-07-07 13:29:10 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
