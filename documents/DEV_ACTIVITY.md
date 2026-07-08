@@ -1,1 +1,1 @@
-- 2026-07-08 23:39:58 +0530: style(theme): tune high-contrast dark theme foreground tokens
+- 2026-07-08 23:40:53 +0530: style(theme): calibrate subtle focus outline rings for accessible navigation
