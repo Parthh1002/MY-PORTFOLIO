@@ -1,1 +1,1 @@
-- 2026-07-08 11:41:02 +0530: feat(components): add copy-to-clipboard feedback chip with checkmark icon
+- 2026-07-08 11:41:42 +0530: style(theme): balance light theme text legibility and muted borders
