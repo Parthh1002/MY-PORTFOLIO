@@ -1,1 +1,1 @@
-- 2026-07-08 11:21:32 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
+- 2026-07-08 11:22:49 +0530: feat(components): implement interactive modal close on escape key press
