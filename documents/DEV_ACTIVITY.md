@@ -1,1 +1,1 @@
-- 2026-07-08 11:53:40 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
+- 2026-07-08 11:56:22 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
