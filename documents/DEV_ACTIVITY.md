@@ -1,1 +1,1 @@
-- 2026-07-08 15:40:39 +0530: feat(ui): enhance responsive layout container for ultra-wide viewports
+- 2026-07-08 15:53:36 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
