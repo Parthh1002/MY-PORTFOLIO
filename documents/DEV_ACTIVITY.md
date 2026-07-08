@@ -1,1 +1,1 @@
-- 2026-07-08 23:09:41 +0530: feat(components): integrate seamless external link icon with aria-label
+- 2026-07-08 23:11:48 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
