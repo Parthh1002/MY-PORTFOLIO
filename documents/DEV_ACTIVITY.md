@@ -1,1 +1,1 @@
-- 2026-07-08 14:53:06 +0530: feat(components): structure expandable tech stack pill filters
+- 2026-07-08 14:53:55 +0530: perf(render): debounce window resize and orientation change handlers
