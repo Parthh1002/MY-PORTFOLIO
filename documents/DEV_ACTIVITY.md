@@ -1,1 +1,1 @@
-- 2026-07-08 14:53:55 +0530: perf(render): debounce window resize and orientation change handlers
+- 2026-07-08 14:59:06 +0530: chore(deps): streamline TypeScript path alias configurations
