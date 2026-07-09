@@ -1622,3 +1622,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(cinematic): implement fullscreen cinematic intro overlay with GSAP timeline`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #325] - 2026-07-09 17:42:34 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `perf(particles): optimize animate developer monogram and tagline during site launch`
+- **Verification**: Passed all automated test suites and production build checks.
+
