@@ -1,1 +1,1 @@
-- 2026-07-10 17:00:30 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
+- 2026-07-10 17:04:22 +0530: chore(deps): clean up unused styles and consolidate utility classes
