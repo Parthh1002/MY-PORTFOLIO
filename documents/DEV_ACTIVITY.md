@@ -1,1 +1,1 @@
-- 2026-07-10 15:39:50 +0530: fix(layout): prevent layout shift during dynamic font loading
+- 2026-07-10 15:42:29 +0530: style(theme): tune high-contrast dark theme foreground tokens
