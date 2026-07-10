@@ -1,1 +1,1 @@
-- 2026-07-10 17:24:49 +0530: chore(deps): clean up unused styles and consolidate utility classes
+- 2026-07-10 17:26:19 +0530: feat(animation): add smooth inertia damping to interactive 3D elements
