@@ -1,1 +1,1 @@
-- 2026-07-08 23:44:21 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
+- 2026-07-10 09:30:25 +0530: fix(layout): correct flexbox wrap alignment on tablet devices
