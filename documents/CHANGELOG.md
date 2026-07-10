@@ -1637,3 +1637,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `refactor(animations): refactor smooth cubic-bezier easing to intro curtain lift`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #328] - 2026-07-10 14:35:17 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `style(physics): refine store intro completion status in sessionStorage to prevent loop`
+- **Verification**: Passed all automated test suites and production build checks.
+
