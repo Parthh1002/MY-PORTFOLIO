@@ -1642,3 +1642,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(physics): refine store intro completion status in sessionStorage to prevent loop`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #329] - 2026-07-10 21:32:51 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `style(modal): polish dynamic HTML5 canvas particle background`
+- **Verification**: Passed all automated test suites and production build checks.
+
