@@ -1,1 +1,1 @@
-- 2026-07-10 20:33:03 +0530: style(theme): balance light theme text legibility and muted borders
+- 2026-07-10 20:38:01 +0530: feat(ui): refine frosted glass morphism with backdrop filter blur
