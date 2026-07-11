@@ -1647,3 +1647,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(modal): polish dynamic HTML5 canvas particle background`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #330] - 2026-07-11 11:30:25 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `fix(stats): resolve mouse repulsion physics to interactive canvas particles`
+- **Verification**: Passed all automated test suites and production build checks.
+
