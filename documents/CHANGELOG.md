@@ -1667,3 +1667,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(particles): add resize canvas dynamically on window orientationchange event`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #334] - 2026-07-12 12:20:42 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `feat(cursor): integrate custom magnetic cursor follower with spring trailing dot`
+- **Verification**: Passed all automated test suites and production build checks.
+
