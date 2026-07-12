@@ -1677,3 +1677,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `perf(animations): improve expand cursor circle when hovering clickable interactive links`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #336] - 2026-07-12 22:15:51 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `refactor(physics): standardize disable custom cursor on touch devices to conserve battery`
+- **Verification**: Passed all automated test suites and production build checks.
+
