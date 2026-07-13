@@ -1,1 +1,1 @@
-- 2026-07-13 17:48:42 +0530: feat(components): implement interactive modal close on escape key press
+- 2026-07-13 17:48:53 +0530: chore(deps): streamline TypeScript path alias configurations
