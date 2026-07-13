@@ -1,1 +1,1 @@
-- 2026-07-13 11:21:11 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
+- 2026-07-13 11:21:43 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
