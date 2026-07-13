@@ -1,1 +1,1 @@
-- 2026-07-13 11:44:42 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
+- 2026-07-13 11:50:26 +0530: feat(ui): polish border radius tokens and card padding hierarchy
