@@ -1,1 +1,1 @@
-- 2026-07-13 13:54:53 +0530: perf(render): lazy load below-the-fold project screenshots
+- 2026-07-13 14:10:47 +0530: perf(render): debounce window resize and orientation change handlers
