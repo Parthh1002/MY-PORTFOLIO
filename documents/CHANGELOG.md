@@ -1682,3 +1682,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `refactor(physics): standardize disable custom cursor on touch devices to conserve battery`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #337] - 2026-07-13 12:13:25 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `style(modal): elevate ambient UI sound effect on button clicks with mute toggle`
+- **Verification**: Passed all automated test suites and production build checks.
+
