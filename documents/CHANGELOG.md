@@ -1687,3 +1687,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(modal): elevate ambient UI sound effect on button clicks with mute toggle`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #338] - 2026-07-13 12:11:00 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `fix(stats): audit frosted glass backdrop blur behind active preview modals`
+- **Verification**: Passed all automated test suites and production build checks.
+
