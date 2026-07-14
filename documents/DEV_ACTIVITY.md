@@ -1,1 +1,1 @@
-- 2026-07-14 11:16:35 +0530: fix(layout): correct flexbox wrap alignment on tablet devices
+- 2026-07-14 11:18:43 +0530: fix(layout): prevent layout shift during dynamic font loading
