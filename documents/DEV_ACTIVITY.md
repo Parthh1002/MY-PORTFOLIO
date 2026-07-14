@@ -1,1 +1,1 @@
-- 2026-07-14 19:45:32 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
+- 2026-07-14 19:51:12 +0530: feat(ui): polish border radius tokens and card padding hierarchy
