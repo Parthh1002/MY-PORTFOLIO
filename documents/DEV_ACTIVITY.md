@@ -1,1 +1,1 @@
-- 2026-07-14 15:54:49 +0530: feat(ui): refine frosted glass morphism with backdrop filter blur
+- 2026-07-14 16:01:13 +0530: perf(render): lazy load below-the-fold project screenshots
