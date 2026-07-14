@@ -1,1 +1,1 @@
-- 2026-07-14 17:08:51 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
+- 2026-07-14 17:21:39 +0530: style(theme): calibrate subtle focus outline rings for accessible navigation
