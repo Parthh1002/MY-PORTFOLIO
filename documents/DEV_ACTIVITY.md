@@ -1,1 +1,1 @@
-- 2026-07-14 18:04:40 +0530: perf(render): debounce window resize and orientation change handlers
+- 2026-07-14 18:12:19 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
