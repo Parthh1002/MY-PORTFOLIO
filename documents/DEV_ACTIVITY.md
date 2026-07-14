@@ -1,1 +1,1 @@
-- 2026-07-14 19:19:49 +0530: feat(components): add copy-to-clipboard feedback chip with checkmark icon
+- 2026-07-14 19:21:32 +0530: feat(components): integrate seamless external link icon with aria-label
