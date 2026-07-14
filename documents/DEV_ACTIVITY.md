@@ -1,1 +1,1 @@
-- 2026-07-14 19:08:49 +0530: feat(components): integrate seamless external link icon with aria-label
+- 2026-07-14 19:15:24 +0530: fix(layout): correct flexbox wrap alignment on tablet devices
