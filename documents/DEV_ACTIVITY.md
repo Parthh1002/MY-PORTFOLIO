@@ -1,1 +1,1 @@
-- 2026-07-14 15:18:54 +0530: style(theme): calibrate subtle focus outline rings for accessible navigation
+- 2026-07-14 15:24:37 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
