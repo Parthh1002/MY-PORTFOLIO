@@ -1,1 +1,1 @@
-- 2026-07-14 16:22:25 +0530: style(theme): tune high-contrast dark theme foreground tokens
+- 2026-07-14 16:29:48 +0530: style(theme): tune high-contrast dark theme foreground tokens
