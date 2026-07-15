@@ -1722,3 +1722,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(physics): implement consolidate Framer Motion variants into animations module`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #345] - 2026-07-15 12:54:00 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `perf(modal): optimize use React.memo on static section headers and decorative shapes`
+- **Verification**: Passed all automated test suites and production build checks.
+
