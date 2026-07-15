@@ -1,1 +1,1 @@
-- 2026-07-15 23:21:34 +0530: style(theme): tune high-contrast dark theme foreground tokens
+- 2026-07-15 23:23:18 +0530: feat(components): integrate seamless external link icon with aria-label
