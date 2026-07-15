@@ -1,1 +1,1 @@
-- 2026-07-15 10:37:03 +0530: fix(layout): prevent layout shift during dynamic font loading
+- 2026-07-15 10:40:14 +0530: chore(deps): tune Vite production chunk splitting strategy
