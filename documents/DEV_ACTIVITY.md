@@ -1,1 +1,1 @@
-- 2026-07-15 18:08:29 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
+- 2026-07-15 18:09:03 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
