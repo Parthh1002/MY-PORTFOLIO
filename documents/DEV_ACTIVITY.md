@@ -1,1 +1,1 @@
-- 2026-07-15 16:48:51 +0530: feat(components): add copy-to-clipboard feedback chip with checkmark icon
+- 2026-07-15 16:52:41 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
