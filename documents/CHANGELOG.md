@@ -1747,3 +1747,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(particles): polish smooth spring hover transition to back-to-top button`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #350] - 2026-07-16 22:41:51 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `fix(cursor): resolve scrollbar-width styling for Firefox browser engine`
+- **Verification**: Passed all automated test suites and production build checks.
+
