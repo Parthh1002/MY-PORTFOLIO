@@ -1,1 +1,1 @@
-- 2026-07-18 21:21:52 +0530: feat(components): integrate seamless external link icon with aria-label
+- 2026-07-18 21:23:19 +0530: feat(ui): polish border radius tokens and card padding hierarchy
