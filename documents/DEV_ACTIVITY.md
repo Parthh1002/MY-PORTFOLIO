@@ -1,1 +1,1 @@
-- 2026-07-18 16:45:59 +0530: perf(render): enable content-visibility auto for offscreen sections
+- 2026-07-18 17:19:17 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
