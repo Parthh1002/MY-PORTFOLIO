@@ -1,1 +1,1 @@
-- 2026-07-18 15:45:12 +0530: feat(components): implement interactive modal close on escape key press
+- 2026-07-18 16:11:17 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
