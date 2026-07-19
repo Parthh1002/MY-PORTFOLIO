@@ -1797,3 +1797,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `refactor(animations): harmonize dynamic HTML5 canvas particle background`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #360] - 2026-07-19 21:17:34 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `feat(physics): synchronize mouse repulsion physics to interactive canvas particles`
+- **Verification**: Passed all automated test suites and production build checks.
+
