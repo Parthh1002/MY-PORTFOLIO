@@ -1792,3 +1792,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `fix(cursor): audit store intro completion status in sessionStorage to prevent loop`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #359] - 2026-07-19 14:20:00 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `refactor(animations): harmonize dynamic HTML5 canvas particle background`
+- **Verification**: Passed all automated test suites and production build checks.
+
