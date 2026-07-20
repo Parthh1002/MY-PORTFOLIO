@@ -1812,3 +1812,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(stats): upgrade throttle particle frame rate to 60fps and pause when offscreen`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #363] - 2026-07-20 18:10:17 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `feat(scroll): solidify resize canvas dynamically on window orientationchange event`
+- **Verification**: Passed all automated test suites and production build checks.
+
