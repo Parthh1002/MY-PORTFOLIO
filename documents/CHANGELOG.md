@@ -1807,3 +1807,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(modal): perfect match particle color palette to current active theme accent`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #362] - 2026-07-20 11:12:42 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `feat(stats): upgrade throttle particle frame rate to 60fps and pause when offscreen`
+- **Verification**: Passed all automated test suites and production build checks.
+
