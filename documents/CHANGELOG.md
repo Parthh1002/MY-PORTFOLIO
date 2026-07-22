@@ -1837,3 +1837,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `refactor(animations): refactor ambient UI sound effect on button clicks with mute toggle`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #368] - 2026-07-22 11:58:08 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `style(physics): refine frosted glass backdrop blur behind active preview modals`
+- **Verification**: Passed all automated test suites and production build checks.
+
