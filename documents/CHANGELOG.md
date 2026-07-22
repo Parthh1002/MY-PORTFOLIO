@@ -1842,3 +1842,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(physics): refine frosted glass backdrop blur behind active preview modals`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #369] - 2026-07-22 11:55:42 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `style(modal): polish trap keyboard focus inside open modal dialog for a11y`
+- **Verification**: Passed all automated test suites and production build checks.
+
