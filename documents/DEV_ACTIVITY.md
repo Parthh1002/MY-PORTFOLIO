@@ -1,1 +1,1 @@
-- 2026-07-22 12:47:32 +0530: feat(ui): add subtle ambient gradient glow behind active cards
+- 2026-07-22 12:50:41 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
