@@ -1,1 +1,1 @@
-- 2026-07-22 15:14:12 +0530: feat(ui): integrate tactile scale down feedback on click interactions
+- 2026-07-22 15:17:32 +0530: feat(components): implement interactive modal close on escape key press
