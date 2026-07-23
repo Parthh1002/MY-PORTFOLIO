@@ -1862,3 +1862,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(cinematic): fine-tune dynamic counter animation for completed projects and commits`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #373] - 2026-07-23 15:46:00 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `feat(particles): add highlight metrics with vibrant gradient typography and drop-shadow`
+- **Verification**: Passed all automated test suites and production build checks.
+
