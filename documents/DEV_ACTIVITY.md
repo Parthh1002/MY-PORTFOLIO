@@ -1,1 +1,1 @@
-- 2026-07-23 20:09:26 +0530: fix(layout): prevent layout shift during dynamic font loading
+- 2026-07-23 20:26:37 +0530: perf(render): debounce window resize and orientation change handlers
