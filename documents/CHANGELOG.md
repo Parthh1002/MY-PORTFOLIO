@@ -1852,3 +1852,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `fix(stats): resolve closing modal via Escape key and clicking outside bounds`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #371] - 2026-07-23 11:50:51 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `perf(scroll): streamline prevent body scroll lock leak when closing preview modals`
+- **Verification**: Passed all automated test suites and production build checks.
+
