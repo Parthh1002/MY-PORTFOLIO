@@ -1857,3 +1857,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `perf(scroll): streamline prevent body scroll lock leak when closing preview modals`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #372] - 2026-07-23 12:48:25 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `feat(cinematic): fine-tune dynamic counter animation for completed projects and commits`
+- **Verification**: Passed all automated test suites and production build checks.
+
