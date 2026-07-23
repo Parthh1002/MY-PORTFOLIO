@@ -1867,3 +1867,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(particles): add highlight metrics with vibrant gradient typography and drop-shadow`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #374] - 2026-07-23 22:43:34 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `feat(cursor): integrate consolidate Framer Motion variants into animations module`
+- **Verification**: Passed all automated test suites and production build checks.
+
