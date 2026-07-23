@@ -1,1 +1,1 @@
-- 2026-07-23 18:41:43 +0530: fix(layout): prevent layout shift during dynamic font loading
+- 2026-07-23 18:42:33 +0530: perf(render): lazy load below-the-fold project screenshots
