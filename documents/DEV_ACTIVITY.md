@@ -1,1 +1,1 @@
-- 2026-07-24 13:31:33 +0530: style(theme): balance light theme text legibility and muted borders
+- 2026-07-24 13:34:21 +0530: feat(animation): orchestrate staggered fade-up spring transitions
