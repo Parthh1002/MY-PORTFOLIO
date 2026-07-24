@@ -1,1 +1,1 @@
-- 2026-07-24 23:00:33 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
+- 2026-07-24 23:04:42 +0530: chore(deps): tune Vite production chunk splitting strategy
