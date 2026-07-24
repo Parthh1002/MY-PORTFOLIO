@@ -1,1 +1,1 @@
-- 2026-07-24 21:55:09 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
+- 2026-07-24 21:56:27 +0530: feat(animation): implement floating card hover elevation with drop shadow
