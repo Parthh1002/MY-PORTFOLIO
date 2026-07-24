@@ -1877,3 +1877,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `perf(animations): improve use React.memo on static section headers and decorative shapes`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #376] - 2026-07-24 12:38:42 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `refactor(physics): standardize backdrop-filter rendering bug on Safari macOS and iOS`
+- **Verification**: Passed all automated test suites and production build checks.
+
