@@ -1,1 +1,1 @@
-- 2026-07-24 23:21:38 +0530: feat(animation): implement floating card hover elevation with drop shadow
+- 2026-07-24 23:29:10 +0530: fix(layout): normalize margin collapse across nested article sections
