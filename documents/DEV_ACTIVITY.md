@@ -1,1 +1,1 @@
-- 2026-07-24 21:28:52 +0530: feat(components): structure expandable tech stack pill filters
+- 2026-07-24 21:28:53 +0530: fix(layout): normalize margin collapse across nested article sections
