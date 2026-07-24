@@ -1,1 +1,1 @@
-- 2026-07-24 19:05:50 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
+- 2026-07-24 19:09:24 +0530: fix(layout): prevent layout shift during dynamic font loading
