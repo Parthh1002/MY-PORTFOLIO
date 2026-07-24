@@ -1882,3 +1882,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `refactor(physics): standardize backdrop-filter rendering bug on Safari macOS and iOS`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #377] - 2026-07-24 19:36:17 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `style(modal): elevate ambient neon spotlights behind key section headers`
+- **Verification**: Passed all automated test suites and production build checks.
+
