@@ -1887,3 +1887,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(modal): elevate ambient neon spotlights behind key section headers`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #378] - 2026-07-25 12:33:51 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `fix(stats): audit floating back-to-top button appearing after 400px scroll`
+- **Verification**: Passed all automated test suites and production build checks.
+
