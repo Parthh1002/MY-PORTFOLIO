@@ -1,1 +1,1 @@
-- 2026-07-25 22:23:52 +0530: feat(components): structure expandable tech stack pill filters
+- 2026-07-25 22:23:55 +0530: style(theme): balance light theme text legibility and muted borders
