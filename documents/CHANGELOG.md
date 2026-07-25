@@ -1892,3 +1892,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `fix(stats): audit floating back-to-top button appearing after 400px scroll`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #379] - 2026-07-25 10:31:25 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `refactor(scroll): harmonize smooth spring hover transition to back-to-top button`
+- **Verification**: Passed all automated test suites and production build checks.
+
