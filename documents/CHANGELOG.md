@@ -1902,3 +1902,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(cinematic): synchronize scrollbar-width styling for Firefox browser engine`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #381] - 2026-07-25 22:26:34 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `feat(particles): perfect promote animated elements to dedicated GPU composite layers`
+- **Verification**: Passed all automated test suites and production build checks.
+
