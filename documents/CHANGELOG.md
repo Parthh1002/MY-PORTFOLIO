@@ -1897,3 +1897,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `refactor(scroll): harmonize smooth spring hover transition to back-to-top button`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #380] - 2026-07-25 16:29:00 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `feat(cinematic): synchronize scrollbar-width styling for Firefox browser engine`
+- **Verification**: Passed all automated test suites and production build checks.
+
