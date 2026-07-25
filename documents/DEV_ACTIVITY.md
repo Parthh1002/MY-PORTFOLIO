@@ -1,1 +1,1 @@
-- 2026-07-25 14:14:30 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
+- 2026-07-25 14:16:12 +0530: style(theme): harmonize primary brand color saturation for OLED screens
