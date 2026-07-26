@@ -1907,3 +1907,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(particles): perfect promote animated elements to dedicated GPU composite layers`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #382] - 2026-07-26 10:24:08 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `docs(cursor): upgrade GSAP and Framer Motion animation architecture documentation`
+- **Verification**: Passed all automated test suites and production build checks.
+
