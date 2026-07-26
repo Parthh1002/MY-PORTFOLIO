@@ -1912,3 +1912,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `docs(cursor): upgrade GSAP and Framer Motion animation architecture documentation`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #383] - 2026-07-26 13:21:42 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `feat(animations): solidify staggered entrance animations for cards entering viewport`
+- **Verification**: Passed all automated test suites and production build checks.
+
