@@ -1917,3 +1917,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(animations): solidify staggered entrance animations for cards entering viewport`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #384] - 2026-07-26 20:19:17 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `feat(physics): implement fullscreen cinematic intro overlay with GSAP timeline`
+- **Verification**: Passed all automated test suites and production build checks.
+
