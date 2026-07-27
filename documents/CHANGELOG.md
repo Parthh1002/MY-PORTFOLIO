@@ -1927,3 +1927,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `perf(modal): optimize animate developer monogram and tagline during site launch`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #386] - 2026-07-27 10:14:25 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `feat(stats): enhance skip intro button with keyboard Space/Escape shortcut`
+- **Verification**: Passed all automated test suites and production build checks.
+
