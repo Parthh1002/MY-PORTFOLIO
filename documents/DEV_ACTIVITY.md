@@ -1,1 +1,1 @@
-- 2026-07-27 17:55:23 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
+- 2026-07-27 17:56:25 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
