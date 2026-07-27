@@ -1,1 +1,1 @@
-- 2026-07-27 20:55:42 +0530: feat(ui): add subtle ambient gradient glow behind active cards
+- 2026-07-27 20:58:02 +0530: feat(components): add tooltip descriptions for engineering architecture tags
