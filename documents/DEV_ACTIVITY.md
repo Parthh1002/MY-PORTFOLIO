@@ -1,1 +1,1 @@
-- 2026-07-27 23:41:30 +0530: chore(deps): tune Vite production chunk splitting strategy
+- 2026-07-27 23:44:15 +0530: chore(deps): streamline TypeScript path alias configurations
