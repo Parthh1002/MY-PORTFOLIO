@@ -1,1 +1,1 @@
-- 2026-07-27 17:21:15 +0530: style(theme): calibrate subtle focus outline rings for accessible navigation
+- 2026-07-27 17:32:42 +0530: feat(components): implement interactive modal close on escape key press
