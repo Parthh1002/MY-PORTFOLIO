@@ -1,1 +1,1 @@
-- 2026-07-27 16:38:49 +0530: fix(layout): prevent layout shift during dynamic font loading
+- 2026-07-27 16:41:59 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
