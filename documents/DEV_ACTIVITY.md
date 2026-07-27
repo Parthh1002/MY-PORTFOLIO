@@ -1,1 +1,1 @@
-- 2026-07-27 20:39:48 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
+- 2026-07-27 20:40:24 +0530: feat(ui): integrate tactile scale down feedback on click interactions
