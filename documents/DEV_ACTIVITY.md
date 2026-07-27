@@ -1,1 +1,1 @@
-- 2026-07-27 10:11:42 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
+- 2026-07-27 10:12:51 +0530: chore(deps): tune Vite production chunk splitting strategy
