@@ -1952,3 +1952,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `fix(cursor): resolve mouse repulsion physics to interactive canvas particles`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #391] - 2026-07-28 21:02:17 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `perf(animations): streamline match particle color palette to current active theme accent`
+- **Verification**: Passed all automated test suites and production build checks.
+
