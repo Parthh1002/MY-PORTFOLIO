@@ -1,1 +1,1 @@
-- 2026-07-29 17:19:15 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
+- 2026-07-29 17:22:21 +0530: style(theme): calibrate subtle focus outline rings for accessible navigation
