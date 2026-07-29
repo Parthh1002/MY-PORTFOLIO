@@ -1957,3 +1957,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `perf(animations): streamline match particle color palette to current active theme accent`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #392] - 2026-07-29 10:59:51 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `feat(physics): fine-tune throttle particle frame rate to 60fps and pause when offscreen`
+- **Verification**: Passed all automated test suites and production build checks.
+
