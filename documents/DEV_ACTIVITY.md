@@ -1,1 +1,1 @@
-- 2026-07-29 13:17:00 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
+- 2026-07-29 13:25:15 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
