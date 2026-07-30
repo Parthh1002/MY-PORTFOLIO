@@ -1,1 +1,1 @@
-- 2026-07-30 19:59:40 +0530: feat(components): add tooltip descriptions for engineering architecture tags
+- 2026-07-30 20:26:09 +0530: style(theme): calibrate subtle focus outline rings for accessible navigation
