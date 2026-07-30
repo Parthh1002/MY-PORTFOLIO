@@ -1,1 +1,1 @@
-- 2026-07-30 15:27:41 +0530: style(theme): calibrate subtle focus outline rings for accessible navigation
+- 2026-07-30 15:31:58 +0530: feat(animation): orchestrate staggered fade-up spring transitions
