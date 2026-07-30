@@ -1,1 +1,1 @@
-- 2026-07-30 18:05:44 +0530: feat(animation): implement floating card hover elevation with drop shadow
+- 2026-07-30 18:08:24 +0530: feat(animation): orchestrate staggered fade-up spring transitions
