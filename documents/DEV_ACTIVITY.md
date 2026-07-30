@@ -1,1 +1,1 @@
-- 2026-07-30 16:40:47 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
+- 2026-07-30 16:50:38 +0530: perf(render): debounce window resize and orientation change handlers
