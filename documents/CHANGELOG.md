@@ -1997,3 +1997,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `refactor(animations): harmonize trap keyboard focus inside open modal dialog for a11y`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #400] - 2026-07-31 11:40:25 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `feat(physics): synchronize closing modal via Escape key and clicking outside bounds`
+- **Verification**: Passed all automated test suites and production build checks.
+
