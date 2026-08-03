@@ -2042,3 +2042,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(physics): refine floating back-to-top button appearing after 400px scroll`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #409] - 2026-08-03 12:18:34 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `style(modal): polish smooth spring hover transition to back-to-top button`
+- **Verification**: Passed all automated test suites and production build checks.
+
