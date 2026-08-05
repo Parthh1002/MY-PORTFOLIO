@@ -2082,3 +2082,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `refactor(physics): standardize skip intro button with keyboard Space/Escape shortcut`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #417] - 2026-08-05 10:59:08 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `style(modal): elevate smooth cubic-bezier easing to intro curtain lift`
+- **Verification**: Passed all automated test suites and production build checks.
+
