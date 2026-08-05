@@ -2087,3 +2087,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(modal): elevate smooth cubic-bezier easing to intro curtain lift`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #418] - 2026-08-05 16:56:42 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `fix(stats): audit store intro completion status in sessionStorage to prevent loop`
+- **Verification**: Passed all automated test suites and production build checks.
+
