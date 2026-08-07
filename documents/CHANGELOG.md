@@ -2122,3 +2122,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(physics): implement custom magnetic cursor follower with spring trailing dot`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #425] - 2026-08-07 17:39:42 +0530
+- **Phase**: Phase 4: Cinematic Intro, Particles & Spring Physics
+- **Commit**: `perf(modal): optimize expand cursor circle when hovering clickable interactive links`
+- **Verification**: Passed all automated test suites and production build checks.
+
