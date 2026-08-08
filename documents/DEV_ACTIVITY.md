@@ -1,1 +1,1 @@
-- 2026-08-08 21:08:52 +0530: perf(render): debounce window resize and orientation change handlers
+- 2026-08-08 21:10:56 +0530: chore(deps): tune Vite production chunk splitting strategy
