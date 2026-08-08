@@ -1,1 +1,1 @@
-- 2026-08-08 22:05:42 +0530: chore(deps): streamline TypeScript path alias configurations
+- 2026-08-08 22:06:19 +0530: perf(render): optimize will-change CSS hints for GPU compositing
