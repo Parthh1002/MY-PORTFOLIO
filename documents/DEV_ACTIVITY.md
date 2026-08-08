@@ -1,1 +1,1 @@
-- 2026-08-08 15:04:44 +0530: feat(components): integrate seamless external link icon with aria-label
+- 2026-08-08 15:05:24 +0530: feat(components): structure expandable tech stack pill filters
