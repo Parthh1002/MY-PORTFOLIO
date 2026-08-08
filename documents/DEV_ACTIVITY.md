@@ -1,1 +1,1 @@
-- 2026-08-08 19:13:54 +0530: fix(layout): normalize margin collapse across nested article sections
+- 2026-08-08 19:19:34 +0530: perf(render): enable content-visibility auto for offscreen sections
