@@ -1,1 +1,1 @@
-- 2026-08-08 23:37:06 +0530: fix(layout): normalize margin collapse across nested article sections
+- 2026-08-08 23:41:51 +0530: chore(deps): clean up unused styles and consolidate utility classes
