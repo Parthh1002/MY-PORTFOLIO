@@ -1,1 +1,1 @@
-- 2026-08-08 20:46:02 +0530: chore(deps): clean up unused styles and consolidate utility classes
+- 2026-08-08 20:47:43 +0530: perf(render): enable content-visibility auto for offscreen sections
