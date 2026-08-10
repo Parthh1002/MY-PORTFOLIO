@@ -1,1 +1,1 @@
-- 2026-08-10 10:30:06 +0530: style(theme): synchronize theme transitions across border colors
+- 2026-08-10 10:35:04 +0530: perf(render): lazy load below-the-fold project screenshots
