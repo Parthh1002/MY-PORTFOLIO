@@ -1,1 +1,1 @@
-- 2026-08-10 09:30:34 +0530: chore(deps): clean up unused styles and consolidate utility classes
+- 2026-08-10 09:31:49 +0530: fix(layout): correct flexbox wrap alignment on tablet devices
