@@ -1,1 +1,1 @@
-- 2026-08-10 15:18:04 +0530: feat(ui): add subtle ambient gradient glow behind active cards
+- 2026-08-10 15:18:25 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
