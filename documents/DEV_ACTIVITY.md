@@ -1,1 +1,1 @@
-- 2026-08-10 18:55:08 +0530: feat(components): structure expandable tech stack pill filters
+- 2026-08-10 18:56:45 +0530: style(theme): harmonize primary brand color saturation for OLED screens
