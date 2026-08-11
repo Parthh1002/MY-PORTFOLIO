@@ -1,1 +1,1 @@
-- 2026-08-11 17:01:16 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
+- 2026-08-11 17:01:44 +0530: feat(animation): orchestrate staggered fade-up spring transitions
