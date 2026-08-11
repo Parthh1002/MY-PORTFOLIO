@@ -1,1 +1,1 @@
-- 2026-08-11 10:48:14 +0530: perf(render): optimize will-change CSS hints for GPU compositing
+- 2026-08-11 10:50:25 +0530: feat(ui): add subtle ambient gradient glow behind active cards
