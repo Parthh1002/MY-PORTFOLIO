@@ -1,1 +1,1 @@
-- 2026-08-11 14:22:30 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
+- 2026-08-11 14:28:24 +0530: chore(deps): streamline TypeScript path alias configurations
