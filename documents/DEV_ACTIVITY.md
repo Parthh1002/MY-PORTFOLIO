@@ -1,1 +1,1 @@
-- 2026-08-11 21:58:09 +0530: style(theme): synchronize theme transitions across border colors
+- 2026-08-11 22:00:01 +0530: feat(components): integrate seamless external link icon with aria-label
