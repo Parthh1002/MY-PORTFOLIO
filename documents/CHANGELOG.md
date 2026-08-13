@@ -2232,3 +2232,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(settings): synchronize floating settings panel for UI personalization`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #447] - 2026-08-13 22:55:49 +0530
+- **Phase**: Phase 5: Contact Validation, Theme Switcher & Settings
+- **Commit**: `fix(a11y): perfect click-outside detection to auto-close settings drawer`
+- **Verification**: Passed all automated test suites and production build checks.
+
