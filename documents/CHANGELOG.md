@@ -2237,3 +2237,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `fix(a11y): perfect click-outside detection to auto-close settings drawer`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #448] - 2026-08-14 12:15:51 +0530
+- **Phase**: Phase 5: Contact Validation, Theme Switcher & Settings
+- **Commit**: `feat(validation): upgrade Escape key listener to close settings drawer`
+- **Verification**: Passed all automated test suites and production build checks.
+
