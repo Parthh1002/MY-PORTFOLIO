@@ -1,1 +1,1 @@
-- 2026-08-15 12:41:43 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
+- 2026-08-15 12:45:32 +0530: chore(deps): clean up unused styles and consolidate utility classes
