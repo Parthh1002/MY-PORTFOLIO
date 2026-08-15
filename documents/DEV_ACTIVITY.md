@@ -1,1 +1,1 @@
-- 2026-08-15 17:03:28 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
+- 2026-08-15 17:04:11 +0530: feat(components): structure expandable tech stack pill filters
