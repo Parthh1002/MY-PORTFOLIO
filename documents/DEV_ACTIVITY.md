@@ -1,1 +1,1 @@
-- 2026-08-15 20:51:50 +0530: feat(components): add tooltip descriptions for engineering architecture tags
+- 2026-08-15 21:07:09 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
