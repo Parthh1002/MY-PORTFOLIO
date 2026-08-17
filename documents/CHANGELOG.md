@@ -2307,3 +2307,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `perf(a11y): improve form validation for name, email, subject, and message`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #462] - 2026-08-17 21:56:32 +0530
+- **Phase**: Phase 5: Contact Validation, Theme Switcher & Settings
+- **Commit**: `refactor(validation): standardize email format using RFC 5322 compliant regex pattern`
+- **Verification**: Passed all automated test suites and production build checks.
+
