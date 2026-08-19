@@ -1,1 +1,1 @@
-- 2026-08-19 20:23:50 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
+- 2026-08-19 20:32:52 +0530: style(theme): harmonize primary brand color saturation for OLED screens
