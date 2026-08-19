@@ -1,1 +1,1 @@
-- 2026-08-19 10:02:08 +0530: chore(deps): clean up unused styles and consolidate utility classes
+- 2026-08-19 10:04:28 +0530: style(theme): tune high-contrast dark theme foreground tokens
