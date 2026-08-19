@@ -1,1 +1,1 @@
-- 2026-08-19 15:03:45 +0530: fix(layout): correct flexbox wrap alignment on tablet devices
+- 2026-08-19 15:04:37 +0530: feat(ui): refine frosted glass morphism with backdrop filter blur
