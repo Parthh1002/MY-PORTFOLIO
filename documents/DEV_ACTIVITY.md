@@ -1,1 +1,1 @@
-- 2026-08-19 14:03:56 +0530: style(theme): calibrate subtle focus outline rings for accessible navigation
+- 2026-08-19 14:06:28 +0530: chore(deps): tune Vite production chunk splitting strategy
