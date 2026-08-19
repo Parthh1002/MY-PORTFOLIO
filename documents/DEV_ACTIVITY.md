@@ -1,1 +1,1 @@
-- 2026-08-19 16:05:51 +0530: feat(ui): polish border radius tokens and card padding hierarchy
+- 2026-08-19 16:06:08 +0530: feat(ui): add subtle ambient gradient glow behind active cards
