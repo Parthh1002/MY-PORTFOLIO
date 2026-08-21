@@ -1,1 +1,1 @@
-- 2026-08-21 10:19:21 +0530: style(theme): synchronize theme transitions across border colors
+- 2026-08-21 10:44:09 +0530: feat(animation): add smooth inertia damping to interactive 3D elements
