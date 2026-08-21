@@ -1,1 +1,1 @@
-- 2026-08-21 21:23:18 +0530: perf(render): optimize will-change CSS hints for GPU compositing
+- 2026-08-21 21:39:51 +0530: feat(animation): implement floating card hover elevation with drop shadow
