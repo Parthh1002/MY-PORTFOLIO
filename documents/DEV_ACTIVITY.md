@@ -1,1 +1,1 @@
-- 2026-08-21 22:26:07 +0530: style(theme): synchronize theme transitions across border colors
+- 2026-08-21 22:40:44 +0530: feat(ui): polish border radius tokens and card padding hierarchy
