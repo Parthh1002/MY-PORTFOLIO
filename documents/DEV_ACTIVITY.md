@@ -1,1 +1,1 @@
-- 2026-08-22 19:11:04 +0530: feat(ui): polish border radius tokens and card padding hierarchy
+- 2026-08-22 19:12:36 +0530: feat(animation): add smooth inertia damping to interactive 3D elements
