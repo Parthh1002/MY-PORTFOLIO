@@ -1,1 +1,1 @@
-- 2026-08-22 13:12:45 +0530: style(theme): tune high-contrast dark theme foreground tokens
+- 2026-08-22 13:18:25 +0530: feat(animation): orchestrate staggered fade-up spring transitions
