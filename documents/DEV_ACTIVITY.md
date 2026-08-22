@@ -1,1 +1,1 @@
-- 2026-08-22 15:45:41 +0530: feat(components): implement interactive modal close on escape key press
+- 2026-08-22 15:49:58 +0530: feat(animation): add smooth inertia damping to interactive 3D elements
