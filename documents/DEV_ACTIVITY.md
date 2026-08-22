@@ -1,1 +1,1 @@
-- 2026-08-22 22:48:10 +0530: feat(animation): orchestrate staggered fade-up spring transitions
+- 2026-08-22 22:49:04 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
