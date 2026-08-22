@@ -1,1 +1,1 @@
-- 2026-08-22 21:02:32 +0530: style(theme): balance light theme text legibility and muted borders
+- 2026-08-22 21:09:05 +0530: feat(components): implement interactive modal close on escape key press
