@@ -1,1 +1,1 @@
-- 2026-08-22 18:18:47 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
+- 2026-08-22 18:20:58 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
