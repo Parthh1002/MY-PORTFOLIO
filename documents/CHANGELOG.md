@@ -2387,3 +2387,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `perf(forms): streamline click-outside detection to auto-close settings drawer`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #478] - 2026-08-22 10:17:18 +0530
+- **Phase**: Phase 5: Contact Validation, Theme Switcher & Settings
+- **Commit**: `feat(contrast): fine-tune Escape key listener to close settings drawer`
+- **Verification**: Passed all automated test suites and production build checks.
+
