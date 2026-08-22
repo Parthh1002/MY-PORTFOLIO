@@ -1,1 +1,1 @@
-- 2026-08-22 11:50:11 +0530: feat(ui): integrate tactile scale down feedback on click interactions
+- 2026-08-22 12:02:25 +0530: fix(layout): prevent layout shift during dynamic font loading
