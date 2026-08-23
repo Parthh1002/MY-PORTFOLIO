@@ -32,6 +32,8 @@ export default function ThemeSwitcher({ theme, setTheme }: Props) {
     document.documentElement.style.setProperty("--accent-primary", color);
     document.documentElement.style.setProperty("--accent-emphasis", color);
     document.documentElement.style.setProperty("--a-500", color);
+    document.documentElement.style.setProperty("--fg-2", `color-mix(in oklab, ${color} 25%, #e2e8f0)`);
+    document.documentElement.style.setProperty("--fg-3", `color-mix(in oklab, ${color} 15%, #94a3b8)`);
     // Also update subtle derived values
     document.documentElement.style.setProperty(
       "--accent-primary-rgb",
