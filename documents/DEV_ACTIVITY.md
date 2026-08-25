@@ -1,1 +1,1 @@
-- 2026-08-25 18:10:15 +0530: feat(ui): polish border radius tokens and card padding hierarchy
+- 2026-08-25 18:12:42 +0530: fix(layout): normalize margin collapse across nested article sections
