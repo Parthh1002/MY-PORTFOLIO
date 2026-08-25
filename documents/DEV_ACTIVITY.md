@@ -1,1 +1,1 @@
-- 2026-08-25 12:55:27 +0530: style(theme): tune high-contrast dark theme foreground tokens
+- 2026-08-25 12:56:41 +0530: feat(ui): enhance responsive layout container for ultra-wide viewports
