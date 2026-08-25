@@ -1,1 +1,1 @@
-- 2026-08-25 19:48:51 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
+- 2026-08-25 19:52:23 +0530: chore(deps): tune Vite production chunk splitting strategy
