@@ -1,1 +1,1 @@
-- 2026-08-25 22:41:11 +0530: perf(render): optimize will-change CSS hints for GPU compositing
+- 2026-08-25 22:41:29 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
