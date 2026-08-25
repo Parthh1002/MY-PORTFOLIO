@@ -1,1 +1,1 @@
-- 2026-08-25 15:38:39 +0530: feat(components): integrate seamless external link icon with aria-label
+- 2026-08-25 15:39:30 +0530: feat(components): integrate seamless external link icon with aria-label
