@@ -1,1 +1,1 @@
-- 2026-08-25 19:46:53 +0530: feat(ui): refine frosted glass morphism with backdrop filter blur
+- 2026-08-25 19:48:51 +0530: fix(layout): resolve horizontal scroll overflow on mobile viewports
