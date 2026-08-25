@@ -1,1 +1,1 @@
-- 2026-08-25 20:40:24 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
+- 2026-08-25 20:42:50 +0530: feat(ui): refine frosted glass morphism with backdrop filter blur
