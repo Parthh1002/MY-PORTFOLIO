@@ -1,1 +1,1 @@
-- 2026-08-25 09:48:30 +0530: fix(layout): correct flexbox wrap alignment on tablet devices
+- 2026-08-25 09:49:22 +0530: feat(components): structure expandable tech stack pill filters
