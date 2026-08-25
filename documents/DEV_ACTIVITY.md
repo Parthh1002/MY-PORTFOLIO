@@ -1,1 +1,1 @@
-- 2026-08-25 13:14:42 +0530: feat(components): add copy-to-clipboard feedback chip with checkmark icon
+- 2026-08-25 13:15:27 +0530: feat(ui): refine frosted glass morphism with backdrop filter blur
