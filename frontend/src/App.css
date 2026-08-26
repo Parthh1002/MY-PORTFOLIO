@@ -1218,3 +1218,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, .name, .proj-title, .sec-l
 .meta-link.whatsapp:hover .meta-val { color: #25D366; }
 .meta-link .meta-val { transition: color 0.3s ease; }
 
+
+.scroll-top-btn { position: absolute; right: 0; top: 50%; transform: translateY(-50%); background: var(--glass-bg); border: 1px solid var(--border-color); color: var(--text-color); width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.2s ease; font-size: 16px; font-weight: bold; }
+.scroll-top-btn:hover { background: var(--border-color); color: var(--accent); }
+

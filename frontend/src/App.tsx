@@ -583,12 +583,19 @@ export default function App() {
 
               {/* FOOTER */}
               <footer className="site-footer">
-                <div className="footer-inner">
+                <div className="footer-inner" style={{ position: "relative", paddingRight: "40px" }}>
                   <p className="meta">© {new Date().getFullYear()} Parth Patel · Built with React + Vite</p>
                   <div className="footer-links">
                     <a href="https://github.com/Parthh1002" target="_blank" rel="noreferrer" className="meta-link"><FaGithub /></a>
                     <a href="https://www.linkedin.com/in/parth-patel-468772336" target="_blank" rel="noreferrer" className="meta-link"><FaLinkedin /></a>
                   </div>
+                  <button 
+                    onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                    className="scroll-top-btn"
+                    title="Scroll to Top"
+                  >
+                    ↑
+                  </button>
                 </div>
               </footer>
             </motion.main>
