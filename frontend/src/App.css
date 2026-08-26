@@ -1204,3 +1204,17 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, .name, .proj-title, .sec-l
   color: var(--accent-primary) !important;
 }
 
+
+/* Brand Colors for Contact Links */
+.meta-link.gmail .meta-icon { color: #ea4335; }
+.meta-link.github .meta-icon { color: var(--text-color); }
+.meta-link.linkedin .meta-icon { color: #0a66c2; }
+.meta-link.youtube .meta-icon { color: #ff0000; }
+.meta-link.whatsapp .meta-icon { color: #25D366; }
+.meta-link.gmail:hover .meta-val { color: #ea4335; }
+.meta-link.github:hover .meta-val { color: var(--text-color); opacity: 0.8; }
+.meta-link.linkedin:hover .meta-val { color: #0a66c2; }
+.meta-link.youtube:hover .meta-val { color: #ff0000; }
+.meta-link.whatsapp:hover .meta-val { color: #25D366; }
+.meta-link .meta-val { transition: color 0.3s ease; }
+

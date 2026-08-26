@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import "./index.css";
 import "./App.css";
 import "./components/styles/PremiumProfile.css";
-import { FaGithub, FaLinkedin, FaEnvelope, FaMapMarkerAlt, FaExternalLinkAlt, FaFilePdf, FaStar, FaCodeBranch } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaMapMarkerAlt, FaExternalLinkAlt, FaFilePdf, FaStar, FaCodeBranch, FaYoutube, FaWhatsapp } from "react-icons/fa";
 import ParticleBackground from "./components/ParticleBackground";
 import CinematicIntro from "./components/CinematicIntro";
 import ProfileTilt from "./components/ProfileTilt";
@@ -363,25 +363,37 @@ export default function App() {
                 {/* Contact */}
                 <motion.ul variants={slideUp} className="meta-list">
                   <li className="meta-item">
-                    <span className="meta-icon"><FaMapMarkerAlt /></span>
+                    <span className="meta-icon location"><FaMapMarkerAlt /></span>
                     <span className="meta-val dim">Ahmedabad, India</span>
                   </li>
                   <li className="meta-item">
-                    <a href="mailto:parthh1002@gmail.com" className="meta-link">
+                    <a href="mailto:parthh1002@gmail.com" className="meta-link gmail">
                       <span className="meta-icon"><FaEnvelope /></span>
-                      <span className="meta-val">parthh1002@gmail.com</span>
+                      <span className="meta-val">Gmail</span>
                     </a>
                   </li>
                   <li className="meta-item">
-                    <a href="https://github.com/Parthh1002" target="_blank" rel="noreferrer" className="meta-link">
+                    <a href="https://github.com/Parthh1002" target="_blank" rel="noreferrer" className="meta-link github">
                       <span className="meta-icon"><FaGithub /></span>
                         <span className="meta-val">GitHub</span>
                     </a>
                   </li>
                   <li className="meta-item">
-                    <a href="https://www.linkedin.com/in/parth-patel-468772336" target="_blank" rel="noreferrer" className="meta-link">
+                    <a href="https://www.linkedin.com/in/parth-patel-468772336" target="_blank" rel="noreferrer" className="meta-link linkedin">
                       <span className="meta-icon"><FaLinkedin /></span>
                         <span className="meta-val">LinkedIn</span>
+                    </a>
+                  </li>
+                  <li className="meta-item">
+                    <a href="https://youtube.com/@parthpatel-333?si=NZhgxUEcBVwg-9Ik" target="_blank" rel="noreferrer" className="meta-link youtube">
+                      <span className="meta-icon"><FaYoutube /></span>
+                        <span className="meta-val">YouTube</span>
+                    </a>
+                  </li>
+                  <li className="meta-item">
+                    <a href="https://wa.me/918866077505" target="_blank" rel="noreferrer" className="meta-link whatsapp">
+                      <span className="meta-icon"><FaWhatsapp /></span>
+                        <span className="meta-val">WhatsApp</span>
                     </a>
                   </li>
                 </motion.ul>
