@@ -365,7 +365,7 @@ export default function App() {
             {/* ─── LEFT SIDEBAR ─────────────────────── */}
             <aside className="aside">
               <motion.div className="aside-inner" variants={stagger} initial="hidden" animate="show">
-                <motion.div variants={slideUp}>
+                <motion.div variants={slideUp} className="profile-pic-wrap">
                   <ProfileTilt src="/profile.jpeg" />
                 </motion.div>
 
@@ -411,7 +411,7 @@ export default function App() {
                 </motion.ul>
 
                 {/* CV Download Button */}
-                <motion.div variants={slideUp} style={{ marginTop: "20px", marginBottom: "8px" }}>
+                <motion.div variants={slideUp} className="cv-btn-wrap" style={{ marginTop: "20px", marginBottom: "8px" }}>
                   <a
                     href="/resume/Parth_Patel_CV.pdf"
                     download="Parth_Patel_CV.pdf"

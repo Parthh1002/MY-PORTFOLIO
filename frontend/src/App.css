@@ -717,7 +717,7 @@ body { margin: 0; overflow-x: hidden; }
     align-items: start;
   }
   /* Profile card spans 4 rows to sit beside name/role/blurb */
-  .profile-frame-container {
+  .profile-pic-wrap, .profile-frame-container {
     grid-column: 1;
     grid-row: 1 / 5;
     width: 100% !important;
@@ -754,7 +754,7 @@ body { margin: 0; overflow-x: hidden; }
     gap: 20px;
   }
   .meta-list  { grid-column: 1 / -1; margin-top: 4px; }
-  .cv-btn     { grid-column: 1 / -1; margin-top: 10px; }
+  .cv-btn-wrap, .cv-btn { grid-column: 1 / -1; margin-top: 10px; width: 100%; }
   .foot       { grid-column: 1 / -1; display: none; }
 
   .main { min-width: 0; }
@@ -826,7 +826,7 @@ body { margin: 0; overflow-x: hidden; }
   }
 
   /* Profile card */
-  .profile-frame-container {
+  .profile-pic-wrap, .profile-frame-container {
     grid-column: 1;
     grid-row: 1 / 5;
     width: 100% !important;
@@ -890,7 +890,7 @@ body { margin: 0; overflow-x: hidden; }
     overflow-wrap: anywhere;
   }
 
-  .cv-btn {
+  .cv-btn-wrap, .cv-btn {
     grid-column: 1 / -1;
     width: 100% !important;
     margin-top: 16px;
