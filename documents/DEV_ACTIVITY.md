@@ -1,1 +1,1 @@
-- 2026-08-26 16:22:33 +0530: style(theme): calibrate subtle focus outline rings for accessible navigation
+- 2026-08-26 16:23:42 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
