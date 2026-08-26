@@ -2477,3 +2477,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(settings): polish disable submit button and display spinner while sending`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #496] - 2026-08-26 21:18:10 +0530
+- **Phase**: Phase 5: Contact Validation, Theme Switcher & Settings
+- **Commit**: `fix(a11y): resolve direct WhatsApp quick-chat action button with tooltip`
+- **Verification**: Passed all automated test suites and production build checks.
+
