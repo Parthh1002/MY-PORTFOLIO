@@ -1,1 +1,1 @@
-- 2026-08-26 15:34:47 +0530: feat(ui): polish border radius tokens and card padding hierarchy
+- 2026-08-26 15:35:26 +0530: chore(deps): clean up unused styles and consolidate utility classes
