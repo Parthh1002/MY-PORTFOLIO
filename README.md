@@ -71,7 +71,7 @@ MY-PORTFOLIO/
 ## 🌐 Connect With Me
 
 <p align="left">
-<a href="https://linkedin.com/in/parth-patel-8bb36b252" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="parth-patel" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/parth-patel-468772336" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="parth-patel" height="30" width="40" /></a>
 <a href="mailto:parthh1002@gmail.com" target="blank"><img align="center" src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="email" height="30" width="30" /></a>
 </p>
 

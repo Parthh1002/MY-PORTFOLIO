@@ -246,7 +246,7 @@ export default function Navbar({ visible }: NavbarProps) {
                     <FaGithub size={16} />
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/parth-patel-8bb36b252"
+                    href="https://www.linkedin.com/in/parth-patel-468772336"
                     target="_blank"
                     rel="noreferrer"
                     className="mobile-social-icon"

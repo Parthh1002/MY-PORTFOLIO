@@ -403,7 +403,7 @@ export default function App() {
                     </a>
                   </li>
                   <li className="meta-item">
-                    <a href="https://www.linkedin.com/in/parth-patel-8bb36b252" target="_blank" rel="noreferrer" className="meta-link">
+                    <a href="https://www.linkedin.com/in/parth-patel-468772336" target="_blank" rel="noreferrer" className="meta-link">
                       <span className="meta-icon"><FaLinkedin /></span>
                         <span className="meta-val">LinkedIn</span>
                     </a>
@@ -597,7 +597,7 @@ export default function App() {
                   <p className="meta">© {new Date().getFullYear()} Parth Patel · Built with React + Vite</p>
                   <div className="footer-links">
                     <a href="https://github.com/Parthh1002" target="_blank" rel="noreferrer" className="meta-link"><FaGithub /></a>
-                    <a href="https://www.linkedin.com/in/parth-patel-8bb36b252" target="_blank" rel="noreferrer" className="meta-link"><FaLinkedin /></a>
+                    <a href="https://www.linkedin.com/in/parth-patel-468772336" target="_blank" rel="noreferrer" className="meta-link"><FaLinkedin /></a>
                   </div>
                 </div>
               </footer>
