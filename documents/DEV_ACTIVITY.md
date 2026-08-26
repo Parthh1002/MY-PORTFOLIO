@@ -1,1 +1,1 @@
-- 2026-08-26 10:07:04 +0530: style(theme): tune high-contrast dark theme foreground tokens
+- 2026-08-26 10:08:26 +0530: fix(layout): normalize margin collapse across nested article sections
