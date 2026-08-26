@@ -2472,3 +2472,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(theme): refine toast notification system for form submission feedback`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #495] - 2026-08-26 14:58:07 +0530
+- **Phase**: Phase 5: Contact Validation, Theme Switcher & Settings
+- **Commit**: `style(settings): polish disable submit button and display spinner while sending`
+- **Verification**: Passed all automated test suites and production build checks.
+
