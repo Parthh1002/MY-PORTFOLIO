@@ -889,19 +889,44 @@ body { margin: 0; overflow-x: hidden; }
   .stat-n { font-size: 20px !important; }
   .stat-k { font-size: 10px !important; }
 
-  .meta-list { grid-column: 1 / -1; margin-top: 8px; }
-  .meta-item {
-    padding: 9px 0 !important;
-    min-height: 44px;
-    align-items: center;
-  }
-  .meta-link {
-    padding: 9px 0 !important;
-    min-height: 44px;
-    align-items: center;
-    word-break: break-all;
-    overflow-wrap: anywhere;
-  }
+    .meta-list { 
+      grid-column: 1 / -1; 
+      margin-top: 8px; 
+      display: grid !important;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px 16px;
+      position: relative;
+    }
+    .meta-list::after {
+      content: "";
+      position: absolute;
+      top: 5%;
+      bottom: 5%;
+      left: 50%;
+      width: 1px;
+      background: var(--border-color);
+      transform: translateX(-50%);
+    }
+    .meta-item {
+      padding: 6px 0 !important;
+      min-height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      border: none !important;
+    }
+    .meta-item:nth-child(even) {
+      padding-left: 10px !important;
+    }
+    .meta-link {
+      padding: 0 !important;
+      min-height: 44px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      word-break: break-word;
+      font-size: 13px !important;
+    }
 
   .cv-btn-wrap {
     grid-column: 1 / -1;
