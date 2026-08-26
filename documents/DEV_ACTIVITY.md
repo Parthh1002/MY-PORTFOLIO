@@ -1,1 +1,1 @@
-- 2026-08-26 10:20:16 +0530: feat(ui): add subtle ambient gradient glow behind active cards
+- 2026-08-26 10:22:37 +0530: perf(render): debounce window resize and orientation change handlers
