@@ -78,10 +78,10 @@ MY-PORTFOLIO/
 ## 📊 Github Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Parthh1002&show_icons=true&theme=radical" alt="Parth's GitHub Stats" />
+  <img src="https://gh-readme-profile.vercel.app/api?username=Parthh1002&show_icons=true&theme=radical" alt="Parth's GitHub Stats" />
   <br/>
   <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Parthh1002&theme=radical" alt="Parth's GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Parthh1002&theme=radical&v=1" alt="Parth's GitHub Streak" />
 </div>
 
 <br/>
