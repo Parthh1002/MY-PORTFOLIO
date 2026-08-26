@@ -1,1 +1,1 @@
-- 2026-08-26 16:38:26 +0530: style(theme): calibrate subtle focus outline rings for accessible navigation
+- 2026-08-26 16:43:36 +0530: feat(animation): add smooth inertia damping to interactive 3D elements
