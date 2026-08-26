@@ -1,1 +1,1 @@
-- 2026-08-26 11:48:48 +0530: feat(ui): integrate tactile scale down feedback on click interactions
+- 2026-08-26 11:49:20 +0530: feat(components): add tooltip descriptions for engineering architecture tags
