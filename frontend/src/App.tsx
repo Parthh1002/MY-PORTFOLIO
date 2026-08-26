@@ -8,7 +8,6 @@ import ParticleBackground from "./components/ParticleBackground";
 import CinematicIntro from "./components/CinematicIntro";
 import ProfileTilt from "./components/ProfileTilt";
 import Navbar from "./components/Navbar";
-import TechPopup, { TechPopupItem } from "./components/TechPopup";
 import ThemeSwitcher from "./components/ThemeSwitcher";
 import {
   SiReact, SiTypescript, SiJavascript, SiPython, SiNodedotjs, SiExpress,
@@ -274,20 +273,10 @@ export default function App() {
   const [showAllAch, setShowAllAch]   = useState(false);
   const [theme, setTheme]             = useState<"dark"|"aurora"|"light">("dark");
   const [introComplete, setIntroComplete] = useState(false);
-  const [hoveredTech, setHoveredTech] = useState<TechPopupItem | null>(null);
-  const [popupPos, setPopupPos]       = useState<{x:number;y:number}|null>(null);
-  const [isMobile, setIsMobile]       = useState(window.innerWidth < 768);
   const [repoStats, setRepoStats]     = useState<Record<string, RepoStats>>({});
 
   const visible = showAll ? allProjects : allProjects.slice(0, 4);
   const visibleAch = showAllAch ? achievements : achievements.slice(0, 5);
-
-  // Always show intro on every page load
-  useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth < 768);
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
 
   // ── GitHub live stats ──────────────────────────────────
   useEffect(() => {
@@ -325,20 +314,6 @@ export default function App() {
 
   const handleIntroComplete = () => setIntroComplete(true);
 
-  // Tech tile handlers
-  const handleTechEnter = (e: React.MouseEvent, item: TechItem, category: string) => {
-    if (isMobile) return;
-    const rect = (e.currentTarget as HTMLElement).getBoundingClientRect();
-    setHoveredTech({ ...item, category });
-    setPopupPos({ x: rect.left + rect.width / 2, y: rect.top });
-  };
-  const handleTechLeave = () => { if (!isMobile) { setHoveredTech(null); setPopupPos(null); } };
-  const handleTechClick = (item: TechItem, category: string) => {
-    if (!isMobile) return;
-    setHoveredTech({ ...item, category });
-  };
-  const closePopup = () => { setHoveredTech(null); setPopupPos(null); };
-
   const projRef  = useFadeIn(200);
   const xpRef    = useFadeIn(200);
   const eduRef   = useFadeIn(200);
@@ -351,9 +326,6 @@ export default function App() {
 
       {/* Cinematic Intro — shows on every page load */}
       {!introComplete && <CinematicIntro onComplete={handleIntroComplete} />}
-
-      {/* Tech popup (both desktop tooltip + mobile modal) */}
-      <TechPopup tech={hoveredTech} pos={popupPos} isMobile={isMobile} onClose={closePopup} />
 
       {introComplete && (
         <>
@@ -449,7 +421,6 @@ export default function App() {
                       <li className="proj glass-card" key={proj.name} style={{ animationDelay: `${i*55}ms` }}>
                         <div className="proj-meta">
                           <span className="proj-year">{proj.year}</span>
-                          {proj.badge && <span className="proj-badge">{proj.badge}</span>}
                           {stats && (
                             <span className="proj-gh-stats">
                               <FaStar size={10} /> {stats.stars}
@@ -549,9 +520,6 @@ export default function App() {
                             key={item.name}
                             className="tech-tile"
                             title={item.name}
-                            onMouseEnter={e => handleTechEnter(e, item, row.label)}
-                            onMouseLeave={handleTechLeave}
-                            onClick={() => handleTechClick(item, row.label)}
                           >
                             <span className="tech-tile-icon" style={{ color: item.color }}>
                               {item.icon}
