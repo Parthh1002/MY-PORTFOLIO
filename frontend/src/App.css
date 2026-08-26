@@ -5,8 +5,14 @@
 
 /* ── Reset / Global ──────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; overflow-x: hidden; }
 body { margin: 0; overflow-x: hidden; }
+
+/* ── Visibility helpers (base defaults) ───────────────── */
+/* mobile-only elements hidden by default, shown via media query */
+.mobile-only { display: none !important; }
+/* desktop-only shown by default, hidden in mobile media query */
+.desktop-only { display: flex !important; }
 
 /* ── Theme toggle ───────────────────────────────────── */
 .theme-switcher {
@@ -98,9 +104,10 @@ body { margin: 0; overflow-x: hidden; }
 
 /* ── Tech icon grid ─────────────────────────────────── */
 .tech-icon-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(72px, 1fr));
+  gap: 10px;
+  width: 100%;
 }
 
 .tech-tile {
@@ -108,19 +115,19 @@ body { margin: 0; overflow-x: hidden; }
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 5px;
-  width: 72px;
-  padding: 10px 6px 8px;
+  gap: 6px;
+  width: 100%;
+  padding: 12px 6px 10px;
   background: rgba(var(--n-rgb-fg-light, 244,245,247), 0.03);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-md);
-  cursor: default;
+  cursor: pointer;
   transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 .tech-tile:hover {
   background: var(--accent-surface);
   border-color: var(--accent-border);
-  transform: translateY(-3px);
+  transform: translateY(-4px) scale(1.05);
   box-shadow: 0 6px 20px rgba(var(--a-rgb, 110,123,255), 0.15);
 }
 .tech-tile-icon {
@@ -134,12 +141,14 @@ body { margin: 0; overflow-x: hidden; }
 .tech-tile:hover .tech-tile-icon { transform: scale(1.12); }
 .tech-tile-name {
   font-family: var(--font-mono);
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--fg-3);
-  line-height: 1.2;
+  line-height: 1.25;
+  overflow-wrap: break-word;
   word-break: break-word;
+  hyphens: auto;
 }
 
 /* ── Chip – enhanced skill variant ─────────────────── */
@@ -194,16 +203,31 @@ body { margin: 0; overflow-x: hidden; }
   color: var(--fg-3);
   font-size: 16px;
   transition: color 0.18s ease;
+  padding: 8px; /* Bigger touch target */
+  margin: -8px;
 }
 .footer-links a:hover { color: var(--accent-emphasis); }
 
 /* ── Mobile responsive tweaks ───────────────────────── */
 @media (max-width: 560px) {
-  .theme-switcher { bottom: 16px; right: 16px; padding: 6px 10px; }
+  .ts-wrap { bottom: max(16px, env(safe-area-inset-bottom, 16px)); right: 16px; }
   .stats { gap: 14px; }
   .stat-n { font-size: 20px !important; }
   .proj-list { grid-template-columns: 1fr !important; }
   .footer-inner { flex-direction: column; align-items: flex-start; }
+}
+
+/* ── Meta list overflow protection ───────────────────── */
+.meta-item,
+.meta-link {
+  overflow: hidden;
+  min-width: 0;
+}
+.meta-val {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  min-width: 0;
+  flex: 1;
 }
 
 /* ── Scrollbar ──────────────────────────────────────── */
@@ -218,20 +242,24 @@ body { margin: 0; overflow-x: hidden; }
    Responsive Overhaul, Sizing Fixes
    ═══════════════════════════════════════════════════════════ */
 
-/* ── Navbar Desktop ─────────────────────────────────── */
-.navbar-desktop {
+/* ── Unified Responsive Navbar ─────────────────────────────────── */
+.navbar-wrapper {
   position: fixed;
   top: 16px;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 500;
+  z-index: 9000;
   display: flex;
+  width: 100%;
+  max-width: fit-content;
+  pointer-events: none; /* Let clicks pass through empty areas */
 }
 .navbar-pill {
+  pointer-events: auto;
   display: flex;
   align-items: center;
   gap: 6px;
-  padding: 8px 8px 8px 14px;
+  padding: 8px 10px 8px 14px;
   background: rgba(12, 12, 18, 0.72);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
@@ -239,32 +267,55 @@ body { margin: 0; overflow-x: hidden; }
   border-radius: 100px;
   box-shadow: 0 8px 32px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.06);
 }
+
 .navbar-logo {
   display: flex;
   align-items: center;
-  gap: 6px;
-  font-size: 13px;
-  font-weight: 700;
-  color: var(--accent-primary);
-  letter-spacing: 0.08em;
-  padding-right: 4px;
+  gap: 8px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 4px 8px 4px 0;
+  text-decoration: none;
+  transition: opacity 0.2s;
 }
+.navbar-logo:hover { opacity: 0.8; }
+.navbar-logo-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--accent-primary);
+  color: #fff;
+  box-shadow: 0 0 12px rgba(var(--a-rgb), 0.5);
+}
+.navbar-logo-text {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--fg-1);
+  letter-spacing: 0.08em;
+  font-family: var(--font-ui);
+}
+
 .navbar-divider {
   width: 1px;
   height: 20px;
   background: rgba(255,255,255,0.1);
-  margin: 0 4px;
+  margin: 0 6px;
 }
 .navbar-links {
   display: flex;
   align-items: center;
-  gap: 2px;
+  gap: 4px;
 }
 .nav-btn {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 6px;
-  padding: 7px 14px;
+  padding: 8px 16px;
   background: transparent;
   border: none;
   border-radius: 100px;
@@ -273,47 +324,171 @@ body { margin: 0; overflow-x: hidden; }
   font-weight: 500;
   font-family: var(--font-ui);
   cursor: pointer;
-  transition: background 0.2s, color 0.2s;
+  transition: color 0.2s;
   letter-spacing: 0.02em;
 }
-.nav-btn:hover { background: rgba(255,255,255,0.08); color: var(--fg-1); }
-.nav-btn-icon { font-size: 11px; opacity: 0.7; }
-
-/* ── Navbar Mobile ──────────────────────────────────── */
-.navbar-mobile {
-  position: fixed;
-  bottom: 14px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: calc(100% - 28px);
-  max-width: 420px;
-  display: none;
-  align-items: center;
-  justify-content: space-around;
-  padding: 10px 6px;
-  background: rgba(8, 8, 12, 0.88);
-  backdrop-filter: blur(28px);
-  -webkit-backdrop-filter: blur(28px);
-  border: 1px solid rgba(255,255,255,0.09);
-  border-radius: 26px;
-  z-index: 500;
-  box-shadow: 0 -2px 20px rgba(0,0,0,0.4), 0 10px 40px rgba(0,0,0,0.3);
+.nav-btn:hover { color: var(--fg-1); }
+.nav-btn-active { color: var(--fg-1); }
+.nav-btn-icon { font-size: 12px; opacity: 0.8; z-index: 1; }
+.nav-btn > span:not(.nav-btn-icon) { z-index: 1; }
+.nav-active-indicator {
+  position: absolute;
+  inset: 0;
+  background: rgba(255,255,255,0.12);
+  border-radius: 100px;
+  z-index: 0;
 }
-.nav-mobile-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 4px;
-  padding: 6px 14px;
+
+/* Hamburger Button */
+.navbar-hamburger {
+  display: none;
   background: transparent;
   border: none;
   cursor: pointer;
-  border-radius: 16px;
+  padding: 10px;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
   transition: background 0.2s;
 }
-.nav-mobile-item:hover, .nav-mobile-item:active { background: rgba(255,255,255,0.07); }
-.nav-mobile-icon { font-size: 18px; color: var(--fg-3); }
-.nav-mobile-label { font-size: 10px; color: var(--fg-4); font-family: var(--font-ui); letter-spacing: 0.06em; }
+.navbar-hamburger:hover { background: rgba(255,255,255,0.08); }
+.hamburger-box {
+  width: 20px;
+  height: 14px;
+  position: relative;
+}
+.hamburger-line {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--fg-1);
+  border-radius: 2px;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+}
+.line-1 { top: 0; }
+.line-2 { top: 6px; }
+.line-3 { top: 12px; }
+.navbar-hamburger.is-active .line-1 { transform: translateY(6px) rotate(45deg); }
+.navbar-hamburger.is-active .line-2 { opacity: 0; }
+.navbar-hamburger.is-active .line-3 { transform: translateY(-6px) rotate(-45deg); }
+
+/* Mobile Navigation Overlay */
+.mobile-nav-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 8000;
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+.mobile-nav-card {
+  position: fixed;
+  top: 72px;
+  left: 16px;
+  right: 16px;
+  background: rgba(14, 14, 22, 0.96);
+  backdrop-filter: blur(32px);
+  -webkit-backdrop-filter: blur(32px);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 24px;
+  padding: 24px;
+  z-index: 8010;
+  box-shadow: 0 24px 64px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.mobile-nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  padding-bottom: 16px;
+}
+.mobile-nav-user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.mobile-nav-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--fg-1);
+}
+.mobile-nav-sub {
+  font-size: 12px;
+  color: var(--fg-4);
+}
+.mobile-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.mobile-nav-btn {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 16px;
+  background: transparent;
+  border: none;
+  border-radius: 16px;
+  color: var(--fg-2);
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  text-align: left;
+}
+.mobile-nav-btn:hover, .mobile-nav-btn:active, .mobile-nav-btn-active {
+  background: rgba(255,255,255,0.06);
+  color: var(--accent-primary);
+}
+.mobile-nav-icon {
+  font-size: 18px;
+}
+.mobile-nav-arrow {
+  margin-left: auto;
+  font-size: 14px;
+  opacity: 0.5;
+}
+.mobile-nav-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+.mobile-nav-cv-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 14px;
+  background: var(--accent-surface);
+  border: 1px solid var(--accent-border);
+  border-radius: 14px;
+  color: var(--accent-emphasis);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.mobile-nav-socials {
+  display: flex;
+  justify-content: space-around;
+}
+.mobile-social-icon {
+  padding: 12px;
+  color: var(--fg-3);
+  transition: color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mobile-social-icon:hover { color: var(--fg-1); }
 
 /* ── CV Download Button ─────────────────────────────── */
 .cv-btn {
@@ -345,15 +520,7 @@ body { margin: 0; overflow-x: hidden; }
 .cv-btn-arrow { margin-left: auto; font-size: 16px; opacity: 0.7; }
 
 /* ── Tech Tile Sizing (premium) ─────────────────────── */
-.tech-tile-icon { font-size: 26px !important; }
-.tech-tile-name { font-size: 11.5px !important; }
-.tech-tile {
-  padding: 12px 8px !important;
-  gap: 8px !important;
-  border-radius: 10px !important;
-  cursor: pointer;
-}
-.tech-tile:hover { transform: translateY(-4px) scale(1.05) !important; }
+/* (Merged into main tech tile block) */
 
 /* ── Tech Popup — Desktop Tooltip ───────────────────── */
 .tech-tooltip {
@@ -417,30 +584,143 @@ body { margin: 0; overflow-x: hidden; }
 .tech-modal-close:hover { background: rgba(255,255,255,0.14); }
 
 /* ── Page layout spacing for navbar ─────────────────── */
-.page { padding-top: 72px; }
+.page { padding-top: 100px; }
 
-/* ── Responsive — Tablet ────────────────────────────── */
+/* ═══════════════════════════════════════════════════════
+   RESPONSIVE BREAKPOINTS — Full Cascade
+   1. ≤1100px  Tablet squeeze
+   2. ≤960px   Stacked / compact sidebar
+   3. ≤768px   Mobile — hamburger nav, stacked layout
+   4. ≤480px   Small phone — tighter spacing
+   5. ≤360px   Tiny phone — minimum size floor
+   ═══════════════════════════════════════════════════════ */
+
+/* ────────────────────────────────────────────────────────
+   1. TABLET SQUEEZE  (≤ 1100px)
+   ──────────────────────────────────────────────────────── */
 @media (max-width: 1100px) {
-  .page { grid-template-columns: 240px 1fr; gap: 0; padding-top: 64px; }
+  .page {
+    grid-template-columns: 240px 1fr;
+    gap: 48px;
+    padding-top: 90px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
   .aside-inner { padding: 24px 18px; }
+  .tech-icon-grid {
+    grid-template-columns: repeat(auto-fill, minmax(68px, 1fr));
+  }
 }
 
-/* ── Responsive — Mobile ────────────────────────────── */
-@media (max-width: 768px) {
-  /* Hide desktop nav, show mobile nav */
-  .navbar-desktop { display: none !important; }
-  .navbar-mobile  { display: flex !important; }
-  /* Theme switcher above mobile nav */
-  .theme-switcher { bottom: 88px; right: 16px; }
+/* ────────────────────────────────────────────────────────
+   2. STACKED COMPACT  (≤ 960px)
+   Aside becomes a horizontal strip at top
+   ──────────────────────────────────────────────────────── */
+@media (max-width: 960px) {
+  .page {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding: 80px 24px 48px;
+  }
+  .aside {
+    position: static !important;
+    top: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    overflow: visible !important;
+    border-right: none !important;
+    border-bottom: 1px solid var(--border-default);
+    padding-bottom: 24px;
+  }
+  .aside-inner {
+    display: grid !important;
+    grid-template-columns: clamp(96px, 22vw, 116px) 1fr !important;
+    gap: 0 20px !important;
+    padding: 0 !important;
+    align-items: start;
+  }
+  /* Profile card spans 4 rows to sit beside name/role/blurb */
+  .profile-frame-container {
+    grid-column: 1;
+    grid-row: 1 / 5;
+    width: 100% !important;
+    margin-bottom: 0 !important;
+    align-self: center;
+  }
+  /* Name & role beside the photo */
+  .name  {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: clamp(22px, 4.5vw, 30px) !important;
+    margin: 0 0 4px !important;
+    align-self: end;
+  }
+  .role  {
+    grid-column: 2;
+    grid-row: 2;
+    font-size: clamp(13px, 2.5vw, 15px) !important;
+    margin: 0 0 4px !important;
+    align-self: start;
+  }
+  .blurb {
+    grid-column: 2;
+    grid-row: 3;
+    font-size: clamp(12px, 2.2vw, 14px) !important;
+    line-height: 1.55 !important;
+    margin: 4px 0 0 !important;
+  }
+  /* Stats, meta, CV: full width below the two-col block */
+  .stats {
+    grid-column: 1 / -1;
+    margin-top: 20px !important;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .meta-list  { grid-column: 1 / -1; margin-top: 4px; }
+  .cv-btn     { grid-column: 1 / -1; margin-top: 10px; }
+  .foot       { grid-column: 1 / -1; display: none; }
 
-  /* Stack layout vertically */
+  .main { min-width: 0; }
+  .proj-list { grid-template-columns: 1fr; }
+  /* Experience timeline: date above body */
+  .xp  { grid-template-columns: 1fr; gap: 4px; }
+  .edu { grid-template-columns: 1fr; gap: 4px; }
+}
+
+/* ────────────────────────────────────────────────────────
+   3. MOBILE — Hamburger nav, stacked layout  (≤ 768px)
+   ──────────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  /* Show hamburger, hide desktop links */
+  .desktop-only { display: none !important; }
+  .mobile-only  { display: flex !important; }
+
+  /* Navbar: full-width pill */
+  .navbar-wrapper {
+    top: 12px;
+    left: 12px !important;
+    right: 12px !important;
+    transform: none !important;
+    width: auto !important;
+    max-width: none !important;
+  }
+  .navbar-pill {
+    width: 100%;
+    justify-content: space-between;
+    padding: 8px 8px 8px 14px;
+    border-radius: 18px;
+  }
+
+  /* Page: flex column, safe-area bottom */
   .page {
     display: flex !important;
     flex-direction: column !important;
-    padding-top: 16px;
-    padding-bottom: 100px; /* space for mobile navbar */
+    padding: 72px 16px max(48px, env(safe-area-inset-bottom, 48px)) !important;
+    gap: 0 !important;
     min-height: 100vh;
   }
+
+  /* Aside becomes a compact header */
   .aside {
     position: static !important;
     width: 100% !important;
@@ -448,71 +728,261 @@ body { margin: 0; overflow-x: hidden; }
     overflow: visible !important;
     border-right: none !important;
     border-bottom: 1px solid var(--border-default);
+    padding-bottom: 24px;
+    margin-bottom: 32px;
   }
   .aside-inner {
     display: grid !important;
-    grid-template-columns: 110px 1fr !important;
-    grid-template-rows: auto auto auto auto auto !important;
-    gap: 0 16px;
-    padding: 20px 16px 24px !important;
+    grid-template-columns: clamp(80px, 24vw, 108px) 1fr !important;
+    gap: 0 16px !important;
+    padding: 0 !important;
     align-items: start;
   }
+
+  /* Profile card */
   .profile-frame-container {
     grid-column: 1;
     grid-row: 1 / 5;
-    width: 110px !important;
+    width: 100% !important;
     margin-bottom: 0 !important;
+    align-self: center;
   }
   .premium-glass-card {
-    width: 100px !important;
     aspect-ratio: 1 / 1 !important;
     border-radius: 50% !important;
   }
   .profile-img-wrap { border-radius: 50% !important; }
-  .profile-glare   { border-radius: 50% !important; }
-  .name  { grid-column: 2; grid-row: 1; margin: 0 !important; font-size: 20px !important; }
-  .role  { grid-column: 2; grid-row: 2; margin: 2px 0 !important; font-size: 12px !important; }
-  .blurb { grid-column: 2; grid-row: 3; font-size: 12px !important; line-height: 1.5 !important; margin: 6px 0 0 !important; }
-  .stats { grid-column: 1 / -1; margin-top: 16px !important; }
-  .meta-list { grid-column: 1 / -1; }
-  .cv-btn { grid-column: 1 / -1; }
-  .foot  { grid-column: 1 / -1; display: none; }
+  .profile-glare    { border-radius: 50% !important; }
 
-  /* Main full width */
-  .main { width: 100% !important; padding: 24px 16px !important; }
+  /* Name/role beside photo */
+  .name {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: clamp(18px, 6vw, 24px) !important;
+    margin: 0 0 2px !important;
+    line-height: 1.15 !important;
+    align-self: end;
+  }
+  .role {
+    grid-column: 2;
+    grid-row: 2;
+    font-size: clamp(12px, 3.2vw, 14px) !important;
+    margin: 0 !important;
+    align-self: start;
+  }
+  .blurb {
+    grid-column: 2;
+    grid-row: 3;
+    font-size: clamp(12px, 3.2vw, 13px) !important;
+    line-height: 1.5 !important;
+    margin: 6px 0 0 !important;
+  }
 
-  /* Tech grid: 3 columns on mobile */
+  /* Stats / meta / cv full-width */
+  .stats {
+    grid-column: 1 / -1;
+    margin-top: 20px !important;
+    display: flex;
+    justify-content: space-around;
+    gap: 8px;
+    padding: 12px 0 !important;
+  }
+  .stat-n { font-size: 20px !important; }
+  .stat-k { font-size: 10px !important; }
+
+  .meta-list { grid-column: 1 / -1; margin-top: 8px; }
+  .meta-item {
+    padding: 9px 0 !important;
+    min-height: 44px;
+    align-items: center;
+  }
+  .meta-link {
+    padding: 9px 0 !important;
+    min-height: 44px;
+    align-items: center;
+    word-break: break-all;
+    overflow-wrap: anywhere;
+  }
+
+  .cv-btn {
+    grid-column: 1 / -1;
+    width: 100% !important;
+    margin-top: 10px;
+    min-height: 48px;
+    font-size: 14px !important;
+    white-space: nowrap;
+    justify-content: center;
+  }
+  .foot { grid-column: 1 / -1; display: none; }
+
+  /* Main content */
+  .main {
+    width: 100% !important;
+    padding: 0 !important;
+    gap: 48px !important;
+  }
+
+  /* Section headings */
+  .sec-h { margin-bottom: 16px !important; }
+  .sec-n { font-size: 18px !important; }
+  .sec-l { font-size: clamp(14px, 4vw, 17px) !important; }
+  section { margin-bottom: 0 !important; }
+
+  /* Projects */
+  .proj-list { grid-template-columns: 1fr !important; }
+  .proj {
+    padding: 16px 16px 18px !important;
+  }
+  .proj-title { font-size: clamp(15px, 4.5vw, 17px) !important; }
+  .proj-meta  { flex-wrap: wrap; gap: 6px; }
+  .proj-detail { font-size: 13px !important; }
+  .proj-actions {
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  .ghost-btn {
+    min-height: 36px;
+    padding: 7px 12px !important;
+    font-size: 10px !important;
+  }
+  .proj-gh-stats { font-size: 10px; }
+
+  /* Experience */
+  .xp {
+    grid-template-columns: 1fr !important;
+    gap: 4px !important;
+    padding: 16px 0 !important;
+  }
+  .xp-when {
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 2px;
+  }
+  .xp-role   { font-size: clamp(14px, 4vw, 16px) !important; }
+  .xp-detail { font-size: 13px !important; }
+
+  /* Education */
+  .edu {
+    grid-template-columns: 1fr !important;
+    gap: 4px !important;
+    padding: 14px 0 !important;
+  }
+  .edu-deg    { font-size: clamp(13px, 3.8vw, 15px) !important; }
+  .edu-school { font-size: 12px !important; }
+
+  /* Tech stack */
+  .skill-row {
+    grid-template-columns: 1fr !important;
+    gap: 8px !important;
+    padding: 12px 0 !important;
+  }
+  .skill-k { font-size: 11px !important; margin-bottom: 6px; }
   .tech-icon-grid {
-    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-columns: repeat(4, 1fr) !important;
     gap: 8px !important;
   }
-  .tech-tile { padding: 10px 4px !important; }
+  .tech-tile { padding: 10px 4px 8px !important; min-height: 44px; }
   .tech-tile-icon { font-size: 22px !important; }
-  .tech-tile-name { font-size: 10px !important; }
+  .tech-tile-name { font-size: 9px !important; }
 
-  /* Projects: single column */
-  .proj-list { grid-template-columns: 1fr !important; }
+  /* More button */
+  .more-btn { min-height: 48px; }
 
-  /* Sections: tighter spacing on mobile */
-  .sec-h { margin-bottom: 20px !important; }
-  section { margin-bottom: 48px !important; }
-}
+  /* Footer */
+  .site-footer { margin-top: 48px; padding: 16px 0 max(32px, env(safe-area-inset-bottom, 32px)); }
+  .footer-inner { flex-direction: column; align-items: flex-start; gap: 8px; }
 
-/* ── Extra small mobile ─────────────────────────────── */
-@media (max-width: 400px) {
-  .aside-inner {
-    grid-template-columns: 90px 1fr !important;
+  /* Theme switcher position */
+  .ts-wrap {
+    bottom: max(16px, env(safe-area-inset-bottom, 16px));
+    right: 16px;
   }
-  .profile-frame-container { width: 90px !important; }
-  .premium-glass-card { width: 82px !important; }
-  .tech-icon-grid { grid-template-columns: repeat(3, 1fr) !important; }
-  .name { font-size: 18px !important; }
 }
+
+/* ────────────────────────────────────────────────────────
+   4. SMALL PHONE  (≤ 480px)
+   ──────────────────────────────────────────────────────── */
+@media (max-width: 480px) {
+  .page {
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+  }
+  .aside-inner {
+    grid-template-columns: clamp(72px, 22vw, 92px) 1fr !important;
+    gap: 0 12px !important;
+  }
+  .name  { font-size: clamp(17px, 5.5vw, 22px) !important; }
+  .role  { font-size: 12px !important; }
+  .blurb { font-size: 12px !important; }
+
+  .stats { gap: 4px !important; }
+  .stat-n { font-size: 18px !important; }
+  .stat-k { font-size: 9px !important; }
+
+  /* 3 cols for icons on small phone */
+  .tech-icon-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 6px !important;
+  }
+  .tech-tile-icon { font-size: 20px !important; }
+  .tech-tile-name { font-size: 8.5px !important; }
+
+  /* Projects */
+  .proj { padding: 14px 12px 16px !important; }
+  .proj-stack { gap: 4px !important; }
+  .chip { font-size: 9px !important; padding: 2px 5px !important; }
+
+  /* Ghost buttons: stacked if needed */
+  .proj-actions { gap: 6px; }
+  .ghost-btn    { padding: 6px 10px !important; }
+
+  /* Meta links — ensure no overflow on LinkedIn handle */
+  .meta-val {
+    font-size: 12px !important;
+    overflow-wrap: anywhere;
+    word-break: break-all;
+  }
+  .meta-icon { width: 14px !important; }
+}
+
+/* ────────────────────────────────────────────────────────
+   5. TINY PHONE FLOOR  (≤ 360px)
+   ──────────────────────────────────────────────────────── */
+@media (max-width: 360px) {
+  .page {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+  .aside-inner {
+    grid-template-columns: 68px 1fr !important;
+    gap: 0 10px !important;
+  }
+  .name  { font-size: 17px !important; }
+  .role  { font-size: 11px !important; }
+  .blurb { font-size: 11px !important; }
+  .stat-n { font-size: 16px !important; }
+  .proj-title { font-size: 14px !important; }
+  .xp-role    { font-size: 14px !important; }
+  .edu-deg    { font-size: 13px !important; }
+  /* Tech: 3 cols maintained, just smaller */
+  .tech-icon-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 5px !important;
+  }
+  .tech-tile { padding: 8px 3px 6px !important; }
+  .tech-tile-icon { font-size: 18px !important; }
+  .tech-tile-name { font-size: 7.5px !important; }
+  .navbar-logo-text { display: none; }
+}
+
+/* ── Extra small (legacy block — kept empty, rules folded into cascade above) ── */
 
 /* ── Theme Switcher ─────────────────────────────────── */
 .ts-wrap {
   position: fixed;
-  bottom: 24px;
+  bottom: max(24px, env(safe-area-inset-bottom, 24px));
   right: 24px;
   z-index: 1000;
   display: flex;

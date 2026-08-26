@@ -56,18 +56,22 @@
   mix-blend-mode: soft-light;
 }
 
-/* ── Mobile Fallbacks for Profile ────────────────────────── */
+/* ── Compact sidebar (tablet / large mobile) ─────────────── */
 @media (max-width: 960px) {
   .profile-frame-container {
     grid-column: 1;
-    grid-row: 1 / 3;
+    grid-row: 1 / 5;
     margin-bottom: 0;
-    width: auto;
-    max-width: 100px;
+    /* width is driven by the grid column: clamp(96px,22vw,116px) */
+    width: 100% !important;
+    max-width: 100% !important;
     align-self: center;
+    justify-content: flex-start;
   }
-  
+
   .premium-glass-card {
+    width: 100%;
+    max-width: 100%;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
   }
@@ -80,5 +84,37 @@
 
   .profile-glare {
     border-radius: 50%;
+  }
+}
+
+/* ── Small phone  (≤ 480px) ────────────────────────────────── */
+@media (max-width: 480px) {
+  .profile-frame-container {
+    /* Column is clamp(72px,22vw,92px) — card fills it */
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .premium-glass-card {
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  }
+
+  .profile-img-wrap {
+    width: 88%;
+    height: 88%;
+    border-radius: 50%;
+  }
+
+  .profile-glare {
+    border-radius: 50%;
+  }
+
+  .profile-glow {
+    inset: -8px;
+    filter: blur(10px);
   }
 }
