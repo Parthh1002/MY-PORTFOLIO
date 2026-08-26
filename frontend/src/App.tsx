@@ -68,7 +68,9 @@ const allProjects = [
 ];
 
 const experience = [
-  { role: "AI & Real-World Products", org: "Present", when: "2025 — Now", tag: "Current",
+  { role: "Data Science & Machine Learning", org: "Data Scientist Course", when: "2026 — Now", tag: "Current",
+    detail: "Pursuing Data Scientist course. Training ML models at an intermediate/advanced level. Mastering Python, NumPy, Pandas, NLP, and OCR technologies." },
+  { role: "AI & Real-World Products", org: "Full Stack & AI", when: "Late 2025", tag: null,
     detail: "Building production-ready full-stack solutions, AI-powered applications, and leading team projects in hackathons." },
   { role: "Full Stack Development", org: "MERN Stack", when: "Mid 2025", tag: null,
     detail: "MERN Stack Applications, Firebase Authentication & Realtime Database, REST API Integration & Vercel Deployment." },
