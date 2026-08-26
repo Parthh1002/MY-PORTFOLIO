@@ -391,9 +391,9 @@ export default function App() {
                     <span className="meta-val dim">Ahmedabad, India</span>
                   </li>
                   <li className="meta-item">
-                    <a href="mailto:parthpatel@example.com" className="meta-link">
+                    <a href="mailto:parthh1002@gmail.com" className="meta-link">
                       <span className="meta-icon"><FaEnvelope /></span>
-                      <span className="meta-val">Email</span>
+                      <span className="meta-val">parthh1002@gmail.com</span>
                     </a>
                   </li>
                   <li className="meta-item">
