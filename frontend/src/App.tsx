@@ -399,13 +399,13 @@ export default function App() {
                   <li className="meta-item">
                     <a href="https://github.com/Parthh1002" target="_blank" rel="noreferrer" className="meta-link">
                       <span className="meta-icon"><FaGithub /></span>
-                      <span className="meta-val">Parthh1002</span>
+                        <span className="meta-val">GitHub</span>
                     </a>
                   </li>
                   <li className="meta-item">
                     <a href="https://www.linkedin.com/in/parth-patel-8bb36b252" target="_blank" rel="noreferrer" className="meta-link">
                       <span className="meta-icon"><FaLinkedin /></span>
-                      <span className="meta-val">parth-patel-8bb36b252</span>
+                        <span className="meta-val">LinkedIn</span>
                     </a>
                   </li>
                 </motion.ul>
