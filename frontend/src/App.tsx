@@ -379,9 +379,9 @@ export default function App() {
 
                 {/* Stats */}
                 <motion.div variants={slideUp} className="stats">
+                  <div className="stat"><div className="stat-n">37+</div><div className="stat-k">Stars ⭐</div></div>
                   <div className="stat"><div className="stat-n">12+</div><div className="stat-k">Hackathons</div></div>
-                  <div className="stat"><div className="stat-n">6+</div><div className="stat-k">Projects</div></div>
-                  <div className="stat"><div className="stat-n">3+</div><div className="stat-k">Stars ⭐</div></div>
+                  <div className="stat"><div className="stat-n">14+</div><div className="stat-k">Projects</div></div>
                 </motion.div>
 
                 {/* Contact */}

@@ -772,9 +772,10 @@ body { margin: 0; overflow-x: hidden; }
   .desktop-only { display: none !important; }
   .mobile-only  { display: flex !important; }
 
-  /* Navbar: full-width pill */
+  /* Navbar: full-width pill at the bottom */
   .navbar-wrapper {
-    top: 12px;
+    top: auto !important;
+    bottom: max(16px, env(safe-area-inset-bottom, 16px)) !important;
     left: 12px !important;
     right: 12px !important;
     transform: none !important;
@@ -786,13 +787,21 @@ body { margin: 0; overflow-x: hidden; }
     justify-content: space-between;
     padding: 8px 8px 8px 14px;
     border-radius: 18px;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.8), inset 0 1px 0 rgba(255,255,255,0.1);
   }
 
-  /* Page: flex column, safe-area bottom */
+  /* Slide up the mobile nav card from the bottom */
+  .mobile-nav-card {
+    top: auto !important;
+    bottom: max(80px, calc(env(safe-area-inset-bottom, 16px) + 64px)) !important;
+    transform-origin: bottom center;
+  }
+
+  /* Page: flex column, padding bottom for navbar */
   .page {
     display: flex !important;
     flex-direction: column !important;
-    padding: 72px 16px max(48px, env(safe-area-inset-bottom, 48px)) !important;
+    padding: 32px 16px max(100px, calc(env(safe-area-inset-bottom, 16px) + 84px)) !important;
     gap: 0 !important;
     min-height: 100vh;
   }
@@ -884,12 +893,26 @@ body { margin: 0; overflow-x: hidden; }
   .cv-btn {
     grid-column: 1 / -1;
     width: 100% !important;
-    margin-top: 10px;
-    min-height: 48px;
-    font-size: 14px !important;
+    margin-top: 16px;
+    min-height: 52px;
+    font-size: 15px !important;
     white-space: nowrap;
     justify-content: center;
+    background: linear-gradient(135deg, var(--accent-primary) 0%, rgba(110,123,255,0.95) 100%);
+    box-shadow: 0 4px 20px rgba(110,123,255,0.3);
+    border: 1px solid rgba(255,255,255,0.3);
+    animation: mobilePulseGlow 2.5s infinite alternate;
   }
+
+  @keyframes mobilePulseGlow {
+    0% { box-shadow: 0 4px 16px rgba(110,123,255,0.4); }
+    100% { box-shadow: 0 4px 32px rgba(110,123,255,0.8); transform: translateY(-2px); }
+  }
+
+  .ts-wrap {
+    bottom: max(88px, calc(env(safe-area-inset-bottom, 16px) + 76px)) !important;
+  }
+
   .foot { grid-column: 1 / -1; display: none; }
 
   /* Main content */

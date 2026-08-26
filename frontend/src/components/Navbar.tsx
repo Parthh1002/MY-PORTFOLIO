@@ -183,13 +183,13 @@ export default function Navbar({ visible }: NavbarProps) {
               onClick={() => setMobileMenuOpen(false)}
             />
 
-            {/* Slide-down Menu Card */}
+            {/* Slide-up Menu Card */}
             <motion.div
               key="mobile-nav-menu"
               className="mobile-nav-card"
-              initial={{ opacity: 0, y: -20, scale: 0.96 }}
+              initial={{ opacity: 0, y: 20, scale: 0.96 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
-              exit={{ opacity: 0, y: -20, scale: 0.96 }}
+              exit={{ opacity: 0, y: 20, scale: 0.96 }}
               transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
             >
               <div className="mobile-nav-header">
