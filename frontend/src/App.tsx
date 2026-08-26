@@ -207,7 +207,6 @@ const stackRows: StackRow[] = [
       { name: "NumPy",      icon: <SiNumpy />,      color: "#4DABCF", desc: "Fundamental Python package for numerical computing, array operations, and linear algebra." },
       { name: "OpenCV",     icon: <SiOpencv />,     color: "#5C3EE8", desc: "Open-source computer vision library for image processing, object detection, and video analysis." },
       { name: "OpenAI API", icon: <svg viewBox="0 0 24 24" fill="currentColor" style={{width:"1em",height:"1em"}}><path d="M22.28 9.28a5.76 5.76 0 0 0-.49-4.73 5.82 5.82 0 0 0-6.27-2.79A5.76 5.76 0 0 0 11.18 0a5.82 5.82 0 0 0-5.55 4.03 5.76 5.76 0 0 0-3.84 2.79 5.82 5.82 0 0 0 .71 6.82 5.76 5.76 0 0 0 .49 4.73 5.82 5.82 0 0 0 6.27 2.79A5.76 5.76 0 0 0 12.82 24a5.82 5.82 0 0 0 5.55-4.04 5.76 5.76 0 0 0 3.84-2.79 5.82 5.82 0 0 0-.72-6.89z"/></svg>, color: "#412991", desc: "Access GPT-4, DALL-E and Whisper APIs for AI-powered text generation, vision and code." },
-      { name: "Claude / Anthropic", icon: <svg viewBox="0 0 24 24" fill="currentColor" style={{width:"1em",height:"1em"}}><path d="M13.827 3.52h3.603L24 20.48h-3.603l-6.57-16.96zM6.232 3.52H9.77L16.5 20.48h-3.634l-6.634-16.96z"/></svg>, color: "#D97706", desc: "Constitutional AI by Anthropic. Exceptional at reasoning, safety, and long-context tasks." },
     ],
   },
   {
@@ -228,6 +227,7 @@ const stackRows: StackRow[] = [
       { name: "Figma",   icon: <SiFigma />,   color: "#F24E1E", desc: "Browser-based design tool for UI/UX prototyping, design systems, and team collaboration." },
       { name: "VS Code", icon: <SiVscodium />,color: "#007ACC", desc: "Lightweight yet powerful code editor by Microsoft with a rich extension marketplace." },
       { name: "Postman", icon: <SiPostman />, color: "#FF6C37", desc: "API development and testing platform. Design, test, and document REST and GraphQL APIs." },
+      { name: "Claude / Anthropic", icon: <svg viewBox="0 0 24 24" fill="currentColor" style={{width:"1em",height:"1em"}}><path d="M13.827 3.52h3.603L24 20.48h-3.603l-6.57-16.96zM6.232 3.52H9.77L16.5 20.48h-3.634l-6.634-16.96z"/></svg>, color: "#D97706", desc: "Constitutional AI by Anthropic. Exceptional at reasoning, safety, and long-context tasks." },
       { name: "Tableau", icon: <span style={{fontFamily:"monospace",fontSize:"11px",fontWeight:700}}>TAB</span>, color: "#E97627", desc: "Industry-leading data visualization tool for building interactive dashboards and analytics." },
     ],
   },
