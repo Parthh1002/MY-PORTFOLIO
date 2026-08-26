@@ -271,6 +271,7 @@ const slideUp = { hidden: { opacity: 0, y: 28 }, show: { opacity: 1, y: 0, trans
 // ─── FRAMER VARIANTS ─────────────────────────────────────────────────────────
 export default function App() {
   const [showAll, setShowAll]         = useState(false);
+  const [showAllAch, setShowAllAch]   = useState(false);
   const [theme, setTheme]             = useState<"dark"|"aurora"|"light">("dark");
   const [introComplete, setIntroComplete] = useState(false);
   const [hoveredTech, setHoveredTech] = useState<TechPopupItem | null>(null);
@@ -279,6 +280,7 @@ export default function App() {
   const [repoStats, setRepoStats]     = useState<Record<string, RepoStats>>({});
 
   const visible = showAll ? allProjects : allProjects.slice(0, 4);
+  const visibleAch = showAllAch ? achievements : achievements.slice(0, 5);
 
   // Always show intro on every page load
   useEffect(() => {
@@ -571,7 +573,7 @@ export default function App() {
                 </header>
                 <div ref={achRef} className="fade-section">
                   <ul className="ach-list-cards">
-                    {achievements.map((ach, i) => (
+                    {visibleAch.map((ach, i) => (
                       <li
                         key={ach.event}
                         className="ach-card glass-card"
@@ -588,6 +590,12 @@ export default function App() {
                       </li>
                     ))}
                   </ul>
+                  {achievements.length > 5 && (
+                    <button className="more-btn" onClick={() => setShowAllAch(s => !s)}>
+                      <span>{showAllAch ? "COLLAPSE" : `SHOW ${achievements.length - 5} MORE EXPERIENCES`}</span>
+                      <span className="more-arrow" data-open={showAllAch ? "on" : "off"}>↓</span>
+                    </button>
+                  )}
                 </div>
               </section>
 
