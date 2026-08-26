@@ -81,9 +81,9 @@ const experience = [
 ];
 
 const education = [
-  { deg: "B.Tech Computer Science Engineering", school: "LDRP Institute of Technology and Research", when: "2022 — 2026", note: "3rd Year · CGPA: 8.2+" },
-  { deg: "Class 12th (Science — PCM)", school: "Gujarat State Board (GSEB)", when: "2020 — 2022", note: "Percentage: 82%" },
-  { deg: "Class 10th", school: "Gujarat State Board (GSEB)", when: "2019 — 2020", note: "Percentage: 78%" },
+  { deg: "B.Tech Computer Science Engineering", school: "LDRP-ITR Gandhinagar, Gujarat", when: "2024 — 2028", note: "3rd Year · CGPA: 8.8+" },
+  { deg: "Class 12th (Science — PCM)", school: "Gujarat State Board (GSEB)", when: "2022 — 2023", note: "Percentage: 82%" },
+  { deg: "Class 10th", school: "Gujarat State Board (GSEB)", when: "2020 — 2021", note: "Percentage: 78%" },
 ];
 
 const achievements = [
