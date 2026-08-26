@@ -85,6 +85,79 @@ const education = [
   { deg: "Class 10th", school: "Gujarat State Board (GSEB)", when: "2019 — 2020", note: "Percentage: 85%" },
 ];
 
+const achievements = [
+  {
+    event: "Smart India Hackathon (SIH) 2026",
+    result: "Finalist",
+    resultType: "finalist" as const,
+    org: "Internal Round · LDRP-ITR",
+    detail: "Top 50 teams out of 130+ participating teams. Built a Waste Management & Municipal Corporation Citizen Interaction Dashboard.",
+  },
+  {
+    event: "Smart India Hackathon (SIH) 2025",
+    result: "Finalist",
+    resultType: "finalist" as const,
+    org: "Internal Round · LDRP-ITR",
+    detail: "Top 50 teams out of 130+ participating teams. Built a Blockchain-based Document Verification Portal using OCR for document extraction and verification.",
+  },
+  {
+    event: "Smart India Hackathon (SIH) 2024",
+    result: "Finalist",
+    resultType: "finalist" as const,
+    org: "Internal Round · LDRP-ITR",
+    detail: "Top 50 teams out of 130+ participating teams. Developed an AI/ML-based solution as part of a collaborative team.",
+  },
+  {
+    event: "Impactathon @ KSV 2026",
+    result: "Finalist",
+    resultType: "finalist" as const,
+    org: "KSV University",
+    detail: 'Built \"Apno Rasto\", an AI/ML-based solution focused on solving a real-world civic infrastructure problem.',
+  },
+  {
+    event: "Adobe Hackathon 2026",
+    result: "Round 2",
+    resultType: "round2" as const,
+    org: "LDRP-ITR",
+    detail: "Team selected for Round 2, developing an AI/ML-based creative solution powered by Adobe technologies.",
+  },
+  {
+    event: "ISRO Hackathon 2025",
+    result: "Participant",
+    resultType: "participant" as const,
+    org: "ISRO",
+    detail: "Participated in a team-based AI/ML-focused technical initiative organized by the Indian Space Research Organisation.",
+  },
+  {
+    event: "ISRO Hackathon 2024",
+    result: "Participant",
+    resultType: "participant" as const,
+    org: "ISRO",
+    detail: "Participated in a team-based AI/ML-focused technical initiative organized by the Indian Space Research Organisation.",
+  },
+  {
+    event: "Odoo Hackathon × KSV",
+    result: "Participant",
+    resultType: "participant" as const,
+    org: "KSV University",
+    detail: 'Built \"Vendor Vision\", an AI/ML-based vendor analytics solution developed during the Odoo hackathon series.',
+  },
+  {
+    event: "Odoo Hackathon × LDCE",
+    result: "Participant",
+    resultType: "participant" as const,
+    org: "LDCE Ahmedabad",
+    detail: "Built a smart Trip Planner powered by AI/ML recommendations for personalized travel itineraries.",
+  },
+  {
+    event: "Odoo Hackathon × NMIT Mangalore",
+    result: "Participant",
+    resultType: "participant" as const,
+    org: "NMIT Mangalore",
+    detail: "Built an Employee Management System using AI/ML-based automation for HR workflows and analytics.",
+  },
+];
+
 const stackRows: StackRow[] = [
   {
     label: "Languages",
@@ -268,6 +341,7 @@ export default function App() {
   const xpRef    = useFadeIn(200);
   const eduRef   = useFadeIn(200);
   const stackRef = useFadeIn(200);
+  const achRef   = useFadeIn(200);
 
   return (
     <div className="portfolio-wrap" data-theme={theme}>
@@ -486,6 +560,34 @@ export default function App() {
                       </div>
                     </div>
                   ))}
+                </div>
+              </section>
+
+              {/* 05 — ACHIEVEMENTS */}
+              <section id="achievements">
+                <header className="sec-h">
+                  <div className="sec-n">05</div>
+                  <h2 className="sec-l">Competitive Experience</h2>
+                </header>
+                <div ref={achRef} className="fade-section">
+                  <ul className="ach-list-cards">
+                    {achievements.map((ach, i) => (
+                      <li
+                        key={ach.event}
+                        className="ach-card glass-card"
+                        style={{ animationDelay: `${i * 45}ms` }}
+                      >
+                        <div className="ach-card-top">
+                          <span className={`ach-badge ach-badge--${ach.resultType}`}>
+                            {ach.result}
+                          </span>
+                          <span className="ach-org">{ach.org}</span>
+                        </div>
+                        <h3 className="ach-event">{ach.event}</h3>
+                        <p className="ach-detail">{ach.detail}</p>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               </section>
 
