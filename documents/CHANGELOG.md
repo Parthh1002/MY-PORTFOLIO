@@ -2497,3 +2497,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(contrast): add sanitize user inputs against HTML injection attempts`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #500] - 2026-08-27 22:38:21 +0530
+- **Phase**: Phase 5: Contact Validation, Theme Switcher & Settings
+- **Commit**: `feat(contact): integrate dark and light mode toggle switch with smooth fade`
+- **Verification**: Passed all automated test suites and production build checks.
+
