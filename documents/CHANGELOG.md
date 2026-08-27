@@ -2487,3 +2487,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `perf(validation): streamline copy-to-clipboard button for email address with tooltip`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #498] - 2026-08-27 10:58:16 +0530
+- **Phase**: Phase 5: Contact Validation, Theme Switcher & Settings
+- **Commit**: `feat(forms): fine-tune input focus rings with glowing brand accent border`
+- **Verification**: Passed all automated test suites and production build checks.
+
