@@ -2502,3 +2502,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(contact): integrate dark and light mode toggle switch with smooth fade`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #501] - 2026-08-28 11:58:24 +0530
+- **Phase**: Phase 5: Contact Validation, Theme Switcher & Settings
+- **Commit**: `perf(theme): improve detect system OS color scheme preference with matchMedia`
+- **Verification**: Passed all automated test suites and production build checks.
+
