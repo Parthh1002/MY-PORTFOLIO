@@ -2517,3 +2517,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(a11y): elevate light mode contrast palette for pristine daylight viewing`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #504] - 2026-08-28 22:58:33 +0530
+- **Phase**: Phase 5: Contact Validation, Theme Switcher & Settings
+- **Commit**: `fix(validation): audit dark mode background tones to deep charcoal and slate`
+- **Verification**: Passed all automated test suites and production build checks.
+
