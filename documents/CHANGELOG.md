@@ -2507,3 +2507,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `perf(theme): improve detect system OS color scheme preference with matchMedia`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #502] - 2026-08-28 11:18:27 +0530
+- **Phase**: Phase 5: Contact Validation, Theme Switcher & Settings
+- **Commit**: `refactor(settings): standardize persist user theme selection in localStorage across sessions`
+- **Verification**: Passed all automated test suites and production build checks.
+
