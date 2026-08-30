@@ -2542,3 +2542,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(theme): upgrade Escape key listener to close settings drawer`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #509] - 2026-08-30 11:38:47 +0530
+- **Phase**: Phase 5: Contact Validation, Theme Switcher & Settings
+- **Commit**: `feat(settings): solidify smooth slide-over drawer transition with spring damping`
+- **Verification**: Passed all automated test suites and production build checks.
+
