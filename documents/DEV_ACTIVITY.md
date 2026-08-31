@@ -1,1 +1,1 @@
-- 2026-08-31 11:56:47 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
+- 2026-08-31 11:58:41 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
