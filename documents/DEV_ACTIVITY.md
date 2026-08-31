@@ -1,1 +1,1 @@
-- 2026-08-31 11:50:37 +0530: feat(ui): enhance responsive layout container for ultra-wide viewports
+- 2026-08-31 11:53:53 +0530: fix(layout): prevent layout shift during dynamic font loading
