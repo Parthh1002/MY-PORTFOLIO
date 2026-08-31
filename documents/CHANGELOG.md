@@ -2572,3 +2572,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(contact): refine extract useTheme hook into dedicated context provider`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #515] - 2026-08-31 21:39:05 +0530
+- **Phase**: Phase 5: Contact Validation, Theme Switcher & Settings
+- **Commit**: `style(theme): polish accessible aria-labels to all icon-only buttons and theme toggle`
+- **Verification**: Passed all automated test suites and production build checks.
+
