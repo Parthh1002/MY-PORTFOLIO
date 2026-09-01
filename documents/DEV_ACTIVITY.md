@@ -1,1 +1,1 @@
-- 2026-09-01 10:00:13 +0530: feat(animation): orchestrate staggered fade-up spring transitions
+- 2026-09-01 10:20:42 +0530: perf(render): debounce window resize and orientation change handlers
