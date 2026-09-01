@@ -1,1 +1,1 @@
-- 2026-09-01 20:57:56 +0530: feat(components): implement interactive modal close on escape key press
+- 2026-09-01 21:00:39 +0530: fix(layout): prevent layout shift during dynamic font loading
