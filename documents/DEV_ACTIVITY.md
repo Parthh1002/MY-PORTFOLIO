@@ -1,1 +1,1 @@
-- 2026-09-01 09:30:00 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
+- 2026-09-01 09:30:42 +0530: feat(ui): polish border radius tokens and card padding hierarchy
