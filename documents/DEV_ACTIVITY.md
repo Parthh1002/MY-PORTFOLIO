@@ -1,1 +1,1 @@
-- 2026-09-01 16:29:58 +0530: feat(ui): refine frosted glass morphism with backdrop filter blur
+- 2026-09-01 16:35:08 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
