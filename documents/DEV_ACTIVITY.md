@@ -1,1 +1,1 @@
-- 2026-09-01 21:49:46 +0530: style(theme): synchronize theme transitions across border colors
+- 2026-09-01 21:56:38 +0530: feat(components): implement interactive modal close on escape key press
