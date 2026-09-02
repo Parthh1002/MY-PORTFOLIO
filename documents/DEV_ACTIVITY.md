@@ -1,1 +1,1 @@
-- 2026-09-02 20:49:07 +0530: style(theme): harmonize primary brand color saturation for OLED screens
+- 2026-09-02 21:05:13 +0530: perf(render): lazy load below-the-fold project screenshots
