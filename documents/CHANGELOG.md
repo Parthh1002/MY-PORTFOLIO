@@ -2602,3 +2602,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(contrast): integrate glassmorphic contact form card with floating inputs`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #521] - 2026-09-02 11:39:22 +0530
+- **Phase**: Phase 5: Contact Validation, Theme Switcher & Settings
+- **Commit**: `perf(contact): improve form validation for name, email, subject, and message`
+- **Verification**: Passed all automated test suites and production build checks.
+
