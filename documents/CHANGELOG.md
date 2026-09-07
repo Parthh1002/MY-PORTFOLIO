@@ -2722,3 +2722,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(ui): add animated spinning gear aura behind floating settings pill`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #545] - 2026-09-07 12:18:21 +0530
+- **Phase**: Phase 6: Silky Smooth Polish, Micro-Interactions & Final Launch
+- **Commit**: `feat(navbar): integrate scroll-linked transforms to GPU using will-change`
+- **Verification**: Passed all automated test suites and production build checks.
+
