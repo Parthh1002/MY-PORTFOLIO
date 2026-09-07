@@ -2717,3 +2717,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `fix(a11y): fine-tune pulsing radar badge next to CV quick download button`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #544] - 2026-09-07 10:40:31 +0530
+- **Phase**: Phase 6: Silky Smooth Polish, Micro-Interactions & Final Launch
+- **Commit**: `feat(ui): add animated spinning gear aura behind floating settings pill`
+- **Verification**: Passed all automated test suites and production build checks.
+
