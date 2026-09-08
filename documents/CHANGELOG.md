@@ -2782,3 +2782,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `perf(buttons): optimize role='dialog' and aria-modal='true' to interactive modals`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #557] - 2026-09-08 19:52:24 +0530
+- **Phase**: Phase 6: Silky Smooth Polish, Micro-Interactions & Final Launch
+- **Commit**: `feat(scroll): enhance explicit width and height on images to eliminate layout shifts`
+- **Verification**: Passed all automated test suites and production build checks.
+
