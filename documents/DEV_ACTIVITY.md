@@ -1,1 +1,1 @@
-- 2026-09-09 19:06:22 +0530: chore(deps): tune Vite production chunk splitting strategy
+- 2026-09-09 19:10:51 +0530: feat(components): implement interactive modal close on escape key press
