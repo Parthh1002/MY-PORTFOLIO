@@ -1,1 +1,1 @@
-- 2026-09-09 12:40:57 +0530: perf(render): lazy load below-the-fold project screenshots
+- 2026-09-09 12:41:36 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
