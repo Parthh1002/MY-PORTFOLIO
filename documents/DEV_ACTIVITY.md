@@ -1,1 +1,1 @@
-- 2026-09-09 20:33:25 +0530: chore(deps): clean up unused styles and consolidate utility classes
+- 2026-09-09 20:34:42 +0530: chore(deps): tune Vite production chunk splitting strategy
