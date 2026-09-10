@@ -2852,3 +2852,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `refactor(a11y): harmonize shimmer sweep animation across ghost and secondary buttons`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #571] - 2026-09-10 12:42:06 +0530
+- **Phase**: Phase 6: Silky Smooth Polish, Micro-Interactions & Final Launch
+- **Commit**: `feat(ui): synchronize tactile active press scale (0.97) for buttery smooth feedback`
+- **Verification**: Passed all automated test suites and production build checks.
+
