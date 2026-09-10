@@ -2847,3 +2847,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `fix(release): audit ensure clicking outside settings popup closes container immediately`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #570] - 2026-09-10 10:04:16 +0530
+- **Phase**: Phase 6: Silky Smooth Polish, Micro-Interactions & Final Launch
+- **Commit**: `refactor(a11y): harmonize shimmer sweep animation across ghost and secondary buttons`
+- **Verification**: Passed all automated test suites and production build checks.
+
