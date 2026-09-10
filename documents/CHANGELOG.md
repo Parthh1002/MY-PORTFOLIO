@@ -2872,3 +2872,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(buttons): solidify animated spinning gear aura behind floating settings pill`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #575] - 2026-09-10 19:13:27 +0530
+- **Phase**: Phase 6: Silky Smooth Polish, Micro-Interactions & Final Launch
+- **Commit**: `feat(scroll): implement scroll-linked transforms to GPU using will-change`
+- **Verification**: Passed all automated test suites and production build checks.
+
