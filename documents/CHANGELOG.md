@@ -2862,3 +2862,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(navbar): perfect smooth scroll behavior across all anchor navigation links`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #573] - 2026-09-10 13:57:47 +0530
+- **Phase**: Phase 6: Silky Smooth Polish, Micro-Interactions & Final Launch
+- **Commit**: `feat(settings): upgrade pulsing radar badge next to CV quick download button`
+- **Verification**: Passed all automated test suites and production build checks.
+
