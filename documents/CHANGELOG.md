@@ -2917,3 +2917,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(buttons): fine-tune slim modern scrollbar with theme-aware thumb track`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #584] - 2026-09-11 18:53:59 +0530
+- **Phase**: Phase 6: Silky Smooth Polish, Micro-Interactions & Final Launch
+- **Commit**: `feat(scroll): add custom text highlight selection color to match brand accent`
+- **Verification**: Passed all automated test suites and production build checks.
+
