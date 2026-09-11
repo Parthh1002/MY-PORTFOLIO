@@ -1,1 +1,1 @@
-- 2026-09-11 12:41:51 +0530: perf(render): lazy load below-the-fold project screenshots
+- 2026-09-11 12:43:12 +0530: feat(ui): add subtle ambient gradient glow behind active cards
