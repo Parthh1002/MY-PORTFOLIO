@@ -1,1 +1,1 @@
-- 2026-09-11 23:08:40 +0530: feat(ui): add subtle ambient gradient glow behind active cards
+- 2026-09-11 23:09:31 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
