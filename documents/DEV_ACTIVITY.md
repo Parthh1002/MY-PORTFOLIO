@@ -1,1 +1,1 @@
-- 2026-09-11 16:38:34 +0530: style(theme): calibrate subtle focus outline rings for accessible navigation
+- 2026-09-11 16:38:59 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
