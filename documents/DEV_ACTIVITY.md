@@ -1,1 +1,1 @@
-- 2026-09-11 11:19:20 +0530: fix(layout): prevent layout shift during dynamic font loading
+- 2026-09-11 11:20:14 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
