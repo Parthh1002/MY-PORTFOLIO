@@ -1,1 +1,1 @@
-- 2026-09-12 21:45:31 +0530: feat(ui): add subtle ambient gradient glow behind active cards
+- 2026-09-12 21:46:35 +0530: style(theme): synchronize theme transitions across border colors
