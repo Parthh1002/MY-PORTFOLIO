@@ -1,1 +1,1 @@
-- 2026-09-12 19:03:51 +0530: style(theme): harmonize primary brand color saturation for OLED screens
+- 2026-09-12 19:05:23 +0530: perf(render): enable content-visibility auto for offscreen sections
