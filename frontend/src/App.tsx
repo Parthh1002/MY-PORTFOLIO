@@ -251,7 +251,7 @@ const stackRows: StackRow[] = [
     label: "Frontend",
     items: [
       { name: "React.js",      icon: <SiReact />,       color: "#61DAFB", desc: "Component-based UI library. Powers fast, interactive web apps with a virtual DOM." },
-      { name: "Next.js",       icon: <SiNextdotjs />,   color: "var(--fg-1)", desc: "Full-stack React framework with SSR, SSG, file-based routing and built-in API routes." },
+      { name: "Next.js",       icon: <SiNextdotjs />,   color: "var(--tech-monochrome, var(--fg-1, #0f172a))", desc: "Full-stack React framework with SSR, SSG, file-based routing and built-in API routes." },
       { name: "Vite",          icon: <SiVite />,        color: "#646CFF", desc: "Lightning-fast build tool and dev server. HMR in milliseconds for modern web projects." },
       { name: "Tailwind CSS",  icon: <SiTailwindcss />, color: "#06B6D4", desc: "Utility-first CSS framework for rapid, consistent, and highly customizable UI development." },
       { name: "Framer Motion", icon: <SiFramer />,      color: "#0055FF", desc: "Production-ready animation library for React. Powers smooth, physics-based interactions." },
@@ -262,7 +262,7 @@ const stackRows: StackRow[] = [
     label: "Backend",
     items: [
       { name: "Node.js",  icon: <SiNodedotjs />, color: "#339933", desc: "JavaScript runtime for server-side development. Powers scalable, event-driven backend APIs." },
-      { name: "Express",  icon: <SiExpress />,   color: "var(--fg-1)", desc: "Minimal, unopinionated web framework for Node.js. Great for building REST APIs fast." },
+      { name: "Express",  icon: <SiExpress />,   color: "var(--tech-monochrome, var(--fg-1, #0f172a))", desc: "Minimal, unopinionated web framework for Node.js. Great for building REST APIs fast." },
       { name: "FastAPI",  icon: <SiFastapi />,   color: "#009688", desc: "Modern Python API framework. Auto-generates OpenAPI docs and is built for high performance." },
     ],
   },
@@ -288,7 +288,7 @@ const stackRows: StackRow[] = [
   {
     label: "Cloud & DevOps",
     items: [
-      { name: "Vercel",      icon: <SiVercel />,      color: "var(--fg-1)", desc: "Zero-config deployment platform for frontend frameworks. Instant global CDN. Powers this site!" },
+      { name: "Vercel",      icon: <SiVercel />,      color: "var(--tech-monochrome, var(--fg-1, #0f172a))", desc: "Zero-config deployment platform for frontend frameworks. Instant global CDN. Powers this site!" },
       { name: "AWS",         icon: <FaAws />,         color: "#FF9900", desc: "Amazon Web Services — industry-leading cloud with 200+ services for computing, storage, and AI." },
       { name: "Docker",      icon: <SiDocker />,      color: "#2496ED", desc: "Containerization platform for packaging apps with all dependencies into portable containers." },
       { name: "Linux",       icon: <SiLinux />,       color: "#FCC624", desc: "Open-source OS powering the majority of the world's servers and cloud infrastructure." },
@@ -299,7 +299,7 @@ const stackRows: StackRow[] = [
     label: "Tools",
     items: [
       { name: "Git",     icon: <SiGit />,     color: "#F05032", desc: "Distributed version control. Track every change, branch freely, and collaborate on code." },
-      { name: "GitHub",  icon: <SiGithub />,  color: "var(--fg-1)", desc: "Platform for hosting Git repositories with CI/CD, Actions, and collaborative code review." },
+      { name: "GitHub",  icon: <SiGithub />,  color: "var(--tech-monochrome, var(--fg-1, #0f172a))", desc: "Platform for hosting Git repositories with CI/CD, Actions, and collaborative code review." },
       { name: "Figma",   icon: <SiFigma />,   color: "#F24E1E", desc: "Browser-based design tool for UI/UX prototyping, design systems, and team collaboration." },
       { name: "VS Code", icon: <VscVscode />, color: "#007ACC", desc: "Lightweight yet powerful code editor by Microsoft with a rich extension marketplace." },
       { name: "Postman", icon: <SiPostman />, color: "#FF6C37", desc: "API development and testing platform. Design, test, and document REST and GraphQL APIs." },

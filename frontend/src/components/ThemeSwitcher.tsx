@@ -77,6 +77,7 @@ export default function ThemeSwitcher({ theme, setTheme }: Props) {
     // Foreground typography readability guarantee
     if (isLight) {
       root.style.setProperty("--fg-1", "#090d16");
+      root.style.setProperty("--tech-monochrome", "#090d16");
       root.style.setProperty("--fg-2", "#1e293b");
       root.style.setProperty("--fg-3", "#475569");
       root.style.setProperty("--fg-4", "#64748b");
@@ -88,6 +89,7 @@ export default function ThemeSwitcher({ theme, setTheme }: Props) {
       root.style.setProperty("--border-strong", "rgba(15, 23, 42, 0.18)");
     } else {
       root.style.setProperty("--fg-1", "#f8fafc");
+      root.style.setProperty("--tech-monochrome", "#f8fafc");
       root.style.setProperty("--fg-2", `color-mix(in oklab, ${color} 15%, #cbd5e1)`);
       root.style.setProperty("--fg-3", `color-mix(in oklab, ${color} 10%, #94a3b8)`);
       root.style.removeProperty("--fg-4");
