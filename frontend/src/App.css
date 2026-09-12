@@ -1184,20 +1184,57 @@ body { margin: 0; overflow-x: hidden; }
 }
 .ts-mode-btn {
   flex: 1;
-  padding: 8px 12px;
+  padding: 8px 10px;
   border: none;
   background: transparent;
   color: var(--fg-3);
   border-radius: 8px;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.2s ease;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.ts-mode-icon {
+  display: flex;
+  align-items: center;
   justify-content: center;
+  line-height: 1;
+}
+.ts-mode-label {
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-family: var(--font-mono);
+  line-height: 1;
 }
 .ts-mode-active {
-  background: rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.11);
   color: var(--accent-primary);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.25);
+}
+[data-theme="light"] .ts-panel {
+  background: rgba(255,255,255,0.97);
+  border-color: rgba(15,23,42,0.1);
+  box-shadow: 0 12px 40px rgba(15,23,42,0.12);
+}
+[data-theme="light"] .ts-mode-btn {
+  color: var(--fg-3);
+}
+[data-theme="light"] .ts-mode-active {
+  background: rgba(15,23,42,0.08);
+  color: var(--accent-primary);
+}
+[data-theme="light"] .ts-modes {
+  background: rgba(15,23,42,0.05);
+}
+[data-theme="light"] .ts-pill {
+  background: rgba(255,255,255,0.95);
+  border-color: rgba(15,23,42,0.1);
+  box-shadow: 0 4px 16px rgba(15,23,42,0.12);
+  color: var(--fg-2);
 }
 .ts-accents {
   display: flex;
@@ -1236,9 +1273,36 @@ body { margin: 0; overflow-x: hidden; }
   font-family: var(--font-ui);
 }
 
-/* Dynamic Text Accent Styling */
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, .name, .proj-title, .sec-l, .tech-tooltip-name, .tech-modal-name {
+/* Dynamic Text Accent Styling — dark/aurora themes only */
+:root:not([data-theme="light"]) h1,
+:root:not([data-theme="light"]) .h1,
+:root:not([data-theme="light"]) h2,
+:root:not([data-theme="light"]) .h2,
+:root:not([data-theme="light"]) h3,
+:root:not([data-theme="light"]) .h3,
+:root:not([data-theme="light"]) .name,
+:root:not([data-theme="light"]) .proj-title,
+:root:not([data-theme="light"]) .sec-l,
+:root:not([data-theme="light"]) .tech-tooltip-name,
+:root:not([data-theme="light"]) .tech-modal-name {
   color: var(--accent-primary) !important;
+}
+
+/* Light mode headings: use dark obsidian text, no accent override */
+[data-theme="light"] h1,
+[data-theme="light"] .h1,
+[data-theme="light"] h2,
+[data-theme="light"] .h2,
+[data-theme="light"] h3,
+[data-theme="light"] .h3,
+[data-theme="light"] .name,
+[data-theme="light"] .proj-title,
+[data-theme="light"] .sec-l {
+  color: var(--fg-1) !important;
+}
+[data-theme="light"] .tech-tooltip-name,
+[data-theme="light"] .tech-modal-name {
+  color: var(--fg-1) !important;
 }
 
 
@@ -1845,10 +1909,129 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, .name, .proj-title, .sec-l
 /* ═══════════════════════════════════════════════════════════
    UNIQUE INTERACTIVE RESUME/CV ACTION CARD & MODAL
    ═══════════════════════════════════════════════════════════ */
-.resume-action-container {
+/* ══════════════════════════════════════════════════
+   RESUME ACTION — Clean Twin-Button (Professional)
+   ══════════════════════════════════════════════════ */
+.ra-wrap {
+  display: flex;
+  gap: 10px;
   width: 100%;
-  perspective: 900px;
 }
+
+/* Shared base for both buttons */
+.ra-preview,
+.ra-download {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease, color 0.22s ease;
+  position: relative;
+  overflow: hidden;
+  border: none;
+  outline: none;
+}
+
+/* Preview — ghost/outline style */
+.ra-preview {
+  background: transparent;
+  border: 1.5px solid var(--border-strong);
+  color: var(--fg-2);
+  flex: 0 0 auto;
+}
+.ra-preview:hover {
+  background: var(--accent-surface);
+  border-color: var(--accent-border);
+  color: var(--accent-emphasis);
+}
+[data-theme="light"] .ra-preview {
+  border-color: rgba(15,23,42,0.2);
+  color: var(--fg-2);
+}
+[data-theme="light"] .ra-preview:hover {
+  background: var(--accent-surface);
+  border-color: var(--accent-border);
+  color: var(--accent-primary);
+}
+
+/* Download — filled accent */
+.ra-download {
+  flex: 1;
+  background: var(--accent-primary);
+  color: #ffffff;
+  border: 1.5px solid transparent;
+  box-shadow: 0 4px 18px rgba(var(--a-rgb), 0.32);
+}
+.ra-download:hover {
+  box-shadow: 0 8px 28px rgba(var(--a-rgb), 0.48);
+  filter: brightness(1.08);
+}
+.ra-download:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  filter: none;
+}
+.ra-done {
+  background: #16a34a !important;
+  box-shadow: 0 4px 18px rgba(22,163,74,0.4) !important;
+}
+
+/* Shimmer overlay on the download button */
+.ra-shimmer {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(100deg,
+    transparent 20%,
+    rgba(255,255,255,0.18) 50%,
+    transparent 80%
+  );
+  background-size: 200% 100%;
+  background-position: -100% 0;
+  transition: background-position 0s;
+  pointer-events: none;
+}
+.ra-download:hover .ra-shimmer {
+  background-position: 200% 0;
+  transition: background-position 0.6s ease;
+}
+
+/* Inner content span for AnimatePresence */
+.ra-btn-content {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  pointer-events: none;
+}
+
+.ra-spin {
+  animation: raSpin 0.8s linear infinite;
+}
+@keyframes raSpin {
+  100% { transform: rotate(360deg); }
+}
+
+/* Mobile: full width stacked */
+@media (max-width: 480px) {
+  .ra-wrap {
+    flex-direction: column;
+  }
+  .ra-preview, .ra-download {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 14px;
+  }
+}
+
+/* ── OLD resume-action-container kept for reference, overridden by .ra-wrap ── */
+.resume-action-container { width: 100%; }
 
 .resume-action-card {
   position: relative;
@@ -2287,9 +2470,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, .name, .proj-title, .sec-l
 }
 
 @media (max-width: 640px) {
-  .resume-buttons-row {
-    grid-template-columns: 1fr 1fr;
-  }
   .resume-modal-card {
     height: 94vh;
     border-radius: 18px;
@@ -2299,4 +2479,131 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, .name, .proj-title, .sec-l
   }
 }
 
+/* ══════════════════════════════════════════════════════════
+   GLOBAL MOBILE RESPONSIVE OVERHAUL
+   ══════════════════════════════════════════════════════════ */
 
+/* Ensure html/body never overflow horizontally */
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* Theme switcher panel: don't overflow screen */
+@media (max-width: 480px) {
+  .ts-wrap {
+    right: 12px;
+    bottom: 12px;
+  }
+  .ts-panel {
+    max-width: calc(100vw - 24px);
+    right: 0;
+  }
+  .ts-modes {
+    gap: 2px;
+  }
+  .ts-mode-btn {
+    padding: 7px 6px;
+  }
+  .ts-mode-label {
+    font-size: 9px;
+  }
+}
+
+/* Profile modal responsive */
+@media (max-width: 480px) {
+  .prof-modal-card {
+    border-radius: 18px;
+    margin: 8px;
+  }
+  .prof-modal-hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .prof-avatar-frame {
+    width: 100px;
+    height: 100px;
+  }
+  .prof-actions-row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Navbar responsive */
+@media (max-width: 640px) {
+  .nav-items { gap: 4px; }
+  .nav-item-label { display: none; }
+}
+
+/* Section headings responsive */
+@media (max-width: 480px) {
+  .sec-h {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+  .sec-n {
+    font-size: 18px !important;
+  }
+  .sec-l {
+    font-size: 14px !important;
+  }
+}
+
+/* Projects grid responsive */
+@media (max-width: 480px) {
+  .proj {
+    padding: 16px 16px 18px !important;
+  }
+  .proj-title {
+    font-size: 15px !important;
+  }
+}
+
+/* Experience items */
+@media (max-width: 640px) {
+  .xp {
+    grid-template-columns: 1fr !important;
+    gap: 6px !important;
+  }
+  .xp-when {
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+  }
+}
+
+/* Education items */
+@media (max-width: 480px) {
+  .edu {
+    grid-template-columns: 1fr !important;
+    gap: 4px !important;
+  }
+}
+
+/* Tech / stack section */
+@media (max-width: 480px) {
+  .tech-icon-grid {
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 8px !important;
+  }
+  .tech-icon-item {
+    padding: 10px 6px !important;
+  }
+}
+
+/* Stats bar */
+@media (max-width: 380px) {
+  .stats {
+    gap: 12px;
+  }
+  .stat-n {
+    font-size: 18px !important;
+  }
+}
+
+/* Profile modal close button light theme */
+[data-theme="light"] .resume-modal-close-btn:hover {
+  background: rgba(15,23,42,0.12);
+  color: var(--fg-1);
+}

@@ -1,6 +1,6 @@
-import { useState, useRef, MouseEvent } from "react";
-import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
-import { FaFilePdf, FaEye, FaDownload, FaCheck, FaSpinner } from "react-icons/fa";
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { FaDownload, FaCheck, FaSpinner, FaEye } from "react-icons/fa";
 import ResumeModal from "./ResumeModal";
 
 interface ResumeActionProps {
@@ -13,145 +13,99 @@ export default function ResumeAction({
   className = "",
 }: ResumeActionProps) {
   const [modalOpen, setModalOpen] = useState(false);
-  const [downloadState, setDownloadState] = useState<"idle" | "downloading" | "success">("idle");
-  const cardRef = useRef<HTMLDivElement>(null);
-
-  // 3D Magnetic Tilt Values
-  const x = useMotionValue(0);
-  const y = useMotionValue(0);
-  const mouseXSpring = useSpring(x, { stiffness: 220, damping: 22 });
-  const mouseYSpring = useSpring(y, { stiffness: 220, damping: 22 });
-  const rotateX = useTransform(mouseYSpring, [-0.5, 0.5], [6, -6]);
-  const rotateY = useTransform(mouseXSpring, [-0.5, 0.5], [-6, 6]);
-
-  const handleMouseMove = (e: MouseEvent<HTMLDivElement>) => {
-    if (!cardRef.current) return;
-    const rect = cardRef.current.getBoundingClientRect();
-    const xPct = (e.clientX - rect.left) / rect.width - 0.5;
-    const yPct = (e.clientY - rect.top) / rect.height - 0.5;
-    x.set(xPct);
-    y.set(yPct);
-  };
-
-  const handleMouseLeave = () => {
-    x.set(0);
-    y.set(0);
-  };
+  const [dlState, setDlState] = useState<"idle" | "loading" | "done">("idle");
 
   const handleDownload = () => {
-    if (downloadState !== "idle") return;
-
-    setDownloadState("downloading");
-
-    // Smooth feedback state before triggering the download
+    if (dlState !== "idle") return;
+    setDlState("loading");
     setTimeout(() => {
-      const link = document.createElement("a");
-      link.href = pdfUrl;
-      link.download = "Parth_Patel_CV.pdf";
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-
-      setDownloadState("success");
-
-      setTimeout(() => {
-        setDownloadState("idle");
-      }, 3000);
-    }, 700);
+      const a = document.createElement("a");
+      a.href = pdfUrl;
+      a.download = "Parth_Patel_CV.pdf";
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      setDlState("done");
+      setTimeout(() => setDlState("idle"), 3000);
+    }, 600);
   };
 
   return (
     <>
-      <div className={`resume-action-container ${className}`}>
-        <motion.div
-          ref={cardRef}
-          className="resume-action-card"
-          onMouseMove={handleMouseMove}
-          onMouseLeave={handleMouseLeave}
-          style={{
-            rotateX,
-            rotateY,
-            transformStyle: "preserve-3d",
-          }}
-          whileHover={{ scale: 1.02 }}
-          transition={{ type: "spring", stiffness: 300, damping: 20 }}
+      <div className={`ra-wrap ${className}`}>
+
+        {/* Preview Button — ghost/outline */}
+        <motion.button
+          className="ra-preview"
+          onClick={() => setModalOpen(true)}
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.97 }}
+          transition={{ type: "spring", stiffness: 400, damping: 22 }}
+          type="button"
+          title="Open CV preview"
         >
-          {/* Animated Neon Border Glow */}
-          <div className="resume-card-glow" />
+          <FaEye size={13} />
+          <span>Preview</span>
+        </motion.button>
 
-          {/* Top Status Badge */}
-          <div className="resume-card-header">
-            <div className="resume-status-badge">
-              <span className="resume-status-dot" />
-              <span className="resume-status-text">ATS-READY · UPDATED 2025</span>
-            </div>
-            <span className="resume-file-chip">PDF · 20 KB</span>
-          </div>
+        {/* Download Button — filled with shimmer */}
+        <motion.button
+          className={`ra-download${dlState === "done" ? " ra-done" : ""}`}
+          onClick={handleDownload}
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.97 }}
+          transition={{ type: "spring", stiffness: 400, damping: 22 }}
+          type="button"
+          disabled={dlState === "loading"}
+          title="Download CV as PDF"
+        >
+          {/* Shimmer layer */}
+          <span className="ra-shimmer" aria-hidden />
 
-          {/* Core Info Row */}
-          <div className="resume-card-hero">
-            <div className="resume-icon-box">
-              <FaFilePdf size={22} />
-            </div>
-            <div className="resume-hero-text">
-              <div className="resume-hero-title">Curriculum Vitae</div>
-              <div className="resume-hero-sub">Parth Patel · Fullstack &amp; AI</div>
-            </div>
-          </div>
-
-          {/* Interactive Dual-Action Buttons */}
-          <div className="resume-buttons-row">
-            {/* Action 1: Quick Preview */}
-            <button
-              className="resume-preview-btn"
-              onClick={() => setModalOpen(true)}
-              title="Preview CV directly without downloading"
-              type="button"
-            >
-              <FaEye size={13} />
-              <span>Preview</span>
-            </button>
-
-            {/* Action 2: Dynamic Animated Download */}
-            <button
-              className={`resume-download-trigger ${
-                downloadState === "downloading"
-                  ? "is-downloading"
-                  : downloadState === "success"
-                  ? "is-success"
-                  : ""
-              }`}
-              onClick={handleDownload}
-              title="Download official PDF to device"
-              type="button"
-            >
-              {downloadState === "idle" && (
-                <>
-                  <FaDownload size={13} className="resume-dl-icon" />
-                  <span>Download CV</span>
-                  <span className="resume-btn-arrow">↓</span>
-                </>
-              )}
-
-              {downloadState === "downloading" && (
-                <>
-                  <FaSpinner size={14} className="resume-spin-icon" />
-                  <span>Preparing...</span>
-                </>
-              )}
-
-              {downloadState === "success" && (
-                <>
-                  <FaCheck size={14} className="resume-check-icon" />
-                  <span>Downloaded! 🎉</span>
-                </>
-              )}
-            </button>
-          </div>
-        </motion.div>
+          <AnimatePresence mode="wait" initial={false}>
+            {dlState === "idle" && (
+              <motion.span
+                key="idle"
+                className="ra-btn-content"
+                initial={{ opacity: 0, y: 6 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -6 }}
+                transition={{ duration: 0.18 }}
+              >
+                <FaDownload size={12} />
+                <span>Download CV</span>
+              </motion.span>
+            )}
+            {dlState === "loading" && (
+              <motion.span
+                key="loading"
+                className="ra-btn-content"
+                initial={{ opacity: 0, y: 6 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -6 }}
+                transition={{ duration: 0.18 }}
+              >
+                <FaSpinner size={12} className="ra-spin" />
+                <span>Preparing…</span>
+              </motion.span>
+            )}
+            {dlState === "done" && (
+              <motion.span
+                key="done"
+                className="ra-btn-content"
+                initial={{ opacity: 0, scale: 0.85 }}
+                animate={{ opacity: 1, scale: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.22 }}
+              >
+                <FaCheck size={12} />
+                <span>Saved! 🎉</span>
+              </motion.span>
+            )}
+          </AnimatePresence>
+        </motion.button>
       </div>
 
-      {/* In-App Resume Preview Modal */}
       <ResumeModal
         isOpen={modalOpen}
         onClose={() => setModalOpen(false)}

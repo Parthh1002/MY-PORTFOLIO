@@ -1,13 +1,36 @@
 import { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { FaSun, FaMoon, FaAdjust, FaCog } from "react-icons/fa";
+import { FaCog } from "react-icons/fa";
 
 export type ThemeMode = "dark" | "aurora" | "light";
 
-const MODES: { id: ThemeMode; icon: JSX.Element; label: string }[] = [
-  { id: "light",  icon: <FaSun size={13} />,    label: "Light"  },
-  { id: "dark",   icon: <FaMoon size={13} />,   label: "Dark"   },
-  { id: "aurora", icon: <FaAdjust size={13} />, label: "Aurora" },
+// Richer, more distinctive icons for each mode
+const ModeIcons: Record<ThemeMode, React.ReactNode> = {
+  light: (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <circle cx="12" cy="12" r="5"/>
+      <line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+      <line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+    </svg>
+  ),
+  dark: (
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+    </svg>
+  ),
+  aurora: (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+      <path d="M12 2L8 8H2l4.5 4-2 6 7.5-4 7.5 4-2-6L22 8h-6L12 2z"/>
+    </svg>
+  ),
+};
+
+const MODES: { id: ThemeMode; label: string }[] = [
+  { id: "light",  label: "Light"  },
+  { id: "dark",   label: "Dark"   },
+  { id: "aurora", label: "Aurora" },
 ];
 
 export const ACCENTS = [
@@ -120,7 +143,7 @@ export default function ThemeSwitcher({ theme, setTheme }: Props) {
                   title={`${m.label} Mode`}
                   type="button"
                 >
-                  {m.icon}
+                  <span className="ts-mode-icon">{ModeIcons[m.id]}</span>
                   <span className="ts-mode-label">{m.label}</span>
                 </button>
               ))}
