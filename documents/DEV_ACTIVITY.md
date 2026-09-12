@@ -1,1 +1,1 @@
-- 2026-09-12 19:18:48 +0530: feat(components): add tooltip descriptions for engineering architecture tags
+- 2026-09-12 19:18:51 +0530: feat(ui): refine frosted glass morphism with backdrop filter blur
