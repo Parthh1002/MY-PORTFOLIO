@@ -1,1 +1,1 @@
-- 2026-09-12 16:58:08 +0530: perf(render): debounce window resize and orientation change handlers
+- 2026-09-12 16:59:03 +0530: feat(ui): refine frosted glass morphism with backdrop filter blur
