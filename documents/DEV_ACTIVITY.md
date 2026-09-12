@@ -1,1 +1,1 @@
-- 2026-09-12 11:29:57 +0530: feat(components): add tooltip descriptions for engineering architecture tags
+- 2026-09-12 11:31:03 +0530: fix(layout): normalize margin collapse across nested article sections
