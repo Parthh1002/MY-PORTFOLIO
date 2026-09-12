@@ -1,1 +1,1 @@
-- 2026-09-12 23:09:30 +0530: feat(ui): add subtle ambient gradient glow behind active cards
+- 2026-09-12 23:15:12 +0530: chore(deps): tune Vite production chunk splitting strategy
