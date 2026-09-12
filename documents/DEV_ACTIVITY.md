@@ -1,1 +1,1 @@
-- 2026-09-12 15:02:37 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
+- 2026-09-12 15:04:16 +0530: perf(render): lazy load below-the-fold project screenshots
