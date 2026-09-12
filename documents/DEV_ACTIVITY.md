@@ -1,1 +1,1 @@
-- 2026-09-12 11:54:44 +0530: feat(ui): integrate tactile scale down feedback on click interactions
+- 2026-09-12 12:01:06 +0530: perf(render): debounce window resize and orientation change handlers
