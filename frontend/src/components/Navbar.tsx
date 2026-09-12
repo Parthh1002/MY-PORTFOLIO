@@ -1,82 +1,51 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
-  FaCode,
+  FaUser,
   FaBriefcase,
   FaGraduationCap,
   FaLayerGroup,
-  FaUser,
+  FaTrophy,
+  FaFilePdf,
   FaGithub,
   FaLinkedin,
-  FaEnvelope,
-  FaFilePdf,
-  FaTrophy,
+  FaWhatsapp,
+  FaYoutube,
 } from "react-icons/fa";
+import ResumeModal from "./ResumeModal";
 
-const navLinks = [
-  { id: "projects",     label: "Projects",   icon: <FaCode /> },
-  { id: "experience",   label: "Journey",    icon: <FaBriefcase /> },
-  { id: "education",    label: "Education",  icon: <FaGraduationCap /> },
-  { id: "stack",        label: "Stack",      icon: <FaLayerGroup /> },
-  { id: "achievements", label: "Wins",       icon: <FaTrophy /> },
-];
-
-interface NavbarProps {
+interface NavProps {
   visible: boolean;
 }
 
-export default function Navbar({ visible }: NavbarProps) {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [activeSection, setActiveSection] = useState<string>("");
+export default function Navbar({ visible }: NavProps) {
+  const [activeSection, setActiveSection] = useState<string>("projects");
+  const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
+  const [resumeOpen, setResumeOpen] = useState<boolean>(false);
 
-  // Lock body scroll when mobile menu is open
-  useEffect(() => {
-    if (mobileMenuOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "";
-    }
-    return () => {
-      document.body.style.overflow = "";
-    };
-  }, [mobileMenuOpen]);
+  const navLinks = [
+    { id: "projects",    label: "Projects",     icon: <FaBriefcase /> },
+    { id: "experience",  label: "Experience",   icon: <FaUser /> },
+    { id: "education",   label: "Education",    icon: <FaGraduationCap /> },
+    { id: "stack",       label: "Stack",        icon: <FaLayerGroup /> },
+    { id: "achievements",label: "Achievements", icon: <FaTrophy /> },
+  ];
 
-  // Close mobile menu on resize to desktop
+  // ScrollSpy to highlight active section in Navbar
   useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth >= 768) {
-        setMobileMenuOpen(false);
-      }
-    };
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
-  // Close on Escape key
-  useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setMobileMenuOpen(false);
-    };
-    window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, []);
-
-  // Track active section on scroll
-  useEffect(() => {
-    const sections = navLinks.map((l) => document.getElementById(l.id));
     const handleScroll = () => {
-      const scrollPos = window.scrollY + 160;
+      const sections = navLinks.map((link) => document.getElementById(link.id));
+      const scrollPos = window.scrollY + 200;
+
       for (let i = sections.length - 1; i >= 0; i--) {
         const sec = sections[i];
         if (sec && sec.offsetTop <= scrollPos) {
           setActiveSection(navLinks[i].id);
-          return;
+          break;
         }
       }
-      if (window.scrollY < 200) {
-        setActiveSection("");
-      }
     };
+
     window.addEventListener("scroll", handleScroll, { passive: true });
     handleScroll();
     return () => window.removeEventListener("scroll", handleScroll);
@@ -113,11 +82,12 @@ export default function Navbar({ visible }: NavbarProps) {
         transition={{ delay: 0.2, duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
       >
         <div className="navbar-pill">
-          {/* Logo (Visible on ALL devices) */}
+          {/* Logo */}
           <button
             className="navbar-logo"
             onClick={scrollToTop}
             aria-label="Scroll to top of page"
+            type="button"
           >
             <div className="navbar-logo-badge">
               <FaUser size={11} />
@@ -137,6 +107,7 @@ export default function Navbar({ visible }: NavbarProps) {
                   className={`nav-btn ${isActive ? "nav-btn-active" : ""}`}
                   onClick={() => scrollTo(link.id)}
                   aria-current={isActive ? "page" : undefined}
+                  type="button"
                 >
                   <span className="nav-btn-icon">{link.icon}</span>
                   <span>{link.label}</span>
@@ -152,12 +123,27 @@ export default function Navbar({ visible }: NavbarProps) {
             })}
           </nav>
 
+          <div className="navbar-divider desktop-only" />
+
+          {/* Desktop CV Quick Action */}
+          <button
+            className="nav-cv-quick-btn desktop-only"
+            onClick={() => setResumeOpen(true)}
+            title="Preview &amp; Download CV"
+            type="button"
+          >
+            <FaFilePdf size={12} />
+            <span>CV</span>
+            <span className="nav-cv-quick-dot" />
+          </button>
+
           {/* Mobile Hamburger Toggle Button */}
           <button
             className={`navbar-hamburger mobile-only ${mobileMenuOpen ? "is-active" : ""}`}
             onClick={() => setMobileMenuOpen((prev) => !prev)}
             aria-label={mobileMenuOpen ? "Close navigation menu" : "Open navigation menu"}
             aria-expanded={mobileMenuOpen}
+            type="button"
           >
             <span className="hamburger-box">
               <span className="hamburger-line line-1" />
@@ -199,7 +185,7 @@ export default function Navbar({ visible }: NavbarProps) {
                   </div>
                   <div>
                     <div className="mobile-nav-name">Parth Patel</div>
-                    <div className="mobile-nav-sub">Navigation</div>
+                    <div className="mobile-nav-sub">Fullstack &amp; AI Developer</div>
                   </div>
                 </div>
               </div>
@@ -212,9 +198,10 @@ export default function Navbar({ visible }: NavbarProps) {
                       key={link.id}
                       initial={{ opacity: 0, x: -12 }}
                       animate={{ opacity: 1, x: 0 }}
-                      transition={{ delay: 0.05 * idx, duration: 0.2 }}
+                      transition={{ delay: 0.04 * idx, duration: 0.2 }}
                       className={`mobile-nav-btn ${isActive ? "mobile-nav-btn-active" : ""}`}
                       onClick={() => scrollTo(link.id)}
+                      type="button"
                     >
                       <span className="mobile-nav-icon">{link.icon}</span>
                       <span className="mobile-nav-label">{link.label}</span>
@@ -225,15 +212,17 @@ export default function Navbar({ visible }: NavbarProps) {
               </div>
 
               <div className="mobile-nav-footer">
-                <a
-                  href="/resume/Parth_Patel_CV.pdf"
-                  download="Parth_Patel_CV.pdf"
+                <button
                   className="mobile-nav-cv-btn"
-                  onClick={() => setMobileMenuOpen(false)}
+                  onClick={() => {
+                    setMobileMenuOpen(false);
+                    setResumeOpen(true);
+                  }}
+                  type="button"
                 >
-                  <FaFilePdf />
-                  <span>Download CV</span>
-                </a>
+                  <FaFilePdf size={16} />
+                  <span>Preview &amp; Download CV</span>
+                </button>
 
                 <div className="mobile-nav-socials">
                   <a
@@ -255,11 +244,22 @@ export default function Navbar({ visible }: NavbarProps) {
                     <FaLinkedin size={16} />
                   </a>
                   <a
-                    href="mailto:parthpatel@example.com"
+                    href="https://wa.me/918866077505"
+                    target="_blank"
+                    rel="noreferrer"
                     className="mobile-social-icon"
-                    aria-label="Email Parth"
+                    aria-label="WhatsApp"
                   >
-                    <FaEnvelope size={16} />
+                    <FaWhatsapp size={16} />
+                  </a>
+                  <a
+                    href="https://youtube.com/@parthpatel-333?si=NZhgxUEcBVwg-9Ik"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="mobile-social-icon"
+                    aria-label="YouTube Channel"
+                  >
+                    <FaYoutube size={16} />
                   </a>
                 </div>
               </div>
@@ -267,7 +267,13 @@ export default function Navbar({ visible }: NavbarProps) {
           </>
         )}
       </AnimatePresence>
+
+      {/* In-App Resume Preview Modal */}
+      <ResumeModal
+        isOpen={resumeOpen}
+        onClose={() => setResumeOpen(false)}
+        pdfUrl="/resume/Parth_Patel_CV.pdf"
+      />
     </>
   );
 }
-

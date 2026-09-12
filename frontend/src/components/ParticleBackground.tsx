@@ -10,7 +10,11 @@ interface Particle {
   opacityDir: number;
 }
 
-export default function ParticleBackground() {
+interface ParticleBackgroundProps {
+  theme?: string;
+}
+
+export default function ParticleBackground({ theme }: ParticleBackgroundProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const mouseRef  = useRef({ x: -9999, y: -9999 });
   const frameRef  = useRef<number>(0);
@@ -27,9 +31,9 @@ export default function ParticleBackground() {
     canvas.height = H;
 
     /* ── Config ───────────────────────────────────────── */
-    const COUNT        = Math.min(100, Math.floor((W * H) / 14000));
+    const COUNT        = Math.min(90, Math.floor((W * H) / 14000));
     const MAX_SPEED    = 0.28;   // very slow drift
-    const CONNECT_DIST = 130;    // px — when to draw connecting line
+    const CONNECT_DIST = 120;    // px — when to draw connecting line
     const MOUSE_REPEL  = 110;    // px — mouse repulsion radius
 
     /* ── Init particles ────────────────────────────────── */
@@ -38,7 +42,7 @@ export default function ParticleBackground() {
       y:          Math.random() * H,
       vx:         (Math.random() - 0.5) * MAX_SPEED * 2,
       vy:         (Math.random() - 0.5) * MAX_SPEED * 2,
-      radius:     Math.random() * 1.6 + 0.5,
+      radius:     Math.random() * 1.5 + 0.5,
       opacity:    Math.random(),
       opacityDir: Math.random() > 0.5 ? 1 : -1,
     }));
@@ -49,6 +53,10 @@ export default function ParticleBackground() {
 
       const mx = mouseRef.current.x;
       const my = mouseRef.current.y;
+
+      const currentTheme =
+        theme || document.documentElement.getAttribute("data-theme") || "dark";
+      const isLight = currentTheme === "light";
 
       /* Update + draw each particle */
       for (const p of particles) {
@@ -86,7 +94,9 @@ export default function ParticleBackground() {
         /* Draw dot */
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(255,255,255,${p.opacity * 0.7})`;
+        ctx.fillStyle = isLight
+          ? `rgba(71, 85, 105, ${p.opacity * 0.35})`
+          : `rgba(255, 255, 255, ${p.opacity * 0.65})`;
         ctx.fill();
       }
 
@@ -99,11 +109,13 @@ export default function ParticleBackground() {
           const dy = a.y - b.y;
           const dist = Math.sqrt(dx * dx + dy * dy);
           if (dist < CONNECT_DIST) {
-            const alpha = (1 - dist / CONNECT_DIST) * 0.18;
+            const alpha = (1 - dist / CONNECT_DIST) * 0.16;
             ctx.beginPath();
             ctx.moveTo(a.x, a.y);
             ctx.lineTo(b.x, b.y);
-            ctx.strokeStyle = `rgba(255,255,255,${alpha})`;
+            ctx.strokeStyle = isLight
+              ? `rgba(100, 116, 139, ${alpha * 0.6})`
+              : `rgba(255, 255, 255, ${alpha})`;
             ctx.lineWidth = 0.6;
             ctx.stroke();
           }
@@ -141,7 +153,7 @@ export default function ParticleBackground() {
       window.removeEventListener("mousemove",  onMouseMove);
       window.removeEventListener("mouseleave", onMouseLeave);
     };
-  }, []);
+  }, [theme]);
 
   return (
     <canvas

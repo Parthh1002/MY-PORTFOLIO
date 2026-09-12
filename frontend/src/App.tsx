@@ -3,12 +3,13 @@ import { motion } from "framer-motion";
 import "./index.css";
 import "./App.css";
 import "./components/styles/PremiumProfile.css";
-import { FaGithub, FaLinkedin, FaEnvelope, FaMapMarkerAlt, FaExternalLinkAlt, FaFilePdf, FaStar, FaCodeBranch, FaYoutube, FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaMapMarkerAlt, FaExternalLinkAlt, FaStar, FaCodeBranch, FaYoutube, FaWhatsapp } from "react-icons/fa";
 import ParticleBackground from "./components/ParticleBackground";
 import CinematicIntro from "./components/CinematicIntro";
 import ProfileTilt from "./components/ProfileTilt";
 import Navbar from "./components/Navbar";
-import ThemeSwitcher from "./components/ThemeSwitcher";
+import ThemeSwitcher, { ThemeMode } from "./components/ThemeSwitcher";
+import ResumeAction from "./components/ResumeAction";
 import {
   SiReact, SiTypescript, SiJavascript, SiPython, SiNodedotjs, SiExpress,
   SiMongodb, SiFirebase, SiTailwindcss, SiNextdotjs, SiVite, SiGit,
@@ -273,9 +274,16 @@ const slideUp = { hidden: { opacity: 0, y: 28 }, show: { opacity: 1, y: 0, trans
 export default function App() {
   const [showAll, setShowAll]         = useState(false);
   const [showAllAch, setShowAllAch]   = useState(false);
-  const [theme, setTheme]             = useState<"dark"|"aurora"|"light">("dark");
+  const [theme, setTheme]             = useState<ThemeMode>(() => {
+    return (localStorage.getItem("portfolio_theme") as ThemeMode) || "dark";
+  });
   const [introComplete, setIntroComplete] = useState(false);
   const [repoStats, setRepoStats]     = useState<Record<string, RepoStats>>({});
+
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", theme);
+    document.body.setAttribute("data-theme", theme);
+  }, [theme]);
 
   const visible = showAll ? allProjects : allProjects.slice(0, 4);
   const visibleAch = showAllAch ? achievements : achievements.slice(0, 5);
@@ -324,7 +332,7 @@ export default function App() {
 
   return (
     <div className="portfolio-wrap" data-theme={theme}>
-      <ParticleBackground />
+      <ParticleBackground theme={theme} />
 
       {/* Cinematic Intro — shows on every page load */}
       {!introComplete && <CinematicIntro onComplete={handleIntroComplete} />}
@@ -398,17 +406,9 @@ export default function App() {
                   </li>
                 </motion.ul>
 
-                {/* CV Download Button */}
-                <motion.div variants={slideUp} className="cv-btn-wrap" style={{ marginTop: "20px", marginBottom: "8px" }}>
-                  <a
-                    href="/resume/Parth_Patel_CV.pdf"
-                    download="Parth_Patel_CV.pdf"
-                    className="cv-btn"
-                  >
-                    <FaFilePdf className="cv-btn-icon" />
-                    <span>Download CV</span>
-                    <span className="cv-btn-arrow">↓</span>
-                  </a>
+                {/* Unique Interactive Resume / CV Action */}
+                <motion.div variants={slideUp} className="cv-btn-wrap" style={{ marginTop: "16px", marginBottom: "8px" }}>
+                  <ResumeAction />
                 </motion.div>
 
                 <motion.p variants={slideUp} className="foot dim">Parth Patel · 2025</motion.p>

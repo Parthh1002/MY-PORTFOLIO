@@ -1,8 +1,8 @@
-import { useState } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaSun, FaMoon, FaAdjust, FaCog } from "react-icons/fa";
 
-type ThemeMode = "dark" | "aurora" | "light";
+export type ThemeMode = "dark" | "aurora" | "light";
 
 const MODES: { id: ThemeMode; icon: JSX.Element; label: string }[] = [
   { id: "light",  icon: <FaSun size={14} />,    label: "Light"  },
@@ -10,12 +10,12 @@ const MODES: { id: ThemeMode; icon: JSX.Element; label: string }[] = [
   { id: "aurora", icon: <FaAdjust size={14} />, label: "Aurora" },
 ];
 
-const ACCENTS = [
-  { id: "blue",   color: "#6e7bff", label: "Blue"   },
-  { id: "teal",   color: "#14b8a6", label: "Teal"   },
-  { id: "violet", color: "#8b5cf6", label: "Violet" },
-  { id: "rose",   color: "#f43f5e", label: "Rose"   },
-  { id: "amber",  color: "#f59e0b", label: "Amber"  },
+export const ACCENTS = [
+  { id: "blue",   color: "#6e7bff", label: "Indigo Blue" },
+  { id: "teal",   color: "#14b8a6", label: "Teal Cyan"   },
+  { id: "violet", color: "#8b5cf6", label: "Electric Violet" },
+  { id: "rose",   color: "#f43f5e", label: "Neon Rose"   },
+  { id: "amber",  color: "#f59e0b", label: "Solar Amber"  },
 ];
 
 interface Props {
@@ -25,20 +25,66 @@ interface Props {
 
 export default function ThemeSwitcher({ theme, setTheme }: Props) {
   const [open, setOpen] = useState(false);
-  const [accent, setAccent] = useState("blue");
+  const [accent, setAccent] = useState(() => {
+    return localStorage.getItem("portfolio_accent") || "blue";
+  });
 
-  const applyAccent = (id: string, color: string) => {
+  const applyColors = useCallback((accentId: string, currentTheme: ThemeMode) => {
+    const found = ACCENTS.find((a) => a.id === accentId) || ACCENTS[0];
+    const color = found.color;
+    const rgb = hexToRgb(color);
+
+    const root = document.documentElement;
+    root.setAttribute("data-theme", currentTheme);
+    document.body.setAttribute("data-theme", currentTheme);
+
+    // Accent variable sync
+    root.style.setProperty("--accent-primary", color);
+    root.style.setProperty("--accent-emphasis", color);
+    root.style.setProperty("--accent", color);
+    root.style.setProperty("--a-500", color);
+    root.style.setProperty("--a-rgb", rgb);
+    root.style.setProperty("--accent-primary-rgb", rgb);
+    root.style.setProperty("--accent-surface", `rgba(${rgb}, 0.08)`);
+    root.style.setProperty("--accent-muted", `rgba(${rgb}, 0.16)`);
+    root.style.setProperty("--accent-border", `rgba(${rgb}, 0.32)`);
+    root.style.setProperty("--selection-bg", `rgba(${rgb}, 0.25)`);
+
+    // Foreground typography readability guarantee
+    if (currentTheme === "light") {
+      root.style.setProperty("--fg-1", "#0f172a");
+      root.style.setProperty("--fg-2", `color-mix(in oklab, ${color} 10%, #334155)`);
+      root.style.setProperty("--fg-3", `color-mix(in oklab, ${color} 10%, #64748b)`);
+      root.style.setProperty("--bg-canvas", "#f8fafc");
+      root.style.setProperty("--bg-surface", "#ffffff");
+      root.style.setProperty("--border-default", "rgba(15, 23, 42, 0.1)");
+      root.style.setProperty("--border-subtle", "rgba(15, 23, 42, 0.06)");
+    } else {
+      root.style.setProperty("--fg-1", "#f8fafc");
+      root.style.setProperty("--fg-2", `color-mix(in oklab, ${color} 15%, #cbd5e1)`);
+      root.style.setProperty("--fg-3", `color-mix(in oklab, ${color} 10%, #94a3b8)`);
+      root.style.removeProperty("--bg-canvas");
+      root.style.removeProperty("--bg-surface");
+      root.style.removeProperty("--border-default");
+      root.style.removeProperty("--border-subtle");
+    }
+  }, []);
+
+  // Sync on initial load and whenever theme or accent changes
+  useEffect(() => {
+    applyColors(accent, theme);
+  }, [accent, theme, applyColors]);
+
+  const handleSelectMode = (m: ThemeMode) => {
+    setTheme(m);
+    localStorage.setItem("portfolio_theme", m);
+    applyColors(accent, m);
+  };
+
+  const handleSelectAccent = (id: string) => {
     setAccent(id);
-    document.documentElement.style.setProperty("--accent-primary", color);
-    document.documentElement.style.setProperty("--accent-emphasis", color);
-    document.documentElement.style.setProperty("--a-500", color);
-    document.documentElement.style.setProperty("--fg-2", `color-mix(in oklab, ${color} 25%, #e2e8f0)`);
-    document.documentElement.style.setProperty("--fg-3", `color-mix(in oklab, ${color} 15%, #94a3b8)`);
-    // Also update subtle derived values
-    document.documentElement.style.setProperty(
-      "--accent-primary-rgb",
-      hexToRgb(color)
-    );
+    localStorage.setItem("portfolio_accent", id);
+    applyColors(id, theme);
   };
 
   return (
@@ -51,52 +97,56 @@ export default function ThemeSwitcher({ theme, setTheme }: Props) {
             initial={{ opacity: 0, scale: 0.88, y: 12 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.88, y: 12 }}
-            transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
+            transition={{ duration: 0.22, ease: [0.22, 1, 0.36, 1] }}
           >
-            {/* Mode row */}
+            {/* Theme Mode Toggles */}
             <div className="ts-modes">
-              {MODES.map(m => (
+              {MODES.map((m) => (
                 <button
                   key={m.id}
                   className={`ts-mode-btn${theme === m.id ? " ts-mode-active" : ""}`}
-                  onClick={() => setTheme(m.id)}
-                  title={m.label}
+                  onClick={() => handleSelectMode(m.id)}
+                  title={`${m.label} Mode`}
+                  type="button"
                 >
                   {m.icon}
+                  <span className="ts-mode-label">{m.label}</span>
                 </button>
               ))}
             </div>
 
-            {/* Accent colour row */}
+            {/* Accent Colors Palette */}
             <div className="ts-accents">
-              {ACCENTS.map(a => (
+              {ACCENTS.map((a) => (
                 <button
                   key={a.id}
                   className={`ts-accent-dot${accent === a.id ? " ts-accent-active" : ""}`}
                   style={{ background: a.color }}
-                  onClick={() => applyAccent(a.id, a.color)}
+                  onClick={() => handleSelectAccent(a.id)}
                   title={a.label}
+                  type="button"
                 />
               ))}
             </div>
 
             {/* Footer label */}
             <div className="ts-footer">
-              <FaCog size={11} style={{ opacity: 0.4 }} />
-              <span>Appearance</span>
+              <FaCog size={11} style={{ opacity: 0.5 }} />
+              <span>Appearance &amp; Palette</span>
             </div>
           </motion.div>
         )}
       </AnimatePresence>
 
-      {/* Collapsed pill trigger */}
+      {/* Floating Gear Trigger Button */}
       <button
         className="ts-pill"
-        onClick={() => setOpen(o => !o)}
-        title="Change theme"
-        aria-label="Open theme switcher"
+        onClick={() => setOpen((o) => !o)}
+        title="Customize Theme & Palette"
+        aria-label="Open appearance settings"
+        type="button"
       >
-        <FaCog size={18} />
+        <FaCog size={18} className={open ? "ts-gear-spin" : ""} />
       </button>
     </div>
   );
@@ -104,8 +154,9 @@ export default function ThemeSwitcher({ theme, setTheme }: Props) {
 
 // Helper: hex → "r, g, b" string
 function hexToRgb(hex: string) {
-  const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
-  return result
-    ? `${parseInt(result[1], 16)}, ${parseInt(result[2], 16)}, ${parseInt(result[3], 16)}`
-    : "110, 123, 255";
+  const cleanHex = hex.replace("#", "");
+  const r = parseInt(cleanHex.substring(0, 2), 16);
+  const g = parseInt(cleanHex.substring(2, 4), 16);
+  const b = parseInt(cleanHex.substring(4, 6), 16);
+  return `${r}, ${g}, ${b}`;
 }
