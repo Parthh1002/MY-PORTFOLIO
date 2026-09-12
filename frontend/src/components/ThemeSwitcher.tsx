@@ -5,17 +5,17 @@ import { FaSun, FaMoon, FaAdjust, FaCog } from "react-icons/fa";
 export type ThemeMode = "dark" | "aurora" | "light";
 
 const MODES: { id: ThemeMode; icon: JSX.Element; label: string }[] = [
-  { id: "light",  icon: <FaSun size={14} />,    label: "Light"  },
-  { id: "dark",   icon: <FaMoon size={14} />,   label: "Dark"   },
-  { id: "aurora", icon: <FaAdjust size={14} />, label: "Aurora" },
+  { id: "light",  icon: <FaSun size={13} />,    label: "Light"  },
+  { id: "dark",   icon: <FaMoon size={13} />,   label: "Dark"   },
+  { id: "aurora", icon: <FaAdjust size={13} />, label: "Aurora" },
 ];
 
 export const ACCENTS = [
-  { id: "blue",   color: "#6e7bff", label: "Indigo Blue" },
-  { id: "teal",   color: "#14b8a6", label: "Teal Cyan"   },
-  { id: "violet", color: "#8b5cf6", label: "Electric Violet" },
-  { id: "rose",   color: "#f43f5e", label: "Neon Rose"   },
-  { id: "amber",  color: "#f59e0b", label: "Solar Amber"  },
+  { id: "blue",   dark: "#6366f1", light: "#4338ca", label: "Sapphire Indigo" },
+  { id: "teal",   dark: "#14b8a6", light: "#0f766e", label: "Emerald Teal"    },
+  { id: "violet", dark: "#8b5cf6", light: "#6d28d9", label: "Royal Amethyst"  },
+  { id: "rose",   dark: "#f43f5e", light: "#be123c", label: "Crimson Rose"    },
+  { id: "amber",  dark: "#f59e0b", light: "#b45309", label: "Executive Amber" },
 ];
 
 interface Props {
@@ -31,7 +31,8 @@ export default function ThemeSwitcher({ theme, setTheme }: Props) {
 
   const applyColors = useCallback((accentId: string, currentTheme: ThemeMode) => {
     const found = ACCENTS.find((a) => a.id === accentId) || ACCENTS[0];
-    const color = found.color;
+    const isLight = currentTheme === "light";
+    const color = isLight ? found.light : found.dark;
     const rgb = hexToRgb(color);
 
     const root = document.documentElement;
@@ -45,28 +46,34 @@ export default function ThemeSwitcher({ theme, setTheme }: Props) {
     root.style.setProperty("--a-500", color);
     root.style.setProperty("--a-rgb", rgb);
     root.style.setProperty("--accent-primary-rgb", rgb);
-    root.style.setProperty("--accent-surface", `rgba(${rgb}, 0.08)`);
-    root.style.setProperty("--accent-muted", `rgba(${rgb}, 0.16)`);
-    root.style.setProperty("--accent-border", `rgba(${rgb}, 0.32)`);
-    root.style.setProperty("--selection-bg", `rgba(${rgb}, 0.25)`);
+    root.style.setProperty("--accent-surface", `rgba(${rgb}, ${isLight ? 0.06 : 0.1})`);
+    root.style.setProperty("--accent-muted", `rgba(${rgb}, ${isLight ? 0.12 : 0.18})`);
+    root.style.setProperty("--accent-border", `rgba(${rgb}, ${isLight ? 0.28 : 0.35})`);
+    root.style.setProperty("--selection-bg", `rgba(${rgb}, ${isLight ? 0.18 : 0.28})`);
 
     // Foreground typography readability guarantee
-    if (currentTheme === "light") {
-      root.style.setProperty("--fg-1", "#0f172a");
-      root.style.setProperty("--fg-2", `color-mix(in oklab, ${color} 10%, #334155)`);
-      root.style.setProperty("--fg-3", `color-mix(in oklab, ${color} 10%, #64748b)`);
-      root.style.setProperty("--bg-canvas", "#f8fafc");
+    if (isLight) {
+      root.style.setProperty("--fg-1", "#090d16");
+      root.style.setProperty("--fg-2", "#1e293b");
+      root.style.setProperty("--fg-3", "#475569");
+      root.style.setProperty("--fg-4", "#64748b");
+      root.style.setProperty("--bg-canvas", "#f8f9fc");
       root.style.setProperty("--bg-surface", "#ffffff");
+      root.style.setProperty("--bg-elevated", "#ffffff");
       root.style.setProperty("--border-default", "rgba(15, 23, 42, 0.1)");
       root.style.setProperty("--border-subtle", "rgba(15, 23, 42, 0.06)");
+      root.style.setProperty("--border-strong", "rgba(15, 23, 42, 0.18)");
     } else {
       root.style.setProperty("--fg-1", "#f8fafc");
       root.style.setProperty("--fg-2", `color-mix(in oklab, ${color} 15%, #cbd5e1)`);
       root.style.setProperty("--fg-3", `color-mix(in oklab, ${color} 10%, #94a3b8)`);
+      root.style.removeProperty("--fg-4");
       root.style.removeProperty("--bg-canvas");
       root.style.removeProperty("--bg-surface");
+      root.style.removeProperty("--bg-elevated");
       root.style.removeProperty("--border-default");
       root.style.removeProperty("--border-subtle");
+      root.style.removeProperty("--border-strong");
     }
   }, []);
 
@@ -87,6 +94,10 @@ export default function ThemeSwitcher({ theme, setTheme }: Props) {
     applyColors(id, theme);
   };
 
+  const currentAccentColor = (a: typeof ACCENTS[0]) => {
+    return theme === "light" ? a.light : a.dark;
+  };
+
   return (
     <div className="ts-wrap">
       <AnimatePresence>
@@ -97,7 +108,7 @@ export default function ThemeSwitcher({ theme, setTheme }: Props) {
             initial={{ opacity: 0, scale: 0.88, y: 12 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.88, y: 12 }}
-            transition={{ duration: 0.22, ease: [0.22, 1, 0.36, 1] }}
+            transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
           >
             {/* Theme Mode Toggles */}
             <div className="ts-modes">
@@ -121,7 +132,7 @@ export default function ThemeSwitcher({ theme, setTheme }: Props) {
                 <button
                   key={a.id}
                   className={`ts-accent-dot${accent === a.id ? " ts-accent-active" : ""}`}
-                  style={{ background: a.color }}
+                  style={{ background: currentAccentColor(a) }}
                   onClick={() => handleSelectAccent(a.id)}
                   title={a.label}
                   type="button"
@@ -132,7 +143,7 @@ export default function ThemeSwitcher({ theme, setTheme }: Props) {
             {/* Footer label */}
             <div className="ts-footer">
               <FaCog size={11} style={{ opacity: 0.5 }} />
-              <span>Appearance &amp; Palette</span>
+              <span>Palette &amp; Appearance</span>
             </div>
           </motion.div>
         )}
@@ -146,7 +157,7 @@ export default function ThemeSwitcher({ theme, setTheme }: Props) {
         aria-label="Open appearance settings"
         type="button"
       >
-        <FaCog size={18} className={open ? "ts-gear-spin" : ""} />
+        <FaCog size={17} className={open ? "ts-gear-spin" : ""} />
       </button>
     </div>
   );

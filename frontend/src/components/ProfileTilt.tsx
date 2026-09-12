@@ -1,7 +1,6 @@
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import { MouseEvent, useRef, useState } from "react";
-import InstagramProfileModal from "./InstagramProfileModal";
-import { FaInstagram } from "react-icons/fa";
+import ProfileViewModal from "./ProfileViewModal";
 
 interface ProfileTiltProps {
   src: string;
@@ -67,9 +66,9 @@ export default function ProfileTilt({ src }: ProfileTiltProps) {
             transformStyle: "preserve-3d",
             cursor: "pointer",
           }}
-          whileHover={{ scale: 1.03 }}
-          transition={{ type: "spring", stiffness: 300, damping: 18 }}
-          title="Click to view Instagram-style profile story"
+          whileHover={{ scale: 1.025 }}
+          transition={{ type: "spring", stiffness: 300, damping: 20 }}
+          title="Click to view profile portrait"
         >
           {/* Photo Image */}
           <div
@@ -82,19 +81,13 @@ export default function ProfileTilt({ src }: ProfileTiltProps) {
           {/* Ambient Glow Behind Photo */}
           <div className="profile-glow" style={{ transform: "translateZ(-20px)" }} />
 
-          {/* Instagram Story Ring Glow on Hover */}
-          <div className="profile-ig-badge" style={{ transform: "translateZ(45px)" }}>
-            <FaInstagram size={13} />
-            <span>Story</span>
-          </div>
-
           {/* Interactive Glare / Sheen overlay */}
           <motion.div
             className="profile-glare"
             style={
               {
                 background:
-                  "radial-gradient(circle at var(--gx) var(--gy), rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 60%)",
+                  "radial-gradient(circle at var(--gx) var(--gy), rgba(255,255,255,0.7) 0%, rgba(255,255,255,0) 60%)",
                 opacity: glareOpacity,
                 "--gx": glareX,
                 "--gy": glareY,
@@ -105,8 +98,8 @@ export default function ProfileTilt({ src }: ProfileTiltProps) {
         </motion.div>
       </div>
 
-      {/* Instagram Profile Popup Modal */}
-      <InstagramProfileModal
+      {/* Executive Profile Modal */}
+      <ProfileViewModal
         isOpen={modalOpen}
         onClose={() => setModalOpen(false)}
         src={src}

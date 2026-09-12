@@ -10,7 +10,7 @@ import {
   FaGithub,
   FaLinkedin,
   FaWhatsapp,
-  FaYoutube,
+  FaEnvelope,
 } from "react-icons/fa";
 import ResumeModal from "./ResumeModal";
 
@@ -24,18 +24,18 @@ export default function Navbar({ visible }: NavProps) {
   const [resumeOpen, setResumeOpen] = useState<boolean>(false);
 
   const navLinks = [
-    { id: "projects",    label: "Projects",     icon: <FaBriefcase /> },
-    { id: "experience",  label: "Experience",   icon: <FaUser /> },
-    { id: "education",   label: "Education",    icon: <FaGraduationCap /> },
-    { id: "stack",       label: "Stack",        icon: <FaLayerGroup /> },
-    { id: "achievements",label: "Achievements", icon: <FaTrophy /> },
+    { id: "projects",    label: "Projects",     icon: <FaBriefcase size={11} /> },
+    { id: "experience",  label: "Experience",   icon: <FaUser size={11} /> },
+    { id: "education",   label: "Education",    icon: <FaGraduationCap size={11} /> },
+    { id: "stack",       label: "Stack",        icon: <FaLayerGroup size={11} /> },
+    { id: "achievements",label: "Achievements", icon: <FaTrophy size={11} /> },
   ];
 
   // ScrollSpy to highlight active section in Navbar
   useEffect(() => {
     const handleScroll = () => {
       const sections = navLinks.map((link) => document.getElementById(link.id));
-      const scrollPos = window.scrollY + 200;
+      const scrollPos = window.scrollY + 220;
 
       for (let i = sections.length - 1; i >= 0; i--) {
         const sec = sections[i];
@@ -57,7 +57,7 @@ export default function Navbar({ visible }: NavProps) {
     setMobileMenuOpen(false);
     const el = document.getElementById(id);
     if (el) {
-      const navOffset = 80;
+      const navOffset = 76;
       const elementPosition = el.getBoundingClientRect().top;
       const offsetPosition = elementPosition + window.pageYOffset - navOffset;
       window.scrollTo({
@@ -74,15 +74,15 @@ export default function Navbar({ visible }: NavProps) {
 
   return (
     <>
-      {/* ── Fixed Top Header Bar ─────────────────────────────── */}
+      {/* ── Fixed Floating Top Header Bar ─────────────────────── */}
       <motion.header
         className="navbar-wrapper"
-        initial={{ y: -80, opacity: 0 }}
+        initial={{ y: -70, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ delay: 0.2, duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+        transition={{ delay: 0.2, duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
       >
         <div className="navbar-pill">
-          {/* Logo */}
+          {/* Logo Badge */}
           <button
             className="navbar-logo"
             onClick={scrollToTop}
@@ -90,7 +90,7 @@ export default function Navbar({ visible }: NavProps) {
             type="button"
           >
             <div className="navbar-logo-badge">
-              <FaUser size={11} />
+              <FaUser size={10} />
             </div>
             <span className="navbar-logo-text">PP</span>
           </button>
@@ -110,12 +110,12 @@ export default function Navbar({ visible }: NavProps) {
                   type="button"
                 >
                   <span className="nav-btn-icon">{link.icon}</span>
-                  <span>{link.label}</span>
+                  <span className="nav-btn-label">{link.label}</span>
                   {isActive && (
                     <motion.div
                       layoutId="activePill"
                       className="nav-active-indicator"
-                      transition={{ type: "spring", stiffness: 350, damping: 30 }}
+                      transition={{ type: "spring", stiffness: 380, damping: 32 }}
                     />
                   )}
                 </button>
@@ -125,19 +125,19 @@ export default function Navbar({ visible }: NavProps) {
 
           <div className="navbar-divider desktop-only" />
 
-          {/* Desktop CV Quick Action */}
+          {/* Desktop CV Action Pill */}
           <button
             className="nav-cv-quick-btn desktop-only"
             onClick={() => setResumeOpen(true)}
-            title="Preview &amp; Download CV"
+            title="Preview &amp; Download Resume"
             type="button"
           >
-            <FaFilePdf size={12} />
+            <FaFilePdf size={11} />
             <span>CV</span>
             <span className="nav-cv-quick-dot" />
           </button>
 
-          {/* Mobile Hamburger Toggle Button */}
+          {/* Mobile Hamburger Button */}
           <button
             className={`navbar-hamburger mobile-only ${mobileMenuOpen ? "is-active" : ""}`}
             onClick={() => setMobileMenuOpen((prev) => !prev)}
@@ -154,38 +154,36 @@ export default function Navbar({ visible }: NavProps) {
         </div>
       </motion.header>
 
-      {/* ── Mobile Menu Overlay / Drawer ──────────────────────── */}
+      {/* ── Mobile Menu Drawer ───────────────────────────────── */}
       <AnimatePresence>
         {mobileMenuOpen && (
           <>
-            {/* Backdrop */}
             <motion.div
               key="mobile-nav-backdrop"
               className="mobile-nav-backdrop"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              transition={{ duration: 0.25 }}
+              transition={{ duration: 0.22 }}
               onClick={() => setMobileMenuOpen(false)}
             />
 
-            {/* Slide-up Menu Card */}
             <motion.div
               key="mobile-nav-menu"
               className="mobile-nav-card"
-              initial={{ opacity: 0, y: 20, scale: 0.96 }}
+              initial={{ opacity: 0, y: 16, scale: 0.96 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
-              exit={{ opacity: 0, y: 20, scale: 0.96 }}
-              transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
+              exit={{ opacity: 0, y: 16, scale: 0.96 }}
+              transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
             >
               <div className="mobile-nav-header">
                 <div className="mobile-nav-user">
                   <div className="navbar-logo-badge">
-                    <FaUser size={12} />
+                    <FaUser size={11} />
                   </div>
                   <div>
                     <div className="mobile-nav-name">Parth Patel</div>
-                    <div className="mobile-nav-sub">Fullstack &amp; AI Developer</div>
+                    <div className="mobile-nav-sub">Creative Fullstack &amp; AI Developer</div>
                   </div>
                 </div>
               </div>
@@ -196,9 +194,9 @@ export default function Navbar({ visible }: NavProps) {
                   return (
                     <motion.button
                       key={link.id}
-                      initial={{ opacity: 0, x: -12 }}
+                      initial={{ opacity: 0, x: -10 }}
                       animate={{ opacity: 1, x: 0 }}
-                      transition={{ delay: 0.04 * idx, duration: 0.2 }}
+                      transition={{ delay: 0.03 * idx, duration: 0.2 }}
                       className={`mobile-nav-btn ${isActive ? "mobile-nav-btn-active" : ""}`}
                       onClick={() => scrollTo(link.id)}
                       type="button"
@@ -220,8 +218,8 @@ export default function Navbar({ visible }: NavProps) {
                   }}
                   type="button"
                 >
-                  <FaFilePdf size={16} />
-                  <span>Preview &amp; Download CV</span>
+                  <FaFilePdf size={15} />
+                  <span>Preview &amp; Download Resume</span>
                 </button>
 
                 <div className="mobile-nav-socials">
@@ -244,6 +242,13 @@ export default function Navbar({ visible }: NavProps) {
                     <FaLinkedin size={16} />
                   </a>
                   <a
+                    href="mailto:parthh1002@gmail.com"
+                    className="mobile-social-icon"
+                    aria-label="Email Parth"
+                  >
+                    <FaEnvelope size={15} />
+                  </a>
+                  <a
                     href="https://wa.me/918866077505"
                     target="_blank"
                     rel="noreferrer"
@@ -251,15 +256,6 @@ export default function Navbar({ visible }: NavProps) {
                     aria-label="WhatsApp"
                   >
                     <FaWhatsapp size={16} />
-                  </a>
-                  <a
-                    href="https://youtube.com/@parthpatel-333?si=NZhgxUEcBVwg-9Ik"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="mobile-social-icon"
-                    aria-label="YouTube Channel"
-                  >
-                    <FaYoutube size={16} />
                   </a>
                 </div>
               </div>
