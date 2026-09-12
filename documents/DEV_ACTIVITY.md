@@ -1,1 +1,1 @@
-- 2026-09-12 22:40:55 +0530: feat(ui): add subtle ambient gradient glow behind active cards
+- 2026-09-12 22:41:43 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
