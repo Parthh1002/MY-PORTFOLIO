@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { createPortal } from "react-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaTimes, FaGithub, FaLinkedin, FaWhatsapp, FaEnvelope, FaCode, FaGraduationCap, FaMapMarkerAlt } from "react-icons/fa";
 
@@ -25,7 +26,7 @@ export default function ProfileViewModal({ isOpen, onClose, src }: ProfileViewMo
     };
   }, [isOpen, onClose]);
 
-  return (
+  return createPortal(
     <AnimatePresence>
       {isOpen && (
         <motion.div
@@ -141,6 +142,7 @@ export default function ProfileViewModal({ isOpen, onClose, src }: ProfileViewMo
           </motion.div>
         </motion.div>
       )}
-    </AnimatePresence>
+    </AnimatePresence>,
+    document.body
   );
 }
