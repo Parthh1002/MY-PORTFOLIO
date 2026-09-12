@@ -407,8 +407,8 @@ export default function App() {
     <div className="portfolio-wrap" data-theme={theme}>
       <ParticleBackground theme={theme} />
 
-      {/* Cinematic Intro — shows on every page load */}
-      {!introComplete && <CinematicIntro onComplete={handleIntroComplete} />}
+      {/* Cinematic Intro — shows on every page load and adapts to user's saved theme */}
+      {!introComplete && <CinematicIntro onComplete={handleIntroComplete} theme={theme} />}
 
       {introComplete && (
         <>

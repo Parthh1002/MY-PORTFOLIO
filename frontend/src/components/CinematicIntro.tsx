@@ -3,27 +3,56 @@ import { useEffect, useState } from "react";
 
 interface IntroProps {
   onComplete: () => void;
+  theme?: string;
 }
 
 // Each phase:
-// 0  → black screen (200ms)
+// 0  → blank screen (200ms)
 // 1  → "PP" monogram slams in (600ms)
 // 2  → Monogram fades, "PARTH PATEL" letters reveal (800ms)
 // 3  → Hold (500ms)
 // 4  → Exit: upward wipe reveals dashboard
 
-export default function CinematicIntro({ onComplete }: IntroProps) {
+export default function CinematicIntro({ onComplete, theme }: IntroProps) {
   const [phase, setPhase] = useState<0 | 1 | 2 | 3 | 4>(0);
+
+  // Check if current or saved theme is light
+  const isLight =
+    (theme ||
+      (typeof window !== "undefined"
+        ? localStorage.getItem("portfolio_theme")
+        : "dark")) === "light";
 
   useEffect(() => {
     const t0 = setTimeout(() => setPhase(1), 200);
     const t1 = setTimeout(() => setPhase(2), 800);
     const t2 = setTimeout(() => setPhase(3), 1700);
     const t3 = setTimeout(() => setPhase(4), 2300);
-    return () => { clearTimeout(t0); clearTimeout(t1); clearTimeout(t2); clearTimeout(t3); };
+    return () => {
+      clearTimeout(t0);
+      clearTimeout(t1);
+      clearTimeout(t2);
+      clearTimeout(t3);
+    };
   }, []);
 
   const nameText = "PARTH PATEL";
+
+  // Dynamic Theme Aesthetics
+  const bgColor = isLight ? "#ffffff" : "#080909";
+  const vignette = isLight
+    ? "radial-gradient(ellipse 70% 60% at 50% 50%, rgba(15,23,42,0.04) 0%, transparent 70%)"
+    : "radial-gradient(ellipse 70% 60% at 50% 50%, rgba(255,255,255,0.03) 0%, transparent 70%)";
+  const p1Color = isLight ? "#090d16" : "#ffffff";
+  const p2Color = isLight ? "rgba(15, 23, 42, 0.22)" : "rgba(255, 255, 255, 0.25)";
+  const glowColor = isLight
+    ? "radial-gradient(circle, rgba(14, 165, 233, 0.22) 0%, transparent 70%)"
+    : "radial-gradient(circle, rgba(255, 255, 255, 0.18) 0%, transparent 70%)";
+  const letterColor = isLight ? "#090d16" : "#ffffff";
+  const subtitleColor = isLight ? "rgba(15, 23, 42, 0.55)" : "rgba(255, 255, 255, 0.45)";
+  const scanLineBg = isLight
+    ? "linear-gradient(90deg, transparent, rgba(15, 23, 42, 0.35), transparent)"
+    : "linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent)";
 
   return (
     <AnimatePresence onExitComplete={onComplete}>
@@ -34,15 +63,18 @@ export default function CinematicIntro({ onComplete }: IntroProps) {
           initial={{ y: 0 }}
           exit={{ y: "-100vh", transition: { duration: 0.85, ease: [0.76, 0, 0.24, 1] } }}
         >
-          {/* Deep black base */}
-          <div style={{ position: "absolute", inset: 0, background: "#080909" }} />
+          {/* Base background */}
+          <div style={{ position: "absolute", inset: 0, background: bgColor }} />
 
           {/* Subtle radial vignette */}
-          <div style={{
-            position: "absolute", inset: 0,
-            background: "radial-gradient(ellipse 70% 60% at 50% 50%, rgba(255,255,255,0.03) 0%, transparent 70%)",
-            pointerEvents: "none",
-          }} />
+          <div
+            style={{
+              position: "absolute",
+              inset: 0,
+              background: vignette,
+              pointerEvents: "none",
+            }}
+          />
 
           {/* ── Phase 1: PP Monogram (Netflix-style logo slam) ── */}
           <AnimatePresence>
@@ -55,14 +87,14 @@ export default function CinematicIntro({ onComplete }: IntroProps) {
                 exit={{ opacity: 0, scale: 0.85, transition: { duration: 0.25, ease: "easeIn" } }}
               >
                 <div style={monogramStyle}>
-                  <span style={monogramLetterStyle}>P</span>
-                  <span style={{ ...monogramLetterStyle, color: "rgba(255,255,255,0.25)" }}>P</span>
+                  <span style={{ ...monogramLetterStyle, color: p1Color }}>P</span>
+                  <span style={{ ...monogramLetterStyle, color: p2Color }}>P</span>
                 </div>
                 {/* Glow pulse behind monogram */}
                 <motion.div
-                  style={monogramGlowStyle}
+                  style={{ ...monogramGlowStyle, background: glowColor }}
                   initial={{ opacity: 0, scale: 0.6 }}
-                  animate={{ opacity: [0, 0.6, 0], scale: [0.6, 1.5, 2], transition: { duration: 0.7, ease: "easeOut" } }}
+                  animate={{ opacity: [0, 0.7, 0], scale: [0.6, 1.5, 2.1], transition: { duration: 0.7, ease: "easeOut" } }}
                 />
               </motion.div>
             )}
@@ -93,7 +125,10 @@ export default function CinematicIntro({ onComplete }: IntroProps) {
                           ease: [0.22, 1, 0.36, 1],
                         },
                       }}
-                      style={letterStyle(char)}
+                      style={{
+                        ...letterStyle(char),
+                        color: letterColor,
+                      }}
                     >
                       {char === " " ? "\u00A0" : char}
                     </motion.span>
@@ -104,7 +139,10 @@ export default function CinematicIntro({ onComplete }: IntroProps) {
                 <motion.div
                   initial={{ opacity: 0, y: 8 }}
                   animate={{ opacity: 1, y: 0, transition: { delay: 0.65, duration: 0.5, ease: "easeOut" } }}
-                  style={subtitleStyle}
+                  style={{
+                    ...subtitleStyle,
+                    color: subtitleColor,
+                  }}
                 >
                   Creative Developer &amp; Fullstack Engineer
                 </motion.div>
@@ -113,7 +151,10 @@ export default function CinematicIntro({ onComplete }: IntroProps) {
                 <motion.div
                   initial={{ scaleX: 0, opacity: 0 }}
                   animate={{ scaleX: 1, opacity: 1, transition: { delay: 0.5, duration: 0.5, ease: [0.22, 1, 0.36, 1] } }}
-                  style={scanLineStyle}
+                  style={{
+                    ...scanLineStyle,
+                    background: scanLineBg,
+                  }}
                 />
               </motion.div>
             )}
@@ -159,7 +200,6 @@ const monogramLetterStyle: React.CSSProperties = {
   fontFamily: "'Source Serif 4', serif",
   fontSize: "clamp(64px, 16vw, 120px)",
   fontWeight: 600,
-  color: "#ffffff",
   display: "inline-block",
   lineHeight: 1,
 };
@@ -169,7 +209,6 @@ const monogramGlowStyle: React.CSSProperties = {
   width: "280px",
   height: "280px",
   borderRadius: "50%",
-  background: "radial-gradient(circle, rgba(255,255,255,0.18) 0%, transparent 70%)",
   zIndex: 1,
 };
 
@@ -178,7 +217,6 @@ const letterStyle = (char: string): React.CSSProperties => ({
   fontFamily: "'Geist', sans-serif",
   fontSize: "clamp(28px, 7.5vw, 58px)",
   fontWeight: 500,
-  color: "#ffffff",
   letterSpacing: "0.18em",
   lineHeight: 1,
   marginRight: char === " " ? "0.5em" : "0",
@@ -188,7 +226,6 @@ const subtitleStyle: React.CSSProperties = {
   fontFamily: "'Geist', sans-serif",
   fontSize: "clamp(11px, 2vw, 14px)",
   fontWeight: 400,
-  color: "rgba(255,255,255,0.45)",
   letterSpacing: "0.22em",
   textTransform: "uppercase",
 };
@@ -200,6 +237,5 @@ const scanLineStyle: React.CSSProperties = {
   transform: "translateX(-50%)",
   width: "clamp(180px, 40vw, 320px)",
   height: "1px",
-  background: "linear-gradient(90deg, transparent, rgba(255,255,255,0.5), transparent)",
   transformOrigin: "left center",
 };
