@@ -1,1 +1,1 @@
-- 2026-09-12 11:16:03 +0530: feat(ui): integrate tactile scale down feedback on click interactions
+- 2026-09-12 11:17:55 +0530: perf(render): enable content-visibility auto for offscreen sections
