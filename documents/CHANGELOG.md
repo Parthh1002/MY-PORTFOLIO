@@ -2947,3 +2947,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `fix(ui): audit remove deprecated debug logs and unused asset references`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #590] - 2026-09-12 10:41:00 +0530
+- **Phase**: Phase 6: Silky Smooth Polish, Micro-Interactions & Final Launch
+- **Commit**: `refactor(navbar): harmonize smooth scrolling to all sections on desktop and mobile`
+- **Verification**: Passed all automated test suites and production build checks.
+
