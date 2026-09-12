@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { createPortal } from "react-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaTimes, FaDownload, FaExternalLinkAlt, FaFilePdf, FaEnvelope } from "react-icons/fa";
 
@@ -25,7 +26,7 @@ export default function ResumeModal({ isOpen, onClose, pdfUrl }: ResumeModalProp
     };
   }, [isOpen, onClose]);
 
-  return (
+  return createPortal(
     <AnimatePresence>
       {isOpen && (
         <motion.div
@@ -133,6 +134,7 @@ export default function ResumeModal({ isOpen, onClose, pdfUrl }: ResumeModalProp
           </motion.div>
         </motion.div>
       )}
-    </AnimatePresence>
+    </AnimatePresence>,
+    document.body
   );
 }
