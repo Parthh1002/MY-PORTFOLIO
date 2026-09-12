@@ -2415,3 +2415,479 @@ html, body {
   background: rgba(15,23,42,0.12);
   color: var(--fg-1);
 }
+
+/* ═══════════════════════════════════════════════════════════
+   TRANSPARENT PROJECT DETAILS BUTTON
+   ═══════════════════════════════════════════════════════════ */
+.proj-details-btn {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.16) !important;
+  color: var(--accent-emphasis) !important;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: inherit;
+  font-weight: 600;
+  transition: all 0.22s cubic-bezier(0.2, 0.8, 0.2, 1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.proj-details-btn:hover {
+  background: rgba(var(--a-rgb), 0.18) !important;
+  border-color: var(--accent-primary) !important;
+  color: #ffffff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(var(--a-rgb), 0.3);
+}
+
+[data-theme="light"] .proj-details-btn {
+  background: rgba(15, 23, 42, 0.04) !important;
+  border: 1px solid rgba(15, 23, 42, 0.14) !important;
+  color: var(--accent-primary) !important;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.05);
+}
+
+[data-theme="light"] .proj-details-btn:hover {
+  background: var(--accent-primary) !important;
+  border-color: var(--accent-primary) !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 14px rgba(var(--a-rgb), 0.25);
+}
+
+/* ═══════════════════════════════════════════════════════════
+   FULL-SCREEN PROJECT DETAIL & CASE STUDY MODAL
+   ═══════════════════════════════════════════════════════════ */
+.pdm-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 99999999;
+  background: rgba(6, 8, 14, 0.84);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+[data-theme="light"] .pdm-backdrop {
+  background: rgba(15, 23, 42, 0.76);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.pdm-card {
+  width: 100%;
+  max-width: 820px;
+  max-height: 88vh;
+  background: #0f111a;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 24px;
+  box-shadow: 0 32px 100px rgba(0, 0, 0, 0.9), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  z-index: 100000000;
+}
+
+[data-theme="light"] .pdm-card {
+  background: #ffffff;
+  border: 1px solid rgba(15, 23, 42, 0.14);
+  box-shadow: 0 32px 100px rgba(15, 23, 42, 0.25);
+}
+
+/* Header */
+.pdm-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 24px 28px 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+[data-theme="light"] .pdm-header {
+  border-bottom-color: rgba(15, 23, 42, 0.08);
+}
+
+.pdm-header-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.pdm-meta-tags {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.pdm-year-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 8px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  color: var(--fg-2);
+}
+
+[data-theme="light"] .pdm-year-tag {
+  background: rgba(15, 23, 42, 0.05);
+  border-color: rgba(15, 23, 42, 0.1);
+  color: #475569;
+}
+
+.pdm-cat-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 8px;
+  background: rgba(var(--a-rgb), 0.1);
+  border: 1px solid rgba(var(--a-rgb), 0.25);
+  border-radius: 6px;
+  color: var(--accent-emphasis);
+}
+
+.pdm-status-badge {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 3px 8px;
+  background: #22c55e;
+  color: #000;
+  border-radius: 6px;
+  letter-spacing: 0.04em;
+}
+
+.pdm-title {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--fg-1);
+  margin: 2px 0 0;
+  letter-spacing: -0.02em;
+}
+
+[data-theme="light"] .pdm-title {
+  color: #0f172a;
+}
+
+.pdm-org {
+  font-size: 13px;
+  color: var(--fg-3);
+  font-weight: 500;
+  margin: 0;
+}
+
+[data-theme="light"] .pdm-org {
+  color: #64748b;
+}
+
+.pdm-close-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  color: var(--fg-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.22s ease;
+  flex-shrink: 0;
+}
+
+[data-theme="light"] .pdm-close-btn {
+  background: rgba(15, 23, 42, 0.06);
+  border-color: rgba(15, 23, 42, 0.12);
+  color: #334155;
+}
+
+.pdm-close-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  transform: rotate(90deg) scale(1.08);
+}
+
+[data-theme="light"] .pdm-close-btn:hover {
+  background: rgba(15, 23, 42, 0.12);
+  color: #0f172a;
+}
+
+/* Working Action Links Bar */
+.pdm-links-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 28px;
+  background: rgba(255, 255, 255, 0.02);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  flex-wrap: wrap;
+}
+
+[data-theme="light"] .pdm-links-bar {
+  background: rgba(15, 23, 42, 0.02);
+  border-bottom-color: rgba(15, 23, 42, 0.06);
+}
+
+.pdm-action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 14px;
+  border-radius: 100px;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--fg-1);
+}
+
+[data-theme="light"] .pdm-action-btn {
+  background: #ffffff;
+  border-color: rgba(15, 23, 42, 0.12);
+  color: #0f172a;
+  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.04);
+}
+
+.pdm-action-btn:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary);
+  color: var(--accent-emphasis);
+  box-shadow: 0 4px 12px rgba(var(--a-rgb), 0.2);
+}
+
+.pdm-btn-live {
+  background: var(--accent-primary) !important;
+  color: #ffffff !important;
+  border-color: var(--accent-primary) !important;
+  box-shadow: 0 4px 14px rgba(var(--a-rgb), 0.35);
+}
+
+.pdm-btn-live:hover {
+  filter: brightness(1.1);
+  box-shadow: 0 6px 20px rgba(var(--a-rgb), 0.5);
+}
+
+.pdm-btn-arrow {
+  font-size: 13px;
+  opacity: 0.75;
+}
+
+/* Scrollable Body Content */
+.pdm-body {
+  padding: 24px 28px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  flex: 1;
+}
+
+.pdm-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.pdm-sec-title {
+  font-size: 12.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--fg-1);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+[data-theme="light"] .pdm-sec-title {
+  color: #0f172a;
+}
+
+.pdm-sec-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent-primary);
+  box-shadow: 0 0 8px var(--accent-primary);
+}
+
+.pdm-desc-text {
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: var(--fg-2);
+  margin: 0;
+}
+
+[data-theme="light"] .pdm-desc-text {
+  color: #334155;
+}
+
+.pdm-features-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 9px;
+}
+
+.pdm-feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 14px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 12px;
+  font-size: 13.5px;
+  color: var(--fg-2);
+  line-height: 1.5;
+}
+
+[data-theme="light"] .pdm-feature-item {
+  background: #f8fafc;
+  border-color: rgba(15, 23, 42, 0.07);
+  color: #1e293b;
+}
+
+.pdm-feat-icon {
+  color: var(--accent-primary);
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+
+.pdm-stack-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pdm-stack-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  background: rgba(var(--a-rgb), 0.08);
+  border: 1px solid rgba(var(--a-rgb), 0.2);
+  border-radius: 100px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent-emphasis);
+}
+
+/* Footer */
+.pdm-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 28px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(0, 0, 0, 0.2);
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+[data-theme="light"] .pdm-footer {
+  border-top-color: rgba(15, 23, 42, 0.08);
+  background: #f8fafc;
+}
+
+.pdm-footer-note {
+  font-size: 12px;
+  color: var(--fg-3);
+}
+
+[data-theme="light"] .pdm-footer-note {
+  color: #64748b;
+}
+
+.pdm-footer-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pdm-footer-close {
+  padding: 7px 16px;
+  border-radius: 100px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--fg-2);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+[data-theme="light"] .pdm-footer-close {
+  border-color: rgba(15, 23, 42, 0.15);
+  color: #475569;
+}
+
+.pdm-footer-close:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--fg-1);
+}
+
+.pdm-footer-live {
+  padding: 7px 18px;
+  border-radius: 100px;
+  background: var(--accent-primary);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s;
+  box-shadow: 0 2px 10px rgba(var(--a-rgb), 0.35);
+}
+
+.pdm-footer-live:hover {
+  filter: brightness(1.1);
+}
+
+/* Mobile Responsiveness for Modal */
+@media (max-width: 640px) {
+  .pdm-backdrop {
+    padding: 12px;
+  }
+  .pdm-card {
+    max-height: 94vh;
+    border-radius: 18px;
+  }
+  .pdm-header {
+    padding: 18px 18px 14px;
+  }
+  .pdm-title {
+    font-size: 20px;
+  }
+  .pdm-links-bar {
+    padding: 10px 18px;
+    gap: 6px;
+  }
+  .pdm-action-btn {
+    padding: 6px 10px;
+    font-size: 11px;
+  }
+  .pdm-body {
+    padding: 16px 18px;
+    gap: 16px;
+  }
+  .pdm-footer {
+    padding: 12px 18px;
+  }
+  .pdm-footer-note {
+    display: none;
+  }
+}
