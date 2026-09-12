@@ -3,7 +3,10 @@ import { motion } from "framer-motion";
 import "./index.css";
 import "./App.css";
 import "./components/styles/PremiumProfile.css";
-import { FaGithub, FaLinkedin, FaEnvelope, FaMapMarkerAlt, FaExternalLinkAlt, FaStar, FaCodeBranch, FaYoutube, FaWhatsapp, FaExpandAlt } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaMapMarkerAlt, FaExternalLinkAlt, FaStar, FaCodeBranch, FaYoutube, FaWhatsapp, FaExpandAlt, FaAws } from "react-icons/fa";
+import { IoLogoTableau } from "react-icons/io5";
+import { RiOpenaiFill, RiClaudeFill } from "react-icons/ri";
+import { VscVscode } from "react-icons/vsc";
 import ParticleBackground from "./components/ParticleBackground";
 import CinematicIntro from "./components/CinematicIntro";
 import ProfileTilt from "./components/ProfileTilt";
@@ -16,7 +19,7 @@ import {
   SiMongodb, SiFirebase, SiTailwindcss, SiNextdotjs, SiVite, SiGit,
   SiGithub, SiFigma, SiVercel, SiDocker, SiMysql, SiSupabase, SiFastapi,
   SiPytorch, SiOpencv, SiHtml5, SiCss, SiLinux, SiFramer,
-  SiVscodium, SiCplusplus, SiPostman, SiTensorflow, SiKubernetes, SiGsap, SiNumpy,
+  SiCplusplus, SiPostman, SiTensorflow, SiKubernetes, SiGsap, SiNumpy,
 } from "react-icons/si";
 
 // ─── TYPES ───────────────────────────────────────────────────────────────────
@@ -248,7 +251,7 @@ const stackRows: StackRow[] = [
     label: "Frontend",
     items: [
       { name: "React.js",      icon: <SiReact />,       color: "#61DAFB", desc: "Component-based UI library. Powers fast, interactive web apps with a virtual DOM." },
-      { name: "Next.js",       icon: <SiNextdotjs />,   color: "#ffffff", desc: "Full-stack React framework with SSR, SSG, file-based routing and built-in API routes." },
+      { name: "Next.js",       icon: <SiNextdotjs />,   color: "var(--fg-1)", desc: "Full-stack React framework with SSR, SSG, file-based routing and built-in API routes." },
       { name: "Vite",          icon: <SiVite />,        color: "#646CFF", desc: "Lightning-fast build tool and dev server. HMR in milliseconds for modern web projects." },
       { name: "Tailwind CSS",  icon: <SiTailwindcss />, color: "#06B6D4", desc: "Utility-first CSS framework for rapid, consistent, and highly customizable UI development." },
       { name: "Framer Motion", icon: <SiFramer />,      color: "#0055FF", desc: "Production-ready animation library for React. Powers smooth, physics-based interactions." },
@@ -259,7 +262,7 @@ const stackRows: StackRow[] = [
     label: "Backend",
     items: [
       { name: "Node.js",  icon: <SiNodedotjs />, color: "#339933", desc: "JavaScript runtime for server-side development. Powers scalable, event-driven backend APIs." },
-      { name: "Express",  icon: <SiExpress />,   color: "#888888", desc: "Minimal, unopinionated web framework for Node.js. Great for building REST APIs fast." },
+      { name: "Express",  icon: <SiExpress />,   color: "var(--fg-1)", desc: "Minimal, unopinionated web framework for Node.js. Great for building REST APIs fast." },
       { name: "FastAPI",  icon: <SiFastapi />,   color: "#009688", desc: "Modern Python API framework. Auto-generates OpenAPI docs and is built for high performance." },
     ],
   },
@@ -267,7 +270,7 @@ const stackRows: StackRow[] = [
     label: "Database",
     items: [
       { name: "MongoDB",  icon: <SiMongodb />,  color: "#47A248", desc: "NoSQL document database. Flexible, JSON-like storage that scales with your application." },
-      { name: "Firebase", icon: <SiFirebase />, color: "#FFCA28", desc: "Google's BaaS with real-time DB, authentication, cloud functions and easy deployment." },
+      { name: "Firebase", icon: <SiFirebase />, color: "#FFA000", desc: "Google's BaaS with real-time DB, authentication, cloud functions and easy deployment." },
       { name: "Supabase", icon: <SiSupabase />, color: "#3ECF8E", desc: "Open-source Firebase alternative built on PostgreSQL with real-time and auth capabilities." },
       { name: "MySQL",    icon: <SiMysql />,    color: "#4479A1", desc: "Reliable relational database management system for structured, transactional data." },
     ],
@@ -279,14 +282,14 @@ const stackRows: StackRow[] = [
       { name: "TensorFlow", icon: <SiTensorflow />, color: "#FF6F00", desc: "Google's end-to-end ML platform for training, evaluating, and deploying neural networks." },
       { name: "NumPy",      icon: <SiNumpy />,      color: "#4DABCF", desc: "Fundamental Python package for numerical computing, array operations, and linear algebra." },
       { name: "OpenCV",     icon: <SiOpencv />,     color: "#5C3EE8", desc: "Open-source computer vision library for image processing, object detection, and video analysis." },
-      { name: "OpenAI API", icon: <svg viewBox="0 0 24 24" fill="currentColor" style={{width:"1em",height:"1em"}}><path d="M22.28 9.28a5.76 5.76 0 0 0-.49-4.73 5.82 5.82 0 0 0-6.27-2.79A5.76 5.76 0 0 0 11.18 0a5.82 5.82 0 0 0-5.55 4.03 5.76 5.76 0 0 0-3.84 2.79 5.82 5.82 0 0 0 .71 6.82 5.76 5.76 0 0 0 .49 4.73 5.82 5.82 0 0 0 6.27 2.79A5.76 5.76 0 0 0 12.82 24a5.82 5.82 0 0 0 5.55-4.04 5.76 5.76 0 0 0 3.84-2.79 5.82 5.82 0 0 0-.72-6.89z"/></svg>, color: "#412991", desc: "Access GPT-4, DALL-E and Whisper APIs for AI-powered text generation, vision and code." },
+      { name: "OpenAI API", icon: <RiOpenaiFill />, color: "#10A37F", desc: "Access GPT-4, DALL-E and Whisper APIs for AI-powered text generation, vision and code." },
     ],
   },
   {
     label: "Cloud & DevOps",
     items: [
-      { name: "Vercel",      icon: <SiVercel />,      color: "#ffffff", desc: "Zero-config deployment platform for frontend frameworks. Instant global CDN. Powers this site!" },
-      { name: "AWS",         icon: <span style={{fontFamily:"monospace",fontSize:"13px",fontWeight:700}}>AWS</span>, color: "#FF9900", desc: "Amazon Web Services — industry-leading cloud with 200+ services for computing, storage, and AI." },
+      { name: "Vercel",      icon: <SiVercel />,      color: "var(--fg-1)", desc: "Zero-config deployment platform for frontend frameworks. Instant global CDN. Powers this site!" },
+      { name: "AWS",         icon: <FaAws />,         color: "#FF9900", desc: "Amazon Web Services — industry-leading cloud with 200+ services for computing, storage, and AI." },
       { name: "Docker",      icon: <SiDocker />,      color: "#2496ED", desc: "Containerization platform for packaging apps with all dependencies into portable containers." },
       { name: "Linux",       icon: <SiLinux />,       color: "#FCC624", desc: "Open-source OS powering the majority of the world's servers and cloud infrastructure." },
       { name: "Kubernetes",  icon: <SiKubernetes />,  color: "#326CE5", desc: "Container orchestration system for automating deployment, scaling, and management of apps." },
@@ -296,12 +299,12 @@ const stackRows: StackRow[] = [
     label: "Tools",
     items: [
       { name: "Git",     icon: <SiGit />,     color: "#F05032", desc: "Distributed version control. Track every change, branch freely, and collaborate on code." },
-      { name: "GitHub",  icon: <SiGithub />,  color: "#ffffff", desc: "Platform for hosting Git repositories with CI/CD, Actions, and collaborative code review." },
+      { name: "GitHub",  icon: <SiGithub />,  color: "var(--fg-1)", desc: "Platform for hosting Git repositories with CI/CD, Actions, and collaborative code review." },
       { name: "Figma",   icon: <SiFigma />,   color: "#F24E1E", desc: "Browser-based design tool for UI/UX prototyping, design systems, and team collaboration." },
-      { name: "VS Code", icon: <SiVscodium />,color: "#007ACC", desc: "Lightweight yet powerful code editor by Microsoft with a rich extension marketplace." },
+      { name: "VS Code", icon: <VscVscode />, color: "#007ACC", desc: "Lightweight yet powerful code editor by Microsoft with a rich extension marketplace." },
       { name: "Postman", icon: <SiPostman />, color: "#FF6C37", desc: "API development and testing platform. Design, test, and document REST and GraphQL APIs." },
-      { name: "Claude / Anthropic", icon: <svg viewBox="0 0 24 24" fill="currentColor" style={{width:"1em",height:"1em"}}><path d="M13.827 3.52h3.603L24 20.48h-3.603l-6.57-16.96zM6.232 3.52H9.77L16.5 20.48h-3.634l-6.634-16.96z"/></svg>, color: "#D97706", desc: "Constitutional AI by Anthropic. Exceptional at reasoning, safety, and long-context tasks." },
-      { name: "Tableau", icon: <span style={{fontFamily:"monospace",fontSize:"11px",fontWeight:700}}>TAB</span>, color: "#E97627", desc: "Industry-leading data visualization tool for building interactive dashboards and analytics." },
+      { name: "Claude / Anthropic", icon: <RiClaudeFill />, color: "#D97706", desc: "Constitutional AI by Anthropic. Exceptional at reasoning, safety, and long-context tasks." },
+      { name: "Tableau", icon: <IoLogoTableau />, color: "#E97627", desc: "Industry-leading data visualization tool for building interactive dashboards and analytics." },
     ],
   },
 ];
