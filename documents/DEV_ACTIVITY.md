@@ -1,1 +1,1 @@
-- 2026-09-12 10:23:24 +0530: fix(layout): normalize margin collapse across nested article sections
+- 2026-09-12 10:28:28 +0530: perf(render): debounce window resize and orientation change handlers
