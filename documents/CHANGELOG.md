@@ -2927,3 +2927,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(perf): integrate preserve visible focus indicator during keyboard navigation`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #586] - 2026-09-12 10:09:39 +0530
+- **Phase**: Phase 6: Silky Smooth Polish, Micro-Interactions & Final Launch
+- **Commit**: `perf(seo): improve role='dialog' and aria-modal='true' to interactive modals`
+- **Verification**: Passed all automated test suites and production build checks.
+
