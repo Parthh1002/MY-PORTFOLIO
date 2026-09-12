@@ -1,1 +1,1 @@
-- 2026-09-12 21:13:45 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
+- 2026-09-12 21:19:13 +0530: feat(animation): implement floating card hover elevation with drop shadow
