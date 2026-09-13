@@ -3002,3 +3002,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(settings): polish shimmer sweep animation across ghost and secondary buttons`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #601] - 2026-09-13 15:37:12 +0530
+- **Phase**: Phase 6: Silky Smooth Polish, Micro-Interactions & Final Launch
+- **Commit**: `fix(buttons): resolve tactile active press scale (0.97) for buttery smooth feedback`
+- **Verification**: Passed all automated test suites and production build checks.
+
