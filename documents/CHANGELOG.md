@@ -2992,3 +2992,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `refactor(ui): refactor remove legacy aurora mode to streamline theme choices`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #599] - 2026-09-13 10:21:32 +0530
+- **Phase**: Phase 6: Silky Smooth Polish, Micro-Interactions & Final Launch
+- **Commit**: `style(navbar): refine ensure clicking outside settings popup closes container immediately`
+- **Verification**: Passed all automated test suites and production build checks.
+
