@@ -3012,3 +3012,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `perf(scroll): streamline smooth scroll behavior across all anchor navigation links`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #603] - 2026-09-13 20:52:53 +0530
+- **Phase**: Phase 6: Silky Smooth Polish, Micro-Interactions & Final Launch
+- **Commit**: `feat(perf): fine-tune pulsing radar badge next to CV quick download button`
+- **Verification**: Passed all automated test suites and production build checks.
+
