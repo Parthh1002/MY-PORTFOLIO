@@ -1,1 +1,1 @@
-- 2026-09-14 18:06:02 +0530: feat(components): structure expandable tech stack pill filters
+- 2026-09-14 18:08:51 +0530: feat(animation): add smooth inertia damping to interactive 3D elements
