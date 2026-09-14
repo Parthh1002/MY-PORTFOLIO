@@ -3027,3 +3027,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `feat(release): integrate scroll-linked transforms to GPU using will-change`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #606] - 2026-09-14 11:46:23 +0530
+- **Phase**: Phase 6: Silky Smooth Polish, Micro-Interactions & Final Launch
+- **Commit**: `perf(a11y): improve flatten redundant wrapper elements to reduce overall DOM depth`
+- **Verification**: Passed all automated test suites and production build checks.
+
