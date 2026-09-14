@@ -1,1 +1,1 @@
-- 2026-09-14 12:20:40 +0530: perf(render): debounce window resize and orientation change handlers
+- 2026-09-14 12:33:57 +0530: fix(layout): correct flexbox wrap alignment on tablet devices
