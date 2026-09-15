@@ -1,1 +1,1 @@
-- 2026-09-15 13:31:15 +0530: chore(deps): optimize SVG icon asset imports to reduce chunk size
+- 2026-09-15 13:38:05 +0530: fix(layout): normalize margin collapse across nested article sections
