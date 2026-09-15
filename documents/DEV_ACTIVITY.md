@@ -1,1 +1,1 @@
-- 2026-09-15 11:26:03 +0530: feat(ui): add subtle ambient gradient glow behind active cards
+- 2026-09-15 11:32:25 +0530: chore(deps): clean up unused styles and consolidate utility classes
