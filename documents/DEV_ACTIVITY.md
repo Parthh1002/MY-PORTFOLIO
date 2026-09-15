@@ -1,1 +1,1 @@
-- 2026-09-15 10:10:31 +0530: perf(render): enable content-visibility auto for offscreen sections
+- 2026-09-15 10:18:47 +0530: fix(layout): adjust sticky navigation offset when scrolling past hero
