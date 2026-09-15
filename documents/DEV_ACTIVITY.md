@@ -1,1 +1,1 @@
-- 2026-09-15 11:58:44 +0530: fix(layout): normalize margin collapse across nested article sections
+- 2026-09-15 11:59:51 +0530: style(theme): synchronize theme transitions across border colors
