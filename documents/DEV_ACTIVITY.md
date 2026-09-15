@@ -1,1 +1,1 @@
-- 2026-09-15 12:05:32 +0530: feat(components): implement interactive modal close on escape key press
+- 2026-09-15 12:10:30 +0530: feat(components): integrate seamless external link icon with aria-label
