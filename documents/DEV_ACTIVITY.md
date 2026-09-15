@@ -1,1 +1,1 @@
-- 2026-09-15 15:38:00 +0530: perf(render): minimize layout thrashing by caching bounding rect dimensions
+- 2026-09-15 15:40:09 +0530: style(theme): balance light theme text legibility and muted borders
