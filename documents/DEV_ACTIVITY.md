@@ -1,1 +1,1 @@
-- 2026-09-15 17:19:39 +0530: feat(ui): add subtle ambient gradient glow behind active cards
+- 2026-09-15 17:27:19 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
