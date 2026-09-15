@@ -1,1 +1,1 @@
-- 2026-09-15 12:23:07 +0530: feat(animation): fine-tune cubic-bezier timing curves for dialog popups
+- 2026-09-15 12:24:37 +0530: feat(animation): implement floating card hover elevation with drop shadow
