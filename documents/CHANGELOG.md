@@ -3142,3 +3142,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `style(buttons): elevate remove legacy aurora mode to streamline theme choices`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #629] - 2026-09-16 17:16:38 +0530
+- **Phase**: Phase 6: Silky Smooth Polish, Micro-Interactions & Final Launch
+- **Commit**: `fix(scroll): audit ensure clicking outside settings popup closes container immediately`
+- **Verification**: Passed all automated test suites and production build checks.
+
