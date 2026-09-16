@@ -3137,3 +3137,8 @@ All notable changes and architectural updates are logged here.
 - **Commit**: `refactor(settings): standardize enforce scroll-margin-top: 96px across all anchored page sections`
 - **Verification**: Passed all automated test suites and production build checks.
 
+### [Milestone #628] - 2026-09-16 14:38:47 +0530
+- **Phase**: Phase 6: Silky Smooth Polish, Micro-Interactions & Final Launch
+- **Commit**: `style(buttons): elevate remove legacy aurora mode to streamline theme choices`
+- **Verification**: Passed all automated test suites and production build checks.
+
