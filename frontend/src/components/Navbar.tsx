@@ -57,7 +57,8 @@ export default function Navbar({ visible }: NavProps) {
     setMobileMenuOpen(false);
     const el = document.getElementById(id);
     if (el) {
-      const navOffset = 76;
+      const isMobile = window.innerWidth <= 960;
+      const navOffset = isMobile ? 32 : 96;
       const elementPosition = el.getBoundingClientRect().top;
       const offsetPosition = elementPosition + window.pageYOffset - navOffset;
       window.scrollTo({

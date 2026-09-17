@@ -350,7 +350,8 @@ export default function App() {
   const [showAll, setShowAll]         = useState(false);
   const [showAllAch, setShowAllAch]   = useState(false);
   const [theme, setTheme]             = useState<ThemeMode>(() => {
-    return (localStorage.getItem("portfolio_theme") as ThemeMode) || "dark";
+    const saved = localStorage.getItem("portfolio_theme") as ThemeMode;
+    return (saved === "light" || saved === "dark") ? saved : "dark";
   });
   const [introComplete, setIntroComplete] = useState(false);
   const [repoStats, setRepoStats]     = useState<Record<string, RepoStats>>({});

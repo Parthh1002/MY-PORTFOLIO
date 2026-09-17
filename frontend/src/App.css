@@ -56,7 +56,6 @@ body { margin: 0; overflow-x: hidden; }
 .theme-dot:hover { transform: scale(1.25); }
 .theme-dot.active { border-color: var(--accent-primary); transform: scale(1.15); }
 .theme-dot-dark   { background: #1a1b20; }
-.theme-dot-aurora { background: linear-gradient(135deg, #8b5cf6, #22d3ee); }
 .theme-dot-light  { background: #f6f7f9; border-color: #d6d9e0; }
 
 /* ── Profile frame + glow ───────────────────────────── */
@@ -693,7 +692,20 @@ body { margin: 0; overflow-x: hidden; }
 }
 
 /* ── Page layout spacing for navbar ─────────────────── */
-.page { padding-top: 100px; }
+.portfolio-wrap .page,
+.page {
+  padding-top: 116px !important;
+}
+
+.portfolio-wrap .aside,
+.aside {
+  position: sticky;
+  top: 96px;
+}
+
+section[id] {
+  scroll-margin-top: 96px;
+}
 
 /* ═══════════════════════════════════════════════════════
    RESPONSIVE BREAKPOINTS — Full Cascade
@@ -708,10 +720,11 @@ body { margin: 0; overflow-x: hidden; }
    1. TABLET SQUEEZE  (≤ 1100px)
    ──────────────────────────────────────────────────────── */
 @media (max-width: 1100px) {
+  .portfolio-wrap .page,
   .page {
     grid-template-columns: 240px 1fr;
     gap: 48px;
-    padding-top: 90px;
+    padding-top: 104px !important;
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -1182,12 +1195,14 @@ body { margin: 0; overflow-x: hidden; }
   gap: 16px;
   box-shadow: 0 12px 40px rgba(0,0,0,0.5);
   transform-origin: bottom right;
+  min-width: 220px;
 }
 .ts-modes {
   display: flex;
   background: rgba(255,255,255,0.05);
   border-radius: 10px;
   padding: 4px;
+  gap: 4px;
 }
 .ts-mode-btn {
   flex: 1;
