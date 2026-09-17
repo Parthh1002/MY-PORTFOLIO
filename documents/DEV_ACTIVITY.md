@@ -1,1 +1,1 @@
-- 2026-09-17 21:19:39 +0530: feat(components): add copy-to-clipboard feedback chip with checkmark icon
+- 2026-09-17 21:32:57 +0530: perf(render): lazy load below-the-fold project screenshots
