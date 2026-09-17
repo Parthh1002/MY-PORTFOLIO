@@ -135,7 +135,6 @@ export default function Navbar({ visible }: NavProps) {
           >
             <FaFilePdf size={11} />
             <span>CV</span>
-            <span className="nav-cv-quick-dot" />
           </button>
 
           {/* Mobile Hamburger Button */}
