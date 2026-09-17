@@ -966,10 +966,14 @@ section[id] {
   }
 
   /* Page: flex column, padding bottom for navbar */
+  /* NOTE: both .portfolio-wrap .page and .page need to be listed here so the
+     high-specificity base rule (padding-top:116px !important on .portfolio-wrap .page)
+     gets properly overridden on mobile where the nav is at the bottom. */
+  .portfolio-wrap .page,
   .page {
     display: flex !important;
     flex-direction: column !important;
-    padding: 32px 16px max(100px, calc(env(safe-area-inset-bottom, 16px) + 84px)) !important;
+    padding: 28px 16px max(100px, calc(env(safe-area-inset-bottom, 16px) + 84px)) !important;
     gap: 0 !important;
     min-height: 100vh;
   }
@@ -1944,6 +1948,54 @@ section[id] {
 [data-theme="light"] .scroll-top-btn:hover {
   background: var(--accent-surface) !important;
   color: var(--accent-emphasis) !important;
+}
+
+/* ── Light Theme: Premium Glass Card (Profile Photo Frame) ─── */
+/* In dark mode the card uses white-at-3% which is fine against dark bg.     */
+/* In light mode that renders as invisible — override with visible colours.   */
+[data-theme="light"] .premium-glass-card {
+  background: rgba(255, 255, 255, 0.85) !important;
+  border: 1px solid rgba(15, 23, 42, 0.12) !important;
+  box-shadow:
+    0 16px 40px -8px rgba(15, 23, 42, 0.1),
+    0 4px 12px -4px rgba(15, 23, 42, 0.05),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95) !important;
+}
+[data-theme="light"] .profile-img-wrap {
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.1) !important;
+}
+
+/* ── Light Theme: Generic Glass-Card fallback ───────────────── */
+/* Projects and achievements have their own overrides; this catches anything  */
+/* else that still renders with an invisible rgba(244,245,247,0.03) bg.       */
+[data-theme="light"] .glass-card {
+  background: rgba(255, 255, 255, 0.75) !important;
+  border-color: rgba(15, 23, 42, 0.08) !important;
+}
+[data-theme="light"] .glass-card:hover {
+  background: rgba(255, 255, 255, 0.95) !important;
+  border-color: rgba(var(--a-rgb), 0.22) !important;
+  box-shadow: 0 8px 24px -4px rgba(15, 23, 42, 0.1), 0 0 0 1px rgba(var(--a-rgb), 0.12) !important;
+  transform: translateY(-4px);
+}
+
+/* ── Light Theme: More / Show-all Button ────────────────────── */
+/* Uses rgba(fg-light, 0.03) gradient = invisible on white; override it.     */
+[data-theme="light"] .portfolio-wrap .more-btn {
+  background: rgba(15, 23, 42, 0.04) !important;
+  border-color: rgba(15, 23, 42, 0.1) !important;
+  color: #334155 !important;
+}
+[data-theme="light"] .portfolio-wrap .more-btn:hover {
+  background: rgba(var(--a-rgb), 0.07) !important;
+  border-color: rgba(var(--a-rgb), 0.28) !important;
+  color: var(--accent-emphasis) !important;
+  box-shadow: 0 6px 20px -4px rgba(var(--a-rgb), 0.18) !important;
+}
+
+/* ── Light Theme: Section border ─────────────────────────────── */
+[data-theme="light"] .border-bottom-1 {
+  border-bottom-color: rgba(15, 23, 42, 0.08) !important;
 }
 
 /* ═══════════════════════════════════════════════════════════
