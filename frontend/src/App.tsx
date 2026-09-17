@@ -569,7 +569,7 @@ export default function App() {
                     {education.map((edu, i) => (
                       <li className="edu" key={edu.deg} style={{ animationDelay: `${i * 70}ms` }}>
                         <div className="edu-when">{edu.when}</div>
-                        <div>
+                        <div className="edu-body">
                           <div className="edu-deg">{edu.deg}</div>
                           <div className="edu-school">{edu.school}</div>
                           <div className="edu-note">{edu.note}</div>

@@ -1152,7 +1152,7 @@ section[id] {
   .xp {
     grid-template-columns: 1fr !important;
     gap: 4px !important;
-    padding: 16px 0 !important;
+    padding: 16px 16px !important;
   }
   .xp-when {
     flex-direction: row;
@@ -1167,7 +1167,7 @@ section[id] {
   .edu {
     grid-template-columns: 1fr !important;
     gap: 4px !important;
-    padding: 14px 0 !important;
+    padding: 14px 16px !important;
   }
   .edu-deg    { font-size: clamp(13px, 3.8vw, 15px) !important; }
   .edu-school { font-size: 12px !important; }
@@ -1176,7 +1176,7 @@ section[id] {
   .skill-row {
     grid-template-columns: 1fr !important;
     gap: 8px !important;
-    padding: 12px 0 !important;
+    padding: 14px 16px !important;
   }
   .skill-k { font-size: 11px !important; margin-bottom: 6px; }
   .tech-icon-grid {
@@ -1630,6 +1630,88 @@ section[id] {
 }
 
 /* ═══════════════════════════════════════════════════════════
+   UNIFIED CARD LAYER CONTAINERS (Projects, Experience, Education, Stack)
+   ═══════════════════════════════════════════════════════════ */
+.portfolio-wrap .proj-list,
+.portfolio-wrap .xp-list,
+.portfolio-wrap .edu-list,
+.portfolio-wrap .skills {
+  background: rgba(var(--n-rgb-fg-light, 244, 245, 247), 0.025);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border-default) !important;
+  border-radius: 14px !important;
+  overflow: hidden !important;
+  box-shadow: 0 8px 32px -4px rgba(0, 0, 0, 0.35);
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.portfolio-wrap .xp {
+  padding: 22px 24px;
+  border-bottom: 1px solid var(--border-subtle) !important;
+  border-top: none !important;
+  background: transparent;
+  transition: background 0.22s ease;
+}
+.portfolio-wrap .xp:last-child {
+  border-bottom: none !important;
+}
+.portfolio-wrap .xp:hover {
+  background: rgba(var(--a-rgb, 110, 123, 255), 0.035);
+}
+
+.portfolio-wrap .edu {
+  padding: 22px 24px;
+  border-bottom: 1px solid var(--border-subtle) !important;
+  border-top: none !important;
+  background: transparent;
+  transition: background 0.22s ease;
+}
+.portfolio-wrap .edu:last-child {
+  border-bottom: none !important;
+}
+.portfolio-wrap .edu:hover {
+  background: rgba(var(--a-rgb, 110, 123, 255), 0.035);
+}
+.portfolio-wrap .edu-body {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.portfolio-wrap .edu-note {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--accent-emphasis);
+  background: var(--accent-surface);
+  border: 1px solid var(--accent-border);
+  border-radius: 999px;
+  padding: 2px 10px;
+  margin-top: 6px;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.portfolio-wrap .skill-row {
+  padding: 22px 24px;
+  border-bottom: 1px solid var(--border-subtle) !important;
+  border-top: none !important;
+  background: transparent;
+  transition: background 0.22s ease;
+}
+.portfolio-wrap .skill-row:last-child {
+  border-bottom: none !important;
+}
+.portfolio-wrap .skill-row:hover {
+  background: rgba(var(--a-rgb, 110, 123, 255), 0.02);
+}
+
+/* ═══════════════════════════════════════════════════════════
    LIGHT MODE DESIGN SYSTEM OVERRIDES (Ultra-Attractive Luxury Palette)
    ═══════════════════════════════════════════════════════════ */
 [data-theme="light"],
@@ -1726,12 +1808,15 @@ section[id] {
   border-bottom-color: rgba(15, 23, 42, 0.1) !important;
 }
 
-[data-theme="light"] .proj-list {
-  background: rgba(15, 23, 42, 0.08) !important;
-  border-color: rgba(15, 23, 42, 0.08) !important;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.05);
+[data-theme="light"] .proj-list,
+[data-theme="light"] .xp-list,
+[data-theme="light"] .edu-list,
+[data-theme="light"] .skills {
+  background: #ffffff !important;
+  border: 1px solid rgba(15, 23, 42, 0.09) !important;
+  border-radius: 14px !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.05), 0 1px 3px rgba(15, 23, 42, 0.03) !important;
 }
 [data-theme="light"] .proj {
   background: #ffffff !important;
@@ -1776,7 +1861,15 @@ section[id] {
 }
 
 [data-theme="light"] .xp {
-  border-color: rgba(15, 23, 42, 0.08) !important;
+  background: #ffffff !important;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.07) !important;
+  border-top: none !important;
+}
+[data-theme="light"] .xp:hover {
+  background: #fbfcfe !important;
+}
+[data-theme="light"] .xp:last-child {
+  border-bottom: none !important;
 }
 [data-theme="light"] .xp-role {
   color: #090d16 !important;
@@ -1802,7 +1895,15 @@ section[id] {
 }
 
 [data-theme="light"] .edu {
-  border-color: rgba(15, 23, 42, 0.08) !important;
+  background: #ffffff !important;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.07) !important;
+  border-top: none !important;
+}
+[data-theme="light"] .edu:hover {
+  background: #fbfcfe !important;
+}
+[data-theme="light"] .edu:last-child {
+  border-bottom: none !important;
 }
 [data-theme="light"] .edu-deg {
   color: #090d16 !important;
@@ -1812,13 +1913,31 @@ section[id] {
   color: #334155 !important;
 }
 [data-theme="light"] .edu-note {
-  color: #64748b !important;
+  background: var(--accent-surface) !important;
+  border-color: var(--accent-border) !important;
+  color: var(--accent-emphasis) !important;
+}
+
+[data-theme="light"] .skill-row {
+  background: #ffffff !important;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.07) !important;
+  border-top: none !important;
+}
+[data-theme="light"] .skill-row:hover {
+  background: #fbfcfe !important;
+}
+[data-theme="light"] .skill-row:last-child {
+  border-bottom: none !important;
+}
+[data-theme="light"] .skill-k {
+  color: #090d16 !important;
+  font-weight: 700 !important;
 }
 
 [data-theme="light"] .tech-tile {
-  background: #ffffff !important;
+  background: #f8fafc !important;
   border: 1px solid rgba(15, 23, 42, 0.08) !important;
-  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.03) !important;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.03) !important;
 }
 [data-theme="light"] .tech-tile:hover {
   background: #ffffff !important;
