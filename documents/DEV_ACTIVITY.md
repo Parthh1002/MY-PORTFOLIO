@@ -1,1 +1,1 @@
-- 2026-09-17 20:15:21 +0530: perf(render): debounce window resize and orientation change handlers
+- 2026-09-17 20:19:40 +0530: chore(deps): clean up unused styles and consolidate utility classes
