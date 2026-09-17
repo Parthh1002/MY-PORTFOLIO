@@ -1,1 +1,1 @@
-- 2026-09-17 09:32:21 +0530: fix(layout): normalize margin collapse across nested article sections
+- 2026-09-17 09:34:38 +0530: feat(animation): smooth out navbar collapse transition on downward scroll
