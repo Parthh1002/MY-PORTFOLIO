@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, ReactNode } from "react";
-import { motion } from "framer-motion";
+import { motion, useScroll, useSpring } from "framer-motion";
 import "./index.css";
 import "./App.css";
 import "./components/styles/PremiumProfile.css";
@@ -326,14 +326,14 @@ function useFadeIn(delay = 0) {
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
-    const rect = el.getBoundingClientRect();
-    if (rect.top < window.innerHeight && rect.bottom >= 0) {
-      setTimeout(() => el.classList.add("fade-visible"), delay);
-      return;
-    }
     const obs = new IntersectionObserver(
-      ([entry]) => { if (entry.isIntersecting) { setTimeout(() => el.classList.add("fade-visible"), delay); obs.unobserve(el); } },
-      { threshold: 0.02 }
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => el.classList.add("fade-visible"), delay);
+          obs.unobserve(el);
+        }
+      },
+      { threshold: 0.04, rootMargin: "0px 0px -40px 0px" }
     );
     obs.observe(el);
     return () => obs.disconnect();
@@ -341,11 +341,10 @@ function useFadeIn(delay = 0) {
   return ref;
 }
 
-// ─── FADE-IN HOOK ────────────────────────────────────────────────────────────
+// ─── FRAMER VARIANTS ─────────────────────────────────────────────────────────
 const stagger = { hidden: { opacity: 0 }, show: { opacity: 1, transition: { staggerChildren: 0.09, delayChildren: 0.15 } } } as any;
 const slideUp = { hidden: { opacity: 0, y: 28 }, show: { opacity: 1, y: 0, transition: { type: "spring" as const, stiffness: 90, damping: 18 } } } as any;
 
-// ─── FRAMER VARIANTS ─────────────────────────────────────────────────────────
 export default function App() {
   const [showAll, setShowAll]         = useState(false);
   const [showAllAch, setShowAllAch]   = useState(false);
@@ -356,6 +355,14 @@ export default function App() {
   const [introComplete, setIntroComplete] = useState(false);
   const [repoStats, setRepoStats]     = useState<Record<string, RepoStats>>({});
   const [selectedProject, setSelectedProject] = useState<ProjectItem | null>(null);
+
+  // Top spring scroll progress
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 180,
+    damping: 28,
+    restDelta: 0.001,
+  });
 
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);
@@ -390,22 +397,27 @@ export default function App() {
     })();
   }, []);
 
-  // Force fade-sections visible after intro
+  // When intro completes, reveal sections that are currently within view
   useEffect(() => {
     if (!introComplete) return;
     const t = setTimeout(() => {
-      document.querySelectorAll(".fade-section").forEach(el => el.classList.add("fade-visible"));
-    }, 600);
+      document.querySelectorAll(".fade-section").forEach((el) => {
+        const rect = el.getBoundingClientRect();
+        if (rect.top < window.innerHeight) {
+          el.classList.add("fade-visible");
+        }
+      });
+    }, 250);
     return () => clearTimeout(t);
   }, [introComplete]);
 
   const handleIntroComplete = () => setIntroComplete(true);
 
-  const projRef  = useFadeIn(200);
-  const xpRef    = useFadeIn(200);
-  const eduRef   = useFadeIn(200);
-  const stackRef = useFadeIn(200);
-  const achRef   = useFadeIn(200);
+  const projRef  = useFadeIn(120);
+  const xpRef    = useFadeIn(120);
+  const eduRef   = useFadeIn(120);
+  const stackRef = useFadeIn(120);
+  const achRef   = useFadeIn(120);
 
   return (
     <div className="portfolio-wrap" data-theme={theme}>
@@ -416,6 +428,9 @@ export default function App() {
 
       {introComplete && (
         <>
+          {/* Top smooth spring scroll progress bar */}
+          <motion.div className="scroll-progress-bar" style={{ scaleX }} />
+
           {/* Navbar */}
           <Navbar visible={introComplete} />
 
@@ -564,8 +579,8 @@ export default function App() {
                 </header>
                 <div ref={xpRef} className="fade-section">
                   <ul className="xp-list">
-                    {experience.map(xp => (
-                      <li className="xp" key={xp.role}>
+                    {experience.map((xp, i) => (
+                      <li className="xp" key={xp.role} style={{ animationDelay: `${i * 65}ms` }}>
                         <div className="xp-when">
                           <span>{xp.when}</span>
                           {xp.tag && <span className="xp-tag">{xp.tag}</span>}
@@ -589,8 +604,8 @@ export default function App() {
                 </header>
                 <div ref={eduRef} className="fade-section">
                   <ul className="edu-list">
-                    {education.map(edu => (
-                      <li className="edu" key={edu.deg}>
+                    {education.map((edu, i) => (
+                      <li className="edu" key={edu.deg} style={{ animationDelay: `${i * 70}ms` }}>
                         <div className="edu-when">{edu.when}</div>
                         <div>
                           <div className="edu-deg">{edu.deg}</div>
@@ -614,11 +629,12 @@ export default function App() {
                     <div className="skill-row" key={row.label}>
                       <p className="skill-k">{row.label}</p>
                       <div className="tech-icon-grid">
-                        {row.items.map(item => (
+                        {row.items.map((item, idx) => (
                           <div
                             key={item.name}
                             className="tech-tile"
                             title={item.name}
+                            style={{ animationDelay: `${idx * 28}ms` }}
                           >
                             <span className="tech-tile-icon" style={{ color: item.color }}>
                               {item.icon}

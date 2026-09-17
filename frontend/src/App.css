@@ -83,19 +83,44 @@ body { margin: 0; overflow-x: hidden; }
   border: 1px solid rgba(var(--n-rgb-fg-light, 244,245,247), 0.08) !important;
   transition: background 0.25s ease, border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease !important;
 }
+.glass-card {
+  background: rgba(var(--n-rgb-fg-light, 244,245,247), 0.03) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(var(--n-rgb-fg-light, 244,245,247), 0.08) !important;
+  transition: transform 0.32s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.32s cubic-bezier(0.16, 1, 0.3, 1),
+              border-color 0.25s ease,
+              background 0.25s ease !important;
+}
 .glass-card:hover {
   background: rgba(var(--a-rgb, 110,123,255), 0.05) !important;
-  border-color: rgba(var(--a-rgb, 110,123,255), 0.18) !important;
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-md) !important;
+  border-color: rgba(var(--a-rgb, 110,123,255), 0.22) !important;
+  transform: translateY(-4px);
+  box-shadow: 0 16px 36px -8px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(var(--a-rgb, 110,123,255), 0.15) !important;
 }
 
-/* ── Fade-in animations ─────────────────────────────── */
+/* ── Top Spring Scroll Progress Bar ─────────────────── */
+.scroll-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent-primary), var(--accent-emphasis, #818cf8));
+  box-shadow: 0 0 12px rgba(var(--a-rgb), 0.75);
+  transform-origin: 0%;
+  z-index: 99999;
+  pointer-events: none;
+}
+
+/* ── Buttery Fade-in & Scroll Animations ────────────── */
 .fade-section {
   opacity: 0;
-  transform: translateY(18px);
-  transition: opacity 0.55s cubic-bezier(0.22,0.86,0.2,1),
-              transform 0.55s cubic-bezier(0.22,0.86,0.2,1);
+  transform: translateY(28px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
 }
 .fade-visible {
   opacity: 1;
@@ -103,15 +128,97 @@ body { margin: 0; overflow-x: hidden; }
 }
 
 /* Stagger each project card */
-.proj-list .proj {
-  animation: none;
-}
 .fade-visible .proj-list .proj {
-  animation: slideUp 0.45s cubic-bezier(0.22,0.86,0.2,1) both;
+  animation: projSlideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
-@keyframes slideUp {
-  from { opacity: 0; transform: translateY(16px); }
-  to   { opacity: 1; transform: translateY(0); }
+@keyframes projSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Stagger each achievement card */
+.fade-visible .ach-list-cards .ach-card {
+  animation: achSlideUp 0.55s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+@keyframes achSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Stagger experience timeline items */
+.fade-visible .xp-list .xp {
+  animation: xpSlideIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+@keyframes xpSlideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Stagger education items */
+.fade-visible .edu-list .edu {
+  animation: eduSlideIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+@keyframes eduSlideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Stagger tech stack tiles */
+.fade-visible .tech-tile {
+  animation: tilePopIn 0.45s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+@keyframes tilePopIn {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* ── Section Header Accent Line ──────────────────────── */
+.sec-h {
+  position: relative;
+}
+.sec-h::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 44px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent-primary), transparent);
+  border-radius: 2px;
+  transition: width 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+section:hover .sec-h::after {
+  width: 110px;
 }
 
 /* ── Tech icon grid ─────────────────────────────────── */
@@ -141,13 +248,20 @@ body { margin: 0; overflow-x: hidden; }
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-md);
   cursor: pointer;
-  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1),
+              background 0.25s ease,
+              border-color 0.25s ease,
+              box-shadow 0.28s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .tech-tile:hover {
   background: var(--accent-surface);
   border-color: var(--accent-border);
-  transform: translateY(-4px) scale(1.05);
-  box-shadow: 0 6px 20px rgba(var(--a-rgb, 110,123,255), 0.15);
+  transform: translateY(-5px) scale(1.04);
+  box-shadow: 0 10px 25px -4px rgba(var(--a-rgb, 110,123,255), 0.22);
+}
+.tech-tile:active {
+  transform: translateY(-2px) scale(0.96);
+  transition: transform 0.08s ease;
 }
 .tech-tile-icon {
   font-size: 26px;
@@ -155,9 +269,11 @@ body { margin: 0; overflow-x: hidden; }
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: transform 0.2s ease;
+  transition: transform 0.28s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
-.tech-tile:hover .tech-tile-icon { transform: scale(1.12); }
+.tech-tile:hover .tech-tile-icon {
+  transform: scale(1.16) rotate(3deg);
+}
 .tech-tile-name {
   font-family: var(--font-mono);
   font-size: 11px;
@@ -183,8 +299,70 @@ body { margin: 0; overflow-x: hidden; }
   background: var(--accent-muted) !important;
 }
 
-.ghost-btn { gap: 6px; margin-right: 8px; }
-.ghost-btn svg { flex-shrink: 0; }
+/* ── Ghost Buttons (Project Details, GitHub, Live) ──── */
+.portfolio-wrap .ghost-btn {
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 13px;
+  margin-right: 8px;
+  border-radius: 8px;
+  background: rgba(var(--n-rgb-fg-light, 244,245,247), 0.03);
+  border: 1px solid var(--border-default);
+  color: var(--fg-1);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+              background 0.25s ease,
+              border-color 0.25s ease,
+              color 0.25s ease,
+              box-shadow 0.25s ease;
+}
+.portfolio-wrap .ghost-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -120%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.14), transparent);
+  transition: left 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+}
+.portfolio-wrap .ghost-btn:hover::before {
+  left: 120%;
+}
+.portfolio-wrap .ghost-btn:hover {
+  transform: translateY(-2.5px);
+  border-color: var(--accent-border);
+  background: var(--accent-surface);
+  color: var(--accent-emphasis);
+  box-shadow: 0 6px 20px -3px rgba(var(--a-rgb), 0.3);
+}
+.portfolio-wrap .ghost-btn:active {
+  transform: translateY(0) scale(0.96);
+  transition: transform 0.08s ease;
+}
+.portfolio-wrap .ghost-btn svg {
+  flex-shrink: 0;
+}
+.portfolio-wrap .ghost-btn-arrow {
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  color: var(--fg-3);
+  display: inline-block;
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), color 0.2s ease;
+}
+.portfolio-wrap .ghost-btn:hover .ghost-btn-arrow {
+  transform: translate(3px, -3px);
+  color: var(--accent-emphasis);
+}
 
 /* ── Aside photo responsive ─────────────────────────── */
 @media (max-width: 960px) {
@@ -344,8 +522,8 @@ body { margin: 0; overflow-x: hidden; }
   position: relative;
   display: flex;
   align-items: center;
-  gap: 5px;
-  padding: 6px 11px;
+  gap: 6px;
+  padding: 6px 12px;
   background: transparent;
   border: none;
   border-radius: 100px;
@@ -354,13 +532,29 @@ body { margin: 0; overflow-x: hidden; }
   font-weight: 500;
   font-family: var(--font-ui);
   cursor: pointer;
-  transition: color 0.18s ease;
+  transition: color 0.2s ease, transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
   letter-spacing: 0.01em;
   white-space: nowrap;
 }
-.nav-btn:hover { color: var(--fg-1); }
+.nav-btn:hover {
+  color: var(--fg-1);
+  transform: translateY(-1px);
+}
+.nav-btn:active {
+  transform: scale(0.94);
+}
+.nav-btn:hover .nav-btn-icon {
+  transform: scale(1.22);
+  color: var(--accent-primary);
+}
 .nav-btn-active { color: var(--fg-1); }
-.nav-btn-icon { font-size: 11px; opacity: 0.8; z-index: 1; flex-shrink: 0; }
+.nav-btn-icon {
+  font-size: 11px;
+  opacity: 0.85;
+  z-index: 1;
+  flex-shrink: 0;
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), color 0.2s ease;
+}
 .nav-btn-label { z-index: 1; }
 .nav-active-indicator {
   position: absolute;
@@ -1175,13 +1369,23 @@ section[id] {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4), 0 0 0 1px rgba(255,255,255,0.06);
   color: var(--fg-2);
-  transition: transform 0.2s, background 0.2s;
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
+              background 0.25s ease,
+              box-shadow 0.3s ease,
+              color 0.25s ease;
 }
 .ts-pill:hover {
-  transform: scale(1.05);
-  background: rgba(255,255,255,0.05);
+  transform: translateY(-3px) scale(1.08);
+  background: var(--accent-surface);
+  border-color: var(--accent-border);
+  box-shadow: 0 10px 28px rgba(var(--a-rgb), 0.45);
+  color: var(--accent-primary);
+}
+.ts-pill:active {
+  transform: translateY(0) scale(0.92);
+  transition: transform 0.08s ease;
 }
 .ts-panel {
   background: rgba(14, 14, 22, 0.96);
@@ -1212,11 +1416,19 @@ section[id] {
   color: var(--fg-3);
   border-radius: 8px;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5px;
+}
+.ts-mode-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--fg-1);
+  transform: translateY(-1px);
+}
+.ts-mode-btn:active {
+  transform: scale(0.95);
 }
 .ts-mode-icon {
   display: flex;
@@ -1245,6 +1457,10 @@ section[id] {
 [data-theme="light"] .ts-mode-btn {
   color: var(--fg-3);
 }
+[data-theme="light"] .ts-mode-btn:hover {
+  background: rgba(15,23,42,0.06);
+  color: var(--fg-1);
+}
 [data-theme="light"] .ts-mode-active {
   background: rgba(15,23,42,0.08);
   color: var(--accent-primary);
@@ -1270,10 +1486,13 @@ section[id] {
   border: none;
   cursor: pointer;
   position: relative;
-  transition: transform 0.2s;
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 .ts-accent-dot:hover {
-  transform: scale(1.15);
+  transform: scale(1.22);
+}
+.ts-accent-dot:active {
+  transform: scale(0.92);
 }
 .ts-accent-active::after {
   content: "";
@@ -1342,8 +1561,140 @@ section[id] {
 .meta-link .meta-val { transition: color 0.3s ease; }
 
 
-.scroll-top-btn { position: absolute; right: 0; top: 50%; transform: translateY(-50%); background: var(--glass-bg); border: 1px solid var(--border-color); color: var(--text-color); width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.2s ease; font-size: 16px; font-weight: bold; }
-.scroll-top-btn:hover { background: var(--border-color); color: var(--accent); }
+/* ── Smooth Scroll to Top Button ─────────────────────── */
+.scroll-top-btn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(var(--n-rgb-fg-light, 244,245,247), 0.05);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid var(--border-default);
+  color: var(--fg-1);
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
+              background 0.25s ease,
+              border-color 0.25s ease,
+              color 0.25s ease,
+              box-shadow 0.3s ease;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  outline: none;
+}
+.scroll-top-btn:hover {
+  transform: translateY(-56%) scale(1.15);
+  background: var(--accent-primary);
+  border-color: var(--accent-primary);
+  color: #ffffff;
+  box-shadow: 0 8px 24px rgba(var(--a-rgb), 0.55);
+}
+.scroll-top-btn:active {
+  transform: translateY(-50%) scale(0.92);
+  transition: transform 0.08s ease;
+}
+
+/* ── Show More / Collapse Expand Button ──────────────── */
+.portfolio-wrap .more-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 13px 20px;
+  margin-top: 20px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(var(--n-rgb-fg-light, 244,245,247), 0.03), rgba(var(--a-rgb, 110,123,255), 0.04)) !important;
+  border: 1px solid var(--border-default) !important;
+  color: var(--fg-2) !important;
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1),
+              background 0.28s ease,
+              border-color 0.28s ease,
+              color 0.28s ease,
+              box-shadow 0.28s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-wrap .more-btn:hover {
+  background: linear-gradient(135deg, rgba(var(--a-rgb, 110,123,255), 0.12), rgba(var(--a-rgb, 110,123,255), 0.05)) !important;
+  border-color: var(--accent-border) !important;
+  color: var(--accent-emphasis) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px -4px rgba(var(--a-rgb, 110,123,255), 0.25);
+}
+
+.portfolio-wrap .more-btn:active {
+  transform: translateY(0) scale(0.98);
+  transition: transform 0.08s ease !important;
+}
+
+.portfolio-wrap .more-arrow {
+  display: inline-block;
+  font-size: 13px;
+  transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+}
+
+.portfolio-wrap .more-arrow[data-open="on"] {
+  transform: rotate(180deg);
+}
+
+/* ── Aside Social Meta Links Micro-Interactions ──────── */
+.portfolio-wrap .meta-link {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 13px;
+  color: var(--fg-2);
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), color 0.2s ease !important;
+  flex: 1;
+  margin: -4px 0;
+  padding: 4px 0;
+}
+.portfolio-wrap .meta-link:hover {
+  transform: translateX(5px);
+  color: var(--accent-emphasis) !important;
+}
+.portfolio-wrap .meta-link:hover .meta-icon {
+  transform: scale(1.22);
+  color: var(--accent-emphasis);
+}
+.portfolio-wrap .meta-icon {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  color: var(--fg-3);
+  width: 16px;
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), color 0.2s ease;
+}
+
+/* ── Aside Stats Hover Physics ───────────────────────── */
+.portfolio-wrap .stat {
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+  cursor: default;
+}
+.portfolio-wrap .stat:hover {
+  transform: translateY(-2px);
+}
+.portfolio-wrap .stat:hover .stat-n {
+  filter: drop-shadow(0 0 8px rgba(var(--a-rgb), 0.55));
+}
+.portfolio-wrap .stat-n {
+  transition: filter 0.25s ease;
+}
 
 /* ═══════════════════════════════════════════════════════════
    LIGHT MODE DESIGN SYSTEM OVERRIDES (Ultra-Attractive Luxury Palette)
@@ -2076,7 +2427,7 @@ section[id] {
 .nav-cv-quick-btn {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 7px;
   padding: 6px 14px;
   background: var(--accent-surface);
   border: 1px solid var(--accent-border);
@@ -2086,22 +2437,39 @@ section[id] {
   font-weight: 700;
   letter-spacing: 0.04em;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1),
+              background 0.2s ease,
+              color 0.2s ease,
+              box-shadow 0.25s ease;
+  position: relative;
+  outline: none;
 }
 
 .nav-cv-quick-btn:hover {
   background: var(--accent-primary);
   color: #ffffff;
-  transform: scale(1.05);
-  box-shadow: 0 4px 16px rgba(var(--a-rgb), 0.4);
+  transform: translateY(-1.5px) scale(1.05);
+  box-shadow: 0 6px 20px rgba(var(--a-rgb), 0.45);
+}
+
+.nav-cv-quick-btn:active {
+  transform: translateY(0) scale(0.94);
+  transition: transform 0.08s ease;
+}
+
+@keyframes pulseRing {
+  0% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7); }
+  70% { box-shadow: 0 0 0 6px rgba(34, 197, 94, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
 }
 
 .nav-cv-quick-dot {
-  width: 5px;
-  height: 5px;
+  width: 5.5px;
+  height: 5.5px;
   border-radius: 50%;
   background: #22c55e;
   box-shadow: 0 0 6px #22c55e;
+  animation: pulseRing 2s infinite cubic-bezier(0.4, 0, 0.6, 1);
 }
 
 /* ── In-App Resume Modal ────────────────────────────── */
