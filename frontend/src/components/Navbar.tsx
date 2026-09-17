@@ -13,6 +13,7 @@ import {
   FaEnvelope,
 } from "react-icons/fa";
 import ResumeModal from "./ResumeModal";
+import ContactModal from "./ContactModal";
 
 interface NavProps {
   visible: boolean;
@@ -22,6 +23,7 @@ export default function Navbar({ visible }: NavProps) {
   const [activeSection, setActiveSection] = useState<string>("projects");
   const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
   const [resumeOpen, setResumeOpen] = useState<boolean>(false);
+  const [contactOpen, setContactOpen] = useState<boolean>(false);
 
   const navLinks = [
     { id: "projects",    label: "Projects",     icon: <FaBriefcase size={11} /> },
@@ -68,10 +70,6 @@ export default function Navbar({ visible }: NavProps) {
     }
   };
 
-  const scrollToTop = () => {
-    setMobileMenuOpen(false);
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
 
   return (
     <>
@@ -83,11 +81,12 @@ export default function Navbar({ visible }: NavProps) {
         transition={{ delay: 0.2, duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
       >
         <div className="navbar-pill">
-          {/* Logo Badge */}
+          {/* Logo Badge -> Opens Contact Modal */}
           <button
             className="navbar-logo"
-            onClick={scrollToTop}
-            aria-label="Scroll to top of page"
+            onClick={() => setContactOpen(true)}
+            aria-label="Open contact and profile information"
+            title="Parth Patel - Contact & Socials"
             type="button"
           >
             <div className="navbar-logo-badge">
@@ -177,7 +176,26 @@ export default function Navbar({ visible }: NavProps) {
               transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
             >
               <div className="mobile-nav-header">
-                <div className="mobile-nav-user">
+                <button
+                  className="mobile-nav-user"
+                  onClick={() => {
+                    setMobileMenuOpen(false);
+                    setContactOpen(true);
+                  }}
+                  type="button"
+                  style={{
+                    background: "none",
+                    border: "none",
+                    padding: 0,
+                    textAlign: "left",
+                    cursor: "pointer",
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "12px",
+                    width: "100%",
+                  }}
+                  aria-label="Open contact and profile details"
+                >
                   <div className="navbar-logo-badge">
                     <FaUser size={11} />
                   </div>
@@ -185,7 +203,7 @@ export default function Navbar({ visible }: NavProps) {
                     <div className="mobile-nav-name">Parth Patel</div>
                     <div className="mobile-nav-sub">Creative Fullstack &amp; AI Developer</div>
                   </div>
-                </div>
+                </button>
               </div>
 
               <div className="mobile-nav-list">
@@ -269,6 +287,12 @@ export default function Navbar({ visible }: NavProps) {
         isOpen={resumeOpen}
         onClose={() => setResumeOpen(false)}
         pdfUrl="/resume/Parth_Patel_CV.pdf"
+      />
+
+      {/* Quick Contact & Profiles Modal */}
+      <ContactModal
+        isOpen={contactOpen}
+        onClose={() => setContactOpen(false)}
       />
     </>
   );
