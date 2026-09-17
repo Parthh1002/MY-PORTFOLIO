@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, ReactNode } from "react";
+import { useState, useEffect, ReactNode } from "react";
 import { motion, useScroll, useSpring } from "framer-motion";
 import "./index.css";
 import "./App.css";
@@ -321,25 +321,7 @@ const GITHUB_REPOS: Record<string, string> = {
   "Aura — The Beginning": "Parthh1002/AuraTheBegining",
   "Laxmi Tiles":       "Parthh1002/Laxmi_Tiles",
 };
-function useFadeIn(delay = 0) {
-  const ref = useRef<HTMLDivElement>(null);
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    const obs = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setTimeout(() => el.classList.add("fade-visible"), delay);
-          obs.unobserve(el);
-        }
-      },
-      { threshold: 0.04, rootMargin: "0px 0px -40px 0px" }
-    );
-    obs.observe(el);
-    return () => obs.disconnect();
-  }, [delay]);
-  return ref;
-}
+
 
 // ─── FRAMER VARIANTS ─────────────────────────────────────────────────────────
 const stagger = { hidden: { opacity: 0 }, show: { opacity: 1, transition: { staggerChildren: 0.09, delayChildren: 0.15 } } } as any;
@@ -397,27 +379,7 @@ export default function App() {
     })();
   }, []);
 
-  // When intro completes, reveal sections that are currently within view
-  useEffect(() => {
-    if (!introComplete) return;
-    const t = setTimeout(() => {
-      document.querySelectorAll(".fade-section").forEach((el) => {
-        const rect = el.getBoundingClientRect();
-        if (rect.top < window.innerHeight) {
-          el.classList.add("fade-visible");
-        }
-      });
-    }, 250);
-    return () => clearTimeout(t);
-  }, [introComplete]);
-
   const handleIntroComplete = () => setIntroComplete(true);
-
-  const projRef  = useFadeIn(120);
-  const xpRef    = useFadeIn(120);
-  const eduRef   = useFadeIn(120);
-  const stackRef = useFadeIn(120);
-  const achRef   = useFadeIn(120);
 
   return (
     <div className="portfolio-wrap" data-theme={theme}>
@@ -519,7 +481,7 @@ export default function App() {
                   <div className="sec-n">01</div>
                   <h2 className="sec-l">Projects</h2>
                 </header>
-                <div ref={projRef} className="fade-section">
+                <div className="fade-section">
                   <ul className="proj-list">
                     {visible.map((proj, i) => {
                       const stats = repoStats[proj.name];
@@ -577,7 +539,7 @@ export default function App() {
                   <div className="sec-n">02</div>
                   <h2 className="sec-l">Experience &amp; Journey</h2>
                 </header>
-                <div ref={xpRef} className="fade-section">
+                <div className="fade-section">
                   <ul className="xp-list">
                     {experience.map((xp, i) => (
                       <li className="xp" key={xp.role} style={{ animationDelay: `${i * 65}ms` }}>
@@ -602,7 +564,7 @@ export default function App() {
                   <div className="sec-n">03</div>
                   <h2 className="sec-l">Education</h2>
                 </header>
-                <div ref={eduRef} className="fade-section">
+                <div className="fade-section">
                   <ul className="edu-list">
                     {education.map((edu, i) => (
                       <li className="edu" key={edu.deg} style={{ animationDelay: `${i * 70}ms` }}>
@@ -624,7 +586,7 @@ export default function App() {
                   <div className="sec-n">04</div>
                   <h2 className="sec-l">Stack</h2>
                 </header>
-                <div ref={stackRef} className="fade-section skills">
+                <div className="fade-section skills">
                   {stackRows.map(row => (
                     <div className="skill-row" key={row.label}>
                       <p className="skill-k">{row.label}</p>
@@ -654,7 +616,7 @@ export default function App() {
                   <div className="sec-n">05</div>
                   <h2 className="sec-l">Competitive Experience</h2>
                 </header>
-                <div ref={achRef} className="fade-section">
+                <div className="fade-section">
                   <ul className="ach-list-cards">
                     {visibleAch.map((ach, i) => (
                       <li

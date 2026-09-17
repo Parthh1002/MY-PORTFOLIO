@@ -114,92 +114,21 @@ body { margin: 0; overflow-x: hidden; }
   pointer-events: none;
 }
 
-/* ── Buttery Fade-in & Scroll Animations ────────────── */
+/* ── Buttery Smooth Section Transitions ────────────── */
 .fade-section {
-  opacity: 0;
-  transform: translateY(28px);
-  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
-              transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
-  will-change: opacity, transform;
-}
-.fade-visible {
-  opacity: 1;
-  transform: translateY(0);
+  opacity: 1 !important;
+  transform: none !important;
 }
 
-/* Stagger each project card */
-.fade-visible .proj-list .proj {
-  animation: projSlideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
-}
-@keyframes projSlideUp {
-  from {
-    opacity: 0;
-    transform: translateY(24px) scale(0.97);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
-}
-
-/* Stagger each achievement card */
-.fade-visible .ach-list-cards .ach-card {
-  animation: achSlideUp 0.55s cubic-bezier(0.16, 1, 0.3, 1) both;
-}
-@keyframes achSlideUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px) scale(0.98);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
-}
-
-/* Stagger experience timeline items */
-.fade-visible .xp-list .xp {
-  animation: xpSlideIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
-}
-@keyframes xpSlideIn {
-  from {
-    opacity: 0;
-    transform: translateX(-14px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-/* Stagger education items */
-.fade-visible .edu-list .edu {
-  animation: eduSlideIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
-}
-@keyframes eduSlideIn {
-  from {
-    opacity: 0;
-    transform: translateX(-14px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-/* Stagger tech stack tiles */
-.fade-visible .tech-tile {
-  animation: tilePopIn 0.45s cubic-bezier(0.34, 1.56, 0.64, 1) both;
-}
-@keyframes tilePopIn {
-  from {
-    opacity: 0;
-    transform: translateY(14px) scale(0.92);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
+/* ── Guaranteed Visibility For All Sections & Cards ────────────── */
+.fade-section,
+.fade-visible,
+.proj-list .proj,
+.ach-list-cards .ach-card,
+.xp-list .xp,
+.edu-list .edu,
+.tech-tile {
+  opacity: 1 !important;
 }
 
 /* ── Section Header Accent Line ──────────────────────── */
