@@ -1,1 +1,1 @@
-- 2026-09-21 10:16:35 +0530: fix(layout): normalize margin collapse across nested article sections
+- 2026-09-21 10:17:50 +0530: fix(layout): normalize margin collapse across nested article sections
