@@ -1,1 +1,1 @@
-- 2026-09-22 13:28:44 +0530: perf(render): lazy load below-the-fold project screenshots
+- 2026-09-22 13:29:53 +0530: feat(components): structure expandable tech stack pill filters
