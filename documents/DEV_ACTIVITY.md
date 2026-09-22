@@ -1,1 +1,1 @@
-- 2026-09-22 17:28:49 +0530: feat(ui): polish border radius tokens and card padding hierarchy
+- 2026-09-22 17:30:33 +0530: fix(layout): prevent layout shift during dynamic font loading
