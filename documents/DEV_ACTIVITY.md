@@ -1,1 +1,1 @@
-- 2026-09-22 21:10:53 +0530: feat(components): add copy-to-clipboard feedback chip with checkmark icon
+- 2026-09-22 21:12:03 +0530: chore(deps): upgrade framer-motion and sanitize peer dependencies
