@@ -1,1 +1,1 @@
-- 2026-09-22 16:40:11 +0530: perf(render): optimize will-change CSS hints for GPU compositing
+- 2026-09-22 16:46:40 +0530: feat(components): add copy-to-clipboard feedback chip with checkmark icon
