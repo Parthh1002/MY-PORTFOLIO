@@ -1,1 +1,1 @@
-- 2026-09-22 22:52:21 +0530: fix(layout): prevent layout shift during dynamic font loading
+- 2026-09-22 23:02:12 +0530: feat(components): integrate seamless external link icon with aria-label
