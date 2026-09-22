@@ -1,1 +1,1 @@
-- 2026-09-22 10:50:32 +0530: chore(deps): tune Vite production chunk splitting strategy
+- 2026-09-22 10:54:48 +0530: feat(animation): implement floating card hover elevation with drop shadow
