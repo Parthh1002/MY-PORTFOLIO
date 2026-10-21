@@ -86,6 +86,8 @@ export default function App() {
     setSelectedProject(null);
   }, []);
 
+  const [themeOpen, setThemeOpen] = useState<boolean>(false);
+
   return (
     <div className="portfolio-wrap" data-theme={theme}>
       {/* Optimized Canvas particle starfield */}
@@ -102,10 +104,18 @@ export default function App() {
           <motion.div className="scroll-progress-bar" style={{ scaleX }} />
 
           {/* Navigation Bar */}
-          <Navbar visible={introComplete} />
+          <Navbar
+            visible={introComplete}
+            onOpenTheme={() => setThemeOpen((o) => !o)}
+          />
 
           {/* Real-time Theme Mode Customizer */}
-          <ThemeSwitcher theme={theme} setTheme={setTheme} />
+          <ThemeSwitcher
+            theme={theme}
+            setTheme={setTheme}
+            isOpen={themeOpen}
+            setIsOpen={setThemeOpen}
+          />
 
           <div className="page">
             {/* Left Sidebar Profile & Bio */}

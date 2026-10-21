@@ -39,11 +39,21 @@ export const ACCENTS = [
 interface Props {
   theme: ThemeMode;
   setTheme: (t: ThemeMode) => void;
+  isOpen?: boolean;
+  setIsOpen?: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-export default function ThemeSwitcher({ theme, setTheme }: Props) {
-  const [open, setOpen]   = useState(false);
+export default function ThemeSwitcher({
+  theme,
+  setTheme,
+  isOpen: controlledOpen,
+  setIsOpen: setControlledOpen,
+}: Props) {
+  const [internalOpen, setInternalOpen] = useState(false);
+  const open = controlledOpen !== undefined ? controlledOpen : internalOpen;
+  const setOpen = setControlledOpen !== undefined ? setControlledOpen : setInternalOpen;
+
   const containerRef      = useRef<HTMLDivElement>(null);
   const gearBtnRef        = useRef<HTMLButtonElement>(null);
 

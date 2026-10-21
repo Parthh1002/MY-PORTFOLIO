@@ -8,15 +8,17 @@ import {
   FaLayerGroup,
   FaTrophy,
   FaFilePdf,
+  FaCog,
 } from "react-icons/fa";
 import ResumeModal from "./ResumeModal";
 import ContactModal from "./ContactModal";
 
 interface NavProps {
   visible: boolean;
+  onOpenTheme?: () => void;
 }
 
-export default function Navbar({ visible }: NavProps) {
+export default function Navbar({ visible, onOpenTheme }: NavProps) {
   const [activeSection, setActiveSection] = useState<string>("projects");
   const [resumeOpen, setResumeOpen]       = useState<boolean>(false);
   const [contactOpen, setContactOpen]     = useState<boolean>(false);
@@ -87,9 +89,9 @@ export default function Navbar({ visible }: NavProps) {
       >
         <div className="navbar-pill">
 
-          {/* ── LOGO (always visible — opens contact) ───────── */}
+          {/* ── DESKTOP LOGO (opens contact modal) ──────────── */}
           <button
-            className="navbar-logo"
+            className="navbar-logo desktop-only"
             onClick={() => setContactOpen(true)}
             aria-label="Open contact and profile information"
             title="Parth Patel — Contact & Socials"
@@ -99,6 +101,20 @@ export default function Navbar({ visible }: NavProps) {
               <FaUser size={10} />
             </div>
             <span className="navbar-logo-text">PP</span>
+          </button>
+
+          {/* ── MOBILE: Left Corner Settings Button (matches UI) ── */}
+          <button
+            className="navbar-logo nav-setting-btn mobile-only"
+            onClick={onOpenTheme}
+            aria-label="Open theme and palette settings"
+            title="Theme & Palette Settings"
+            type="button"
+          >
+            <div className="navbar-logo-badge nav-gear-badge">
+              <FaCog size={12} className="nav-gear-spin" />
+            </div>
+            <span className="navbar-logo-text">Theme</span>
           </button>
 
           {/* ── DESKTOP: divider + full nav links + CV pill ─── */}
@@ -139,6 +155,18 @@ export default function Navbar({ visible }: NavProps) {
           >
             <FaFilePdf size={11} />
             <span>CV</span>
+          </button>
+
+          {/* ── DESKTOP: Setting Quick Button ── */}
+          <button
+            className="nav-cv-quick-btn nav-setting-desktop-btn desktop-only"
+            onClick={onOpenTheme}
+            title="Customize Theme & Palette"
+            type="button"
+            aria-label="Open appearance settings"
+          >
+            <FaCog size={11} />
+            <span>Theme</span>
           </button>
 
           {/* ── MOBILE/TABLET: full tab bar — all 5 sections ── */}
