@@ -55,7 +55,6 @@ export default function ThemeSwitcher({
   const setOpen = setControlledOpen !== undefined ? setControlledOpen : setInternalOpen;
 
   const containerRef      = useRef<HTMLDivElement>(null);
-  const gearBtnRef        = useRef<HTMLButtonElement>(null);
 
   const [accent, setAccent] = useState(
     () => localStorage.getItem("portfolio_accent") || "blue"
@@ -69,7 +68,13 @@ export default function ThemeSwitcher({
     if (!open) return;
 
     const onPointerDown = (e: MouseEvent | TouchEvent) => {
-      if (containerRef.current && !containerRef.current.contains(e.target as Node)) {
+      const target = e.target as HTMLElement;
+      if (
+        containerRef.current &&
+        !containerRef.current.contains(target) &&
+        !target.closest(".nav-setting-btn") &&
+        !target.closest(".nav-setting-desktop-btn")
+      ) {
         setOpen(false);
       }
     };
@@ -84,7 +89,7 @@ export default function ThemeSwitcher({
       document.removeEventListener("touchstart", onPointerDown);
       document.removeEventListener("keydown",    onKeyDown);
     };
-  }, [open]);
+  }, [open, setOpen]);
 
   // ── Apply colour tokens to DOM ───────────────────────────────────────────
   const applyColors = useCallback((accentId: string, currentTheme: ThemeMode) => {
@@ -142,9 +147,11 @@ export default function ThemeSwitcher({
   const handleSelectMode = (m: ThemeMode) => {
     if (m === theme) return;          // already active — do nothing
     localStorage.setItem("portfolio_accent", accent);
-    // Fire cinematic ripple, then also apply colour tokens after switch
-    triggerTransition(m, gearBtnRef.current);
-    // Colour tokens are re-applied by the useEffect above once theme state changes
+    const triggerBtn =
+      (document.querySelector(".nav-setting-btn") ||
+       document.querySelector(".nav-setting-desktop-btn") ||
+       containerRef.current) as HTMLElement | null;
+    triggerTransition(m, triggerBtn);
   };
 
   const handleSelectAccent = (id: string) => {
@@ -216,18 +223,6 @@ export default function ThemeSwitcher({
             </motion.div>
           )}
         </AnimatePresence>
-
-        {/* Floating Gear Trigger */}
-        <button
-          ref={gearBtnRef}
-          className="ts-pill"
-          onClick={() => setOpen((o) => !o)}
-          title="Customize Theme & Palette"
-          aria-label="Open appearance settings"
-          type="button"
-        >
-          <FaCog size={17} className={open ? "ts-gear-spin" : ""} />
-        </button>
       </div>
     </>
   );

@@ -1285,10 +1285,10 @@ section[id] {
   flex-shrink: 0;
 }
 
-/* Theme Switcher safely placed at left side corner above bottom navbar */
+/* Theme Switcher panel container (positioned above mobile bottom navbar) */
 .ts-wrap {
   position: fixed;
-  bottom: max(76px, calc(env(safe-area-inset-bottom, 14px) + 64px));
+  bottom: max(74px, calc(env(safe-area-inset-bottom, 14px) + 62px));
   left: 14px;
   right: auto;
   z-index: 9999;
@@ -1296,11 +1296,11 @@ section[id] {
   flex-direction: column;
   align-items: flex-start;
   gap: 12px;
+  pointer-events: none;
 }
 
-.ts-pill {
-  width: 44px;
-  height: 44px;
+.ts-panel {
+  pointer-events: auto;
 }
 
 /* Navbar setting buttons (left corner on mobile, quick action on desktop) */
@@ -1518,9 +1518,15 @@ section[id] {
   }
 
   .ts-wrap {
-    bottom: 28px;
-    left: 28px;
-    right: auto;
+    top: 72px;
+    right: max(24px, calc(50vw - 340px));
+    left: auto;
+    bottom: auto;
+    align-items: flex-end;
+  }
+
+  .ts-panel {
+    transform-origin: top right;
   }
 }
 
