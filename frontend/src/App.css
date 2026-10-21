@@ -175,6 +175,12 @@ button, a, input, select, textarea, [role="button"] {
   opacity: 1 !important;
 }
 
+/* ── High-Performance Section Virtualization (Low-End Device Boost) ── */
+.section-container {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 480px;
+}
+
 /* ── Section Header Accent Line ──────────────────────── */
 .sec-h {
   position: relative;

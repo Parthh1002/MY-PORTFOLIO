@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import { getDeviceCapabilities } from "../utils/performance";
 
 interface Particle {
   x: number;
@@ -25,13 +26,8 @@ export default function ParticleBackground({ theme }: ParticleBackgroundProps) {
     const ctx = canvas.getContext("2d", { alpha: true });
     if (!ctx) return;
 
-    // Check reduced motion
-    const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-
-    // Device performance classification
-    const isTouch = window.matchMedia("(pointer: coarse)").matches || navigator.maxTouchPoints > 0;
-    const isMobile = window.innerWidth < 768 || (isTouch && window.innerWidth < 1024);
-    const isLowEnd = (typeof navigator.hardwareConcurrency === "number" && navigator.hardwareConcurrency <= 4) || isMobile;
+    // Device performance classification using unified utility
+    const { isMobile, isTouch, isLowEnd, prefersReducedMotion } = getDeviceCapabilities();
 
     let W = window.innerWidth;
     let H = window.innerHeight;
