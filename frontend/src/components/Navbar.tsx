@@ -147,16 +147,6 @@ export default function Navbar({ visible, onOpenTheme }: NavProps) {
 
           <div className="navbar-divider desktop-only" />
 
-          <button
-            className="nav-cv-quick-btn desktop-only"
-            onClick={() => setResumeOpen(true)}
-            title="Preview & Download Resume"
-            type="button"
-          >
-            <FaFilePdf size={11} />
-            <span>CV</span>
-          </button>
-
           {/* ── DESKTOP: Setting Quick Button ── */}
           <button
             className="nav-cv-quick-btn nav-setting-desktop-btn desktop-only"
@@ -196,9 +186,9 @@ export default function Navbar({ visible, onOpenTheme }: NavProps) {
             })}
           </nav>
 
-          {/* ── MOBILE/TABLET: Quick CV button ── */}
+          {/* ── Single Quick CV Action Button ── */}
           <button
-            className="nav-cv-quick-btn mobile-only"
+            className="nav-cv-quick-btn"
             onClick={() => setResumeOpen(true)}
             title="Preview & Download Resume"
             type="button"
