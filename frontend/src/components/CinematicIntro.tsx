@@ -23,18 +23,37 @@ export default function CinematicIntro({ onComplete, theme }: IntroProps) {
         ? localStorage.getItem("portfolio_theme")
         : "dark")) === "light";
 
+  const handleSkip = () => {
+    setPhase(4);
+  };
+
   useEffect(() => {
-    const t0 = setTimeout(() => setPhase(1), 200);
-    const t1 = setTimeout(() => setPhase(2), 800);
-    const t2 = setTimeout(() => setPhase(3), 1700);
-    const t3 = setTimeout(() => setPhase(4), 2300);
+    // If reduced motion is preferred, complete immediately
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      onComplete();
+      return;
+    }
+
+    const t0 = setTimeout(() => setPhase(1), 180);
+    const t1 = setTimeout(() => setPhase(2), 700);
+    const t2 = setTimeout(() => setPhase(3), 1500);
+    const t3 = setTimeout(() => setPhase(4), 2100);
+
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape" || e.key === " " || e.key === "Enter") {
+        setPhase(4);
+      }
+    };
+    window.addEventListener("keydown", handleKeyDown);
+
     return () => {
       clearTimeout(t0);
       clearTimeout(t1);
       clearTimeout(t2);
       clearTimeout(t3);
+      window.removeEventListener("keydown", handleKeyDown);
     };
-  }, []);
+  }, [onComplete]);
 
   const nameText = "PARTH PATEL";
 
@@ -61,10 +80,36 @@ export default function CinematicIntro({ onComplete, theme }: IntroProps) {
           key="cinematic"
           style={overlayStyle}
           initial={{ y: 0 }}
-          exit={{ y: "-100vh", transition: { duration: 0.85, ease: [0.76, 0, 0.24, 1] } }}
+          exit={{ y: "-100vh", transition: { duration: 0.65, ease: [0.76, 0, 0.24, 1] } }}
         >
           {/* Base background */}
           <div style={{ position: "absolute", inset: 0, background: bgColor }} />
+
+          {/* Skip button for instant responsiveness */}
+          <button
+            onClick={handleSkip}
+            style={{
+              position: "absolute",
+              top: "20px",
+              right: "20px",
+              zIndex: 10,
+              background: isLight ? "rgba(15, 23, 42, 0.06)" : "rgba(255, 255, 255, 0.1)",
+              border: `1px solid ${isLight ? "rgba(15, 23, 42, 0.12)" : "rgba(255, 255, 255, 0.16)"}`,
+              borderRadius: "100px",
+              padding: "6px 14px",
+              fontSize: "11px",
+              fontFamily: "'Geist', sans-serif",
+              letterSpacing: "0.08em",
+              textTransform: "uppercase",
+              color: isLight ? "#090d16" : "#ffffff",
+              cursor: "pointer",
+              transition: "opacity 0.2s, transform 0.2s",
+              outline: "none",
+            }}
+            title="Press Esc or click to skip intro"
+          >
+            Skip Intro ✕
+          </button>
 
           {/* Subtle radial vignette */}
           <div

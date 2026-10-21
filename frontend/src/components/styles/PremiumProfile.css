@@ -67,6 +67,7 @@
     max-width: 100% !important;
     align-self: center;
     justify-content: flex-start;
+    perspective: none !important;
   }
 
   .premium-glass-card {
@@ -74,6 +75,9 @@
     max-width: 100%;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
+    transform-style: flat !important;
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
   }
 
   .profile-img-wrap {
@@ -93,6 +97,7 @@
     /* Column is clamp(72px,22vw,92px) — card fills it */
     width: 100% !important;
     max-width: 100% !important;
+    perspective: none !important;
   }
 
   .premium-glass-card {
@@ -101,6 +106,7 @@
     aspect-ratio: 1 / 1;
     border-radius: 50%;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    transform-style: flat !important;
   }
 
   .profile-img-wrap {
@@ -118,3 +124,4 @@
     filter: blur(10px);
   }
 }
+

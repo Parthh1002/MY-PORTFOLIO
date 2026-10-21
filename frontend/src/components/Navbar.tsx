@@ -33,24 +33,33 @@ export default function Navbar({ visible }: NavProps) {
     { id: "achievements",label: "Achievements", icon: <FaTrophy size={11} /> },
   ];
 
-  // ScrollSpy to highlight active section in Navbar
+  // Zero-cost off-thread IntersectionObserver for ScrollSpy
   useEffect(() => {
-    const handleScroll = () => {
-      const sections = navLinks.map((link) => document.getElementById(link.id));
-      const scrollPos = window.scrollY + 220;
-
-      for (let i = sections.length - 1; i >= 0; i--) {
-        const sec = sections[i];
-        if (sec && sec.offsetTop <= scrollPos) {
-          setActiveSection(navLinks[i].id);
-          break;
-        }
+    const observerCallback: IntersectionObserverCallback = (entries) => {
+      // Find the topmost intersecting entry
+      const intersecting = entries.filter((e) => e.isIntersecting);
+      if (intersecting.length > 0) {
+        // Sort by distance from top of viewport
+        intersecting.sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+        setActiveSection(intersecting[0].target.id);
       }
     };
 
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    handleScroll();
-    return () => window.removeEventListener("scroll", handleScroll);
+    const observer = new IntersectionObserver(observerCallback, {
+      root: null,
+      rootMargin: "-15% 0px -60% 0px",
+      threshold: [0, 0.2, 0.5],
+    });
+
+    const elements = navLinks
+      .map((link) => document.getElementById(link.id))
+      .filter((el): el is HTMLElement => Boolean(el));
+
+    elements.forEach((el) => observer.observe(el));
+
+    return () => {
+      observer.disconnect();
+    };
   }, []);
 
   if (!visible) return null;

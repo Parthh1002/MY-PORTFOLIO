@@ -3,10 +3,54 @@
    (index.css holds the full slantie design-token system)
    ═══════════════════════════════════════════════════════════ */
 
-/* ── Reset / Global ──────────────────────────────────── */
-*, *::before, *::after { box-sizing: border-box; }
-html { scroll-behavior: smooth; overflow-x: hidden; }
-body { margin: 0; overflow-x: hidden; }
+/* ── Reset / Global Performance & Butter-Smooth Scrolling ──────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-y;
+}
+
+/* Zero 300ms mobile tap delay */
+button, a, input, select, textarea, [role="button"] {
+  touch-action: manipulation;
+}
+
+/* Off-screen rendering optimizations: skips painting & layout for offscreen sections */
+#experience,
+#education,
+#stack,
+#achievements {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 500px;
+}
+
+/* Hardware accelerated composite layers */
+.scroll-progress-bar,
+.navbar-wrapper,
+.navbar-pill,
+.ts-wrap,
+.ts-pill,
+.mobile-nav-card,
+.resume-modal-card,
+.pdm-card {
+  transform: translateZ(0);
+}
 
 /* ── Visibility helpers (base defaults) ───────────────── */
 /* mobile-only elements hidden by default, shown via media query */
@@ -1194,10 +1238,10 @@ section[id] {
   .site-footer { margin-top: 48px; padding: 16px 0 max(32px, env(safe-area-inset-bottom, 32px)); }
   .footer-inner { flex-direction: column; align-items: flex-start; gap: 8px; }
 
-  /* Theme switcher position */
+  /* Theme switcher position — safely above the bottom floating navbar */
   .ts-wrap {
-    bottom: max(16px, env(safe-area-inset-bottom, 16px));
-    right: 16px;
+    bottom: max(84px, calc(env(safe-area-inset-bottom, 16px) + 72px)) !important;
+    right: 16px !important;
   }
 }
 
@@ -1245,6 +1289,10 @@ section[id] {
     word-break: break-all;
   }
   .meta-icon { width: 14px !important; }
+  .ts-wrap {
+    bottom: max(80px, calc(env(safe-area-inset-bottom, 16px) + 68px)) !important;
+    right: 12px !important;
+  }
 }
 
 /* ────────────────────────────────────────────────────────
@@ -3731,3 +3779,36 @@ html, body {
     display: none;
   }
 }
+
+/* ── Modal Smooth Scroll Containment & Mobile Blur Optimization ── */
+.pdm-backdrop,
+.resume-modal-backdrop,
+.cm-backdrop,
+.tech-backdrop {
+  overscroll-behavior: contain;
+}
+
+.pdm-body,
+.resume-modal-body,
+.cm-card {
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 768px) {
+  .pdm-backdrop,
+  .resume-modal-backdrop,
+  .cm-backdrop,
+  .tech-backdrop {
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+  }
+  .pdm-card,
+  .resume-modal-card,
+  .cm-card,
+  .mobile-nav-card {
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+  }
+}
+
