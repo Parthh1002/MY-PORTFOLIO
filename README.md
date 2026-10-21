@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="documents/header-banner.svg" alt="Parth Patel Portfolio Header" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;height=240&amp;section=header&amp;text=Parth%20Patel%20Portfolio&amp;fontSize=50&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=Creative%20Developer%20%26%20Designer&amp;descAlignY=55&amp;descAlign=50" alt="Parth Patel Portfolio Header" width="100%" />
 
   <br/><br/>
 
