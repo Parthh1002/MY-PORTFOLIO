@@ -53,10 +53,10 @@ button, a, input, select, textarea, [role="button"] {
 }
 
 /* ── Visibility helpers (base defaults) ───────────────── */
-/* mobile-only elements hidden by default, shown via media query */
-.mobile-only { display: none !important; }
-/* desktop-only shown by default, hidden in mobile media query */
-.desktop-only { display: flex !important; }
+/* mobile-only elements hidden by default on desktop, shown via mobile media queries */
+.mobile-only { display: none; }
+/* desktop-only shown by default, hidden in mobile media queries */
+.desktop-only { display: flex; }
 
 /* ── Theme toggle ───────────────────────────────────── */
 .theme-switcher {
@@ -920,8 +920,8 @@ section[id] {
 /* ────────────────────────────────────────────────────────
    1. MOBILE DEFAULT  (< 768px) — Mobile-First Base
    ──────────────────────────────────────────────────────── */
-.desktop-only { display: none; }
-.mobile-only  { display: flex; }
+.desktop-only { display: none !important; }
+.mobile-only  { display: flex !important; }
 
 .portfolio-wrap .page,
 .page {
@@ -1151,45 +1151,138 @@ section[id] {
 /* Mobile floating bottom navbar */
 .navbar-wrapper {
   top: auto;
-  bottom: max(16px, env(safe-area-inset-bottom, 16px));
-  left: 12px;
-  right: 12px;
-  width: auto;
-  max-width: none;
+  bottom: max(14px, env(safe-area-inset-bottom, 14px));
+  left: 10px;
+  right: 10px;
+  margin: 0 auto;
+  width: calc(100% - 20px);
+  max-width: 480px;
   transform: none;
 }
 
 .navbar-pill {
   width: 100%;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
-  padding: 6px 8px 6px 12px;
-  border-radius: 100px;
-  min-height: 54px;
+  padding: 4px 6px;
+  border-radius: 999px;
+  min-height: 52px;
+  box-sizing: border-box;
+  background: rgba(12, 12, 18, 0.88);
+  backdrop-filter: blur(28px);
+  -webkit-backdrop-filter: blur(28px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 10px 30px -4px rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+[data-theme="light"] .navbar-pill {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  box-shadow: 0 10px 30px -4px rgba(15, 23, 42, 0.14), inset 0 1px 0 rgba(255, 255, 255, 0.8);
 }
 
 .navbar-logo {
-  min-height: 48px;
-  padding: 0 4px;
+  min-height: 38px;
+  padding: 2px 6px;
+  flex-shrink: 0;
 }
 
-.navbar-hamburger {
-  width: 48px;
-  height: 48px;
+/* Mobile Bottom Tab Bar */
+.mobile-tab-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1 1 auto;
+  gap: 2px;
+  margin: 0 2px;
+  min-width: 0;
 }
 
-.mobile-nav-card {
-  top: auto;
-  bottom: max(80px, calc(env(safe-area-inset-bottom, 16px) + 64px));
-  left: 12px;
-  right: 12px;
-  padding: 20px;
-  border-radius: 20px;
+.mobile-tab-btn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  flex: 1 1 0;
+  min-width: 0;
+  min-height: 44px;
+  padding: 4px 2px;
+  background: transparent;
+  border: none;
+  border-radius: 12px;
+  color: var(--fg-3);
+  cursor: pointer;
+  outline: none;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  transition: color 0.18s ease;
 }
 
-.mobile-nav-btn {
-  min-height: 48px;
-  padding: 12px 14px;
-  font-size: 15px;
+.mobile-tab-icon {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  transition: transform 0.22s cubic-bezier(0.34, 1.56, 0.64, 1), color 0.18s ease;
+}
+
+.mobile-tab-label {
+  font-family: var(--font-ui);
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  z-index: 2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  transition: color 0.18s ease;
+}
+
+.mobile-tab-btn:hover {
+  color: var(--fg-1);
+}
+
+.mobile-tab-active {
+  color: var(--fg-1);
+}
+
+.mobile-tab-active .mobile-tab-icon {
+  color: var(--accent-primary);
+  transform: translateY(-1px) scale(1.15);
+}
+
+.mobile-tab-active .mobile-tab-label {
+  color: var(--accent-emphasis);
+  font-weight: 700;
+}
+
+.mobile-tab-indicator {
+  position: absolute;
+  inset: 0;
+  background: var(--accent-surface);
+  border: 1px solid var(--accent-border);
+  border-radius: 12px;
+  z-index: 1;
+  box-shadow: 0 2px 8px rgba(var(--a-rgb), 0.2);
+}
+
+/* Mobile Quick CV Pill */
+.navbar-pill .nav-cv-quick-btn.mobile-only {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 6px 10px;
+  min-height: 38px;
+  font-size: 11px;
+  border-radius: 999px;
+  flex-shrink: 0;
 }
 
 /* Theme Switcher safely above bottom navbar on mobile */
@@ -1224,8 +1317,8 @@ section[id] {
    2. TABLET SCREENS  (768px - 1024px)
    ──────────────────────────────────────────────────────── */
 @media (min-width: 768px) and (max-width: 1024px) {
-  .desktop-only { display: none; }
-  .mobile-only  { display: flex; }
+  .desktop-only { display: none !important; }
+  .mobile-only  { display: flex !important; }
 
   .portfolio-wrap .page,
   .page {
@@ -1309,8 +1402,8 @@ section[id] {
    3. DESKTOP SCREENS  (> 1024px)
    ──────────────────────────────────────────────────────── */
 @media (min-width: 1025px) {
-  .desktop-only { display: flex; }
-  .mobile-only  { display: none; }
+  .desktop-only { display: flex !important; }
+  .mobile-only  { display: none !important; }
 
   .portfolio-wrap .page,
   .page {
@@ -1398,7 +1491,8 @@ section[id] {
   }
 
   .meta-list {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px 10px;
   }
 
   .meta-val {
@@ -1424,6 +1518,26 @@ section[id] {
     display: none;
   }
 
+  .mobile-tab-btn {
+    min-height: 40px;
+    padding: 3px 1px;
+    gap: 1px;
+  }
+
+  .mobile-tab-icon {
+    font-size: 12px;
+  }
+
+  .mobile-tab-label {
+    font-size: 8px;
+  }
+
+  .navbar-pill .nav-cv-quick-btn.mobile-only {
+    padding: 4px 8px;
+    font-size: 10px;
+    min-height: 34px;
+  }
+
   .tech-icon-grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 4px;
@@ -1435,6 +1549,20 @@ section[id] {
 
   .tech-tile-name {
     font-size: 8px;
+  }
+}
+
+@media (max-width: 320px) {
+  .meta-list {
+    grid-template-columns: 1fr;
+  }
+
+  .mobile-tab-label {
+    display: none;
+  }
+
+  .mobile-tab-icon {
+    font-size: 15px;
   }
 }
 .ts-pill {

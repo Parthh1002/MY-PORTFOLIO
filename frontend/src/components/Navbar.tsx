@@ -1,16 +1,13 @@
 import { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import {
   FaUser,
+  FaFolderOpen,
   FaBriefcase,
   FaGraduationCap,
   FaLayerGroup,
   FaTrophy,
   FaFilePdf,
-  FaGithub,
-  FaLinkedin,
-  FaWhatsapp,
-  FaEnvelope,
 } from "react-icons/fa";
 import ResumeModal from "./ResumeModal";
 import ContactModal from "./ContactModal";
@@ -21,25 +18,23 @@ interface NavProps {
 
 export default function Navbar({ visible }: NavProps) {
   const [activeSection, setActiveSection] = useState<string>("projects");
-  const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
-  const [resumeOpen, setResumeOpen] = useState<boolean>(false);
-  const [contactOpen, setContactOpen] = useState<boolean>(false);
+  const [resumeOpen, setResumeOpen]       = useState<boolean>(false);
+  const [contactOpen, setContactOpen]     = useState<boolean>(false);
 
+  // Full labels for desktop; short labels for mobile tab bar
   const navLinks = [
-    { id: "projects",    label: "Projects",     icon: <FaBriefcase size={11} /> },
-    { id: "experience",  label: "Experience",   icon: <FaUser size={11} /> },
-    { id: "education",   label: "Education",    icon: <FaGraduationCap size={11} /> },
-    { id: "stack",       label: "Stack",        icon: <FaLayerGroup size={11} /> },
-    { id: "achievements",label: "Achievements", icon: <FaTrophy size={11} /> },
+    { id: "projects",     label: "Projects",    short: "Work",   icon: <FaFolderOpen size={14} /> },
+    { id: "experience",   label: "Experience",  short: "XP",     icon: <FaBriefcase size={14} /> },
+    { id: "education",    label: "Education",   short: "Edu",    icon: <FaGraduationCap size={14} /> },
+    { id: "stack",        label: "Stack",       short: "Stack",  icon: <FaLayerGroup size={14} /> },
+    { id: "achievements", label: "Achievements",short: "Wins",   icon: <FaTrophy size={14} /> },
   ];
 
   // Zero-cost off-thread IntersectionObserver for ScrollSpy
   useEffect(() => {
     const observerCallback: IntersectionObserverCallback = (entries) => {
-      // Find the topmost intersecting entry
       const intersecting = entries.filter((e) => e.isIntersecting);
       if (intersecting.length > 0) {
-        // Sort by distance from top of viewport
         intersecting.sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
         setActiveSection(intersecting[0].target.id);
       }
@@ -65,7 +60,6 @@ export default function Navbar({ visible }: NavProps) {
   if (!visible) return null;
 
   const scrollTo = (id: string) => {
-    setMobileMenuOpen(false);
     const el = document.getElementById(id);
     if (el) {
       const isDesktop = window.innerWidth > 1024;
@@ -79,10 +73,12 @@ export default function Navbar({ visible }: NavProps) {
     }
   };
 
-
   return (
     <>
-      {/* ── Fixed Floating Top Header Bar ─────────────────────── */}
+      {/* ═══════════════════════════════════════════════════════
+          DESKTOP: Fixed floating pill at top with nav links
+          MOBILE/TABLET: Fixed floating pill at bottom with tab bar
+          ═══════════════════════════════════════════════════════ */}
       <motion.header
         className="navbar-wrapper"
         initial={{ y: -70, opacity: 0 }}
@@ -90,12 +86,13 @@ export default function Navbar({ visible }: NavProps) {
         transition={{ delay: 0.2, duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
       >
         <div className="navbar-pill">
-          {/* Logo Badge -> Opens Contact Modal */}
+
+          {/* ── LOGO (always visible — opens contact) ───────── */}
           <button
             className="navbar-logo"
             onClick={() => setContactOpen(true)}
             aria-label="Open contact and profile information"
-            title="Parth Patel - Contact & Socials"
+            title="Parth Patel — Contact & Socials"
             type="button"
           >
             <div className="navbar-logo-badge">
@@ -104,9 +101,9 @@ export default function Navbar({ visible }: NavProps) {
             <span className="navbar-logo-text">PP</span>
           </button>
 
+          {/* ── DESKTOP: divider + full nav links + CV pill ─── */}
           <div className="navbar-divider desktop-only" />
 
-          {/* Desktop Nav Links */}
           <nav className="navbar-links desktop-only" aria-label="Main Navigation">
             {navLinks.map((link) => {
               const isActive = activeSection === link.id;
@@ -134,162 +131,57 @@ export default function Navbar({ visible }: NavProps) {
 
           <div className="navbar-divider desktop-only" />
 
-          {/* Desktop CV Action Pill */}
           <button
             className="nav-cv-quick-btn desktop-only"
             onClick={() => setResumeOpen(true)}
-            title="Preview &amp; Download Resume"
+            title="Preview & Download Resume"
             type="button"
           >
             <FaFilePdf size={11} />
             <span>CV</span>
           </button>
 
-          {/* Mobile Hamburger Button */}
+          {/* ── MOBILE/TABLET: full tab bar — all 5 sections ── */}
+          <nav className="mobile-tab-bar mobile-only" aria-label="Mobile Navigation">
+            {navLinks.map((link) => {
+              const isActive = activeSection === link.id;
+              return (
+                <button
+                  key={link.id}
+                  className={`mobile-tab-btn${isActive ? " mobile-tab-active" : ""}`}
+                  onClick={() => scrollTo(link.id)}
+                  aria-current={isActive ? "page" : undefined}
+                  type="button"
+                  title={link.label}
+                >
+                  <span className="mobile-tab-icon">{link.icon}</span>
+                  <span className="mobile-tab-label">{link.short}</span>
+                  {isActive && (
+                    <motion.div
+                      layoutId="mobileActivePill"
+                      className="mobile-tab-indicator"
+                      transition={{ type: "spring", stiffness: 420, damping: 34 }}
+                    />
+                  )}
+                </button>
+              );
+            })}
+          </nav>
+
+          {/* ── MOBILE/TABLET: Quick CV button ── */}
           <button
-            className={`navbar-hamburger mobile-only ${mobileMenuOpen ? "is-active" : ""}`}
-            onClick={() => setMobileMenuOpen((prev) => !prev)}
-            aria-label={mobileMenuOpen ? "Close navigation menu" : "Open navigation menu"}
-            aria-expanded={mobileMenuOpen}
+            className="nav-cv-quick-btn mobile-only"
+            onClick={() => setResumeOpen(true)}
+            title="Preview & Download Resume"
             type="button"
+            aria-label="Preview and Download CV"
           >
-            <span className="hamburger-box">
-              <span className="hamburger-line line-1" />
-              <span className="hamburger-line line-2" />
-              <span className="hamburger-line line-3" />
-            </span>
+            <FaFilePdf size={11} />
+            <span>CV</span>
           </button>
+
         </div>
       </motion.header>
-
-      {/* ── Mobile Menu Drawer ───────────────────────────────── */}
-      <AnimatePresence>
-        {mobileMenuOpen && (
-          <>
-            <motion.div
-              key="mobile-nav-backdrop"
-              className="mobile-nav-backdrop"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.22 }}
-              onClick={() => setMobileMenuOpen(false)}
-            />
-
-            <motion.div
-              key="mobile-nav-menu"
-              className="mobile-nav-card"
-              initial={{ opacity: 0, y: 16, scale: 0.96 }}
-              animate={{ opacity: 1, y: 0, scale: 1 }}
-              exit={{ opacity: 0, y: 16, scale: 0.96 }}
-              transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
-            >
-              <div className="mobile-nav-header">
-                <button
-                  className="mobile-nav-user"
-                  onClick={() => {
-                    setMobileMenuOpen(false);
-                    setContactOpen(true);
-                  }}
-                  type="button"
-                  style={{
-                    background: "none",
-                    border: "none",
-                    padding: 0,
-                    textAlign: "left",
-                    cursor: "pointer",
-                    display: "flex",
-                    alignItems: "center",
-                    gap: "12px",
-                    width: "100%",
-                  }}
-                  aria-label="Open contact and profile details"
-                >
-                  <div className="navbar-logo-badge">
-                    <FaUser size={11} />
-                  </div>
-                  <div>
-                    <div className="mobile-nav-name">Parth Patel</div>
-                    <div className="mobile-nav-sub">Creative Fullstack &amp; AI Developer</div>
-                  </div>
-                </button>
-              </div>
-
-              <div className="mobile-nav-list">
-                {navLinks.map((link, idx) => {
-                  const isActive = activeSection === link.id;
-                  return (
-                    <motion.button
-                      key={link.id}
-                      initial={{ opacity: 0, x: -10 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      transition={{ delay: 0.03 * idx, duration: 0.2 }}
-                      className={`mobile-nav-btn ${isActive ? "mobile-nav-btn-active" : ""}`}
-                      onClick={() => scrollTo(link.id)}
-                      type="button"
-                    >
-                      <span className="mobile-nav-icon">{link.icon}</span>
-                      <span className="mobile-nav-label">{link.label}</span>
-                      <span className="mobile-nav-arrow">→</span>
-                    </motion.button>
-                  );
-                })}
-              </div>
-
-              <div className="mobile-nav-footer">
-                <button
-                  className="mobile-nav-cv-btn"
-                  onClick={() => {
-                    setMobileMenuOpen(false);
-                    setResumeOpen(true);
-                  }}
-                  type="button"
-                >
-                  <FaFilePdf size={15} />
-                  <span>Preview &amp; Download Resume</span>
-                </button>
-
-                <div className="mobile-nav-socials">
-                  <a
-                    href="https://github.com/Parthh1002"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="mobile-social-icon"
-                    aria-label="GitHub Profile"
-                  >
-                    <FaGithub size={16} />
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/in/parth-patel-468772336"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="mobile-social-icon"
-                    aria-label="LinkedIn Profile"
-                  >
-                    <FaLinkedin size={16} />
-                  </a>
-                  <a
-                    href="mailto:parthh1002@gmail.com"
-                    className="mobile-social-icon"
-                    aria-label="Email Parth"
-                  >
-                    <FaEnvelope size={15} />
-                  </a>
-                  <a
-                    href="https://wa.me/918866077505"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="mobile-social-icon"
-                    aria-label="WhatsApp"
-                  >
-                    <FaWhatsapp size={16} />
-                  </a>
-                </div>
-              </div>
-            </motion.div>
-          </>
-        )}
-      </AnimatePresence>
 
       {/* In-App Resume Preview Modal */}
       <ResumeModal
@@ -306,3 +198,4 @@ export default function Navbar({ visible }: NavProps) {
     </>
   );
 }
+
