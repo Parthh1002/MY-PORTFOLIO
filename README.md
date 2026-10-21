@@ -1,5 +1,7 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Parth%20Patel's%20Portfolio&fontSize=50&animation=fadeIn&fontAlignY=38&desc=Creative%20Developer%20%26%20Designer&descAlignY=55&descAlign=50" alt="Parth Patel Portfolio Header" />
+  <img src="documents/header-banner.svg" alt="Parth Patel Portfolio Header" width="100%" />
+
+  <br/><br/>
 
   <a href="https://github.com/Parthh1002">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=6E7BFF&center=true&vCenter=true&width=500&lines=Creative+Developer+%26+Designer;3rd+Year+B.Tech+CSE+Student;Building+High-Performance+Web+Apps;AI+%2F+ML+%26+Full-Stack+Engineer" alt="Typing SVG" />
