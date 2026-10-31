@@ -4,6 +4,27 @@ export { type ProjectItem };
 
 export const allProjects: ProjectItem[] = [
   {
+    name: "AI Interview Simulator",
+    year: "2026",
+    category: "AI / Web App",
+    org: "Personal Project",
+    detail: "Developed an AI-based web application to simulate realistic interview scenarios, dynamic question handling, response storage, and relational MySQL database backend.",
+    longDesc: "AI Interview Simulator is an AI-powered mock interview training platform designed to prepare candidates for rigorous technical and behavioral interviews. Features dynamic question generation based on role and difficulty, candidate response storage, structured MySQL database integration, and a clean, accessible web UI.",
+    features: [
+      "Dynamic technical and behavioral interview question simulation",
+      "Dynamic question handling and real-time response capture",
+      "Integrated backend logic with structured MySQL database",
+      "Designed responsive and intuitive frontend using HTML, CSS, and JavaScript",
+      "Candidate evaluation metrics and performance history tracking"
+    ],
+    live: "https://github.com/Parthh1002",
+    github: "https://github.com/Parthh1002",
+    youtube: "https://youtube.com/@parthpatel-333?si=NZhgxUEcBVwg-9Ik",
+    linkedin: "https://www.linkedin.com/in/parth-patel-468772336",
+    badge: "AI PROJECT",
+    stack: ["JavaScript", "HTML5", "CSS3", "PHP", "MySQL"],
+  },
+  {
     name: "Aapno Rasto",
     year: "2025",
     category: "Fullstack Web App",

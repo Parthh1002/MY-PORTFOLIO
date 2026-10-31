@@ -8,6 +8,13 @@ export interface ExperienceItem {
 
 export const experience: ExperienceItem[] = [
   {
+    role: "Web Development Intern (Remote)",
+    org: "Internship Experience",
+    when: "Jan 19, 2026 — Feb 19, 2026",
+    tag: "Internship",
+    detail: "Developed responsive web pages using HTML, CSS and JavaScript. Implemented backend functionality using PHP, designed & managed MySQL database tables with CRUD operations, and integrated frontend with database-driven backend systems."
+  },
+  {
     role: "Data Science & Machine Learning",
     org: "Data Scientist Course",
     when: "2026 — Now",

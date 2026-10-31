@@ -141,7 +141,7 @@ function SidebarComponent({ stagger, slideUp }: SidebarProps) {
         </motion.div>
 
         <motion.p variants={slideUp} className="foot dim">
-          Parth Patel · 2025
+          Parth Patel · 2026
         </motion.p>
       </motion.div>
     </aside>

@@ -8,20 +8,20 @@ export interface EducationItem {
 export const education: EducationItem[] = [
   {
     deg: "B.Tech Computer Science Engineering",
-    school: "LDRP-ITR Gandhinagar, Gujarat",
-    when: "2024 — 2028",
-    note: "3rd Year · CGPA: 8.8+"
+    school: "LDRP Institute of Technology & Research",
+    when: "2024 — 2028 (Semester 5)",
+    note: "Current CPI: 8.81"
   },
   {
-    deg: "Class 12th (Science — PCM)",
+    deg: "12th Science (GSEB)",
     school: "Gujarat State Board (GSEB)",
-    when: "2022 — 2023",
-    note: "Percentage: 82%"
+    when: "Passed: 2023",
+    note: "Percentage: 83.4%"
   },
   {
-    deg: "Class 10th",
+    deg: "10th (GSEB)",
     school: "Gujarat State Board (GSEB)",
-    when: "2020 — 2021",
-    note: "Percentage: 78%"
+    when: "Passed: 2021",
+    note: "Secondary School Certificate"
   },
 ];

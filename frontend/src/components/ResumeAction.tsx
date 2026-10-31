@@ -15,19 +15,34 @@ export default function ResumeAction({
   const [modalOpen, setModalOpen] = useState(false);
   const [dlState, setDlState] = useState<"idle" | "loading" | "done">("idle");
 
-  const handleDownload = () => {
+  const handleDownload = async () => {
     if (dlState !== "idle") return;
     setDlState("loading");
-    setTimeout(() => {
+    try {
+      const response = await fetch(pdfUrl);
+      if (!response.ok) throw new Error("Fetch failed");
+      const blob = await response.blob();
+      const blobUrl = window.URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = blobUrl;
+      a.download = "Parth_Patel_CV.pdf";
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      window.URL.revokeObjectURL(blobUrl);
+      setDlState("done");
+      setTimeout(() => setDlState("idle"), 3000);
+    } catch {
       const a = document.createElement("a");
       a.href = pdfUrl;
       a.download = "Parth_Patel_CV.pdf";
+      a.target = "_blank";
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
       setDlState("done");
       setTimeout(() => setDlState("idle"), 3000);
-    }, 600);
+    }
   };
 
   return (
