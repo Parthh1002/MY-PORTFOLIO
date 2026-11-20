@@ -12,9 +12,14 @@ function FooterComponent() {
         className="footer-inner"
         style={{ position: "relative", paddingRight: "40px" }}
       >
-        <p className="meta">
-          © {new Date().getFullYear()} Parth Patel · Built with React + Vite
-        </p>
+        <div className="footer-brand">
+          <p className="footer-copyright">
+            © {new Date().getFullYear()} <span className="footer-name">Parth Patel</span>.
+          </p>
+          <p className="footer-tagline">
+            Thoughtfully designed. Personally crafted.
+          </p>
+        </div>
         <div className="footer-links">
           <a
             href="https://github.com/Parthh1002"

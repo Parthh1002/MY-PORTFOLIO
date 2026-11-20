@@ -384,6 +384,38 @@ section:hover .sec-h::after {
 }
 .footer-links a:hover { color: var(--accent-emphasis); }
 
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.footer-copyright {
+  font-family: var(--font-sans);
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--fg-2);
+  letter-spacing: -0.01em;
+  margin: 0;
+  line-height: 1.35;
+}
+.footer-copyright .footer-name {
+  color: var(--fg-1);
+  font-weight: 600;
+}
+.footer-tagline {
+  font-family: var(--font-display, "Source Serif 4", Georgia, serif);
+  font-style: italic;
+  font-size: 13px;
+  color: var(--fg-3);
+  letter-spacing: 0.015em;
+  margin: 0;
+  line-height: 1.4;
+  transition: color 0.2s ease;
+}
+.footer-brand:hover .footer-tagline {
+  color: var(--fg-2);
+}
+
 /* ── Mobile responsive tweaks ───────────────────────── */
 @media (max-width: 560px) {
   .ts-wrap { bottom: max(76px, calc(env(safe-area-inset-bottom, 14px) + 64px)); left: 14px; right: auto; }
